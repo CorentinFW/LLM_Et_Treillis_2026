@@ -1,0 +1,38 @@
+digraph ConceptLattice {
+  rankdir=TB;
+  node [shape=record, fontname="Helvetica", fontsize=11, style=filled, fillcolor=lightyellow];
+  edge [dir=none, color=gray40];
+
+  n0 [label="{ladybird, bat, ostrich, greater-flamingo, silver-gull, little-tern, great-auk, wood-pecker, giant-otter, arctic-tern|\{\}}"];
+  n1 [label="{ladybird, bat, greater-flamingo, silver-gull, little-tern, great-auk, wood-pecker, arctic-tern|flies}"];
+  n2 [label="{bat|flies, nocturnal}"];
+  n3 [label="{\{\}|flies, nocturnal, feathered, migratory, red-bill, elytra, sea-habitat, wood-habitat, six-legged, eats-fish, water-habitat}"];
+  n4 [label="{greater-flamingo, silver-gull, little-tern, great-auk, wood-pecker, arctic-tern|flies, feathered}"];
+  n5 [label="{greater-flamingo, little-tern, arctic-tern|flies, feathered, migratory, sea-habitat, eats-fish, water-habitat}"];
+  n6 [label="{arctic-tern|flies, feathered, migratory, red-bill, sea-habitat, eats-fish, water-habitat}"];
+  n7 [label="{silver-gull, arctic-tern|flies, feathered, red-bill, sea-habitat, eats-fish, water-habitat}"];
+  n8 [label="{greater-flamingo, silver-gull, little-tern, great-auk, arctic-tern|flies, feathered, sea-habitat, eats-fish, water-habitat}"];
+  n9 [label="{wood-pecker|flies, feathered, wood-habitat}"];
+  n10 [label="{ladybird|flies, elytra, six-legged}"];
+  n11 [label="{ostrich, greater-flamingo, silver-gull, little-tern, great-auk, wood-pecker, arctic-tern|feathered}"];
+  n12 [label="{greater-flamingo, silver-gull, little-tern, great-auk, giant-otter, arctic-tern|eats-fish, water-habitat}"];
+
+  n0 -> n1;
+  n0 -> n11;
+  n0 -> n12;
+  n1 -> n2;
+  n1 -> n4;
+  n1 -> n10;
+  n2 -> n3;
+  n4 -> n8;
+  n4 -> n9;
+  n5 -> n6;
+  n6 -> n3;
+  n7 -> n6;
+  n8 -> n5;
+  n8 -> n7;
+  n9 -> n3;
+  n10 -> n3;
+  n11 -> n4;
+  n12 -> n8;
+}
