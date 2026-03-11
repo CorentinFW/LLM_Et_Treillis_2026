@@ -1,0 +1,1 @@
+ java -jar fca4j-cli-0.4.4.jar LATTICE eg9_9/eg9_9.csv -i CSV -s SEMICOLON -g eg9_9/Lattice/eg9_9_full.dot -d full

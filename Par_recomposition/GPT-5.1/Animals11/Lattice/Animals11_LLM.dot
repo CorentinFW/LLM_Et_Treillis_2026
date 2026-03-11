@@ -1,0 +1,34 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 10)||}"];
+1 [shape=record,style=filled,label="{1 (I: 2, E: 6)|eats-fish\\nwater-habitat|giant-otter}"];
+2 [shape=record,style=filled,label="{2 (I: 1, E: 7)|feathered|ostrich}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 1, E: 8)|flies|}"];
+4 [shape=record,style=filled,label="{4 (I: 3, E: 1)|elytra\\nsix-legged|ladybird}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 2, E: 6)||}"];
+6 [shape=record,style=filled,label="{6 (I: 3, E: 1)|wood-habitat|wood-pecker}"];
+7 [shape=record,style=filled,label="{7 (I: 5, E: 5)|sea-habitat|great-auk}"];
+8 [shape=record,style=filled,label="{8 (I: 6, E: 2)|red-bill|silver-gull}"];
+9 [shape=record,style=filled,label="{9 (I: 6, E: 3)|migratory|greater-flamingo\\nlittle-tern}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 7, E: 1)||arctic-tern}"];
+11 [shape=record,style=filled,label="{11 (I: 2, E: 1)|nocturnal|bat}"];
+12 [shape=record,style=filled,fillcolor=lightblue,label="{12 (I: 11, E: 0)||}"];
+	1 -> 0
+	2 -> 0
+	3 -> 0
+	4 -> 3
+	5 -> 2
+	5 -> 3
+	6 -> 5
+	7 -> 1
+	7 -> 5
+	8 -> 7
+	9 -> 7
+	10 -> 8
+	10 -> 9
+	11 -> 3
+	12 -> 4
+	12 -> 6
+	12 -> 10
+	12 -> 11
+}

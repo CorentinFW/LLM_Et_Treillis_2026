@@ -1,0 +1,13 @@
+Comment comparer des treillis de grande taille ? (Impossible à la simple vue.)
+
+Que représentent un peu plus en détail les cases en light blue et 
+en orange dans le fichier .dot ?
+
+Toujours un problème de RAM ?
+    Lors de la recomposition, tous les concepts devront, à un moment ou à un autre, 
+    être chargés en mémoire.
+    Trouver une solution pour ne pas avoir à charger l’intégralité des parties.
+    Est-il possible de déterminer si certaines parties des sous-concepts n’ont 
+    pas de lien avec les autres ?
+        Si c’est le cas, copier le contenu des sous-concepts puis charger 
+        en mémoire seulement ce qui est nécessaire à l’assemblage.

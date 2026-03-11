@@ -1,0 +1,34 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 0, E: 10)||arctic-tern\\nbat\\ngiant-otter\\ngreat-auk\\ngreater-flamingo\\nladybird\\nlittle-tern\\nostrich\\nsilver-gull\\nwood-pecker}"];
+	1 [shape="record",style="filled",fillcolor="lightblue",label="{1 (I: 1, E: 8)|flies|arctic-tern\\nbat\\ngreat-auk\\ngreater-flamingo\\nladybird\\nlittle-tern\\nsilver-gull\\nwood-pecker}"];
+	2 [shape="record",style="filled",label="{2 (I: 2, E: 1)|flies\\nnocturnal|bat}"];
+	3 [shape="record",style="filled",fillcolor="lightblue",label="{3 (I: 11, E: 0)|eats-fish\\nelytra\\nfeathered\\nflies\\nmigratory\\nnocturnal\\nred-bill\\nsea-habitat\\nsix-legged\\nwater-habitat\\nwood-habitat|}"];
+	4 [shape="record",style="filled",fillcolor="lightblue",label="{4 (I: 2, E: 6)|feathered\\nflies|arctic-tern\\ngreat-auk\\ngreater-flamingo\\nlittle-tern\\nsilver-gull\\nwood-pecker}"];
+	5 [shape="record",style="filled",label="{5 (I: 1, E: 7)|feathered|arctic-tern\\ngreat-auk\\ngreater-flamingo\\nlittle-tern\\nostrich\\nsilver-gull\\nwood-pecker}"];
+	6 [shape="record",style="filled",fillcolor="orange",label="{6 (I: 6, E: 3)|eats-fish\\nfeathered\\nflies\\nmigratory\\nsea-habitat\\nwater-habitat|arctic-tern\\ngreater-flamingo\\nlittle-tern}"];
+	7 [shape="record",style="filled",label="{7 (I: 7, E: 1)|eats-fish\\nfeathered\\nflies\\nmigratory\\nred-bill\\nsea-habitat\\nwater-habitat|arctic-tern}"];
+	8 [shape="record",style="filled",label="{8 (I: 6, E: 2)|eats-fish\\nfeathered\\nflies\\nred-bill\\nsea-habitat\\nwater-habitat|arctic-tern\\nsilver-gull}"];
+	9 [shape="record",style="filled",label="{9 (I: 3, E: 1)|elytra\\nflies\\nsix-legged|ladybird}"];
+	10 [shape="record",style="filled",label="{10 (I: 5, E: 5)|eats-fish\\nfeathered\\nflies\\nsea-habitat\\nwater-habitat|arctic-tern\\ngreat-auk\\ngreater-flamingo\\nlittle-tern\\nsilver-gull}"];
+	11 [shape="record",style="filled",label="{11 (I: 3, E: 1)|feathered\\nflies\\nwood-habitat|wood-pecker}"];
+	12 [shape="record",style="filled",label="{12 (I: 2, E: 6)|eats-fish\\nwater-habitat|arctic-tern\\ngiant-otter\\ngreat-auk\\ngreater-flamingo\\nlittle-tern\\nsilver-gull}"];
+	1 -> 0
+	2 -> 1
+	3 -> 2
+	3 -> 7
+	3 -> 9
+	3 -> 11
+	4 -> 1
+	4 -> 5
+	5 -> 0
+	6 -> 10
+	7 -> 6
+	7 -> 8
+	8 -> 10
+	9 -> 1
+	10 -> 4
+	10 -> 12
+	11 -> 4
+	12 -> 0
+}

@@ -1,0 +1,340 @@
+You are an expert in **Formal Concept Analysis (FCA)** and **Python algorithm design**.
+
+Your task is to design a **memory-efficient FCA lattice computation algorithm** in Python using a **partitioned computation strategy**.
+
+You must reason step-by-step and explain each design decision before writing code.
+
+The algorithm must compute the **concept lattice** of a binary context stored in a CSV file formatted like Animals11.csv.
+
+The output must be a DOT file identical in structure to Animals11.dot.
+
+---
+
+# GLOBAL OBJECTIVE
+
+Implement a Python algorithm that:
+
+1. Reads a CSV formal context
+2. Computes all formal concepts
+3. Computes the lattice relations
+4. Splits the computation into partitions
+5. Saves each partition to disk
+6. Frees RAM between partitions
+7. Reassembles partitions
+8. Outputs:
+
+Lattice/<input_filename>.dot
+
+---
+
+# INPUT FORMAT
+
+The CSV file is a **formal context**:
+
+* First row = attributes
+* First column = objects
+* Values ∈ {0,1}
+
+Example:
+
+;flies;nocturnal;feathered
+bat;1;1;0
+ostrich;0;0;1
+
+Interpretation:
+
+G = objects
+M = attributes
+I = incidence relation
+
+---
+
+# OUTPUT FORMAT
+
+The algorithm must produce a DOT file:
+
+Lattice/<filename>.dot
+
+Format:
+
+digraph G {
+rankdir=BT;
+
+<node definitions>
+
+<edges>
+}
+
+Node format:
+
+ID [shape=record,style=filled,label="{ID (I: X, E: Y)|intent|extent}"];
+
+Where:
+
+ID = concept id
+I = size(intent)
+E = size(extent)
+
+Intent attributes separated by newline
+Extent objects separated by newline
+
+Edges represent the **cover relation** of the lattice.
+
+---
+
+# MEMORY CONSTRAINT
+
+The algorithm must NOT keep the full lattice in RAM.
+
+Instead it must:
+
+1. Compute a subset of concepts
+2. Save them to disk
+3. Free memory
+4. Continue
+
+---
+
+# PARTITION STRATEGY
+
+Concepts must be computed **by attribute partitions**.
+
+Example:
+
+If there are N attributes:
+
+Partition 1:
+attributes 1..k
+
+Partition 2:
+attributes k+1..2k
+
+etc.
+
+Each partition corresponds to:
+
+partition/partX/
+
+Files:
+
+partition/partX/concepts.json
+
+Each file contains:
+
+* intents
+* extents
+
+Example JSON:
+
+[
+{
+"intent":["flies","feathered"],
+"extent":["bat"]
+}
+]
+
+---
+
+# REQUIRED REASONING STEPS
+
+You MUST reason explicitly through these steps:
+
+---
+
+## Step 1 — Formal Context Loading
+
+Explain:
+
+* How CSV is parsed
+* Data structures used
+
+Use:
+
+objects list
+attributes list
+binary matrix
+
+Explain complexity.
+
+---
+
+## Step 2 — Closure Operator
+
+Explain how to implement:
+
+closure(X) = X''
+
+Algorithm:
+
+1 get objects having attributes X
+2 compute common attributes
+
+Explain complexity.
+
+---
+
+## Step 3 — Concept Enumeration
+
+Design a NextClosure-like algorithm.
+
+Explain:
+
+* lexicographic order
+* intent generation
+* closure usage
+* stopping condition
+
+Explain complexity.
+
+---
+
+## Step 4 — Partitioned Enumeration
+
+Design a partitioned enumeration:
+
+Explain:
+
+* how to split attribute search space
+* how to guarantee no duplicates
+* how to cover all concepts
+
+Explain carefully.
+
+---
+
+## Step 5 — Disk Storage
+
+Explain:
+
+* folder creation
+
+partition/
+partition/part1/
+partition/part2/
+
+Explain:
+
+* JSON format
+* writing strategy
+
+---
+
+## Step 6 — Memory Release
+
+Explain:
+
+* which variables must be deleted
+* use of:
+
+del variable
+gc.collect()
+
+Explain when memory is released.
+
+---
+
+## Step 7 — Partition Loop
+
+Explain full loop:
+
+for each partition:
+
+1 compute concepts
+2 save
+3 clear memory
+
+---
+
+## Step 8 — Partition Reassembly
+
+Explain:
+
+* loading all partitions
+* removing duplicates
+* sorting concepts
+
+Explain complexity.
+
+---
+
+## Step 9 — Lattice Edges
+
+Explain how to compute cover relation:
+
+Concept A -> Concept B if:
+
+intent(A) ⊂ intent(B)
+
+and no intermediate concept exists.
+
+Explain algorithm.
+
+---
+
+## Step 10 — DOT Generation
+
+Explain:
+
+* node numbering
+* formatting identical to example
+
+Explain writing algorithm.
+
+---
+
+# CODE REQUIREMENTS
+
+The final code must be:
+
+* clean Python
+* modular
+* commented
+* deterministic
+
+Functions required:
+
+load_context()
+
+closure()
+
+next_closure_partition()
+
+save_partition()
+
+load_partitions()
+
+compute_edges()
+
+write_dot()
+
+main()
+
+---
+
+# PERFORMANCE REQUIREMENTS
+
+The algorithm must:
+
+* handle contexts larger than RAM
+* avoid storing all concepts simultaneously
+* release memory after each partition
+
+---
+
+# FINAL OUTPUT
+
+Output:
+
+1 Detailed reasoning
+2 Complete Python code
+3 Example execution:
+
+python lattice.py Animals11.csv
+
+Output:
+
+Lattice/Animals11.dot
+
+---
+
+Think carefully and reason step-by-step before writing the final code.

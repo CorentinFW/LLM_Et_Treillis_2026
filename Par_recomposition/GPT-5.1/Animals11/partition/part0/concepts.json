@@ -1,0 +1,13 @@
+{"intent": [], "extent": ["ladybird", "bat", "ostrich", "greater-flamingo", "silver-gull", "little-tern", "great-auk", "wood-pecker", "giant-otter", "arctic-tern"]}
+{"intent": ["eats-fish", "water-habitat"], "extent": ["greater-flamingo", "silver-gull", "little-tern", "great-auk", "giant-otter", "arctic-tern"]}
+{"intent": ["feathered"], "extent": ["ostrich", "greater-flamingo", "silver-gull", "little-tern", "great-auk", "wood-pecker", "arctic-tern"]}
+{"intent": ["flies"], "extent": ["ladybird", "bat", "greater-flamingo", "silver-gull", "little-tern", "great-auk", "wood-pecker", "arctic-tern"]}
+{"intent": ["flies", "elytra", "six-legged"], "extent": ["ladybird"]}
+{"intent": ["flies", "feathered"], "extent": ["greater-flamingo", "silver-gull", "little-tern", "great-auk", "wood-pecker", "arctic-tern"]}
+{"intent": ["flies", "feathered", "wood-habitat"], "extent": ["wood-pecker"]}
+{"intent": ["flies", "feathered", "sea-habitat", "eats-fish", "water-habitat"], "extent": ["greater-flamingo", "silver-gull", "little-tern", "great-auk", "arctic-tern"]}
+{"intent": ["flies", "feathered", "red-bill", "sea-habitat", "eats-fish", "water-habitat"], "extent": ["silver-gull", "arctic-tern"]}
+{"intent": ["flies", "feathered", "migratory", "sea-habitat", "eats-fish", "water-habitat"], "extent": ["greater-flamingo", "little-tern", "arctic-tern"]}
+{"intent": ["flies", "feathered", "migratory", "red-bill", "sea-habitat", "eats-fish", "water-habitat"], "extent": ["arctic-tern"]}
+{"intent": ["flies", "nocturnal"], "extent": ["bat"]}
+{"intent": ["flies", "nocturnal", "feathered", "migratory", "red-bill", "elytra", "sea-habitat", "wood-habitat", "six-legged", "eats-fish", "water-habitat"], "extent": []}
