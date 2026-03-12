@@ -1,0 +1,109 @@
+digraph G {
+    rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 9)||}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 1, E: 3)|a1\n|}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 1, E: 6)|a2\n|}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 1, E: 6)|a5\n|}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 1, E: 7)|a8\n|}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 1, E: 5)|a9\n|}"];
+6 [shape=record,style=filled,fillcolor=lightblue,label="{6 (I: 2, E: 2)||}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{7 (I: 2, E: 2)||}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 2, E: 4)|a4\n|}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{9 (I: 2, E: 4)||}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 2, E: 4)||}"];
+11 [shape=record,style=filled,fillcolor=lightblue,label="{11 (I: 2, E: 4)|a3\n|}"];
+12 [shape=record,style=filled,fillcolor=lightblue,label="{12 (I: 2, E: 5)||}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 2, E: 4)||}"];
+14 [shape=record,style=filled,label="{14 (I: 3, E: 1)||o5\n}"];
+15 [shape=record,style=filled,fillcolor=lightblue,label="{15 (I: 3, E: 2)||}"];
+16 [shape=record,style=filled,fillcolor=lightblue,label="{16 (I: 3, E: 3)||}"];
+17 [shape=record,style=filled,fillcolor=lightblue,label="{17 (I: 3, E: 3)||}"];
+18 [shape=record,style=filled,fillcolor=lightblue,label="{18 (I: 3, E: 3)||}"];
+19 [shape=record,style=filled,fillcolor=lightblue,label="{19 (I: 3, E: 3)||}"];
+20 [shape=record,style=filled,fillcolor=lightblue,label="{20 (I: 3, E: 2)||}"];
+21 [shape=record,style=filled,fillcolor=lightblue,label="{21 (I: 3, E: 2)|a6\n|}"];
+22 [shape=record,style=filled,fillcolor=lightblue,label="{22 (I: 3, E: 2)|a7\n|}"];
+23 [shape=record,style=filled,fillcolor=lightblue,label="{23 (I: 3, E: 2)||}"];
+24 [shape=record,style=filled,label="{24 (I: 4, E: 1)||o7\n}"];
+25 [shape=record,style=filled,label="{25 (I: 4, E: 1)||o2\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 4, E: 2)||}"];
+27 [shape=record,style=filled,label="{27 (I: 4, E: 2)||o6\n}"];
+28 [shape=record,style=filled,label="{28 (I: 4, E: 1)||o8\n}"];
+29 [shape=record,style=filled,label="{29 (I: 4, E: 1)||o3\n}"];
+30 [shape=record,style=filled,label="{30 (I: 5, E: 1)||o4\n}"];
+31 [shape=record,style=filled,label="{31 (I: 5, E: 1)||o9\n}"];
+32 [shape=record,style=filled,label="{32 (I: 6, E: 1)||o1\n}"];
+33 [shape=record,style=filled,fillcolor=lightblue,label="{33 (I: 9, E: 0)||}"];
+    1 -> 0
+    2 -> 0
+    3 -> 0
+    4 -> 0
+    5 -> 0
+    6 -> 1
+    6 -> 2
+    7 -> 1
+    7 -> 3
+    8 -> 2
+    9 -> 2
+    9 -> 4
+    10 -> 2
+    10 -> 5
+    11 -> 4
+    12 -> 3
+    12 -> 4
+    13 -> 4
+    13 -> 5
+    14 -> 6
+    14 -> 10
+    15 -> 9
+    15 -> 11
+    16 -> 3
+    16 -> 8
+    17 -> 8
+    17 -> 9
+    18 -> 9
+    18 -> 10
+    18 -> 13
+    19 -> 11
+    19 -> 12
+    20 -> 11
+    20 -> 13
+    21 -> 12
+    22 -> 12
+    23 -> 12
+    23 -> 13
+    24 -> 6
+    24 -> 7
+    24 -> 16
+    25 -> 15
+    25 -> 18
+    25 -> 20
+    26 -> 12
+    26 -> 16
+    26 -> 17
+    27 -> 17
+    27 -> 18
+    28 -> 19
+    28 -> 20
+    28 -> 23
+    29 -> 21
+    29 -> 22
+    30 -> 7
+    30 -> 19
+    30 -> 22
+    31 -> 23
+    31 -> 26
+    31 -> 27
+    32 -> 15
+    32 -> 19
+    32 -> 21
+    32 -> 26
+    33 -> 14
+    33 -> 24
+    33 -> 25
+    33 -> 28
+    33 -> 29
+    33 -> 30
+    33 -> 31
+    33 -> 32
+}
