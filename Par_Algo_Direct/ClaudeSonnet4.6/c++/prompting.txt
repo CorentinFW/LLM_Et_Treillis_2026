@@ -1,0 +1,80 @@
+============================
+R.C.T.F.C — PROMPT LLM
+============================
+
+--- RÔLE ---
+Tu es un expert en algorithmique, en Analyse Formelle de Concepts (AFC / FCA) et en développement C++ moderne.
+
+--- CONTEXTE ---
+L'Analyse Formelle de Concepts (Formal Concept Analysis) est une méthode mathématique qui, à partir d'un contexte formel (une relation binaire objets × attributs), calcule l'ensemble des concepts formels et leur organisation en treillis de Galois. Un concept formel est une paire (extension, intension) où l'extension est un ensemble d'objets et l'intension est l'ensemble de TOUS les attributs partagés par ces objets, et vice-versa. Le treillis représente l'ordre partiel entre ces concepts et est visualisé via le diagramme de Hasse (relation de couverture directe).
+
+--- TÂCHE ---
+Écris un programme C++ complet, compilable et fonctionnel, qui :
+1. Lit un contexte formel depuis un fichier CSV (chemin passé en argument en ligne de commande).
+2. Calcule l'intégralité du treillis de Galois (tous les concepts formels + diagramme de Hasse) en une seule passe algorithmique directe, sans étape intermédiaire manuelle.
+3. Produit en sortie un fichier .dot (nommé automatiquement d'après le fichier d'entrée, extension remplacée par ".dot") représentant le treillis au format Graphviz, en respectant exactement les conventions de format décrites ci-dessous.
+
+--- FORMAT ---
+
+## Format d'entrée (CSV) :
+- Séparateur : point-virgule (;)
+- Première ligne : en-tête — première cellule vide, puis les noms des attributs
+- Lignes suivantes : nom de l'objet ; puis 1 ou 0 pour chaque attribut
+Exemple :
+  ;flies;nocturnal;feathered
+  bat;1;1;0
+  ostrich;0;0;1
+
+## Format de sortie (.dot) :
+Le fichier doit être un graphe orienté Graphviz avec les règles suivantes :
+
+### En-tête :
+  digraph G {
+      rankdir=BT;
+
+### Nœuds :
+Chaque concept formel reçoit un identifiant entier (0, 1, 2, ...) attribué dans l'ordre croissant du nombre d'attributs dans l'intension (puis ordre lexicographique si égalité).
+
+Format de chaque nœud :
+  ID [shape=record,style=filled,COULEUR,label="{ID (I: NB_INTENSION, E: NB_EXTENSION)|ATTRS_NOUVEAUX\n|OBJETS_NOUVEAUX\n}"];
+
+Où :
+- NB_INTENSION = nombre total d'attributs dans l'intension du concept
+- NB_EXTENSION = nombre total d'objets dans l'extension du concept
+- ATTRS_NOUVEAUX = liste des attributs "nouveaux" de ce concept (séparés par \n),
+  c'est-à-dire les attributs m dont le concept générateur γ(m) = (closure({m}), {m}') est exactement ce concept.
+  Si aucun attribut nouveau : champ vide.
+- OBJETS_NOUVEAUX = liste des objets "nouveaux" de ce concept (séparés par \n),
+  c'est-à-dire les objets g dont le concept générateur μ(g) = ({g}', closure({g}')) est exactement ce concept.
+  Si aucun objet nouveau : champ vide.
+
+### Règle de couleur (fillcolor) :
+- `fillcolor=lightblue` si le concept n'introduit AUCUN nouvel objet (OBJETS_NOUVEAUX vide)
+- `fillcolor=orange`   si le concept introduit 2 nouveaux objets ou plus (|OBJETS_NOUVEAUX| >= 2)
+- Pas de fillcolor (style=filled suffit) si le concept introduit exactement 1 nouvel objet
+
+### Arêtes (diagramme de Hasse — couvertures directes) :
+  A -> B
+signifie que le concept A couvre directement le concept B (A est immédiatement supérieur à B dans l'ordre du treillis). Les arêtes vont du concept plus spécifique (intension plus grande) vers le concept plus général (intension plus petite), avec rankdir=BT le rendu va de bas en haut.
+
+### Pied de fichier :
+  }
+
+## Exemple de sortie (extrait) :
+  digraph G {
+      rankdir=BT;
+  0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 10)||}"];
+  1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 1, E: 8)|flies\n|}"];
+  2 [shape=record,style=filled,label="{2 (I: 2, E: 1)|nocturnal\n|bat\n}"];
+  6 [shape=record,style=filled,fillcolor=orange,label="{6 (I: 6, E: 3)|migratory\n|greater-flamingo\nlittle-tern\n}"];
+      1 -> 0
+      2 -> 1
+  }
+
+--- CONTRAINTES ---
+1. Un seul fichier source C++ (pas de headers séparés, pas de dépendances externes).
+2. Le treillis doit être calculé en une seule passe algorithmique directe et complète (pas d'appel à un outil extérieur, pas d'étapes manuelles intermédiaires). Utilise un algorithme de génération incrémentale ou par fermeture (ex. : Next Closure, Close by One, ou équivalent) implémenté entièrement dans le fichier.
+3. Le programme prend exactement un argument : le chemin vers le fichier CSV d'entrée.
+4. Le fichier .dot de sortie est créé automatiquement dans le même répertoire que le fichier d'entrée, avec le même nom de base et l'extension ".dot".
+5. Le programme doit être robuste : gérer les fichiers introuvables et les formats incorrects avec un message d'erreur clair sur stderr.
+6. Code C++17, compilation avec : g++ -std=c++17 -O2 -o lattice lattice.cpp
