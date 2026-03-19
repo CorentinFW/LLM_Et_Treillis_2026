@@ -1,0 +1,68 @@
+================================================================================
+PROMPT POUR GÉNÉRATION D'ALGORITHME DE TREILLIS DE CONCEPTS FORMELS
+================================================================================
+
+RÔLE:
+Tu es un expert en informatique spécialisé dans l'analyse de concepts formels (FCA - Formal Concept Analysis) et l'algorithmique. Tu dois générer du code C++ production-ready capable de calculer un treillis de concepts en une seule passe.
+
+CONTEXTE:
+L'analyse de concepts formels est une méthode mathématique permettant de structurer des données binaires (objet-attribut) en un treillis de concepts. Chaque concept est défini par :
+- Une intention (I) : l'ensemble des attributs partagés
+- Une extension (E) : l'ensemble des objets possédant ces attributs
+
+Un treillis de concepts doit être calculé INTÉGRALEMENT EN UNE SEULE TRAITE (single-pass ou multi-passe mais dans un même exécutable), produisant directement la sortie finale sans étapes intermédiaires.
+
+Les données d'entrée suivent le format CSV où :
+- La première ligne contient les noms des attributs (séparés par ;)
+- Les lignes suivantes contiennent les objets avec leurs valeurs binaires (0 ou 1)
+- Le premier élément de chaque ligne est le nom de l'objet
+
+La sortie doit être un graphe orienté au format DOT (Graphviz) représentant le treillis avec :
+- Chaque nœud représentant un concept avec ses intentions et extensions
+- Les arcs montrant les relations de couverture
+- Les nœuds colorés selon leur type (intention=0, extension=0: lightblue; générateur: orange; etc.)
+
+TÂCHE:
+Génère un programme C++ qui :
+1. Lit un fichier CSV au format décrit ci-dessus
+2. Calcule COMPLÈTEMENT le treillis de concepts formels en une seule passe
+3. Produit directement un fichier .dot correctement formaté
+4. Gère correctement les structures de données pour les intentions et extensions
+5. Implémente un algorithme efficace de construction du treillis (ex: algorithme à base de closure, construction incrémentale optimisée, etc.)
+
+FORMAT:
+- Langage : C++ (C++17 minimum)
+- Entrée : Un seul fichier CSV fourni comme argument ligne de commande : ./program input.csv
+- Sortie : Un fichier output.dot généré dans le répertoire courant
+- Structure : UN SEUL fichier C++ qui contient tout le code nécessaire
+- Format du fichier DOT : exactement comme l'exemple Animals11.dot fourni
+  - Syntaxe: digraph G { rankdir=BT; [nœuds] [arcs] }
+  - Chaque nœud: ID [shape=record,style=filled,fillcolor=COULEUR,label="{ID (I: X, E: Y)|attributs\n|objets\n}"]
+  - Arcs: ID1 -> ID2 pour les relations de couverture
+
+CONTRAINTES:
+- IMPÉRATIF: Calcul du treillis EN UNE SEULE TRAITE (pas d'étapes séquentielles ou de sous-programmes externes)
+- Utiliser uniquement des bibliothèques C++ standard (STL, pas de dépendances externes)
+- Le code doit être robuste et gérer les cas limites (fichiers vides, attributs/objets dupliqués, etc.)
+- Performance: l'algorithme doit être optimisé pour les treillis de taille moyenne (< 1000 objets, < 100 attributs)
+- Inclure des commentaires explicatifs sur la logique d'algorithme
+- Le fichier exécutable généré doit s'appeler "lattice_generator" (ou peut être compilé avec: g++ -o lattice_generator program.cpp)
+
+================================================================================
+EXEMPLE D'UTILISATION ATTENDUE:
+./lattice_generator Animals11.csv
+→ génère Animals11.dot
+
+EXEMPLE DE STRUCTURE DE NŒUD ATTENDUE (du fichier DOT):
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 10)||}"];
+9 [shape=record,style=filled,fillcolor=orange,label="{9 (I: 6, E: 3)|migratory\n|greater-flamingo\nlittle-tern\n}"];
+================================================================================
+
+DIRECTIVES SUPPLÉMENTAIRES:
+- L'algorithme doit calculer TOUTES les relations de couverture immédiates (successeurs directs)
+- Utiliser un système d'indexation pour les nœuds du treillis
+- Assurer que chaque concept est unique (pas de doublons)
+- Le treillis doit inclure l'intent vide (tous les objets) et l'intent complet (aucun objet)
+- Fournir du code bien structuré avec des fonctions distinctes pour : chargement CSV, génération du treillis, et génération du fichier DOT
+
+================================================================================
