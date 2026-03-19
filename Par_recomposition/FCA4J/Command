@@ -1,1 +1,5 @@
+  java -jar <chemin_vers_fca4j>/fca4j-cli-0.4.4.jar LATTICE <chemin_vers_csv>/fichier.csv -i CSV -s SEMICOLON -g <chemin_vers_csv>/Lattice/<Nom_du_fichier_de_sortie>.dot -d full
+ 
+ 
  java -jar fca4j-cli-0.4.4.jar LATTICE eg9_9/eg9_9.csv -i CSV -s SEMICOLON -g eg9_9/Lattice/eg9_9_full.dot -d full
+ dot -Tpdf Animals11_LLM.dot -o Animals11_LLM.pdf

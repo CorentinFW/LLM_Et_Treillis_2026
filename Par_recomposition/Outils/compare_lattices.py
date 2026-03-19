@@ -1,3 +1,6 @@
+# ## python3 <chemin_vers_ce_script>/compare_lattices.py <chemin_vers_file1.dot> <chemin_vers_file2.dot> [--json | --simple]
+
+
 from __future__ import annotations
 
 import argparse

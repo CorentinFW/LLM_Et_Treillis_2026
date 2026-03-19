@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+## python3 <chemin_vers_ce_script>/induced_to_full_dot.py <chemin_input_reduced.dot> <chemin_output_full.dot>
+
 """Convert a reduced/induced DOT lattice into a complete DOT lattice.
 
 The input format targeted here is the FCA/Graphviz style used in this workspace:

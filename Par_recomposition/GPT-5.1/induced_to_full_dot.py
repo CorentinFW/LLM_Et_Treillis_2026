@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# python3 <chemin_vers_ce_script>/induced_to_full_dot.py <chemin_input_reduced.dot> <chemin_output_full.dot>
 
 from __future__ import annotations
 

@@ -2,9 +2,6 @@ Concernant le prompt :
     - S'assurer que le prompt demande un algo qui marche 
         sur des csv de taille variables ( et pas seulement sur Animals11.csv)
 
-    - les résultats pour pour des petit treillis doivent être les 
-        mêmes que ceux de FCA4J
-
     - Il faut que l'algorithme ne copie pas les objet et attribut plusieurs fois, 
         il est induit qu'ils y appartiennent si trouvé plus tôt. 
             exemple pour Animals11 :
@@ -80,5 +77,12 @@ Concernant le prompt :
                         12 -> 11
                     }
     
-    - il faut que l'algorithme crée des cases correct pour joindre les concepts, 
-        ce sont les cases en lightblue dans le résultat attendue.
+    - il faut que l'algorithme crée des cases correct pour joindre les concepts
+    - Pour les couleurs : lightblue = 0 objet dans le noeud, rien = 1 seul objet dans le noeud et orange quand il y a strictement plus d'un objet dans le noeud
+    - ne pas formulez de restriction du type "Comme sur fca4j"
+    - trouver un moyen d'optimiser le calcul des relation entres les noeuds, du fait que l'on décompose le treillis dans des fichiers. 
+        Optimiser les performances tout en gardant la main sur l'utilisation de la mémoire vive (ram).
+    - trouver un moyen efficace de stocker les parties du treillis (Suivant la ram disponible charger plusieurs sous parties du treillis pour gagner en efficacité)
+    - Ajouter un indice de progression lors du Calcul de la relation de couverture, <Temps depuis le lancement de l'algorithme> <Approximation de l'état du calcul (de 0% à 100%),
+        Mis à jour toutes les 10 minutes.
+
