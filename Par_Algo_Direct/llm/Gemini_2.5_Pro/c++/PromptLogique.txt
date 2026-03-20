@@ -1,0 +1,41 @@
+Voici la logique détaillée que j'ai suivie pour construire le prompt, en respectant le cadre R.C.T.F.C (Rôle, Contexte, Tâche, Format, Contraintes).
+
+### 1. Adhésion Stricte au Cadre R.C.T.F.C
+
+Le but principal était de fournir un cahier des charges clair et sans ambiguïté pour le LLM. Ce cadre est idéal pour cela :
+-   Il structure la demande de manière logique.
+-   Il force à préciser tous les aspects du problème, ce qui réduit le risque que le LLM fasse des suppositions incorrectes.
+-   Il maximise les chances d'obtenir un résultat de haute qualité dès la première tentative.
+
+### 2. Définition du Rôle : Orienter la "Personnalité" du LLM
+
+En demandant au LLM d'agir en tant que **"développeur C++ expert, spécialisé dans la conception d'algorithmes et les structures de données complexes"**, je le conditionne à :
+-   **Adopter un haut niveau de compétence technique :** Cela l'encourage à utiliser des pratiques de codage modernes et efficaces en C++.
+-   **Penser en termes d'optimisation :** Un expert en algorithmes ne se contente pas de faire fonctionner le code, il cherche aussi à le rendre performant. Cela est directement lié à votre demande de calcul "en une seule traite".
+-   **Structurer le code de manière professionnelle :** On peut s'attendre à un code plus propre, mieux organisé et plus lisible.
+
+### 3. Établissement du Contexte : Donner un "Pourquoi"
+
+Le contexte d'un **"projet de recherche sur l'efficacité des algorithmes"** n'est pas anodin. Il justifie la tâche et donne un but plus profond que la simple écriture de code. Cela aide le LLM à comprendre l'importance de :
+-   La **performance** (d'où la mesure du temps CPU).
+-   La **précision** de l'algorithme.
+-   La **nouveauté** de l'approche ("en une seule traite").
+
+### 4. Détail de la Tâche : Décomposer le "Quoi" en Étapes Claires
+
+J'ai décomposé la mission en une liste d'étapes numérotées pour éviter toute confusion.
+-   **Étapes 1 et 2 :** Elles posent les bases du problème : lire les données d'un format spécifique (CSV) et construire la structure de données cible (le treillis).
+-   **Étape 3 :** C'est le cœur de votre contrainte. J'ai utilisé des termes forts comme **"aspect crucial"** et j'ai explicité ce que signifie "en une seule traite" (`single-pass`, `manière directe`, `éviter la génération de structures de données intermédiaires massives`). Cette redondance est volontaire pour marteler l'importance de ce point.
+-   **Étape 4 :** Elle répond directement à votre demande de mesure de performance. En précisant "temps CPU (temps processeur)", je m'assure que le LLM mesurera bien le temps de calcul et non le temps total d'exécution du programme (qui inclut les I/O).
+-   **Étape 5 :** Elle définit le livrable final. La référence à un fichier d'exemple (`Animals11.dot`) est une technique de prompting très efficace, car elle donne un modèle concret à imiter, ce qui est beaucoup plus clair qu'une longue description textuelle du format attendu.
+
+### 5. Spécification du Format et des Contraintes : Cadrer le "Comment"
+
+Ces sections servent de garde-fous techniques.
+-   **Format :** Un résumé rapide des spécifications techniques (langage, entrée, sortie, un seul fichier) pour que le LLM puisse les vérifier d'un coup d'œil.
+-   **Contraintes :**
+    -   Je **répète** la contrainte de l'algorithme "d'une seule traite" pour la troisième fois. Cette répétition est stratégique pour s'assurer que le LLM ne l'ignore pas.
+    -   Je **suggère une bibliothèque spécifique** (`<chrono>`). C'est une bonne pratique car cela guide le LLM vers une solution standard, moderne et fiable, plutôt que de le laisser choisir une méthode potentiellement obsolète ou moins portable (comme `clock()` de `<ctime>`).
+    -   La demande d'un code **"propre, commenté et facilement compilable"** est une instruction de qualité qui vise à garantir que le résultat sera directement utilisable et maintenable.
+
+En résumé, le prompt est construit comme un entonnoir : il part d'un rôle général, précise le contexte, détaille les tâches de manière chirurgicale, et se termine par des contraintes techniques strictes pour ne laisser aucune place à l'imprécision.

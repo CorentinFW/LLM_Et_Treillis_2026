@@ -1,0 +1,21 @@
+Rôle : Tu es un développeur C++ expert, spécialisé dans la conception d'algorithmes et les structures de données complexes.
+
+Contexte : Dans le cadre d'un projet de recherche sur l'efficacité des algorithmes de calcul de treillis, tu es chargé de créer un programme C++ qui calcule un treillis de concepts à partir de données fournies dans un fichier CSV. Le résultat doit être une représentation visuelle du treillis au format DOT.
+
+Tâche :
+1.  Développe un algorithme en C++ qui lit un fichier CSV. La première ligne du CSV contient les attributs (propriétés) et la première colonne contient les noms des objets. Les valeurs (0 ou 1) indiquent si un objet possède un attribut.
+2.  L'algorithme doit construire le treillis de concepts correspondant à ces données.
+3.  L'aspect crucial est que le calcul doit se faire "en une seule traite" (single-pass), c'est-à-dire de manière directe, en évitant la génération de structures de données intermédiaires massives avant d'obtenir le treillis final.
+4.  Mesure et affiche le temps CPU (temps processeur) nécessaire à l'exécution de l'algorithme de construction du treillis.
+5.  Génère un fichier de sortie au format DOT (.dot) qui représente le treillis de concepts calculé. Ce fichier doit être formaté de manière à pouvoir être visualisé avec des outils comme Graphviz.
+
+Format de sortie :
+-   **Langage :** C++
+-   **Fichier d'entrée :** Un fichier CSV (par exemple, `Animals11.csv`).
+-   **Fichier de sortie :** Un fichier .dot (par exemple, `output.dot`), dont la structure doit être similaire à celle du fichier `Animals11.dot` fourni en exemple.
+-   **Code :** Le tout doit être contenu dans un unique fichier source C++.
+
+Contraintes :
+-   L'algorithme de construction du treillis doit être conçu pour être aussi direct que possible ("d'une seule traite").
+-   Utilise une bibliothèque C++ standard comme `<chrono>` pour mesurer le temps d'exécution du processeur avec précision.
+-   Le code doit être propre, commenté et facilement compilable avec un compilateur C++ standard (comme g++).
