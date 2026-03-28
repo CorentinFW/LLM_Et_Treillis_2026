@@ -1,0 +1,65 @@
+R — Role
+Tu es un chercheur senior en algorithmique formelle et en Java, expert en Analyse Formelle de Concepts (Formal Concept Analysis, FCA), génération de treillis, optimisation, reproductibilité expérimentale et sorties Graphviz DOT.
+
+C — Contexte
+Je veux tester si un LLM peut produire un algorithme Java qui calcule un treillis de concepts en une seule exécution (one-shot), à partir d’un fichier CSV binaire au format suivant :
+- séparateur `;`
+- 1re ligne : en-têtes des attributs, avec une 1re cellule vide (comme `;attr1;attr2;...`)
+- 1re colonne des lignes suivantes : nom de l’objet
+- cellules suivantes : `0` ou `1`
+- exemple de format d’entrée: identique à `Format/Animals11.csv`
+
+La sortie doit être un fichier `.dot` compatible Graphviz, formaté dans l’esprit de `Format/Animals11.dot` :
+- `digraph G {`
+- `rankdir=BT;`
+- un nœud par concept, avec un label de type record contenant :
+  - identifiant du concept
+  - taille de l’extent (E)
+  - taille de l’intent (I)
+  - liste des attributs de l’intent
+  - liste des objets de l’extent
+- arêtes correspondant à la relation de couverture (Hasse diagram), sans arêtes transitives
+- fermeture du graphe `}`
+
+T — Tâche
+Produis un unique fichier Java nommé `ConceptLatticeOneShot.java` qui :
+1. Lit en argument CLI :
+   - chemin du CSV d’entrée
+   - chemin du DOT de sortie
+2. Parse le CSV avec une bibliothèque (pas de parseur ad-hoc).
+3. Construit le contexte formel (objets, attributs, relation binaire).
+4. Calcule tout le treillis de concepts en une seule traite (single run), sans étapes manuelles.
+   - Utiliser un algorithme FCA correct (ex: Next Closure ou équivalent rigoureux).
+5. Construit le diagramme de Hasse (réduction transitive des inclusions entre intents/extends).
+6. Exporte un `.dot` lisible et déterministe :
+   - même ordre à chaque exécution sur la même entrée
+   - format proche de `Format/Animals11.dot`
+7. Mesure le temps de calcul processeur de l’algorithme principal et l’affiche clairement.
+   - La mesure doit passer par une bibliothèque/framework Java.
+   - Utilise `org.apache.commons.lang3.time.StopWatch` (Apache Commons Lang) pour le temps mur (wall-clock) et `java.lang.management.ThreadMXBean` pour le temps CPU du thread courant.
+   - Affiche les deux valeurs en millisecondes.
+8. Gère les erreurs proprement (arguments manquants, fichier illisible, format invalide).
+9. Ne dépend que de bibliothèques stables et connues.
+
+F — Format
+Contraintes de sortie de ta réponse :
+- Donne uniquement le code source complet de `ConceptLatticeOneShot.java`.
+- Le fichier doit être autonome (classes internes autorisées), clair, compilable.
+- Java 17 minimum.
+- Ajouter en tête du fichier un court bloc commentaire listant les dépendances Maven exactes :
+  - `org.apache.commons:commons-csv`
+  - `org.apache.commons:commons-lang3`
+- Pas de pseudo-code, pas d’explication hors code.
+- Le programme doit produire exactement un fichier DOT en sortie.
+
+C — Contraintes
+- Une seule passe d’exécution utilisateur :
+  - commande unique de lancement
+  - tout le calcul du treillis est effectué dans ce run
+- Un seul fichier Java source livré.
+- Respect strict du format CSV d’entrée et DOT de sortie.
+- Sortie déterministe (ordre stable des concepts, attributs, objets, arêtes).
+- Complexité explicitée par commentaires brefs au niveau des parties critiques.
+- Priorité à la justesse mathématique du treillis (fermetures, intents/extents, ordre partiel, couvertures).
+- Inclure une fonction `main` démontrant l’usage via :
+  - `java ConceptLatticeOneShot <input.csv> <output.dot>`

@@ -1,0 +1,68 @@
+R — Role
+Tu es un chercheur expert en algorithmique, en analyse formelle de concepts (FCA), en théorie des ordres (treillis) et en C++17/20. Tu dois produire du code robuste, reproductible, lisible, et déterministe.
+
+C — Contexte
+Je veux démontrer qu’un LLM peut générer un algorithme qui calcule un treillis conceptuel en une seule exécution (« d’une seule traite »), sans étapes manuelles intermédiaires.
+Le programme doit lire un fichier CSV ayant exactement le même format logique que Format/Animals11.csv :
+- séparateur « ; »
+- première ligne = en-tête avec première cellule vide puis les attributs
+- lignes suivantes = nom de l’objet puis 0/1 pour chaque attribut
+
+Le programme doit produire un fichier .dot respectant la structure de Format/Animals11.dot :
+- graphe orienté : digraph G
+- rankdir=BT
+- un nœud par concept formel avec un label record
+- arêtes correspondant au diagramme de Hasse (relation de couverture), pas la fermeture transitive complète
+
+T — Tâche
+Génère un seul fichier C++ (main.cpp) qui :
+1. Prend en argument ligne de commande :
+   - chemin du CSV d’entrée
+   - chemin du DOT de sortie
+2. Parse le CSV en gérant correctement les erreurs (fichier absent, format invalide, colonnes incohérentes).
+3. Construit le contexte formel (objets, attributs, relation binaire).
+4. Calcule tous les concepts formels du contexte en une passe algorithmique complète (ex. Next Closure ou Close-by-One), sans script externe.
+5. Construit le treillis de concepts et ses arêtes de couverture (Hasse).
+6. Exporte le résultat au format DOT compatible Graphviz, avec un style proche de l’exemple :
+   - nœuds numérotés
+   - label record contenant :
+     - identifiant du nœud
+     - tailles de l’intention et de l’extension : (I: x, E: y)
+     - liste des attributs « générateurs affichés »
+     - liste des objets « générateurs affichés »
+   - une coloration minimale possible pour distinguer des nœuds remarquables (optionnel mais stable)
+7. Mesure et affiche les temps de calcul en millisecondes avec la bibliothèque standard C++ <chrono> :
+   - temps parsing CSV
+   - temps calcul concepts
+   - temps construction Hasse
+   - temps export DOT
+   - temps total
+8. Affiche aussi le nombre de concepts et le nombre d’arêtes.
+
+F — Format attendu de ta réponse
+Ta réponse doit contenir exactement :
+1. Le code complet de main.cpp (compilable tel quel, sans dépendances externes obligatoires).
+2. Une commande de compilation Linux (g++ -std=c++20 -O2 -Wall -Wextra -pedantic).
+3. Un exemple d’exécution avec un fichier de type Format/Animals11.csv.
+4. Un court paragraphe expliquant le choix algorithmique et la complexité asymptotique.
+
+Important :
+- N’écris pas de pseudocode, uniquement du code réel.
+- Ne répartis pas la solution sur plusieurs fichiers.
+- Ne laisse pas de TODO.
+- Les sorties doivent être déterministes d’une exécution à l’autre.
+
+C — Contraintes strictes
+- Langage : C++17 minimum (C++20 accepté).
+- Fichier unique : main.cpp.
+- Entrée : CSV au format décrit.
+- Sortie : DOT structuré comme l’exemple Animals11.dot.
+- Calcul du treillis en une seule exécution complète.
+- Mesure de performance via bibliothèque/framework C++ (utilise <chrono> de la STL).
+- Code propre, défensif, commenté uniquement lorsque nécessaire.
+
+Critères de validation à respecter dans le code
+- Le programme retourne un code d’erreur non nul si l’entrée est invalide.
+- Le .dot généré est directement visualisable par Graphviz.
+- Les arêtes représentent la couverture immédiate (Hasse).
+- Les temps mesurés sont visibles dans stdout.

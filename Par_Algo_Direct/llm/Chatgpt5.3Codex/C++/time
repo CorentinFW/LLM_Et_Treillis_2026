@@ -1,0 +1,57 @@
+corentinfay@Corentinfw:~/Bureau/LLM_Et_Treillis_2026/Par_Algo_Direct$ ./llm/Chatgpt5.3Codex/C++/concept_lattice llm/Chatgpt5.3Codex/C++/Synthetics/9*9/eg9_9.csv llm/Chatgpt5.3Codex/C++/Synthetics/9*9/eg9_9.dot
+Objets: 9
+Attributs: 9
+Concepts: 34
+Aretes (Hasse): 72
+Temps parsing CSV (ms): 0
+Temps calcul concepts (ms): 0
+Temps construction Hasse (ms): 0
+Temps export DOT (ms): 0
+Temps total (ms): 0
+corentinfay@Corentinfw:~/Bureau/LLM_Et_Treillis_2026/Par_Algo_Direct$ ./llm/Chatgpt5.3Codex/C++/concept_lattice llm/Chatgpt5.3Codex/C++/Synthetics/20*20/eg20_20.csv llm/Chatgpt5.3Codex/C++/Synthet
+ics/20*20/eg20_20.dot
+Objets: 20
+Attributs: 20
+Concepts: 573
+Aretes (Hasse): 1974
+Temps parsing CSV (ms): 0
+Temps calcul concepts (ms): 2
+Temps construction Hasse (ms): 52
+Temps export DOT (ms): 2
+Temps total (ms): 57
+corentinfay@Corentinfw:~/Bureau/LLM_Et_Treillis_2026/Par_Algo_Direct$ ./llm/Chatgpt5.3Codex/C++/concept_lattice llm/Chatgpt5.3Codex/C++/Synthetics/30*30/eg30_30.csv llm/Chatgpt5.3Codex/C++/Synthet
+ics/30*30/eg30_30.dot
+Objets: 30
+Attributs: 30
+Concepts: 4130
+Aretes (Hasse): 17588
+Temps parsing CSV (ms): 0
+Temps calcul concepts (ms): 22
+Temps construction Hasse (ms): 1089
+Temps export DOT (ms): 5
+Temps total (ms): 1117
+corentinfay@Corentinfw:~/Bureau/LLM_Et_Treillis_2026/Par_Algo_Direct$ ./llm/Chatgpt5.3Codex/C++/concept_lattice llm/Chatgpt5.3Codex/C++/Synthetics/40*40/eg40_40.csv llm/Chatgpt5.3Codex/C++/Synthet
+ics/40*40/eg40_40.dot
+Objets: 40
+Attributs: 40
+Concepts: 19627
+Aretes (Hasse): 94672
+Temps parsing CSV (ms): 0
+Temps calcul concepts (ms): 160
+Temps construction Hasse (ms): 52661
+Temps export DOT (ms): 23
+Temps total (ms): 52844
+corentinfay@Corentinfw:~/Bureau/LLM_Et_Treillis_2026/Par_Algo_Direct$ ./llm/Chatgpt5.3Codex/C++/concept_lattice llm/Chatgpt5.3Codex/C++/Synthetics/50*50/eg50_50.csv llm/Chatgpt5.3Codex/C++/Synthet
+ics/50*50/eg50_50.dot
+Objets: 50
+Attributs: 50
+Concepts: 85492
+Aretes (Hasse): 456464
+Temps parsing CSV (ms): 0
+Temps calcul concepts (ms): 565
+Temps construction Hasse (ms): 1355862
+Temps export DOT (ms): 125
+Temps total (ms): 1356553
+corentinfay@Corentinfw:~/Bureau/LLM_Et_Treillis_2026/Par_Algo_Direct$ ./llm/Chatgpt5.3Codex/C++/concept_lattice llm/Chatgpt5.3Codex/C++/Synthetics/80*80/eg80_80.csv llm/Chatgpt5.3Codex/C++/Synthet
+ics/80*80/eg80_80.dot
+pas fini au bout de 6h
