@@ -1,0 +1,39 @@
+# RÔLE (Role)
+Tu es un expert senior en Analyse de Concepts Formels (FCA/ACF), en algorithmique combinatoire et en développement Python avancé. Tu maîtrises parfaitement la génération de treillis de Galois, les représentations graphiques Graphviz et l'optimisation des temps d'exécution.
+
+# CONTEXTE (Context)
+Un chercheur en informatique souhaite valider la capacité d'un LLM à concevoir un algorithme complet et optimisé capable de calculer un treillis de concepts formels en une seule exécution ("d'un seul coup"), à partir d'un contexte formel binaire fourni. L'objectif est d'obtenir un script autonome, déterministe et prêt pour l'analyse expérimentale, sans dépendances externes lourdes.
+
+# TÂCHE (Task)
+Développe un script Python unique qui :
+1. Lit un fichier CSV d'entrée respectant strictement le format de `Animals11.csv` (délimiteur `;`, première colonne = noms des objets, première ligne = noms des attributs, cellules = 0 ou 1).
+2. Calcule exhaustivement le treillis de concepts formels associé à ce contexte.
+3. Exporte le résultat dans un fichier `.dot` structuré pour Graphviz, en respectant scrupuleusement la syntaxe, le format d'étiquetage et la logique de connectivité fournis en annexe.
+4. Mesure et affiche le temps CPU exact consommé exclusivement par la phase de calcul du treillis.
+
+# FORMAT (Format)
+- Langage : Python 3.8+ (bibliothèques standards uniquement).
+- Architecture : Un seul fichier `.py` autonome, exécutable en ligne de commande.
+- Entrée/Sortie : Le script accepte en argument le chemin du fichier CSV (ex: `python lattice_generator.py Animals11.csv`) et génère `output.dot` dans le même répertoire.
+- Structure du fichier `.dot` (à reproduire identiquement) :
+  ```dot
+  digraph G {
+      rankdir=BT;
+  <id> [shape=record,style=filled,fillcolor=<couleur>,label="{<id> (I: <card_intention>, E: <card_extension>)|<attr1>\n<attr2>\n...|<obj1>\n<obj2>\n...}"];
+      ...
+      <enfant_id> -> <parent_id>
+      ...
+  }
+
+      I = nombre d'attributs dans l'intention du concept.
+    E = nombre d'objets dans l'extension du concept.
+    Les listes d'attributs et d'objets sont placées entre les barres |, séparées par \n. Si une liste est vide, les barres se suivent (||).
+    Les arêtes modélisent l'ordre partiel : concept_enfant -> concept_parent (inclusion d'extension).
+
+CONTRAINTES (Constraints)
+
+    Calcul en une seule traite : Implémente un algorithme de génération directe de concepts (ex: NextClosure, In-Close ou Close-by-One). L'algorithme doit parcourir le contexte formellement et générer tous les concepts valides en une seule itération structurelle, sans appels récursifs redondants, ni recalculs d'opérateurs de fermeture inutiles.
+    Mesure du temps CPU : Utilise impérativement une bibliothèque dédiée pour isoler le temps processeur pur (ex: time.process_time() du module standard time, ou psutil.process_time()). Affiche le résultat formaté (Temps CPU : X.XXXX secondes) dans la console à la fin du script. Le temps d'I/O (lecture CSV/écriture DOT) ne doit pas être inclus dans cette mesure.
+    Styling des nœuds : Applique dynamiquement fillcolor=lightblue aux concepts extrémaux (borne inférieure I:0/E:max et borne supérieure I:max/E:0). Applique fillcolor=orange à au moins un concept intermédiaire pivot. Ommets l'attribut fillcolor pour les autres nœuds (style par défaut).
+    Robustesse & Validation : Vérifie la cohérence du CSV (dimensions, valeurs binaires, séparateurs). Gère les cas dégénérés (contexte vide ou unitaire) sans crash.
+    Qualité du code : Utilise des type hints, des docstrings, respecte PEP 8, et commente les étapes mathématiques clés (dérivation, fermeture, génération lectic). Ne génère aucun code superflu.
