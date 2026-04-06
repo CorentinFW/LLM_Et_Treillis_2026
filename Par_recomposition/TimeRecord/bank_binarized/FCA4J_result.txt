@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T15:40:24+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: bank_binarized
+CSV: FCA4J/bank_binarized/bank_binarized.csv
+DOT: FCA4J/bank_binarized/Lattice/bank_binarized.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/bank_binarized/bank_binarized.csv -i CSV -s SEMICOLON -g FCA4J/bank_binarized/Lattice/bank_binarized.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: bank_binarized.csv ( 4521 x 3720 )
+duration: 73558 ms

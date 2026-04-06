@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {"id": "eg9_9", "label": "eg9_9", "tags": ["synthetic", "small"]},
+    {"id": "eg20_20", "label": "eg20_20", "tags": ["synthetic", "small"]},
+    {"id": "eg30_30", "label": "eg30_30", "tags": ["synthetic", "medium"]},
+    {"id": "eg40_40", "label": "eg40_40", "tags": ["synthetic", "medium"]},
+    {"id": "eg50_50", "label": "eg50_50", "tags": ["synthetic", "large"]},
+    {"id": "eg80_80", "label": "eg80_80", "tags": ["synthetic", "large"]},
+    {"id": "Animals11", "label": "Animals11", "tags": ["real", "small"]},
+    {"id": "balance-scale_binarized", "label": "balance-scale_binarized", "tags": ["real", "medium"]},
+    {"id": "bank_binarized", "label": "bank_binarized", "tags": ["real", "large"]},
+    {"id": "breast-cancer_binarized", "label": "breast-cancer_binarized", "tags": ["real", "medium"]},
+    {"id": "car_binarized", "label": "car_binarized", "tags": ["real", "medium"]},
+    {"id": "chess_binarized", "label": "chess_binarized", "tags": ["real", "large"]},
+    {"id": "cmc_binarized", "label": "cmc_binarized", "tags": ["real", "medium"]},
+    {"id": "connect-4_binarized", "label": "connect-4_binarized", "tags": ["real", "large"]},
+    {"id": "lymphography_binarized", "label": "lymphography_binarized", "tags": ["real", "medium"]},
+    {"id": "monks-1_binarized", "label": "monks-1_binarized", "tags": ["real", "small"]},
+    {"id": "mushrooms_binarized", "label": "mushrooms_binarized", "tags": ["real", "large"]},
+    {"id": "nursery_binarized", "label": "nursery_binarized", "tags": ["real", "large"]},
+    {"id": "plants_binarized", "label": "plants_binarized", "tags": ["real", "medium"]}
+  ]
+}

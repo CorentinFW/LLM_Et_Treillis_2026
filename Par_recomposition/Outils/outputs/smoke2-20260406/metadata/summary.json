@@ -1,0 +1,10 @@
+{
+  "run_id": "smoke2-20260406",
+  "finished_at": "2026-04-06T12:01:38+02:00",
+  "stages_requested": [
+    "report"
+  ],
+  "stage_status": {
+    "report": "OK"
+  }
+}

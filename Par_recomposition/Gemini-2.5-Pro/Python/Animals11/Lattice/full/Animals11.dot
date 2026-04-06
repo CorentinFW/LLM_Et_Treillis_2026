@@ -1,0 +1,34 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 10)||ladybird\nbat\nostrich\ngreater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\nwood-pecker\ngiant-otter\narctic-tern\n}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 1, E: 8)|flies\n|ladybird\nbat\ngreater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\nwood-pecker\narctic-tern\n}"];
+2 [shape=record,style=filled,label="{2 (I: 2, E: 1)|flies\nnocturnal\n|bat\n}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 11, E: 0)|flies\nnocturnal\nfeathered\nmigratory\nred-bill\nelytra\nsea-habitat\nwood-habitat\nsix-legged\neats-fish\nwater-habitat\n|}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 2, E: 6)|flies\nfeathered\n|greater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\nwood-pecker\narctic-tern\n}"];
+5 [shape=record,style=filled,label="{5 (I: 1, E: 7)|feathered\n|ostrich\ngreater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\nwood-pecker\narctic-tern\n}"];
+6 [shape=record,style=filled,fillcolor=orange,label="{6 (I: 6, E: 3)|flies\nfeathered\nmigratory\nsea-habitat\neats-fish\nwater-habitat\n|greater-flamingo\nlittle-tern\narctic-tern\n}"];
+7 [shape=record,style=filled,label="{7 (I: 7, E: 1)|flies\nfeathered\nmigratory\nred-bill\nsea-habitat\neats-fish\nwater-habitat\n|arctic-tern\n}"];
+8 [shape=record,style=filled,label="{8 (I: 6, E: 2)|flies\nfeathered\nred-bill\nsea-habitat\neats-fish\nwater-habitat\n|silver-gull\narctic-tern\n}"];
+9 [shape=record,style=filled,label="{9 (I: 3, E: 1)|flies\nelytra\nsix-legged\n|ladybird\n}"];
+10 [shape=record,style=filled,label="{10 (I: 5, E: 5)|flies\nfeathered\nsea-habitat\neats-fish\nwater-habitat\n|greater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\narctic-tern\n}"];
+11 [shape=record,style=filled,label="{11 (I: 3, E: 1)|flies\nfeathered\nwood-habitat\n|wood-pecker\n}"];
+12 [shape=record,style=filled,label="{12 (I: 2, E: 6)|eats-fish\nwater-habitat\n|greater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\ngiant-otter\narctic-tern\n}"];
+	1 -> 0
+	2 -> 1
+	3 -> 2
+	3 -> 7
+	3 -> 9
+	3 -> 11
+	4 -> 1
+	4 -> 5
+	5 -> 0
+	6 -> 10
+	7 -> 6
+	7 -> 8
+	8 -> 10
+	9 -> 1
+	10 -> 4
+	10 -> 12
+	11 -> 4
+	12 -> 0
+}

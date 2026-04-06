@@ -1,0 +1,36 @@
+digraph G {
+rankdir=BT;
+
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 0, E: 10)||}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 1, E: 8)|flies|}"];
+6 [shape=record,label="{6 (I: 1, E: 7)|feathered|ostrich}"];
+2 [shape=record,label="{2 (I: 2, E: 6)|eats-fish, water-habitat|giant-otter}"];
+5 [shape=record,label="{5 (I: 2, E: 1)|nocturnal|bat}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{7 (I: 2, E: 6)||}"];
+4 [shape=record,label="{4 (I: 3, E: 1)|elytra, six-legged|ladybird}"];
+8 [shape=record,label="{8 (I: 3, E: 1)|wood-habitat|wood-pecker}"];
+9 [shape=record,label="{9 (I: 5, E: 5)|sea-habitat|great-auk}"];
+10 [shape=record,label="{10 (I: 6, E: 2)|red-bill|silver-gull}"];
+11 [shape=record,style=filled,fillcolor=orange,label="{11 (I: 6, E: 3)|migratory|greater-flamingo, little-tern}"];
+12 [shape=record,label="{12 (I: 7, E: 1)||arctic-tern}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 11, E: 0)||}"];
+
+1 -> 3;
+1 -> 6;
+1 -> 2;
+3 -> 5;
+3 -> 7;
+3 -> 4;
+6 -> 7;
+2 -> 9;
+5 -> 13;
+7 -> 8;
+7 -> 9;
+4 -> 13;
+8 -> 13;
+9 -> 10;
+9 -> 11;
+10 -> 12;
+11 -> 12;
+12 -> 13;
+}

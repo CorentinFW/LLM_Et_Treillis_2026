@@ -1,0 +1,8 @@
+Command: java -jar /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar LATTICE /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg9_9/eg9_9.csv -i CSV -s SEMICOLON -g /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg9_9/Lattice/eg9_9.dot
+Status: OK
+Elapsed: 0.105
+--- STDOUT ---
+running ADD_EXTENT (BITSET) data: eg9_9.csv ( 9 x 9 )
+duration: 15 ms
+
+--- STDERR ---

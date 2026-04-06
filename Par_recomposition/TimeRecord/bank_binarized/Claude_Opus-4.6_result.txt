@@ -1,0 +1,76 @@
+============================================================
+Date: 2026-03-28T15:45:55+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2.py
+Dataset: bank_binarized
+CSV: Claude_Opus-4.6/Python/bank_binarized/bank_binarized.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2.py Claude_Opus-4.6/Python/bank_binarized/bank_binarized.csv
+------------------------------------------------------------
+Chargement du contexte depuis Claude_Opus-4.6/Python/bank_binarized/bank_binarized.csv ...
+  |G| = 4521 objets, |M| = 3720 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 10777 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+    ... 1000 concepts énumérés
+    ... 2000 concepts énumérés
+    ... 3000 concepts énumérés
+    ... 4000 concepts énumérés
+    ... 5000 concepts énumérés
+    ... 6000 concepts énumérés
+    ... 7000 concepts énumérés
+    ... 8000 concepts énumérés
+    ... 9000 concepts énumérés
+    ... 10000 concepts énumérés
+    ... 11000 concepts énumérés
+    ... 12000 concepts énumérés
+    ... 13000 concepts énumérés
+    ... 14000 concepts énumérés
+    ... 15000 concepts énumérés
+    ... 16000 concepts énumérés
+    ... 17000 concepts énumérés
+    ... 18000 concepts énumérés
+    ... 19000 concepts énumérés
+    ... 20000 concepts énumérés
+    ... 21000 concepts énumérés
+    ... 22000 concepts énumérés
+    ... 23000 concepts énumérés
+    ... 24000 concepts énumérés
+    ... 25000 concepts énumérés
+    ... 26000 concepts énumérés
+    ... 27000 concepts énumérés
+    ... 28000 concepts énumérés
+    ... 29000 concepts énumérés
+    ... 30000 concepts énumérés
+    ... 31000 concepts énumérés
+    ... 32000 concepts énumérés
+    ... 33000 concepts énumérés
+    ... 34000 concepts énumérés
+    ... 35000 concepts énumérés
+    ... 36000 concepts énumérés
+CPU time (self): 19667.375695 s
+Traceback (most recent call last):
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 300, in <module>
+    raise SystemExit(main())
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 288, in main
+    return _run_as_script(target, algo_args)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 153, in _run_as_script
+    runpy.run_path(script_path, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py", line 993, in <module>
+    main()
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py", line 965, in main
+    total = next_closure_partition(
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py", line 548, in next_closure_partition
+    result = next_closure(current_intent, n_attrs, attr_objs, obj_attrs,
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py", line 377, in next_closure
+    d_intent, d_extent = closure(candidate, attr_objs, obj_attrs,
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py", line 319, in closure
+    extent = prime_attrs(attr_set, attr_objs, all_objs)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py", line 284, in prime_attrs
+    while tmp:
+KeyboardInterrupt

@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T11:41:46+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: eg50_50
+CSV: FCA4J/eg50_50/eg50_50.csv
+DOT: FCA4J/eg50_50/Lattice/eg50_50.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/eg50_50/eg50_50.csv -i CSV -s SEMICOLON -g FCA4J/eg50_50/Lattice/eg50_50.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: eg50_50.csv ( 50 x 50 )
+duration: 2753 ms

@@ -1,0 +1,28 @@
+{
+  "algorithms": [
+    {
+      "id": "fca4j",
+      "label": "FCA4J ADD_EXTENT",
+      "csv_path_template": "{repo_root}/FCA4J/{dataset_id}/{dataset_id}.csv",
+      "command_template": "java -jar {repo_root}/FCA4J/fca4j-cli-0.4.4.jar LATTICE {csv_path} -i CSV -s SEMICOLON -g {repo_root}/FCA4J/{dataset_id}/Lattice/{dataset_id}.dot",
+      "dot_glob_template": "{repo_root}/FCA4J/{dataset_id}/Lattice/{dataset_id}.dot",
+      "timeout_seconds": 900
+    },
+    {
+      "id": "claude_lattice2",
+      "label": "Claude Opus lattice2.py",
+      "csv_path_template": "{repo_root}/Claude_Opus-4.6/Python/{dataset_id}/{dataset_id}.csv",
+      "command_template": "python3 {repo_root}/Outils/run_with_cpu_time.py {repo_root}/Claude_Opus-4.6/Python/lattice2.py {csv_path}",
+      "dot_glob_template": "{repo_root}/Claude_Opus-4.6/Python/{dataset_id}/Lattice/{dataset_id}_LLM*.dot",
+      "timeout_seconds": 900
+    },
+    {
+      "id": "gpt53_lattice",
+      "label": "GPT-5.3-Codex lattice.py",
+      "csv_path_template": "{repo_root}/GPT-5.3-Codex/Python/{dataset_id}/{dataset_id}.csv",
+      "command_template": "python3 {repo_root}/Outils/run_with_cpu_time.py {repo_root}/GPT-5.3-Codex/Python/lattice.py {csv_path}",
+      "dot_glob_template": "{repo_root}/GPT-5.3-Codex/Python/{dataset_id}/Lattice/{dataset_id}_LLM*.dot",
+      "timeout_seconds": 900
+    }
+  ]
+}

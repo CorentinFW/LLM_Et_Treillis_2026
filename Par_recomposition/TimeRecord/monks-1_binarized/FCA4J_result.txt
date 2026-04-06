@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T15:43:21+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: monks-1_binarized
+CSV: FCA4J/monks-1_binarized/monks-1_binarized.csv
+DOT: FCA4J/monks-1_binarized/Lattice/monks-1_binarized.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/monks-1_binarized/monks-1_binarized.csv -i CSV -s SEMICOLON -g FCA4J/monks-1_binarized/Lattice/monks-1_binarized.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: monks-1_binarized.csv ( 432 x 0 )
+duration: 9 ms

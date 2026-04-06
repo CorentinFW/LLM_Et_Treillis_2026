@@ -1,0 +1,28 @@
+{
+  "algorithm_id": "fca4j",
+  "dataset_id": "eg9_9",
+  "command": [
+    "java",
+    "-jar",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar",
+    "LATTICE",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg9_9/eg9_9.csv",
+    "-i",
+    "CSV",
+    "-s",
+    "SEMICOLON",
+    "-g",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg9_9/Lattice/eg9_9.dot"
+  ],
+  "timeout_seconds": 900,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg9_9/eg9_9.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.105,
+  "started_at": "2026-04-06T12:01:21+02:00",
+  "finished_at": "2026-04-06T12:01:21+02:00",
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg9_9/Lattice/eg9_9.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/smoke2-20260406/execution/dots/fca4j__eg9_9.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/smoke2-20260406/execution/logs/fca4j__eg9_9.log"
+}

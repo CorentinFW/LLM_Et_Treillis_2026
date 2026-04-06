@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T15:42:21+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: chess_binarized
+CSV: FCA4J/chess_binarized/chess_binarized.csv
+DOT: FCA4J/chess_binarized/Lattice/chess_binarized.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/chess_binarized/chess_binarized.csv -i CSV -s SEMICOLON -g FCA4J/chess_binarized/Lattice/chess_binarized.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: chess_binarized.csv ( 3196 x 0 )
+duration: 9 ms

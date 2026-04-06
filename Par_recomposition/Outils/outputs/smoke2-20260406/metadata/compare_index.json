@@ -1,0 +1,1163 @@
+{
+  "stage": "compare",
+  "generated_at": "2026-04-06T12:01:38+02:00",
+  "total_pairs": 3,
+  "results": [
+    {
+      "dataset_id": "eg9_9",
+      "left_algorithm": "claude_lattice2",
+      "right_algorithm": "fca4j",
+      "status": "OK",
+      "returncode": 0,
+      "stdout": "{\n  \"equivalent\": true,\n  \"ambiguous\": false,\n  \"assumptions\": [\n    \"Chaque nœud logique du treillis possède une signature canonique unique dans un fichier donné.\",\n    \"Les labels de concepts suivent la structure Graphviz record '{id (I: x, E: y)|attributs|objets}'.\",\n    \"Les différences de formatage (ordre des attributs/objets, sauts de ligne, espaces, \\\\n) ne changent pas le contenu logique.\"\n  ],\n  \"node_count_file1\": 34,\n  \"node_count_file2\": 34,\n  \"edge_count_file1\": 72,\n  \"edge_count_file2\": 72,\n  \"correspondence_rows\": [\n    {\n      \"Commun\": \"C1\",\n      \"fichier1\": \"0\",\n      \"fichier2\": \"0\",\n      \"signature\": \"(I: 0, E: 9)||o1,o2,o3,o4,o5,o6,o7,o8,o9\"\n    },\n    {\n      \"Commun\": \"C2\",\n      \"fichier1\": \"1\",\n      \"fichier2\": \"1\",\n      \"signature\": \"(I: 1, E: 3)|a1|o4,o5,o7\"\n    },\n    {\n      \"Commun\": \"C3\",\n      \"fichier1\": \"5\",\n      \"fichier2\": \"33\",\n      \"signature\": \"(I: 1, E: 5)|a9|o2,o5,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C4\",\n      \"fichier1\": \"2\",\n      \"fichier2\": \"3\",\n      \"signature\": \"(I: 1, E: 6)|a2|o1,o2,o5,o6,o7,o9\"\n    },\n    {\n      \"Commun\": \"C5\",\n      \"fichier1\": \"3\",\n      \"fichier2\": \"14\",\n      \"signature\": \"(I: 1, E: 6)|a5|o1,o3,o4,o7,o8,o9\"\n    },\n    {\n      \"Commun\": \"C6\",\n      \"fichier1\": \"4\",\n      \"fichier2\": \"22\",\n      \"signature\": \"(I: 1, E: 7)|a8|o1,o2,o3,o4,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C7\",\n      \"fichier1\": \"6\",\n      \"fichier2\": \"2\",\n      \"signature\": \"(I: 2, E: 2)|a1,a2|o5,o7\"\n    },\n    {\n      \"Commun\": \"C8\",\n      \"fichier1\": \"8\",\n      \"fichier2\": \"11\",\n      \"signature\": \"(I: 2, E: 2)|a1,a5|o4,o7\"\n    },\n    {\n      \"Commun\": \"C9\",\n      \"fichier1\": \"7\",\n      \"fichier2\": \"10\",\n      \"signature\": \"(I: 2, E: 4)|a2,a4|o1,o6,o7,o9\"\n    },\n    {\n      \"Commun\": \"C10\",\n      \"fichier1\": \"9\",\n      \"fichier2\": \"20\",\n      \"signature\": \"(I: 2, E: 4)|a2,a8|o1,o2,o6,o9\"\n    },\n    {\n      \"Commun\": \"C11\",\n      \"fichier1\": \"12\",\n      \"fichier2\": \"28\",\n      \"signature\": \"(I: 2, E: 4)|a2,a9|o2,o5,o6,o9\"\n    },\n    {\n      \"Commun\": \"C12\",\n      \"fichier1\": \"10\",\n      \"fichier2\": \"7\",\n      \"signature\": \"(I: 2, E: 4)|a3,a8|o1,o2,o4,o8\"\n    },\n    {\n      \"Commun\": \"C13\",\n      \"fichier1\": \"13\",\n      \"fichier2\": \"32\",\n      \"signature\": \"(I: 2, E: 4)|a8,a9|o2,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C14\",\n      \"fichier1\": \"11\",\n      \"fichier2\": \"21\",\n      \"signature\": \"(I: 2, E: 5)|a5,a8|o1,o3,o4,o8,o9\"\n    },\n    {\n      \"Commun\": \"C15\",\n      \"fichier1\": \"20\",\n      \"fichier2\": \"23\",\n      \"signature\": \"(I: 3, E: 1)|a1,a2,a9|o5\"\n    },\n    {\n      \"Commun\": \"C16\",\n      \"fichier1\": \"15\",\n      \"fichier2\": \"6\",\n      \"signature\": \"(I: 3, E: 2)|a2,a3,a8|o1,o2\"\n    },\n    {\n      \"Commun\": \"C17\",\n      \"fichier1\": \"22\",\n      \"fichier2\": \"31\",\n      \"signature\": \"(I: 3, E: 2)|a3,a8,a9|o2,o8\"\n    },\n    {\n      \"Commun\": \"C18\",\n      \"fichier1\": \"18\",\n      \"fichier2\": \"15\",\n      \"signature\": \"(I: 3, E: 2)|a5,a6,a8|o1,o3\"\n    },\n    {\n      \"Commun\": \"C19\",\n      \"fichier1\": \"19\",\n      \"fichier2\": \"17\",\n      \"signature\": \"(I: 3, E: 2)|a5,a7,a8|o3,o4\"\n    },\n    {\n      \"Commun\": \"C20\",\n      \"fichier1\": \"23\",\n      \"fichier2\": \"30\",\n      \"signature\": \"(I: 3, E: 2)|a5,a8,a9|o8,o9\"\n    },\n    {\n      \"Commun\": \"C21\",\n      \"fichier1\": \"14\",\n      \"fichier2\": \"12\",\n      \"signature\": \"(I: 3, E: 3)|a2,a4,a5|o1,o7,o9\"\n    },\n    {\n      \"Commun\": \"C22\",\n      \"fichier1\": \"16\",\n      \"fichier2\": \"19\",\n      \"signature\": \"(I: 3, E: 3)|a2,a4,a8|o1,o6,o9\"\n    },\n    {\n      \"Commun\": \"C23\",\n      \"fichier1\": \"21\",\n      \"fichier2\": \"27\",\n      \"signature\": \"(I: 3, E: 3)|a2,a8,a9|o2,o6,o9\"\n    },\n    {\n      \"Commun\": \"C24\",\n      \"fichier1\": \"17\",\n      \"fichier2\": \"13\",\n      \"signature\": \"(I: 3, E: 3)|a3,a5,a8|o1,o4,o8\"\n    },\n    {\n      \"Commun\": \"C25\",\n      \"fichier1\": \"24\",\n      \"fichier2\": \"8\",\n      \"signature\": \"(I: 4, E: 1)|a1,a2,a4,a5|o7\"\n    },\n    {\n      \"Commun\": \"C26\",\n      \"fichier1\": \"27\",\n      \"fichier2\": \"26\",\n      \"signature\": \"(I: 4, E: 1)|a2,a3,a8,a9|o2\"\n    },\n    {\n      \"Commun\": \"C27\",\n      \"fichier1\": \"29\",\n      \"fichier2\": \"29\",\n      \"signature\": \"(I: 4, E: 1)|a3,a5,a8,a9|o8\"\n    },\n    {\n      \"Commun\": \"C28\",\n      \"fichier1\": \"26\",\n      \"fichier2\": \"16\",\n      \"signature\": \"(I: 4, E: 1)|a5,a6,a7,a8|o3\"\n    },\n    {\n      \"Commun\": \"C29\",\n      \"fichier1\": \"25\",\n      \"fichier2\": \"18\",\n      \"signature\": \"(I: 4, E: 2)|a2,a4,a5,a8|o1,o9\"\n    },\n    {\n      \"Commun\": \"C30\",\n      \"fichier1\": \"28\",\n      \"fichier2\": \"25\",\n      \"signature\": \"(I: 4, E: 2)|a2,a4,a8,a9|o6,o9\"\n    },\n    {\n      \"Commun\": \"C31\",\n      \"fichier1\": \"30\",\n      \"fichier2\": \"5\",\n      \"signature\": \"(I: 5, E: 1)|a1,a3,a5,a7,a8|o4\"\n    },\n    {\n      \"Commun\": \"C32\",\n      \"fichier1\": \"31\",\n      \"fichier2\": \"24\",\n      \"signature\": \"(I: 5, E: 1)|a2,a4,a5,a8,a9|o9\"\n    },\n    {\n      \"Commun\": \"C33\",\n      \"fichier1\": \"32\",\n      \"fichier2\": \"9\",\n      \"signature\": \"(I: 6, E: 1)|a2,a3,a4,a5,a6,a8|o1\"\n    },\n    {\n      \"Commun\": \"C34\",\n      \"fichier1\": \"33\",\n      \"fichier2\": \"4\",\n      \"signature\": \"(I: 9, E: 0)|a1,a2,a3,a4,a5,a6,a7,a8,a9|\"\n    }\n  ],\n  \"only_in_file1\": [],\n  \"only_in_file2\": [],\n  \"ambiguous_in_file1\": {},\n  \"ambiguous_in_file2\": {},\n  \"normalized_edges_file1\": [\n    \"C10 -> C4\",\n    \"C10 -> C6\",\n    \"C11 -> C3\",\n    \"C11 -> C4\",\n    \"C12 -> C6\",\n    \"C13 -> C3\",\n    \"C13 -> C6\",\n    \"C14 -> C5\",\n    \"C14 -> C6\",\n    \"C15 -> C11\",\n    \"C15 -> C7\",\n    \"C16 -> C10\",\n    \"C16 -> C12\",\n    \"C17 -> C12\",\n    \"C17 -> C13\",\n    \"C18 -> C14\",\n    \"C19 -> C14\",\n    \"C2 -> C1\",\n    \"C20 -> C13\",\n    \"C20 -> C14\",\n    \"C21 -> C5\",\n    \"C21 -> C9\",\n    \"C22 -> C10\",\n    \"C22 -> C9\",\n    \"C23 -> C10\",\n    \"C23 -> C11\",\n    \"C23 -> C13\",\n    \"C24 -> C12\",\n    \"C24 -> C14\",\n    \"C25 -> C21\",\n    \"C25 -> C7\",\n    \"C25 -> C8\",\n    \"C26 -> C16\",\n    \"C26 -> C17\",\n    \"C26 -> C23\",\n    \"C27 -> C17\",\n    \"C27 -> C20\",\n    \"C27 -> C24\",\n    \"C28 -> C18\",\n    \"C28 -> C19\",\n    \"C29 -> C14\",\n    \"C29 -> C21\",\n    \"C29 -> C22\",\n    \"C3 -> C1\",\n    \"C30 -> C22\",\n    \"C30 -> C23\",\n    \"C31 -> C19\",\n    \"C31 -> C24\",\n    \"C31 -> C8\",\n    \"C32 -> C20\",\n    \"C32 -> C29\",\n    \"C32 -> C30\",\n    \"C33 -> C16\",\n    \"C33 -> C18\",\n    \"C33 -> C24\",\n    \"C33 -> C29\",\n    \"C34 -> C15\",\n    \"C34 -> C25\",\n    \"C34 -> C26\",\n    \"C34 -> C27\",\n    \"C34 -> C28\",\n    \"C34 -> C31\",\n    \"C34 -> C32\",\n    \"C34 -> C33\",\n    \"C4 -> C1\",\n    \"C5 -> C1\",\n    \"C6 -> C1\",\n    \"C7 -> C2\",\n    \"C7 -> C4\",\n    \"C8 -> C2\",\n    \"C8 -> C5\",\n    \"C9 -> C4\"\n  ],\n  \"normalized_edges_file2\": [\n    \"C10 -> C4\",\n    \"C10 -> C6\",\n    \"C11 -> C3\",\n    \"C11 -> C4\",\n    \"C12 -> C6\",\n    \"C13 -> C3\",\n    \"C13 -> C6\",\n    \"C14 -> C5\",\n    \"C14 -> C6\",\n    \"C15 -> C11\",\n    \"C15 -> C7\",\n    \"C16 -> C10\",\n    \"C16 -> C12\",\n    \"C17 -> C12\",\n    \"C17 -> C13\",\n    \"C18 -> C14\",\n    \"C19 -> C14\",\n    \"C2 -> C1\",\n    \"C20 -> C13\",\n    \"C20 -> C14\",\n    \"C21 -> C5\",\n    \"C21 -> C9\",\n    \"C22 -> C10\",\n    \"C22 -> C9\",\n    \"C23 -> C10\",\n    \"C23 -> C11\",\n    \"C23 -> C13\",\n    \"C24 -> C12\",\n    \"C24 -> C14\",\n    \"C25 -> C21\",\n    \"C25 -> C7\",\n    \"C25 -> C8\",\n    \"C26 -> C16\",\n    \"C26 -> C17\",\n    \"C26 -> C23\",\n    \"C27 -> C17\",\n    \"C27 -> C20\",\n    \"C27 -> C24\",\n    \"C28 -> C18\",\n    \"C28 -> C19\",\n    \"C29 -> C14\",\n    \"C29 -> C21\",\n    \"C29 -> C22\",\n    \"C3 -> C1\",\n    \"C30 -> C22\",\n    \"C30 -> C23\",\n    \"C31 -> C19\",\n    \"C31 -> C24\",\n    \"C31 -> C8\",\n    \"C32 -> C20\",\n    \"C32 -> C29\",\n    \"C32 -> C30\",\n    \"C33 -> C16\",\n    \"C33 -> C18\",\n    \"C33 -> C24\",\n    \"C33 -> C29\",\n    \"C34 -> C15\",\n    \"C34 -> C25\",\n    \"C34 -> C26\",\n    \"C34 -> C27\",\n    \"C34 -> C28\",\n    \"C34 -> C31\",\n    \"C34 -> C32\",\n    \"C34 -> C33\",\n    \"C4 -> C1\",\n    \"C5 -> C1\",\n    \"C6 -> C1\",\n    \"C7 -> C2\",\n    \"C7 -> C4\",\n    \"C8 -> C2\",\n    \"C8 -> C5\",\n    \"C9 -> C4\"\n  ],\n  \"edges_only_in_file1\": [],\n  \"edges_only_in_file2\": []\n}\n",
+      "stderr": "",
+      "equivalent": true,
+      "report": {
+        "equivalent": true,
+        "ambiguous": false,
+        "assumptions": [
+          "Chaque nœud logique du treillis possède une signature canonique unique dans un fichier donné.",
+          "Les labels de concepts suivent la structure Graphviz record '{id (I: x, E: y)|attributs|objets}'.",
+          "Les différences de formatage (ordre des attributs/objets, sauts de ligne, espaces, \\n) ne changent pas le contenu logique."
+        ],
+        "node_count_file1": 34,
+        "node_count_file2": 34,
+        "edge_count_file1": 72,
+        "edge_count_file2": 72,
+        "correspondence_rows": [
+          {
+            "Commun": "C1",
+            "fichier1": "0",
+            "fichier2": "0",
+            "signature": "(I: 0, E: 9)||o1,o2,o3,o4,o5,o6,o7,o8,o9"
+          },
+          {
+            "Commun": "C2",
+            "fichier1": "1",
+            "fichier2": "1",
+            "signature": "(I: 1, E: 3)|a1|o4,o5,o7"
+          },
+          {
+            "Commun": "C3",
+            "fichier1": "5",
+            "fichier2": "33",
+            "signature": "(I: 1, E: 5)|a9|o2,o5,o6,o8,o9"
+          },
+          {
+            "Commun": "C4",
+            "fichier1": "2",
+            "fichier2": "3",
+            "signature": "(I: 1, E: 6)|a2|o1,o2,o5,o6,o7,o9"
+          },
+          {
+            "Commun": "C5",
+            "fichier1": "3",
+            "fichier2": "14",
+            "signature": "(I: 1, E: 6)|a5|o1,o3,o4,o7,o8,o9"
+          },
+          {
+            "Commun": "C6",
+            "fichier1": "4",
+            "fichier2": "22",
+            "signature": "(I: 1, E: 7)|a8|o1,o2,o3,o4,o6,o8,o9"
+          },
+          {
+            "Commun": "C7",
+            "fichier1": "6",
+            "fichier2": "2",
+            "signature": "(I: 2, E: 2)|a1,a2|o5,o7"
+          },
+          {
+            "Commun": "C8",
+            "fichier1": "8",
+            "fichier2": "11",
+            "signature": "(I: 2, E: 2)|a1,a5|o4,o7"
+          },
+          {
+            "Commun": "C9",
+            "fichier1": "7",
+            "fichier2": "10",
+            "signature": "(I: 2, E: 4)|a2,a4|o1,o6,o7,o9"
+          },
+          {
+            "Commun": "C10",
+            "fichier1": "9",
+            "fichier2": "20",
+            "signature": "(I: 2, E: 4)|a2,a8|o1,o2,o6,o9"
+          },
+          {
+            "Commun": "C11",
+            "fichier1": "12",
+            "fichier2": "28",
+            "signature": "(I: 2, E: 4)|a2,a9|o2,o5,o6,o9"
+          },
+          {
+            "Commun": "C12",
+            "fichier1": "10",
+            "fichier2": "7",
+            "signature": "(I: 2, E: 4)|a3,a8|o1,o2,o4,o8"
+          },
+          {
+            "Commun": "C13",
+            "fichier1": "13",
+            "fichier2": "32",
+            "signature": "(I: 2, E: 4)|a8,a9|o2,o6,o8,o9"
+          },
+          {
+            "Commun": "C14",
+            "fichier1": "11",
+            "fichier2": "21",
+            "signature": "(I: 2, E: 5)|a5,a8|o1,o3,o4,o8,o9"
+          },
+          {
+            "Commun": "C15",
+            "fichier1": "20",
+            "fichier2": "23",
+            "signature": "(I: 3, E: 1)|a1,a2,a9|o5"
+          },
+          {
+            "Commun": "C16",
+            "fichier1": "15",
+            "fichier2": "6",
+            "signature": "(I: 3, E: 2)|a2,a3,a8|o1,o2"
+          },
+          {
+            "Commun": "C17",
+            "fichier1": "22",
+            "fichier2": "31",
+            "signature": "(I: 3, E: 2)|a3,a8,a9|o2,o8"
+          },
+          {
+            "Commun": "C18",
+            "fichier1": "18",
+            "fichier2": "15",
+            "signature": "(I: 3, E: 2)|a5,a6,a8|o1,o3"
+          },
+          {
+            "Commun": "C19",
+            "fichier1": "19",
+            "fichier2": "17",
+            "signature": "(I: 3, E: 2)|a5,a7,a8|o3,o4"
+          },
+          {
+            "Commun": "C20",
+            "fichier1": "23",
+            "fichier2": "30",
+            "signature": "(I: 3, E: 2)|a5,a8,a9|o8,o9"
+          },
+          {
+            "Commun": "C21",
+            "fichier1": "14",
+            "fichier2": "12",
+            "signature": "(I: 3, E: 3)|a2,a4,a5|o1,o7,o9"
+          },
+          {
+            "Commun": "C22",
+            "fichier1": "16",
+            "fichier2": "19",
+            "signature": "(I: 3, E: 3)|a2,a4,a8|o1,o6,o9"
+          },
+          {
+            "Commun": "C23",
+            "fichier1": "21",
+            "fichier2": "27",
+            "signature": "(I: 3, E: 3)|a2,a8,a9|o2,o6,o9"
+          },
+          {
+            "Commun": "C24",
+            "fichier1": "17",
+            "fichier2": "13",
+            "signature": "(I: 3, E: 3)|a3,a5,a8|o1,o4,o8"
+          },
+          {
+            "Commun": "C25",
+            "fichier1": "24",
+            "fichier2": "8",
+            "signature": "(I: 4, E: 1)|a1,a2,a4,a5|o7"
+          },
+          {
+            "Commun": "C26",
+            "fichier1": "27",
+            "fichier2": "26",
+            "signature": "(I: 4, E: 1)|a2,a3,a8,a9|o2"
+          },
+          {
+            "Commun": "C27",
+            "fichier1": "29",
+            "fichier2": "29",
+            "signature": "(I: 4, E: 1)|a3,a5,a8,a9|o8"
+          },
+          {
+            "Commun": "C28",
+            "fichier1": "26",
+            "fichier2": "16",
+            "signature": "(I: 4, E: 1)|a5,a6,a7,a8|o3"
+          },
+          {
+            "Commun": "C29",
+            "fichier1": "25",
+            "fichier2": "18",
+            "signature": "(I: 4, E: 2)|a2,a4,a5,a8|o1,o9"
+          },
+          {
+            "Commun": "C30",
+            "fichier1": "28",
+            "fichier2": "25",
+            "signature": "(I: 4, E: 2)|a2,a4,a8,a9|o6,o9"
+          },
+          {
+            "Commun": "C31",
+            "fichier1": "30",
+            "fichier2": "5",
+            "signature": "(I: 5, E: 1)|a1,a3,a5,a7,a8|o4"
+          },
+          {
+            "Commun": "C32",
+            "fichier1": "31",
+            "fichier2": "24",
+            "signature": "(I: 5, E: 1)|a2,a4,a5,a8,a9|o9"
+          },
+          {
+            "Commun": "C33",
+            "fichier1": "32",
+            "fichier2": "9",
+            "signature": "(I: 6, E: 1)|a2,a3,a4,a5,a6,a8|o1"
+          },
+          {
+            "Commun": "C34",
+            "fichier1": "33",
+            "fichier2": "4",
+            "signature": "(I: 9, E: 0)|a1,a2,a3,a4,a5,a6,a7,a8,a9|"
+          }
+        ],
+        "only_in_file1": [],
+        "only_in_file2": [],
+        "ambiguous_in_file1": {},
+        "ambiguous_in_file2": {},
+        "normalized_edges_file1": [
+          "C10 -> C4",
+          "C10 -> C6",
+          "C11 -> C3",
+          "C11 -> C4",
+          "C12 -> C6",
+          "C13 -> C3",
+          "C13 -> C6",
+          "C14 -> C5",
+          "C14 -> C6",
+          "C15 -> C11",
+          "C15 -> C7",
+          "C16 -> C10",
+          "C16 -> C12",
+          "C17 -> C12",
+          "C17 -> C13",
+          "C18 -> C14",
+          "C19 -> C14",
+          "C2 -> C1",
+          "C20 -> C13",
+          "C20 -> C14",
+          "C21 -> C5",
+          "C21 -> C9",
+          "C22 -> C10",
+          "C22 -> C9",
+          "C23 -> C10",
+          "C23 -> C11",
+          "C23 -> C13",
+          "C24 -> C12",
+          "C24 -> C14",
+          "C25 -> C21",
+          "C25 -> C7",
+          "C25 -> C8",
+          "C26 -> C16",
+          "C26 -> C17",
+          "C26 -> C23",
+          "C27 -> C17",
+          "C27 -> C20",
+          "C27 -> C24",
+          "C28 -> C18",
+          "C28 -> C19",
+          "C29 -> C14",
+          "C29 -> C21",
+          "C29 -> C22",
+          "C3 -> C1",
+          "C30 -> C22",
+          "C30 -> C23",
+          "C31 -> C19",
+          "C31 -> C24",
+          "C31 -> C8",
+          "C32 -> C20",
+          "C32 -> C29",
+          "C32 -> C30",
+          "C33 -> C16",
+          "C33 -> C18",
+          "C33 -> C24",
+          "C33 -> C29",
+          "C34 -> C15",
+          "C34 -> C25",
+          "C34 -> C26",
+          "C34 -> C27",
+          "C34 -> C28",
+          "C34 -> C31",
+          "C34 -> C32",
+          "C34 -> C33",
+          "C4 -> C1",
+          "C5 -> C1",
+          "C6 -> C1",
+          "C7 -> C2",
+          "C7 -> C4",
+          "C8 -> C2",
+          "C8 -> C5",
+          "C9 -> C4"
+        ],
+        "normalized_edges_file2": [
+          "C10 -> C4",
+          "C10 -> C6",
+          "C11 -> C3",
+          "C11 -> C4",
+          "C12 -> C6",
+          "C13 -> C3",
+          "C13 -> C6",
+          "C14 -> C5",
+          "C14 -> C6",
+          "C15 -> C11",
+          "C15 -> C7",
+          "C16 -> C10",
+          "C16 -> C12",
+          "C17 -> C12",
+          "C17 -> C13",
+          "C18 -> C14",
+          "C19 -> C14",
+          "C2 -> C1",
+          "C20 -> C13",
+          "C20 -> C14",
+          "C21 -> C5",
+          "C21 -> C9",
+          "C22 -> C10",
+          "C22 -> C9",
+          "C23 -> C10",
+          "C23 -> C11",
+          "C23 -> C13",
+          "C24 -> C12",
+          "C24 -> C14",
+          "C25 -> C21",
+          "C25 -> C7",
+          "C25 -> C8",
+          "C26 -> C16",
+          "C26 -> C17",
+          "C26 -> C23",
+          "C27 -> C17",
+          "C27 -> C20",
+          "C27 -> C24",
+          "C28 -> C18",
+          "C28 -> C19",
+          "C29 -> C14",
+          "C29 -> C21",
+          "C29 -> C22",
+          "C3 -> C1",
+          "C30 -> C22",
+          "C30 -> C23",
+          "C31 -> C19",
+          "C31 -> C24",
+          "C31 -> C8",
+          "C32 -> C20",
+          "C32 -> C29",
+          "C32 -> C30",
+          "C33 -> C16",
+          "C33 -> C18",
+          "C33 -> C24",
+          "C33 -> C29",
+          "C34 -> C15",
+          "C34 -> C25",
+          "C34 -> C26",
+          "C34 -> C27",
+          "C34 -> C28",
+          "C34 -> C31",
+          "C34 -> C32",
+          "C34 -> C33",
+          "C4 -> C1",
+          "C5 -> C1",
+          "C6 -> C1",
+          "C7 -> C2",
+          "C7 -> C4",
+          "C8 -> C2",
+          "C8 -> C5",
+          "C9 -> C4"
+        ],
+        "edges_only_in_file1": [],
+        "edges_only_in_file2": []
+      }
+    },
+    {
+      "dataset_id": "eg9_9",
+      "left_algorithm": "claude_lattice2",
+      "right_algorithm": "gpt53_lattice",
+      "status": "OK",
+      "returncode": 0,
+      "stdout": "{\n  \"equivalent\": true,\n  \"ambiguous\": false,\n  \"assumptions\": [\n    \"Chaque nœud logique du treillis possède une signature canonique unique dans un fichier donné.\",\n    \"Les labels de concepts suivent la structure Graphviz record '{id (I: x, E: y)|attributs|objets}'.\",\n    \"Les différences de formatage (ordre des attributs/objets, sauts de ligne, espaces, \\\\n) ne changent pas le contenu logique.\"\n  ],\n  \"node_count_file1\": 34,\n  \"node_count_file2\": 34,\n  \"edge_count_file1\": 72,\n  \"edge_count_file2\": 72,\n  \"correspondence_rows\": [\n    {\n      \"Commun\": \"C1\",\n      \"fichier1\": \"0\",\n      \"fichier2\": \"1\",\n      \"signature\": \"(I: 0, E: 9)||o1,o2,o3,o4,o5,o6,o7,o8,o9\"\n    },\n    {\n      \"Commun\": \"C2\",\n      \"fichier1\": \"1\",\n      \"fichier2\": \"15\",\n      \"signature\": \"(I: 1, E: 3)|a1|o4,o5,o7\"\n    },\n    {\n      \"Commun\": \"C3\",\n      \"fichier1\": \"5\",\n      \"fichier2\": \"2\",\n      \"signature\": \"(I: 1, E: 5)|a9|o2,o5,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C4\",\n      \"fichier1\": \"2\",\n      \"fichier2\": \"18\",\n      \"signature\": \"(I: 1, E: 6)|a2|o1,o2,o5,o6,o7,o9\"\n    },\n    {\n      \"Commun\": \"C5\",\n      \"fichier1\": \"3\",\n      \"fichier2\": \"5\",\n      \"signature\": \"(I: 1, E: 6)|a5|o1,o3,o4,o7,o8,o9\"\n    },\n    {\n      \"Commun\": \"C6\",\n      \"fichier1\": \"4\",\n      \"fichier2\": \"3\",\n      \"signature\": \"(I: 1, E: 7)|a8|o1,o2,o3,o4,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C7\",\n      \"fichier1\": \"6\",\n      \"fichier2\": \"31\",\n      \"signature\": \"(I: 2, E: 2)|a1,a2|o5,o7\"\n    },\n    {\n      \"Commun\": \"C8\",\n      \"fichier1\": \"8\",\n      \"fichier2\": \"16\",\n      \"signature\": \"(I: 2, E: 2)|a1,a5|o4,o7\"\n    },\n    {\n      \"Commun\": \"C9\",\n      \"fichier1\": \"7\",\n      \"fichier2\": \"22\",\n      \"signature\": \"(I: 2, E: 4)|a2,a4|o1,o6,o7,o9\"\n    },\n    {\n      \"Commun\": \"C10\",\n      \"fichier1\": \"9\",\n      \"fichier2\": \"20\",\n      \"signature\": \"(I: 2, E: 4)|a2,a8|o1,o2,o6,o9\"\n    },\n    {\n      \"Commun\": \"C11\",\n      \"fichier1\": \"12\",\n      \"fichier2\": \"19\",\n      \"signature\": \"(I: 2, E: 4)|a2,a9|o2,o5,o6,o9\"\n    },\n    {\n      \"Commun\": \"C12\",\n      \"fichier1\": \"10\",\n      \"fichier2\": \"11\",\n      \"signature\": \"(I: 2, E: 4)|a3,a8|o1,o2,o4,o8\"\n    },\n    {\n      \"Commun\": \"C13\",\n      \"fichier1\": \"13\",\n      \"fichier2\": \"4\",\n      \"signature\": \"(I: 2, E: 4)|a8,a9|o2,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C14\",\n      \"fichier1\": \"11\",\n      \"fichier2\": \"6\",\n      \"signature\": \"(I: 2, E: 5)|a5,a8|o1,o3,o4,o8,o9\"\n    },\n    {\n      \"Commun\": \"C15\",\n      \"fichier1\": \"20\",\n      \"fichier2\": \"32\",\n      \"signature\": \"(I: 3, E: 1)|a1,a2,a9|o5\"\n    },\n    {\n      \"Commun\": \"C16\",\n      \"fichier1\": \"15\",\n      \"fichier2\": \"28\",\n      \"signature\": \"(I: 3, E: 2)|a2,a3,a8|o1,o2\"\n    },\n    {\n      \"Commun\": \"C17\",\n      \"fichier1\": \"22\",\n      \"fichier2\": \"12\",\n      \"signature\": \"(I: 3, E: 2)|a3,a8,a9|o2,o8\"\n    },\n    {\n      \"Commun\": \"C18\",\n      \"fichier1\": \"18\",\n      \"fichier2\": \"9\",\n      \"signature\": \"(I: 3, E: 2)|a5,a6,a8|o1,o3\"\n    },\n    {\n      \"Commun\": \"C19\",\n      \"fichier1\": \"19\",\n      \"fichier2\": \"8\",\n      \"signature\": \"(I: 3, E: 2)|a5,a7,a8|o3,o4\"\n    },\n    {\n      \"Commun\": \"C20\",\n      \"fichier1\": \"23\",\n      \"fichier2\": \"7\",\n      \"signature\": \"(I: 3, E: 2)|a5,a8,a9|o8,o9\"\n    },\n    {\n      \"Commun\": \"C21\",\n      \"fichier1\": \"14\",\n      \"fichier2\": \"25\",\n      \"signature\": \"(I: 3, E: 3)|a2,a4,a5|o1,o7,o9\"\n    },\n    {\n      \"Commun\": \"C22\",\n      \"fichier1\": \"16\",\n      \"fichier2\": \"23\",\n      \"signature\": \"(I: 3, E: 3)|a2,a4,a8|o1,o6,o9\"\n    },\n    {\n      \"Commun\": \"C23\",\n      \"fichier1\": \"21\",\n      \"fichier2\": \"21\",\n      \"signature\": \"(I: 3, E: 3)|a2,a8,a9|o2,o6,o9\"\n    },\n    {\n      \"Commun\": \"C24\",\n      \"fichier1\": \"17\",\n      \"fichier2\": \"13\",\n      \"signature\": \"(I: 3, E: 3)|a3,a5,a8|o1,o4,o8\"\n    },\n    {\n      \"Commun\": \"C25\",\n      \"fichier1\": \"24\",\n      \"fichier2\": \"33\",\n      \"signature\": \"(I: 4, E: 1)|a1,a2,a4,a5|o7\"\n    },\n    {\n      \"Commun\": \"C26\",\n      \"fichier1\": \"27\",\n      \"fichier2\": \"29\",\n      \"signature\": \"(I: 4, E: 1)|a2,a3,a8,a9|o2\"\n    },\n    {\n      \"Commun\": \"C27\",\n      \"fichier1\": \"29\",\n      \"fichier2\": \"14\",\n      \"signature\": \"(I: 4, E: 1)|a3,a5,a8,a9|o8\"\n    },\n    {\n      \"Commun\": \"C28\",\n      \"fichier1\": \"26\",\n      \"fichier2\": \"10\",\n      \"signature\": \"(I: 4, E: 1)|a5,a6,a7,a8|o3\"\n    },\n    {\n      \"Commun\": \"C29\",\n      \"fichier1\": \"25\",\n      \"fichier2\": \"26\",\n      \"signature\": \"(I: 4, E: 2)|a2,a4,a5,a8|o1,o9\"\n    },\n    {\n      \"Commun\": \"C30\",\n      \"fichier1\": \"28\",\n      \"fichier2\": \"24\",\n      \"signature\": \"(I: 4, E: 2)|a2,a4,a8,a9|o6,o9\"\n    },\n    {\n      \"Commun\": \"C31\",\n      \"fichier1\": \"30\",\n      \"fichier2\": \"17\",\n      \"signature\": \"(I: 5, E: 1)|a1,a3,a5,a7,a8|o4\"\n    },\n    {\n      \"Commun\": \"C32\",\n      \"fichier1\": \"31\",\n      \"fichier2\": \"27\",\n      \"signature\": \"(I: 5, E: 1)|a2,a4,a5,a8,a9|o9\"\n    },\n    {\n      \"Commun\": \"C33\",\n      \"fichier1\": \"32\",\n      \"fichier2\": \"30\",\n      \"signature\": \"(I: 6, E: 1)|a2,a3,a4,a5,a6,a8|o1\"\n    },\n    {\n      \"Commun\": \"C34\",\n      \"fichier1\": \"33\",\n      \"fichier2\": \"34\",\n      \"signature\": \"(I: 9, E: 0)|a1,a2,a3,a4,a5,a6,a7,a8,a9|\"\n    }\n  ],\n  \"only_in_file1\": [],\n  \"only_in_file2\": [],\n  \"ambiguous_in_file1\": {},\n  \"ambiguous_in_file2\": {},\n  \"normalized_edges_file1\": [\n    \"C10 -> C4\",\n    \"C10 -> C6\",\n    \"C11 -> C3\",\n    \"C11 -> C4\",\n    \"C12 -> C6\",\n    \"C13 -> C3\",\n    \"C13 -> C6\",\n    \"C14 -> C5\",\n    \"C14 -> C6\",\n    \"C15 -> C11\",\n    \"C15 -> C7\",\n    \"C16 -> C10\",\n    \"C16 -> C12\",\n    \"C17 -> C12\",\n    \"C17 -> C13\",\n    \"C18 -> C14\",\n    \"C19 -> C14\",\n    \"C2 -> C1\",\n    \"C20 -> C13\",\n    \"C20 -> C14\",\n    \"C21 -> C5\",\n    \"C21 -> C9\",\n    \"C22 -> C10\",\n    \"C22 -> C9\",\n    \"C23 -> C10\",\n    \"C23 -> C11\",\n    \"C23 -> C13\",\n    \"C24 -> C12\",\n    \"C24 -> C14\",\n    \"C25 -> C21\",\n    \"C25 -> C7\",\n    \"C25 -> C8\",\n    \"C26 -> C16\",\n    \"C26 -> C17\",\n    \"C26 -> C23\",\n    \"C27 -> C17\",\n    \"C27 -> C20\",\n    \"C27 -> C24\",\n    \"C28 -> C18\",\n    \"C28 -> C19\",\n    \"C29 -> C14\",\n    \"C29 -> C21\",\n    \"C29 -> C22\",\n    \"C3 -> C1\",\n    \"C30 -> C22\",\n    \"C30 -> C23\",\n    \"C31 -> C19\",\n    \"C31 -> C24\",\n    \"C31 -> C8\",\n    \"C32 -> C20\",\n    \"C32 -> C29\",\n    \"C32 -> C30\",\n    \"C33 -> C16\",\n    \"C33 -> C18\",\n    \"C33 -> C24\",\n    \"C33 -> C29\",\n    \"C34 -> C15\",\n    \"C34 -> C25\",\n    \"C34 -> C26\",\n    \"C34 -> C27\",\n    \"C34 -> C28\",\n    \"C34 -> C31\",\n    \"C34 -> C32\",\n    \"C34 -> C33\",\n    \"C4 -> C1\",\n    \"C5 -> C1\",\n    \"C6 -> C1\",\n    \"C7 -> C2\",\n    \"C7 -> C4\",\n    \"C8 -> C2\",\n    \"C8 -> C5\",\n    \"C9 -> C4\"\n  ],\n  \"normalized_edges_file2\": [\n    \"C10 -> C4\",\n    \"C10 -> C6\",\n    \"C11 -> C3\",\n    \"C11 -> C4\",\n    \"C12 -> C6\",\n    \"C13 -> C3\",\n    \"C13 -> C6\",\n    \"C14 -> C5\",\n    \"C14 -> C6\",\n    \"C15 -> C11\",\n    \"C15 -> C7\",\n    \"C16 -> C10\",\n    \"C16 -> C12\",\n    \"C17 -> C12\",\n    \"C17 -> C13\",\n    \"C18 -> C14\",\n    \"C19 -> C14\",\n    \"C2 -> C1\",\n    \"C20 -> C13\",\n    \"C20 -> C14\",\n    \"C21 -> C5\",\n    \"C21 -> C9\",\n    \"C22 -> C10\",\n    \"C22 -> C9\",\n    \"C23 -> C10\",\n    \"C23 -> C11\",\n    \"C23 -> C13\",\n    \"C24 -> C12\",\n    \"C24 -> C14\",\n    \"C25 -> C21\",\n    \"C25 -> C7\",\n    \"C25 -> C8\",\n    \"C26 -> C16\",\n    \"C26 -> C17\",\n    \"C26 -> C23\",\n    \"C27 -> C17\",\n    \"C27 -> C20\",\n    \"C27 -> C24\",\n    \"C28 -> C18\",\n    \"C28 -> C19\",\n    \"C29 -> C14\",\n    \"C29 -> C21\",\n    \"C29 -> C22\",\n    \"C3 -> C1\",\n    \"C30 -> C22\",\n    \"C30 -> C23\",\n    \"C31 -> C19\",\n    \"C31 -> C24\",\n    \"C31 -> C8\",\n    \"C32 -> C20\",\n    \"C32 -> C29\",\n    \"C32 -> C30\",\n    \"C33 -> C16\",\n    \"C33 -> C18\",\n    \"C33 -> C24\",\n    \"C33 -> C29\",\n    \"C34 -> C15\",\n    \"C34 -> C25\",\n    \"C34 -> C26\",\n    \"C34 -> C27\",\n    \"C34 -> C28\",\n    \"C34 -> C31\",\n    \"C34 -> C32\",\n    \"C34 -> C33\",\n    \"C4 -> C1\",\n    \"C5 -> C1\",\n    \"C6 -> C1\",\n    \"C7 -> C2\",\n    \"C7 -> C4\",\n    \"C8 -> C2\",\n    \"C8 -> C5\",\n    \"C9 -> C4\"\n  ],\n  \"edges_only_in_file1\": [],\n  \"edges_only_in_file2\": []\n}\n",
+      "stderr": "",
+      "equivalent": true,
+      "report": {
+        "equivalent": true,
+        "ambiguous": false,
+        "assumptions": [
+          "Chaque nœud logique du treillis possède une signature canonique unique dans un fichier donné.",
+          "Les labels de concepts suivent la structure Graphviz record '{id (I: x, E: y)|attributs|objets}'.",
+          "Les différences de formatage (ordre des attributs/objets, sauts de ligne, espaces, \\n) ne changent pas le contenu logique."
+        ],
+        "node_count_file1": 34,
+        "node_count_file2": 34,
+        "edge_count_file1": 72,
+        "edge_count_file2": 72,
+        "correspondence_rows": [
+          {
+            "Commun": "C1",
+            "fichier1": "0",
+            "fichier2": "1",
+            "signature": "(I: 0, E: 9)||o1,o2,o3,o4,o5,o6,o7,o8,o9"
+          },
+          {
+            "Commun": "C2",
+            "fichier1": "1",
+            "fichier2": "15",
+            "signature": "(I: 1, E: 3)|a1|o4,o5,o7"
+          },
+          {
+            "Commun": "C3",
+            "fichier1": "5",
+            "fichier2": "2",
+            "signature": "(I: 1, E: 5)|a9|o2,o5,o6,o8,o9"
+          },
+          {
+            "Commun": "C4",
+            "fichier1": "2",
+            "fichier2": "18",
+            "signature": "(I: 1, E: 6)|a2|o1,o2,o5,o6,o7,o9"
+          },
+          {
+            "Commun": "C5",
+            "fichier1": "3",
+            "fichier2": "5",
+            "signature": "(I: 1, E: 6)|a5|o1,o3,o4,o7,o8,o9"
+          },
+          {
+            "Commun": "C6",
+            "fichier1": "4",
+            "fichier2": "3",
+            "signature": "(I: 1, E: 7)|a8|o1,o2,o3,o4,o6,o8,o9"
+          },
+          {
+            "Commun": "C7",
+            "fichier1": "6",
+            "fichier2": "31",
+            "signature": "(I: 2, E: 2)|a1,a2|o5,o7"
+          },
+          {
+            "Commun": "C8",
+            "fichier1": "8",
+            "fichier2": "16",
+            "signature": "(I: 2, E: 2)|a1,a5|o4,o7"
+          },
+          {
+            "Commun": "C9",
+            "fichier1": "7",
+            "fichier2": "22",
+            "signature": "(I: 2, E: 4)|a2,a4|o1,o6,o7,o9"
+          },
+          {
+            "Commun": "C10",
+            "fichier1": "9",
+            "fichier2": "20",
+            "signature": "(I: 2, E: 4)|a2,a8|o1,o2,o6,o9"
+          },
+          {
+            "Commun": "C11",
+            "fichier1": "12",
+            "fichier2": "19",
+            "signature": "(I: 2, E: 4)|a2,a9|o2,o5,o6,o9"
+          },
+          {
+            "Commun": "C12",
+            "fichier1": "10",
+            "fichier2": "11",
+            "signature": "(I: 2, E: 4)|a3,a8|o1,o2,o4,o8"
+          },
+          {
+            "Commun": "C13",
+            "fichier1": "13",
+            "fichier2": "4",
+            "signature": "(I: 2, E: 4)|a8,a9|o2,o6,o8,o9"
+          },
+          {
+            "Commun": "C14",
+            "fichier1": "11",
+            "fichier2": "6",
+            "signature": "(I: 2, E: 5)|a5,a8|o1,o3,o4,o8,o9"
+          },
+          {
+            "Commun": "C15",
+            "fichier1": "20",
+            "fichier2": "32",
+            "signature": "(I: 3, E: 1)|a1,a2,a9|o5"
+          },
+          {
+            "Commun": "C16",
+            "fichier1": "15",
+            "fichier2": "28",
+            "signature": "(I: 3, E: 2)|a2,a3,a8|o1,o2"
+          },
+          {
+            "Commun": "C17",
+            "fichier1": "22",
+            "fichier2": "12",
+            "signature": "(I: 3, E: 2)|a3,a8,a9|o2,o8"
+          },
+          {
+            "Commun": "C18",
+            "fichier1": "18",
+            "fichier2": "9",
+            "signature": "(I: 3, E: 2)|a5,a6,a8|o1,o3"
+          },
+          {
+            "Commun": "C19",
+            "fichier1": "19",
+            "fichier2": "8",
+            "signature": "(I: 3, E: 2)|a5,a7,a8|o3,o4"
+          },
+          {
+            "Commun": "C20",
+            "fichier1": "23",
+            "fichier2": "7",
+            "signature": "(I: 3, E: 2)|a5,a8,a9|o8,o9"
+          },
+          {
+            "Commun": "C21",
+            "fichier1": "14",
+            "fichier2": "25",
+            "signature": "(I: 3, E: 3)|a2,a4,a5|o1,o7,o9"
+          },
+          {
+            "Commun": "C22",
+            "fichier1": "16",
+            "fichier2": "23",
+            "signature": "(I: 3, E: 3)|a2,a4,a8|o1,o6,o9"
+          },
+          {
+            "Commun": "C23",
+            "fichier1": "21",
+            "fichier2": "21",
+            "signature": "(I: 3, E: 3)|a2,a8,a9|o2,o6,o9"
+          },
+          {
+            "Commun": "C24",
+            "fichier1": "17",
+            "fichier2": "13",
+            "signature": "(I: 3, E: 3)|a3,a5,a8|o1,o4,o8"
+          },
+          {
+            "Commun": "C25",
+            "fichier1": "24",
+            "fichier2": "33",
+            "signature": "(I: 4, E: 1)|a1,a2,a4,a5|o7"
+          },
+          {
+            "Commun": "C26",
+            "fichier1": "27",
+            "fichier2": "29",
+            "signature": "(I: 4, E: 1)|a2,a3,a8,a9|o2"
+          },
+          {
+            "Commun": "C27",
+            "fichier1": "29",
+            "fichier2": "14",
+            "signature": "(I: 4, E: 1)|a3,a5,a8,a9|o8"
+          },
+          {
+            "Commun": "C28",
+            "fichier1": "26",
+            "fichier2": "10",
+            "signature": "(I: 4, E: 1)|a5,a6,a7,a8|o3"
+          },
+          {
+            "Commun": "C29",
+            "fichier1": "25",
+            "fichier2": "26",
+            "signature": "(I: 4, E: 2)|a2,a4,a5,a8|o1,o9"
+          },
+          {
+            "Commun": "C30",
+            "fichier1": "28",
+            "fichier2": "24",
+            "signature": "(I: 4, E: 2)|a2,a4,a8,a9|o6,o9"
+          },
+          {
+            "Commun": "C31",
+            "fichier1": "30",
+            "fichier2": "17",
+            "signature": "(I: 5, E: 1)|a1,a3,a5,a7,a8|o4"
+          },
+          {
+            "Commun": "C32",
+            "fichier1": "31",
+            "fichier2": "27",
+            "signature": "(I: 5, E: 1)|a2,a4,a5,a8,a9|o9"
+          },
+          {
+            "Commun": "C33",
+            "fichier1": "32",
+            "fichier2": "30",
+            "signature": "(I: 6, E: 1)|a2,a3,a4,a5,a6,a8|o1"
+          },
+          {
+            "Commun": "C34",
+            "fichier1": "33",
+            "fichier2": "34",
+            "signature": "(I: 9, E: 0)|a1,a2,a3,a4,a5,a6,a7,a8,a9|"
+          }
+        ],
+        "only_in_file1": [],
+        "only_in_file2": [],
+        "ambiguous_in_file1": {},
+        "ambiguous_in_file2": {},
+        "normalized_edges_file1": [
+          "C10 -> C4",
+          "C10 -> C6",
+          "C11 -> C3",
+          "C11 -> C4",
+          "C12 -> C6",
+          "C13 -> C3",
+          "C13 -> C6",
+          "C14 -> C5",
+          "C14 -> C6",
+          "C15 -> C11",
+          "C15 -> C7",
+          "C16 -> C10",
+          "C16 -> C12",
+          "C17 -> C12",
+          "C17 -> C13",
+          "C18 -> C14",
+          "C19 -> C14",
+          "C2 -> C1",
+          "C20 -> C13",
+          "C20 -> C14",
+          "C21 -> C5",
+          "C21 -> C9",
+          "C22 -> C10",
+          "C22 -> C9",
+          "C23 -> C10",
+          "C23 -> C11",
+          "C23 -> C13",
+          "C24 -> C12",
+          "C24 -> C14",
+          "C25 -> C21",
+          "C25 -> C7",
+          "C25 -> C8",
+          "C26 -> C16",
+          "C26 -> C17",
+          "C26 -> C23",
+          "C27 -> C17",
+          "C27 -> C20",
+          "C27 -> C24",
+          "C28 -> C18",
+          "C28 -> C19",
+          "C29 -> C14",
+          "C29 -> C21",
+          "C29 -> C22",
+          "C3 -> C1",
+          "C30 -> C22",
+          "C30 -> C23",
+          "C31 -> C19",
+          "C31 -> C24",
+          "C31 -> C8",
+          "C32 -> C20",
+          "C32 -> C29",
+          "C32 -> C30",
+          "C33 -> C16",
+          "C33 -> C18",
+          "C33 -> C24",
+          "C33 -> C29",
+          "C34 -> C15",
+          "C34 -> C25",
+          "C34 -> C26",
+          "C34 -> C27",
+          "C34 -> C28",
+          "C34 -> C31",
+          "C34 -> C32",
+          "C34 -> C33",
+          "C4 -> C1",
+          "C5 -> C1",
+          "C6 -> C1",
+          "C7 -> C2",
+          "C7 -> C4",
+          "C8 -> C2",
+          "C8 -> C5",
+          "C9 -> C4"
+        ],
+        "normalized_edges_file2": [
+          "C10 -> C4",
+          "C10 -> C6",
+          "C11 -> C3",
+          "C11 -> C4",
+          "C12 -> C6",
+          "C13 -> C3",
+          "C13 -> C6",
+          "C14 -> C5",
+          "C14 -> C6",
+          "C15 -> C11",
+          "C15 -> C7",
+          "C16 -> C10",
+          "C16 -> C12",
+          "C17 -> C12",
+          "C17 -> C13",
+          "C18 -> C14",
+          "C19 -> C14",
+          "C2 -> C1",
+          "C20 -> C13",
+          "C20 -> C14",
+          "C21 -> C5",
+          "C21 -> C9",
+          "C22 -> C10",
+          "C22 -> C9",
+          "C23 -> C10",
+          "C23 -> C11",
+          "C23 -> C13",
+          "C24 -> C12",
+          "C24 -> C14",
+          "C25 -> C21",
+          "C25 -> C7",
+          "C25 -> C8",
+          "C26 -> C16",
+          "C26 -> C17",
+          "C26 -> C23",
+          "C27 -> C17",
+          "C27 -> C20",
+          "C27 -> C24",
+          "C28 -> C18",
+          "C28 -> C19",
+          "C29 -> C14",
+          "C29 -> C21",
+          "C29 -> C22",
+          "C3 -> C1",
+          "C30 -> C22",
+          "C30 -> C23",
+          "C31 -> C19",
+          "C31 -> C24",
+          "C31 -> C8",
+          "C32 -> C20",
+          "C32 -> C29",
+          "C32 -> C30",
+          "C33 -> C16",
+          "C33 -> C18",
+          "C33 -> C24",
+          "C33 -> C29",
+          "C34 -> C15",
+          "C34 -> C25",
+          "C34 -> C26",
+          "C34 -> C27",
+          "C34 -> C28",
+          "C34 -> C31",
+          "C34 -> C32",
+          "C34 -> C33",
+          "C4 -> C1",
+          "C5 -> C1",
+          "C6 -> C1",
+          "C7 -> C2",
+          "C7 -> C4",
+          "C8 -> C2",
+          "C8 -> C5",
+          "C9 -> C4"
+        ],
+        "edges_only_in_file1": [],
+        "edges_only_in_file2": []
+      }
+    },
+    {
+      "dataset_id": "eg9_9",
+      "left_algorithm": "fca4j",
+      "right_algorithm": "gpt53_lattice",
+      "status": "OK",
+      "returncode": 0,
+      "stdout": "{\n  \"equivalent\": true,\n  \"ambiguous\": false,\n  \"assumptions\": [\n    \"Chaque nœud logique du treillis possède une signature canonique unique dans un fichier donné.\",\n    \"Les labels de concepts suivent la structure Graphviz record '{id (I: x, E: y)|attributs|objets}'.\",\n    \"Les différences de formatage (ordre des attributs/objets, sauts de ligne, espaces, \\\\n) ne changent pas le contenu logique.\"\n  ],\n  \"node_count_file1\": 34,\n  \"node_count_file2\": 34,\n  \"edge_count_file1\": 72,\n  \"edge_count_file2\": 72,\n  \"correspondence_rows\": [\n    {\n      \"Commun\": \"C1\",\n      \"fichier1\": \"0\",\n      \"fichier2\": \"1\",\n      \"signature\": \"(I: 0, E: 9)||o1,o2,o3,o4,o5,o6,o7,o8,o9\"\n    },\n    {\n      \"Commun\": \"C2\",\n      \"fichier1\": \"1\",\n      \"fichier2\": \"15\",\n      \"signature\": \"(I: 1, E: 3)|a1|o4,o5,o7\"\n    },\n    {\n      \"Commun\": \"C3\",\n      \"fichier1\": \"33\",\n      \"fichier2\": \"2\",\n      \"signature\": \"(I: 1, E: 5)|a9|o2,o5,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C4\",\n      \"fichier1\": \"3\",\n      \"fichier2\": \"18\",\n      \"signature\": \"(I: 1, E: 6)|a2|o1,o2,o5,o6,o7,o9\"\n    },\n    {\n      \"Commun\": \"C5\",\n      \"fichier1\": \"14\",\n      \"fichier2\": \"5\",\n      \"signature\": \"(I: 1, E: 6)|a5|o1,o3,o4,o7,o8,o9\"\n    },\n    {\n      \"Commun\": \"C6\",\n      \"fichier1\": \"22\",\n      \"fichier2\": \"3\",\n      \"signature\": \"(I: 1, E: 7)|a8|o1,o2,o3,o4,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C7\",\n      \"fichier1\": \"2\",\n      \"fichier2\": \"31\",\n      \"signature\": \"(I: 2, E: 2)|a1,a2|o5,o7\"\n    },\n    {\n      \"Commun\": \"C8\",\n      \"fichier1\": \"11\",\n      \"fichier2\": \"16\",\n      \"signature\": \"(I: 2, E: 2)|a1,a5|o4,o7\"\n    },\n    {\n      \"Commun\": \"C9\",\n      \"fichier1\": \"10\",\n      \"fichier2\": \"22\",\n      \"signature\": \"(I: 2, E: 4)|a2,a4|o1,o6,o7,o9\"\n    },\n    {\n      \"Commun\": \"C10\",\n      \"fichier1\": \"20\",\n      \"fichier2\": \"20\",\n      \"signature\": \"(I: 2, E: 4)|a2,a8|o1,o2,o6,o9\"\n    },\n    {\n      \"Commun\": \"C11\",\n      \"fichier1\": \"28\",\n      \"fichier2\": \"19\",\n      \"signature\": \"(I: 2, E: 4)|a2,a9|o2,o5,o6,o9\"\n    },\n    {\n      \"Commun\": \"C12\",\n      \"fichier1\": \"7\",\n      \"fichier2\": \"11\",\n      \"signature\": \"(I: 2, E: 4)|a3,a8|o1,o2,o4,o8\"\n    },\n    {\n      \"Commun\": \"C13\",\n      \"fichier1\": \"32\",\n      \"fichier2\": \"4\",\n      \"signature\": \"(I: 2, E: 4)|a8,a9|o2,o6,o8,o9\"\n    },\n    {\n      \"Commun\": \"C14\",\n      \"fichier1\": \"21\",\n      \"fichier2\": \"6\",\n      \"signature\": \"(I: 2, E: 5)|a5,a8|o1,o3,o4,o8,o9\"\n    },\n    {\n      \"Commun\": \"C15\",\n      \"fichier1\": \"23\",\n      \"fichier2\": \"32\",\n      \"signature\": \"(I: 3, E: 1)|a1,a2,a9|o5\"\n    },\n    {\n      \"Commun\": \"C16\",\n      \"fichier1\": \"6\",\n      \"fichier2\": \"28\",\n      \"signature\": \"(I: 3, E: 2)|a2,a3,a8|o1,o2\"\n    },\n    {\n      \"Commun\": \"C17\",\n      \"fichier1\": \"31\",\n      \"fichier2\": \"12\",\n      \"signature\": \"(I: 3, E: 2)|a3,a8,a9|o2,o8\"\n    },\n    {\n      \"Commun\": \"C18\",\n      \"fichier1\": \"15\",\n      \"fichier2\": \"9\",\n      \"signature\": \"(I: 3, E: 2)|a5,a6,a8|o1,o3\"\n    },\n    {\n      \"Commun\": \"C19\",\n      \"fichier1\": \"17\",\n      \"fichier2\": \"8\",\n      \"signature\": \"(I: 3, E: 2)|a5,a7,a8|o3,o4\"\n    },\n    {\n      \"Commun\": \"C20\",\n      \"fichier1\": \"30\",\n      \"fichier2\": \"7\",\n      \"signature\": \"(I: 3, E: 2)|a5,a8,a9|o8,o9\"\n    },\n    {\n      \"Commun\": \"C21\",\n      \"fichier1\": \"12\",\n      \"fichier2\": \"25\",\n      \"signature\": \"(I: 3, E: 3)|a2,a4,a5|o1,o7,o9\"\n    },\n    {\n      \"Commun\": \"C22\",\n      \"fichier1\": \"19\",\n      \"fichier2\": \"23\",\n      \"signature\": \"(I: 3, E: 3)|a2,a4,a8|o1,o6,o9\"\n    },\n    {\n      \"Commun\": \"C23\",\n      \"fichier1\": \"27\",\n      \"fichier2\": \"21\",\n      \"signature\": \"(I: 3, E: 3)|a2,a8,a9|o2,o6,o9\"\n    },\n    {\n      \"Commun\": \"C24\",\n      \"fichier1\": \"13\",\n      \"fichier2\": \"13\",\n      \"signature\": \"(I: 3, E: 3)|a3,a5,a8|o1,o4,o8\"\n    },\n    {\n      \"Commun\": \"C25\",\n      \"fichier1\": \"8\",\n      \"fichier2\": \"33\",\n      \"signature\": \"(I: 4, E: 1)|a1,a2,a4,a5|o7\"\n    },\n    {\n      \"Commun\": \"C26\",\n      \"fichier1\": \"26\",\n      \"fichier2\": \"29\",\n      \"signature\": \"(I: 4, E: 1)|a2,a3,a8,a9|o2\"\n    },\n    {\n      \"Commun\": \"C27\",\n      \"fichier1\": \"29\",\n      \"fichier2\": \"14\",\n      \"signature\": \"(I: 4, E: 1)|a3,a5,a8,a9|o8\"\n    },\n    {\n      \"Commun\": \"C28\",\n      \"fichier1\": \"16\",\n      \"fichier2\": \"10\",\n      \"signature\": \"(I: 4, E: 1)|a5,a6,a7,a8|o3\"\n    },\n    {\n      \"Commun\": \"C29\",\n      \"fichier1\": \"18\",\n      \"fichier2\": \"26\",\n      \"signature\": \"(I: 4, E: 2)|a2,a4,a5,a8|o1,o9\"\n    },\n    {\n      \"Commun\": \"C30\",\n      \"fichier1\": \"25\",\n      \"fichier2\": \"24\",\n      \"signature\": \"(I: 4, E: 2)|a2,a4,a8,a9|o6,o9\"\n    },\n    {\n      \"Commun\": \"C31\",\n      \"fichier1\": \"5\",\n      \"fichier2\": \"17\",\n      \"signature\": \"(I: 5, E: 1)|a1,a3,a5,a7,a8|o4\"\n    },\n    {\n      \"Commun\": \"C32\",\n      \"fichier1\": \"24\",\n      \"fichier2\": \"27\",\n      \"signature\": \"(I: 5, E: 1)|a2,a4,a5,a8,a9|o9\"\n    },\n    {\n      \"Commun\": \"C33\",\n      \"fichier1\": \"9\",\n      \"fichier2\": \"30\",\n      \"signature\": \"(I: 6, E: 1)|a2,a3,a4,a5,a6,a8|o1\"\n    },\n    {\n      \"Commun\": \"C34\",\n      \"fichier1\": \"4\",\n      \"fichier2\": \"34\",\n      \"signature\": \"(I: 9, E: 0)|a1,a2,a3,a4,a5,a6,a7,a8,a9|\"\n    }\n  ],\n  \"only_in_file1\": [],\n  \"only_in_file2\": [],\n  \"ambiguous_in_file1\": {},\n  \"ambiguous_in_file2\": {},\n  \"normalized_edges_file1\": [\n    \"C10 -> C4\",\n    \"C10 -> C6\",\n    \"C11 -> C3\",\n    \"C11 -> C4\",\n    \"C12 -> C6\",\n    \"C13 -> C3\",\n    \"C13 -> C6\",\n    \"C14 -> C5\",\n    \"C14 -> C6\",\n    \"C15 -> C11\",\n    \"C15 -> C7\",\n    \"C16 -> C10\",\n    \"C16 -> C12\",\n    \"C17 -> C12\",\n    \"C17 -> C13\",\n    \"C18 -> C14\",\n    \"C19 -> C14\",\n    \"C2 -> C1\",\n    \"C20 -> C13\",\n    \"C20 -> C14\",\n    \"C21 -> C5\",\n    \"C21 -> C9\",\n    \"C22 -> C10\",\n    \"C22 -> C9\",\n    \"C23 -> C10\",\n    \"C23 -> C11\",\n    \"C23 -> C13\",\n    \"C24 -> C12\",\n    \"C24 -> C14\",\n    \"C25 -> C21\",\n    \"C25 -> C7\",\n    \"C25 -> C8\",\n    \"C26 -> C16\",\n    \"C26 -> C17\",\n    \"C26 -> C23\",\n    \"C27 -> C17\",\n    \"C27 -> C20\",\n    \"C27 -> C24\",\n    \"C28 -> C18\",\n    \"C28 -> C19\",\n    \"C29 -> C14\",\n    \"C29 -> C21\",\n    \"C29 -> C22\",\n    \"C3 -> C1\",\n    \"C30 -> C22\",\n    \"C30 -> C23\",\n    \"C31 -> C19\",\n    \"C31 -> C24\",\n    \"C31 -> C8\",\n    \"C32 -> C20\",\n    \"C32 -> C29\",\n    \"C32 -> C30\",\n    \"C33 -> C16\",\n    \"C33 -> C18\",\n    \"C33 -> C24\",\n    \"C33 -> C29\",\n    \"C34 -> C15\",\n    \"C34 -> C25\",\n    \"C34 -> C26\",\n    \"C34 -> C27\",\n    \"C34 -> C28\",\n    \"C34 -> C31\",\n    \"C34 -> C32\",\n    \"C34 -> C33\",\n    \"C4 -> C1\",\n    \"C5 -> C1\",\n    \"C6 -> C1\",\n    \"C7 -> C2\",\n    \"C7 -> C4\",\n    \"C8 -> C2\",\n    \"C8 -> C5\",\n    \"C9 -> C4\"\n  ],\n  \"normalized_edges_file2\": [\n    \"C10 -> C4\",\n    \"C10 -> C6\",\n    \"C11 -> C3\",\n    \"C11 -> C4\",\n    \"C12 -> C6\",\n    \"C13 -> C3\",\n    \"C13 -> C6\",\n    \"C14 -> C5\",\n    \"C14 -> C6\",\n    \"C15 -> C11\",\n    \"C15 -> C7\",\n    \"C16 -> C10\",\n    \"C16 -> C12\",\n    \"C17 -> C12\",\n    \"C17 -> C13\",\n    \"C18 -> C14\",\n    \"C19 -> C14\",\n    \"C2 -> C1\",\n    \"C20 -> C13\",\n    \"C20 -> C14\",\n    \"C21 -> C5\",\n    \"C21 -> C9\",\n    \"C22 -> C10\",\n    \"C22 -> C9\",\n    \"C23 -> C10\",\n    \"C23 -> C11\",\n    \"C23 -> C13\",\n    \"C24 -> C12\",\n    \"C24 -> C14\",\n    \"C25 -> C21\",\n    \"C25 -> C7\",\n    \"C25 -> C8\",\n    \"C26 -> C16\",\n    \"C26 -> C17\",\n    \"C26 -> C23\",\n    \"C27 -> C17\",\n    \"C27 -> C20\",\n    \"C27 -> C24\",\n    \"C28 -> C18\",\n    \"C28 -> C19\",\n    \"C29 -> C14\",\n    \"C29 -> C21\",\n    \"C29 -> C22\",\n    \"C3 -> C1\",\n    \"C30 -> C22\",\n    \"C30 -> C23\",\n    \"C31 -> C19\",\n    \"C31 -> C24\",\n    \"C31 -> C8\",\n    \"C32 -> C20\",\n    \"C32 -> C29\",\n    \"C32 -> C30\",\n    \"C33 -> C16\",\n    \"C33 -> C18\",\n    \"C33 -> C24\",\n    \"C33 -> C29\",\n    \"C34 -> C15\",\n    \"C34 -> C25\",\n    \"C34 -> C26\",\n    \"C34 -> C27\",\n    \"C34 -> C28\",\n    \"C34 -> C31\",\n    \"C34 -> C32\",\n    \"C34 -> C33\",\n    \"C4 -> C1\",\n    \"C5 -> C1\",\n    \"C6 -> C1\",\n    \"C7 -> C2\",\n    \"C7 -> C4\",\n    \"C8 -> C2\",\n    \"C8 -> C5\",\n    \"C9 -> C4\"\n  ],\n  \"edges_only_in_file1\": [],\n  \"edges_only_in_file2\": []\n}\n",
+      "stderr": "",
+      "equivalent": true,
+      "report": {
+        "equivalent": true,
+        "ambiguous": false,
+        "assumptions": [
+          "Chaque nœud logique du treillis possède une signature canonique unique dans un fichier donné.",
+          "Les labels de concepts suivent la structure Graphviz record '{id (I: x, E: y)|attributs|objets}'.",
+          "Les différences de formatage (ordre des attributs/objets, sauts de ligne, espaces, \\n) ne changent pas le contenu logique."
+        ],
+        "node_count_file1": 34,
+        "node_count_file2": 34,
+        "edge_count_file1": 72,
+        "edge_count_file2": 72,
+        "correspondence_rows": [
+          {
+            "Commun": "C1",
+            "fichier1": "0",
+            "fichier2": "1",
+            "signature": "(I: 0, E: 9)||o1,o2,o3,o4,o5,o6,o7,o8,o9"
+          },
+          {
+            "Commun": "C2",
+            "fichier1": "1",
+            "fichier2": "15",
+            "signature": "(I: 1, E: 3)|a1|o4,o5,o7"
+          },
+          {
+            "Commun": "C3",
+            "fichier1": "33",
+            "fichier2": "2",
+            "signature": "(I: 1, E: 5)|a9|o2,o5,o6,o8,o9"
+          },
+          {
+            "Commun": "C4",
+            "fichier1": "3",
+            "fichier2": "18",
+            "signature": "(I: 1, E: 6)|a2|o1,o2,o5,o6,o7,o9"
+          },
+          {
+            "Commun": "C5",
+            "fichier1": "14",
+            "fichier2": "5",
+            "signature": "(I: 1, E: 6)|a5|o1,o3,o4,o7,o8,o9"
+          },
+          {
+            "Commun": "C6",
+            "fichier1": "22",
+            "fichier2": "3",
+            "signature": "(I: 1, E: 7)|a8|o1,o2,o3,o4,o6,o8,o9"
+          },
+          {
+            "Commun": "C7",
+            "fichier1": "2",
+            "fichier2": "31",
+            "signature": "(I: 2, E: 2)|a1,a2|o5,o7"
+          },
+          {
+            "Commun": "C8",
+            "fichier1": "11",
+            "fichier2": "16",
+            "signature": "(I: 2, E: 2)|a1,a5|o4,o7"
+          },
+          {
+            "Commun": "C9",
+            "fichier1": "10",
+            "fichier2": "22",
+            "signature": "(I: 2, E: 4)|a2,a4|o1,o6,o7,o9"
+          },
+          {
+            "Commun": "C10",
+            "fichier1": "20",
+            "fichier2": "20",
+            "signature": "(I: 2, E: 4)|a2,a8|o1,o2,o6,o9"
+          },
+          {
+            "Commun": "C11",
+            "fichier1": "28",
+            "fichier2": "19",
+            "signature": "(I: 2, E: 4)|a2,a9|o2,o5,o6,o9"
+          },
+          {
+            "Commun": "C12",
+            "fichier1": "7",
+            "fichier2": "11",
+            "signature": "(I: 2, E: 4)|a3,a8|o1,o2,o4,o8"
+          },
+          {
+            "Commun": "C13",
+            "fichier1": "32",
+            "fichier2": "4",
+            "signature": "(I: 2, E: 4)|a8,a9|o2,o6,o8,o9"
+          },
+          {
+            "Commun": "C14",
+            "fichier1": "21",
+            "fichier2": "6",
+            "signature": "(I: 2, E: 5)|a5,a8|o1,o3,o4,o8,o9"
+          },
+          {
+            "Commun": "C15",
+            "fichier1": "23",
+            "fichier2": "32",
+            "signature": "(I: 3, E: 1)|a1,a2,a9|o5"
+          },
+          {
+            "Commun": "C16",
+            "fichier1": "6",
+            "fichier2": "28",
+            "signature": "(I: 3, E: 2)|a2,a3,a8|o1,o2"
+          },
+          {
+            "Commun": "C17",
+            "fichier1": "31",
+            "fichier2": "12",
+            "signature": "(I: 3, E: 2)|a3,a8,a9|o2,o8"
+          },
+          {
+            "Commun": "C18",
+            "fichier1": "15",
+            "fichier2": "9",
+            "signature": "(I: 3, E: 2)|a5,a6,a8|o1,o3"
+          },
+          {
+            "Commun": "C19",
+            "fichier1": "17",
+            "fichier2": "8",
+            "signature": "(I: 3, E: 2)|a5,a7,a8|o3,o4"
+          },
+          {
+            "Commun": "C20",
+            "fichier1": "30",
+            "fichier2": "7",
+            "signature": "(I: 3, E: 2)|a5,a8,a9|o8,o9"
+          },
+          {
+            "Commun": "C21",
+            "fichier1": "12",
+            "fichier2": "25",
+            "signature": "(I: 3, E: 3)|a2,a4,a5|o1,o7,o9"
+          },
+          {
+            "Commun": "C22",
+            "fichier1": "19",
+            "fichier2": "23",
+            "signature": "(I: 3, E: 3)|a2,a4,a8|o1,o6,o9"
+          },
+          {
+            "Commun": "C23",
+            "fichier1": "27",
+            "fichier2": "21",
+            "signature": "(I: 3, E: 3)|a2,a8,a9|o2,o6,o9"
+          },
+          {
+            "Commun": "C24",
+            "fichier1": "13",
+            "fichier2": "13",
+            "signature": "(I: 3, E: 3)|a3,a5,a8|o1,o4,o8"
+          },
+          {
+            "Commun": "C25",
+            "fichier1": "8",
+            "fichier2": "33",
+            "signature": "(I: 4, E: 1)|a1,a2,a4,a5|o7"
+          },
+          {
+            "Commun": "C26",
+            "fichier1": "26",
+            "fichier2": "29",
+            "signature": "(I: 4, E: 1)|a2,a3,a8,a9|o2"
+          },
+          {
+            "Commun": "C27",
+            "fichier1": "29",
+            "fichier2": "14",
+            "signature": "(I: 4, E: 1)|a3,a5,a8,a9|o8"
+          },
+          {
+            "Commun": "C28",
+            "fichier1": "16",
+            "fichier2": "10",
+            "signature": "(I: 4, E: 1)|a5,a6,a7,a8|o3"
+          },
+          {
+            "Commun": "C29",
+            "fichier1": "18",
+            "fichier2": "26",
+            "signature": "(I: 4, E: 2)|a2,a4,a5,a8|o1,o9"
+          },
+          {
+            "Commun": "C30",
+            "fichier1": "25",
+            "fichier2": "24",
+            "signature": "(I: 4, E: 2)|a2,a4,a8,a9|o6,o9"
+          },
+          {
+            "Commun": "C31",
+            "fichier1": "5",
+            "fichier2": "17",
+            "signature": "(I: 5, E: 1)|a1,a3,a5,a7,a8|o4"
+          },
+          {
+            "Commun": "C32",
+            "fichier1": "24",
+            "fichier2": "27",
+            "signature": "(I: 5, E: 1)|a2,a4,a5,a8,a9|o9"
+          },
+          {
+            "Commun": "C33",
+            "fichier1": "9",
+            "fichier2": "30",
+            "signature": "(I: 6, E: 1)|a2,a3,a4,a5,a6,a8|o1"
+          },
+          {
+            "Commun": "C34",
+            "fichier1": "4",
+            "fichier2": "34",
+            "signature": "(I: 9, E: 0)|a1,a2,a3,a4,a5,a6,a7,a8,a9|"
+          }
+        ],
+        "only_in_file1": [],
+        "only_in_file2": [],
+        "ambiguous_in_file1": {},
+        "ambiguous_in_file2": {},
+        "normalized_edges_file1": [
+          "C10 -> C4",
+          "C10 -> C6",
+          "C11 -> C3",
+          "C11 -> C4",
+          "C12 -> C6",
+          "C13 -> C3",
+          "C13 -> C6",
+          "C14 -> C5",
+          "C14 -> C6",
+          "C15 -> C11",
+          "C15 -> C7",
+          "C16 -> C10",
+          "C16 -> C12",
+          "C17 -> C12",
+          "C17 -> C13",
+          "C18 -> C14",
+          "C19 -> C14",
+          "C2 -> C1",
+          "C20 -> C13",
+          "C20 -> C14",
+          "C21 -> C5",
+          "C21 -> C9",
+          "C22 -> C10",
+          "C22 -> C9",
+          "C23 -> C10",
+          "C23 -> C11",
+          "C23 -> C13",
+          "C24 -> C12",
+          "C24 -> C14",
+          "C25 -> C21",
+          "C25 -> C7",
+          "C25 -> C8",
+          "C26 -> C16",
+          "C26 -> C17",
+          "C26 -> C23",
+          "C27 -> C17",
+          "C27 -> C20",
+          "C27 -> C24",
+          "C28 -> C18",
+          "C28 -> C19",
+          "C29 -> C14",
+          "C29 -> C21",
+          "C29 -> C22",
+          "C3 -> C1",
+          "C30 -> C22",
+          "C30 -> C23",
+          "C31 -> C19",
+          "C31 -> C24",
+          "C31 -> C8",
+          "C32 -> C20",
+          "C32 -> C29",
+          "C32 -> C30",
+          "C33 -> C16",
+          "C33 -> C18",
+          "C33 -> C24",
+          "C33 -> C29",
+          "C34 -> C15",
+          "C34 -> C25",
+          "C34 -> C26",
+          "C34 -> C27",
+          "C34 -> C28",
+          "C34 -> C31",
+          "C34 -> C32",
+          "C34 -> C33",
+          "C4 -> C1",
+          "C5 -> C1",
+          "C6 -> C1",
+          "C7 -> C2",
+          "C7 -> C4",
+          "C8 -> C2",
+          "C8 -> C5",
+          "C9 -> C4"
+        ],
+        "normalized_edges_file2": [
+          "C10 -> C4",
+          "C10 -> C6",
+          "C11 -> C3",
+          "C11 -> C4",
+          "C12 -> C6",
+          "C13 -> C3",
+          "C13 -> C6",
+          "C14 -> C5",
+          "C14 -> C6",
+          "C15 -> C11",
+          "C15 -> C7",
+          "C16 -> C10",
+          "C16 -> C12",
+          "C17 -> C12",
+          "C17 -> C13",
+          "C18 -> C14",
+          "C19 -> C14",
+          "C2 -> C1",
+          "C20 -> C13",
+          "C20 -> C14",
+          "C21 -> C5",
+          "C21 -> C9",
+          "C22 -> C10",
+          "C22 -> C9",
+          "C23 -> C10",
+          "C23 -> C11",
+          "C23 -> C13",
+          "C24 -> C12",
+          "C24 -> C14",
+          "C25 -> C21",
+          "C25 -> C7",
+          "C25 -> C8",
+          "C26 -> C16",
+          "C26 -> C17",
+          "C26 -> C23",
+          "C27 -> C17",
+          "C27 -> C20",
+          "C27 -> C24",
+          "C28 -> C18",
+          "C28 -> C19",
+          "C29 -> C14",
+          "C29 -> C21",
+          "C29 -> C22",
+          "C3 -> C1",
+          "C30 -> C22",
+          "C30 -> C23",
+          "C31 -> C19",
+          "C31 -> C24",
+          "C31 -> C8",
+          "C32 -> C20",
+          "C32 -> C29",
+          "C32 -> C30",
+          "C33 -> C16",
+          "C33 -> C18",
+          "C33 -> C24",
+          "C33 -> C29",
+          "C34 -> C15",
+          "C34 -> C25",
+          "C34 -> C26",
+          "C34 -> C27",
+          "C34 -> C28",
+          "C34 -> C31",
+          "C34 -> C32",
+          "C34 -> C33",
+          "C4 -> C1",
+          "C5 -> C1",
+          "C6 -> C1",
+          "C7 -> C2",
+          "C7 -> C4",
+          "C8 -> C2",
+          "C8 -> C5",
+          "C9 -> C4"
+        ],
+        "edges_only_in_file1": [],
+        "edges_only_in_file2": []
+      }
+    }
+  ],
+  "equivalence_matrix": {
+    "eg9_9": {
+      "claude_lattice2__vs__fca4j": true,
+      "claude_lattice2__vs__gpt53_lattice": true,
+      "fca4j__vs__gpt53_lattice": true
+    }
+  }
+}

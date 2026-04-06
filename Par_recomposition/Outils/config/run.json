@@ -1,0 +1,7 @@
+{
+  "selected_algorithms": ["fca4j", "claude_lattice2", "gpt53_lattice"],
+  "selected_datasets": ["eg9_9", "eg20_20", "eg30_30"],
+  "stages": ["execution", "normalize", "compare", "report"],
+  "timeout_seconds": 900,
+  "continue_on_error": true
+}

@@ -86,3 +86,4 @@ Concernant le prompt :
     - Ajouter un indice de progression lors du Calcul de la relation de couverture, <Temps depuis le lancement de l'algorithme> <Approximation de l'état du calcul (de 0% à 100%),
         Mis à jour toutes les 10 minutes.
 
+    - Intégrer une bibliothèque ou un mécanisme permettant de mesurer le temps CPU utilisé par le processus, indépendamment du temps d’exécution global.

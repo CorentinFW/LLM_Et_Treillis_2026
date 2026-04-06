@@ -1,0 +1,18 @@
+{
+  "run_id": "smoke2-20260406",
+  "created_at": "2026-04-06T12:01:38+02:00",
+  "repo_root": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition",
+  "config_dir": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/config",
+  "selected_algorithms": [
+    "fca4j",
+    "claude_lattice2",
+    "gpt53_lattice"
+  ],
+  "selected_datasets": [
+    "eg9_9",
+    "eg20_20",
+    "eg30_30"
+  ],
+  "timeout_seconds": 900,
+  "continue_on_error": true
+}

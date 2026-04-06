@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T15:42:30+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: cmc_binarized
+CSV: FCA4J/cmc_binarized/cmc_binarized.csv
+DOT: FCA4J/cmc_binarized/Lattice/cmc_binarized.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/cmc_binarized/cmc_binarized.csv -i CSV -s SEMICOLON -g FCA4J/cmc_binarized/Lattice/cmc_binarized.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: cmc_binarized.csv ( 1473 x 0 )
+duration: 9 ms
