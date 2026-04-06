@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T11:22:59+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: balance-scale_binarized
+CSV: FCA4J/balance-scale_binarized/balance-scale_binarized.csv
+DOT: FCA4J/balance-scale_binarized/Lattice/balance-scale_binarized.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/balance-scale_binarized/balance-scale_binarized.csv -i CSV -s SEMICOLON -g FCA4J/balance-scale_binarized/Lattice/balance-scale_binarized.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: balance-scale_binarized.csv ( 625 x 0 )
+duration: 11 ms

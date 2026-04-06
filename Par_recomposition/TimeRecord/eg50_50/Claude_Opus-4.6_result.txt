@@ -1,0 +1,213 @@
+============================================================
+Date: 2026-03-28T11:46:33+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2.py
+Dataset: eg50_50
+CSV: Claude_Opus-4.6/Python/eg50_50/eg50_50.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2.py Claude_Opus-4.6/Python/eg50_50/eg50_50.csv
+------------------------------------------------------------
+Chargement du contexte depuis Claude_Opus-4.6/Python/eg50_50/eg50_50.csv ...
+  |G| = 50 objets, |M| = 50 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 9173 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+    ... 1000 concepts énumérés
+    ... 2000 concepts énumérés
+    ... 3000 concepts énumérés
+    ... 4000 concepts énumérés
+    ... 5000 concepts énumérés
+    ... 6000 concepts énumérés
+    ... 7000 concepts énumérés
+    ... 8000 concepts énumérés
+    ... 9000 concepts énumérés
+    ... 10000 concepts énumérés
+    ... 11000 concepts énumérés
+    ... 12000 concepts énumérés
+    ... 13000 concepts énumérés
+    ... 14000 concepts énumérés
+    ... 15000 concepts énumérés
+    ... 16000 concepts énumérés
+    ... 17000 concepts énumérés
+    ... 18000 concepts énumérés
+    ... 19000 concepts énumérés
+    ... 20000 concepts énumérés
+    ... 21000 concepts énumérés
+    ... 22000 concepts énumérés
+    ... 23000 concepts énumérés
+    ... 24000 concepts énumérés
+    ... 25000 concepts énumérés
+    ... 26000 concepts énumérés
+    ... 27000 concepts énumérés
+    ... 28000 concepts énumérés
+    ... 29000 concepts énumérés
+    ... 30000 concepts énumérés
+    ... 31000 concepts énumérés
+    ... 32000 concepts énumérés
+    ... 33000 concepts énumérés
+    ... 34000 concepts énumérés
+    ... 35000 concepts énumérés
+    ... 36000 concepts énumérés
+    ... 37000 concepts énumérés
+    ... 38000 concepts énumérés
+    ... 39000 concepts énumérés
+    ... 40000 concepts énumérés
+    ... 41000 concepts énumérés
+    ... 42000 concepts énumérés
+    ... 43000 concepts énumérés
+    ... 44000 concepts énumérés
+    ... 45000 concepts énumérés
+    ... 46000 concepts énumérés
+    ... 47000 concepts énumérés
+    ... 48000 concepts énumérés
+    ... 49000 concepts énumérés
+    ... 50000 concepts énumérés
+    ... 51000 concepts énumérés
+    ... 52000 concepts énumérés
+    ... 53000 concepts énumérés
+    ... 54000 concepts énumérés
+    ... 55000 concepts énumérés
+    ... 56000 concepts énumérés
+    ... 57000 concepts énumérés
+    ... 58000 concepts énumérés
+    ... 59000 concepts énumérés
+    ... 60000 concepts énumérés
+    ... 61000 concepts énumérés
+    ... 62000 concepts énumérés
+    ... 63000 concepts énumérés
+    ... 64000 concepts énumérés
+    ... 65000 concepts énumérés
+    ... 66000 concepts énumérés
+    ... 67000 concepts énumérés
+    ... 68000 concepts énumérés
+    ... 69000 concepts énumérés
+    ... 70000 concepts énumérés
+    ... 71000 concepts énumérés
+    ... 72000 concepts énumérés
+    ... 73000 concepts énumérés
+    ... 74000 concepts énumérés
+    ... 75000 concepts énumérés
+    ... 76000 concepts énumérés
+    ... 77000 concepts énumérés
+    ... 78000 concepts énumérés
+    ... 79000 concepts énumérés
+    ... 80000 concepts énumérés
+    ... 81000 concepts énumérés
+    ... 82000 concepts énumérés
+    ... 83000 concepts énumérés
+    ... 84000 concepts énumérés
+    ... 85000 concepts énumérés
+CPU time (self): 175.121507 s
+  85492 concepts énumérés.
+Rechargement des partitions ...
+  85492 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+  456464 arêtes.
+Écriture du fichier DOT : Claude_Opus-4.6/Python/eg50_50/Lattice/eg50_50_LLM_2.dot ...
+Terminé.
+============================================================
+Date: 2026-03-28T12:20:38+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2_cover_progress.py
+Dataset: eg50_50
+CSV: Claude_Opus-4.6/Python/eg50_50/eg50_50.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2_cover_progress.py Claude_Opus-4.6/Python/eg50_50/eg50_50.csv
+------------------------------------------------------------
+Chargement du contexte depuis Claude_Opus-4.6/Python/eg50_50/eg50_50.csv ...
+  |G| = 50 objets, |M| = 50 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 10704 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+    ... 1000 concepts énumérés
+    ... 2000 concepts énumérés
+    ... 3000 concepts énumérés
+    ... 4000 concepts énumérés
+    ... 5000 concepts énumérés
+    ... 6000 concepts énumérés
+    ... 7000 concepts énumérés
+    ... 8000 concepts énumérés
+    ... 9000 concepts énumérés
+    ... 10000 concepts énumérés
+    ... 11000 concepts énumérés
+    ... 12000 concepts énumérés
+    ... 13000 concepts énumérés
+    ... 14000 concepts énumérés
+    ... 15000 concepts énumérés
+    ... 16000 concepts énumérés
+    ... 17000 concepts énumérés
+    ... 18000 concepts énumérés
+    ... 19000 concepts énumérés
+    ... 20000 concepts énumérés
+    ... 21000 concepts énumérés
+    ... 22000 concepts énumérés
+    ... 23000 concepts énumérés
+    ... 24000 concepts énumérés
+    ... 25000 concepts énumérés
+    ... 26000 concepts énumérés
+    ... 27000 concepts énumérés
+    ... 28000 concepts énumérés
+    ... 29000 concepts énumérés
+    ... 30000 concepts énumérés
+    ... 31000 concepts énumérés
+    ... 32000 concepts énumérés
+    ... 33000 concepts énumérés
+    ... 34000 concepts énumérés
+    ... 35000 concepts énumérés
+    ... 36000 concepts énumérés
+    ... 37000 concepts énumérés
+    ... 38000 concepts énumérés
+    ... 39000 concepts énumérés
+    ... 40000 concepts énumérés
+    ... 41000 concepts énumérés
+    ... 42000 concepts énumérés
+    ... 43000 concepts énumérés
+    ... 44000 concepts énumérés
+    ... 45000 concepts énumérés
+    ... 46000 concepts énumérés
+    ... 47000 concepts énumérés
+    ... 48000 concepts énumérés
+    ... 49000 concepts énumérés
+    ... 50000 concepts énumérés
+    ... 51000 concepts énumérés
+    ... 52000 concepts énumérés
+    ... 53000 concepts énumérés
+    ... 54000 concepts énumérés
+    ... 55000 concepts énumérés
+    ... 56000 concepts énumérés
+    ... 57000 concepts énumérés
+    ... 58000 concepts énumérés
+    ... 59000 concepts énumérés
+    ... 60000 concepts énumérés
+    ... 61000 concepts énumérés
+    ... 62000 concepts énumérés
+    ... 63000 concepts énumérés
+    ... 64000 concepts énumérés
+    ... 65000 concepts énumérés
+    ... 66000 concepts énumérés
+    ... 67000 concepts énumérés
+    ... 68000 concepts énumérés
+    ... 69000 concepts énumérés
+    ... 70000 concepts énumérés
+    ... 71000 concepts énumérés
+    ... 72000 concepts énumérés
+    ... 73000 concepts énumérés
+    ... 74000 concepts énumérés
+    ... 75000 concepts énumérés
+    ... 76000 concepts énumérés
+    ... 77000 concepts énumérés
+    ... 78000 concepts énumérés
+    ... 79000 concepts énumérés
+    ... 80000 concepts énumérés
+    ... 81000 concepts énumérés
+    ... 82000 concepts énumérés
+    ... 83000 concepts énumérés
+    ... 84000 concepts énumérés
+    ... 85000 concepts énumérés
+  85492 concepts énumérés.
+Rechargement des partitions ...
+  85492 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+[COVER_PROGRESS] elapsed=00:03:26 approx=100.0%
+CPU time (self): 207.226687 s
+  456464 arêtes.
+Écriture du fichier DOT : Claude_Opus-4.6/Python/eg50_50/Lattice/eg50_50_LLM_2.dot ...
+Terminé.

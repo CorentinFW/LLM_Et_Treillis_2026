@@ -1,0 +1,22 @@
+============================================================
+Date: 2026-03-28T11:20:46+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: eg9_9
+CSV: FCA4J/eg9_9/eg9_9.csv
+DOT: FCA4J/eg9_9/Lattice/eg9_9.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/eg9_9/eg9_9.csv -i CSV -s SEMICOLON -g FCA4J/eg9_9/Lattice/eg9_9.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: eg9_9.csv ( 9 x 9 )
+duration: 16 ms
+============================================================
+Date: 2026-03-28T11:21:19+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: eg9_9
+CSV: FCA4J/eg9_9/eg9_9.csv
+DOT: FCA4J/eg9_9/Lattice/eg9_9.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/eg9_9/eg9_9.csv -i CSV -s SEMICOLON -g FCA4J/eg9_9/Lattice/eg9_9.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: eg9_9.csv ( 9 x 9 )
+duration: 15 ms

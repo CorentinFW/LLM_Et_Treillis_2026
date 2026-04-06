@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T11:35:18+0100
+Kind: python
+Algo: GPT-5.3-Codex/Python/lattice.py
+Dataset: balance-scale_binarized
+CSV: GPT-5.3-Codex/Python/balance-scale_binarized/balance-scale_binarized.csv
+Command: python3 Outils/run_with_cpu_time.py GPT-5.3-Codex/Python/lattice.py GPT-5.3-Codex/Python/balance-scale_binarized/balance-scale_binarized.csv
+------------------------------------------------------------
+Erreur: Le CSV doit contenir une colonne objet et au moins un attribut
+CPU time (self): 0.009126 s
+Démarrage: 2026-03-28 11:35:18

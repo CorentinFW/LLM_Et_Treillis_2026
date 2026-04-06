@@ -1,0 +1,24 @@
+============================================================
+Date: 2026-03-28T11:50:15+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: eg80_80
+CSV: FCA4J/eg80_80/eg80_80.csv
+DOT: FCA4J/eg80_80/Lattice/eg80_80.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/eg80_80/eg80_80.csv -i CSV -s SEMICOLON -g FCA4J/eg80_80/Lattice/eg80_80.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: eg80_80.csv ( 80 x 80 )
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.BitSet.clone(BitSet.java:1102)
+	at fr.lirmm.fca4j.iset.std.BitSetFactory$SetWithBitSet.containsAll(BitSetFactory.java:214)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.getSmallestContainingConcept(Lattice_AddExtent.java:130)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.addExtent(Lattice_AddExtent.java:83)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.addExtent(Lattice_AddExtent.java:94)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.addExtent(Lattice_AddExtent.java:94)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.addExtent(Lattice_AddExtent.java:94)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.addExtent(Lattice_AddExtent.java:94)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.addExtent(Lattice_AddExtent.java:94)
+	at fr.lirmm.fca4j.algo.Lattice_AddExtent.run(Lattice_AddExtent.java:174)
+	at fr.lirmm.fca4j.command.LatticeBuilder.exec(LatticeBuilder.java:221)
+	at fr.lirmm.fca4j.main.Main$1.run(Main.java:133)
+	at fr.lirmm.fca4j.main.Main.main(Main.java:152)

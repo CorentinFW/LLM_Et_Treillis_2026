@@ -1,0 +1,11 @@
+============================================================
+Date: 2026-03-28T15:43:04+0100
+Kind: fca4j
+Algo: FCA4J/fca4j-cli-0.4.4.jar
+Dataset: lymphography_binarized
+CSV: FCA4J/lymphography_binarized/lymphography_binarized.csv
+DOT: FCA4J/lymphography_binarized/Lattice/lymphography_binarized.dot
+Command: java -jar FCA4J/fca4j-cli-0.4.4.jar LATTICE FCA4J/lymphography_binarized/lymphography_binarized.csv -i CSV -s SEMICOLON -g FCA4J/lymphography_binarized/Lattice/lymphography_binarized.dot
+------------------------------------------------------------
+running ADD_EXTENT (BITSET) data: lymphography_binarized.csv ( 148 x 0 )
+duration: 9 ms

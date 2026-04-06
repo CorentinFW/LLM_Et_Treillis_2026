@@ -1,0 +1,21 @@
+============================================================
+Date: 2026-03-28T21:16:45+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2.py
+Dataset: plants_binarized
+CSV: Claude_Opus-4.6/Python/plants_binarized/plants_binarized.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2.py Claude_Opus-4.6/Python/plants_binarized/plants_binarized.csv
+------------------------------------------------------------
+CPU time (self): 0.178826 s
+Chargement du contexte depuis Claude_Opus-4.6/Python/plants_binarized/plants_binarized.csv ...
+  |G| = 34781 objets, |M| = 0 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 10689 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+  1 concepts énumérés.
+Rechargement des partitions ...
+  1 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+  0 arêtes.
+Écriture du fichier DOT : Claude_Opus-4.6/Python/plants_binarized/Lattice/plants_binarized_LLM_2.dot ...
+Terminé.

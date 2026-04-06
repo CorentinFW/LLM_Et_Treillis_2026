@@ -1,0 +1,21 @@
+============================================================
+Date: 2026-03-28T21:15:05+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2.py
+Dataset: car_binarized
+CSV: Claude_Opus-4.6/Python/car_binarized/car_binarized.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2.py Claude_Opus-4.6/Python/car_binarized/car_binarized.csv
+------------------------------------------------------------
+CPU time (self): 0.009599 s
+Chargement du contexte depuis Claude_Opus-4.6/Python/car_binarized/car_binarized.csv ...
+  |G| = 1728 objets, |M| = 0 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 10701 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+  1 concepts énumérés.
+Rechargement des partitions ...
+  1 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+  0 arêtes.
+Écriture du fichier DOT : Claude_Opus-4.6/Python/car_binarized/Lattice/car_binarized_LLM_2.dot ...
+Terminé.

@@ -1,0 +1,15 @@
+# FCA partition outputs (generated during lattice computation)
+**/partition/
+**/partition/**
+
+# Ignore FCA4J source bundle directory
+Par_recomposition/FCA4J/FCA4J-code/
+
+# Ignore all Python virtual environments
+**/.venv/
+
+# Ignore generated bank binarized CSV files
+bank_binarized.csv
+
+# Ignore oversized generated full lattice dot files
+**/bank_binarized_full.dot

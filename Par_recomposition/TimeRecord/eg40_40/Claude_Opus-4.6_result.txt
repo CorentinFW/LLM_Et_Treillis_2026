@@ -1,0 +1,40 @@
+============================================================
+Date: 2026-03-28T11:46:13+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2.py
+Dataset: eg40_40
+CSV: Claude_Opus-4.6/Python/eg40_40/eg40_40.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2.py Claude_Opus-4.6/Python/eg40_40/eg40_40.csv
+------------------------------------------------------------
+Chargement du contexte depuis Claude_Opus-4.6/Python/eg40_40/eg40_40.csv ...
+  |G| = 40 objets, |M| = 40 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 9173 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+    ... 1000 concepts énumérés
+    ... 2000 concepts énumérés
+    ... 3000 concepts énumérés
+    ... 4000 concepts énumérés
+    ... 5000 concepts énumérés
+    ... 6000 concepts énumérés
+    ... 7000 concepts énumérés
+    ... 8000 concepts énumérés
+    ... 9000 concepts énumérés
+    ... 10000 concepts énumérés
+    ... 11000 concepts énumérés
+    ... 12000 concepts énumérés
+    ... 13000 concepts énumérés
+    ... 14000 concepts énumérés
+    ... 15000 concepts énumérés
+    ... 16000 concepts énumérés
+    ... 17000 concepts énumérés
+    ... 18000 concepts énumérés
+    ... 19000 concepts énumérés
+CPU time (self): 9.347629 s
+  19627 concepts énumérés.
+Rechargement des partitions ...
+  19627 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+  94672 arêtes.
+Écriture du fichier DOT : Claude_Opus-4.6/Python/eg40_40/Lattice/eg40_40_LLM_2.dot ...
+Terminé.

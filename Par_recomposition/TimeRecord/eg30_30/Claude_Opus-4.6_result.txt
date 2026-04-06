@@ -1,0 +1,25 @@
+============================================================
+Date: 2026-03-28T11:42:46+0100
+Kind: python
+Algo: Claude_Opus-4.6/Python/lattice2.py
+Dataset: eg30_30
+CSV: Claude_Opus-4.6/Python/eg30_30/eg30_30.csv
+Command: python3 Outils/run_with_cpu_time.py Claude_Opus-4.6/Python/lattice2.py Claude_Opus-4.6/Python/eg30_30/eg30_30.csv
+------------------------------------------------------------
+Chargement du contexte depuis Claude_Opus-4.6/Python/eg30_30/eg30_30.csv ...
+  |G| = 30 objets, |M| = 30 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 9167 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+    ... 1000 concepts énumérés
+    ... 2000 concepts énumérés
+    ... 3000 concepts énumérés
+    ... 4000 concepts énumérés
+CPU time (self): 0.532645 s
+  4130 concepts énumérés.
+Rechargement des partitions ...
+  4130 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+  17588 arêtes.
+Écriture du fichier DOT : Claude_Opus-4.6/Python/eg30_30/Lattice/eg30_30_LLM_2.dot ...
+Terminé.

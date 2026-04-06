@@ -1,0 +1,10 @@
+{
+  "run_id": "stage-parse-check",
+  "finished_at": "2026-04-06T12:02:24+02:00",
+  "stages_requested": [
+    "normalize"
+  ],
+  "stage_status": {
+    "normalize": "FAILED: Missing execution index: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/stage-parse-check/metadata/execution_index.json"
+  }
+}

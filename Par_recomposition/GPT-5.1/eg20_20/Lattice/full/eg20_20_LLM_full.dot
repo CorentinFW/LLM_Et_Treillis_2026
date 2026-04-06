@@ -1,0 +1,2550 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 0, E: 20)||o1\\no10\\no11\\no12\\no13\\no14\\no15\\no16\\no17\\no18\\no19\\no2\\no20\\no3\\no4\\no5\\no6\\no7\\no8\\no9}"];
+	1 [shape="record",style="filled",fillcolor="lightblue",label="{1 (I: 1, E: 8)|a20|o1\\no13\\no14\\no16\\no18\\no2\\no4\\no6}"];
+	2 [shape="record",style="filled",fillcolor="lightblue",label="{2 (I: 1, E: 10)|a19|o10\\no12\\no13\\no19\\no3\\no4\\no5\\no7\\no8\\no9}"];
+	3 [shape="record",style="filled",fillcolor="lightblue",label="{3 (I: 1, E: 10)|a18|o1\\no10\\no11\\no13\\no15\\no17\\no18\\no4\\no7\\no8}"];
+	4 [shape="record",style="filled",fillcolor="lightblue",label="{4 (I: 2, E: 4)|a18\\na20|o1\\no13\\no18\\no4}"];
+	5 [shape="record",style="filled",fillcolor="lightblue",label="{5 (I: 1, E: 9)|a17|o1\\no13\\no16\\no19\\no3\\no4\\no5\\no8\\no9}"];
+	6 [shape="record",style="filled",fillcolor="lightblue",label="{6 (I: 2, E: 7)|a17\\na19|o13\\no19\\no3\\no4\\no5\\no8\\no9}"];
+	7 [shape="record",style="filled",fillcolor="lightblue",label="{7 (I: 1, E: 12)|a16|o10\\no11\\no13\\no16\\no18\\no2\\no20\\no3\\no5\\no6\\no7\\no8}"];
+	8 [shape="record",style="filled",fillcolor="lightblue",label="{8 (I: 2, E: 6)|a16\\na19|o10\\no13\\no3\\no5\\no7\\no8}"];
+	9 [shape="record",style="filled",fillcolor="lightblue",label="{9 (I: 2, E: 6)|a16\\na18|o10\\no11\\no13\\no18\\no7\\no8}"];
+	10 [shape="record",style="filled",fillcolor="lightblue",label="{10 (I: 1, E: 11)|a15|o10\\no11\\no14\\no15\\no16\\no18\\no2\\no20\\no4\\no6\\no8}"];
+	11 [shape="record",style="filled",fillcolor="lightblue",label="{11 (I: 2, E: 6)|a15\\na20|o14\\no16\\no18\\no2\\no4\\no6}"];
+	12 [shape="record",style="filled",fillcolor="lightblue",label="{12 (I: 2, E: 8)|a15\\na16|o10\\no11\\no16\\no18\\no2\\no20\\no6\\no8}"];
+	13 [shape="record",style="filled",fillcolor="lightblue",label="{13 (I: 1, E: 11)|a14|o10\\no11\\no14\\no15\\no16\\no18\\no19\\no20\\no4\\no6\\no9}"];
+	14 [shape="record",style="filled",fillcolor="lightblue",label="{14 (I: 2, E: 4)|a14\\na17|o16\\no19\\no4\\no9}"];
+	15 [shape="record",style="filled",fillcolor="lightblue",label="{15 (I: 2, E: 9)|a14\\na15|o10\\no11\\no14\\no15\\no16\\no18\\no20\\no4\\no6}"];
+	16 [shape="record",style="filled",fillcolor="lightblue",label="{16 (I: 3, E: 5)|a14\\na15\\na20|o14\\no16\\no18\\no4\\no6}"];
+	17 [shape="record",style="filled",fillcolor="lightblue",label="{17 (I: 3, E: 6)|a14\\na15\\na16|o10\\no11\\no16\\no18\\no20\\no6}"];
+	18 [shape="record",style="filled",fillcolor="lightblue",label="{18 (I: 1, E: 12)|a13|o1\\no10\\no12\\no13\\no16\\no17\\no18\\no19\\no2\\no20\\no5\\no6}"];
+	19 [shape="record",style="filled",fillcolor="lightblue",label="{19 (I: 2, E: 6)|a13\\na20|o1\\no13\\no16\\no18\\no2\\no6}"];
+	20 [shape="record",style="filled",fillcolor="lightblue",label="{20 (I: 2, E: 5)|a13\\na19|o10\\no12\\no13\\no19\\no5}"];
+	21 [shape="record",style="filled",fillcolor="lightblue",label="{21 (I: 2, E: 5)|a13\\na18|o1\\no10\\no13\\no17\\no18}"];
+	22 [shape="record",style="filled",fillcolor="lightblue",label="{22 (I: 2, E: 5)|a13\\na17|o1\\no13\\no16\\no19\\no5}"];
+	23 [shape="record",style="filled",fillcolor="lightblue",label="{23 (I: 2, E: 8)|a13\\na16|o10\\no13\\no16\\no18\\no2\\no20\\no5\\no6}"];
+	24 [shape="record",style="filled",fillcolor="lightblue",label="{24 (I: 3, E: 3)|a13\\na16\\na18|o10\\no13\\no18}"];
+	25 [shape="record",style="filled",fillcolor="lightblue",label="{25 (I: 3, E: 6)|a13\\na15\\na16|o10\\no16\\no18\\no2\\no20\\no6}"];
+	26 [shape="record",style="filled",fillcolor="lightblue",label="{26 (I: 2, E: 6)|a13\\na14|o10\\no16\\no18\\no19\\no20\\no6}"];
+	27 [shape="record",style="filled",fillcolor="lightblue",label="{27 (I: 4, E: 5)|a13\\na14\\na15\\na16|o10\\no16\\no18\\no20\\no6}"];
+	28 [shape="record",style="filled",fillcolor="lightblue",label="{28 (I: 1, E: 11)|a12|o1\\no10\\no11\\no14\\no15\\no18\\no19\\no3\\no4\\no8\\no9}"];
+	29 [shape="record",style="filled",fillcolor="lightblue",label="{29 (I: 2, E: 4)|a12\\na20|o1\\no14\\no18\\no4}"];
+	30 [shape="record",style="filled",fillcolor="lightblue",label="{30 (I: 2, E: 6)|a12\\na19|o10\\no19\\no3\\no4\\no8\\no9}"];
+	31 [shape="record",style="filled",fillcolor="lightblue",label="{31 (I: 2, E: 7)|a12\\na18|o1\\no10\\no11\\no15\\no18\\no4\\no8}"];
+	32 [shape="record",style="filled",fillcolor="lightblue",label="{32 (I: 3, E: 3)|a12\\na18\\na20|o1\\no18\\no4}"];
+	33 [shape="record",style="filled",fillcolor="lightblue",label="{33 (I: 2, E: 6)|a12\\na17|o1\\no19\\no3\\no4\\no8\\no9}"];
+	34 [shape="record",style="filled",fillcolor="lightblue",label="{34 (I: 3, E: 5)|a12\\na17\\na19|o19\\no3\\no4\\no8\\no9}"];
+	35 [shape="record",style="filled",fillcolor="lightblue",label="{35 (I: 2, E: 5)|a12\\na16|o10\\no11\\no18\\no3\\no8}"];
+	36 [shape="record",style="filled",fillcolor="lightblue",label="{36 (I: 2, E: 7)|a12\\na15|o10\\no11\\no14\\no15\\no18\\no4\\no8}"];
+	37 [shape="record",style="filled",fillcolor="lightblue",label="{37 (I: 3, E: 6)|a12\\na15\\na18|o10\\no11\\no15\\no18\\no4\\no8}"];
+	38 [shape="record",style="filled",fillcolor="lightblue",label="{38 (I: 4, E: 4)|a12\\na15\\na16\\na18|o10\\no11\\no18\\no8}"];
+	39 [shape="record",style="filled",fillcolor="lightblue",label="{39 (I: 2, E: 8)|a12\\na14|o10\\no11\\no14\\no15\\no18\\no19\\no4\\no9}"];
+	40 [shape="record",style="filled",fillcolor="lightblue",label="{40 (I: 3, E: 4)|a12\\na14\\na19|o10\\no19\\no4\\no9}"];
+	41 [shape="record",style="filled",fillcolor="lightblue",label="{41 (I: 3, E: 6)|a12\\na14\\na15|o10\\no11\\no14\\no15\\no18\\no4}"];
+	42 [shape="record",style="filled",fillcolor="lightblue",label="{42 (I: 4, E: 5)|a12\\na14\\na15\\na18|o10\\no11\\no15\\no18\\no4}"];
+	43 [shape="record",style="filled",fillcolor="lightblue",label="{43 (I: 5, E: 3)|a12\\na14\\na15\\na16\\na18|o10\\no11\\no18}"];
+	44 [shape="record",style="filled",fillcolor="lightblue",label="{44 (I: 2, E: 4)|a12\\na13|o1\\no10\\no18\\no19}"];
+	45 [shape="record",style="filled",fillcolor="lightblue",label="{45 (I: 3, E: 3)|a12\\na13\\na18|o1\\no10\\no18}"];
+	46 [shape="record",style="filled",fillcolor="lightblue",label="{46 (I: 3, E: 3)|a12\\na13\\na14|o10\\no18\\no19}"];
+	47 [shape="record",style="filled",fillcolor="lightblue",label="{47 (I: 4, E: 2)|a12\\na13\\na14\\na19|o10\\no19}"];
+	48 [shape="record",style="filled",fillcolor="lightblue",label="{48 (I: 6, E: 2)|a12\\na13\\na14\\na15\\na16\\na18|o10\\no18}"];
+	49 [shape="record",style="filled",fillcolor="lightblue",label="{49 (I: 1, E: 6)|a11|o12\\no14\\no18\\no3\\no4\\no6}"];
+	50 [shape="record",style="filled",fillcolor="lightblue",label="{50 (I: 4, E: 4)|a11\\na14\\na15\\na20|o14\\no18\\no4\\no6}"];
+	51 [shape="record",style="filled",fillcolor="lightblue",label="{51 (I: 2, E: 4)|a11\\na12|o14\\no18\\no3\\no4}"];
+	52 [shape="record",style="filled",fillcolor="lightblue",label="{52 (I: 5, E: 3)|a11\\na12\\na14\\na15\\na20|o14\\no18\\no4}"];
+	53 [shape="record",style="filled",fillcolor="lightblue",label="{53 (I: 6, E: 2)|a11\\na12\\na14\\na15\\na18\\na20|o18\\no4}"];
+	54 [shape="record",style="filled",fillcolor="lightblue",label="{54 (I: 1, E: 9)|a10|o1\\no10\\no11\\no14\\no15\\no16\\no2\\no8\\no9}"];
+	55 [shape="record",style="filled",fillcolor="lightblue",label="{55 (I: 2, E: 4)|a10\\na17|o1\\no16\\no8\\no9}"];
+	56 [shape="record",style="filled",fillcolor="lightblue",label="{56 (I: 2, E: 7)|a10\\na15|o10\\no11\\no14\\no15\\no16\\no2\\no8}"];
+	57 [shape="record",style="filled",fillcolor="lightblue",label="{57 (I: 2, E: 6)|a10\\na14|o10\\no11\\no14\\no15\\no16\\no9}"];
+	58 [shape="record",style="filled",fillcolor="lightblue",label="{58 (I: 3, E: 5)|a10\\na14\\na15|o10\\no11\\no14\\no15\\no16}"];
+	59 [shape="record",style="filled",fillcolor="lightblue",label="{59 (I: 2, E: 7)|a10\\na12|o1\\no10\\no11\\no14\\no15\\no8\\no9}"];
+	60 [shape="record",style="filled",fillcolor="lightblue",label="{60 (I: 3, E: 3)|a10\\na12\\na19|o10\\no8\\no9}"];
+	61 [shape="record",style="filled",fillcolor="lightblue",label="{61 (I: 3, E: 3)|a10\\na12\\na17|o1\\no8\\no9}"];
+	62 [shape="record",style="filled",fillcolor="lightblue",label="{62 (I: 3, E: 5)|a10\\na12\\na15|o10\\no11\\no14\\no15\\no8}"];
+	63 [shape="record",style="filled",fillcolor="lightblue",label="{63 (I: 3, E: 5)|a10\\na12\\na14|o10\\no11\\no14\\no15\\no9}"];
+	64 [shape="record",style="filled",fillcolor="lightblue",label="{64 (I: 4, E: 2)|a10\\na12\\na14\\na19|o10\\no9}"];
+	65 [shape="record",style="filled",fillcolor="lightblue",label="{65 (I: 4, E: 4)|a10\\na12\\na14\\na15|o10\\no11\\no14\\no15}"];
+	66 [shape="record",style="filled",fillcolor="lightblue",label="{66 (I: 1, E: 9)|a9|o16\\no17\\no18\\no19\\no5\\no6\\no7\\no8\\no9}"];
+	67 [shape="record",style="filled",fillcolor="lightblue",label="{67 (I: 2, E: 5)|a19\\na9|o19\\no5\\no7\\no8\\no9}"];
+	68 [shape="record",style="filled",fillcolor="lightblue",label="{68 (I: 2, E: 5)|a17\\na9|o16\\no19\\no5\\no8\\no9}"];
+	69 [shape="record",style="filled",fillcolor="lightblue",label="{69 (I: 3, E: 4)|a17\\na19\\na9|o19\\no5\\no8\\no9}"];
+	70 [shape="record",style="filled",fillcolor="lightblue",label="{70 (I: 2, E: 5)|a14\\na9|o16\\no18\\no19\\no6\\no9}"];
+	71 [shape="record",style="filled",fillcolor="lightblue",label="{71 (I: 3, E: 3)|a14\\na17\\na9|o16\\no19\\no9}"];
+	72 [shape="record",style="filled",fillcolor="lightblue",label="{72 (I: 2, E: 6)|a13\\na9|o16\\no17\\no18\\no19\\no5\\no6}"];
+	73 [shape="record",style="filled",fillcolor="lightblue",label="{73 (I: 3, E: 3)|a13\\na17\\na9|o16\\no19\\no5}"];
+	74 [shape="record",style="filled",fillcolor="lightblue",label="{74 (I: 3, E: 4)|a13\\na14\\na9|o16\\no18\\no19\\no6}"];
+	75 [shape="record",style="filled",fillcolor="lightblue",label="{75 (I: 4, E: 2)|a13\\na14\\na17\\na9|o16\\no19}"];
+	76 [shape="record",style="filled",fillcolor="lightblue",label="{76 (I: 2, E: 4)|a12\\na9|o18\\no19\\no8\\no9}"];
+	77 [shape="record",style="filled",fillcolor="lightblue",label="{77 (I: 4, E: 3)|a12\\na17\\na19\\na9|o19\\no8\\no9}"];
+	78 [shape="record",style="filled",fillcolor="lightblue",label="{78 (I: 3, E: 3)|a12\\na14\\na9|o18\\no19\\no9}"];
+	79 [shape="record",style="filled",fillcolor="lightblue",label="{79 (I: 4, E: 2)|a12\\na13\\na14\\na9|o18\\no19}"];
+	80 [shape="record",style="filled",fillcolor="lightblue",label="{80 (I: 1, E: 11)|a8|o1\\no13\\no14\\no15\\no16\\no20\\no3\\no4\\no5\\no6\\no9}"];
+	81 [shape="record",style="filled",fillcolor="lightblue",label="{81 (I: 2, E: 6)|a20\\na8|o1\\no13\\no14\\no16\\no4\\no6}"];
+	82 [shape="record",style="filled",fillcolor="lightblue",label="{82 (I: 2, E: 7)|a17\\na8|o1\\no13\\no16\\no3\\no4\\no5\\no9}"];
+	83 [shape="record",style="filled",fillcolor="lightblue",label="{83 (I: 2, E: 6)|a16\\na8|o13\\no16\\no20\\no3\\no5\\no6}"];
+	84 [shape="record",style="filled",fillcolor="lightblue",label="{84 (I: 2, E: 7)|a14\\na8|o14\\no15\\no16\\no20\\no4\\no6\\no9}"];
+	85 [shape="record",style="filled",fillcolor="lightblue",label="{85 (I: 3, E: 3)|a14\\na17\\na8|o16\\no4\\no9}"];
+	86 [shape="record",style="filled",fillcolor="lightblue",label="{86 (I: 3, E: 6)|a14\\na15\\na8|o14\\no15\\no16\\no20\\no4\\no6}"];
+	87 [shape="record",style="filled",fillcolor="lightblue",label="{87 (I: 4, E: 4)|a14\\na15\\na20\\na8|o14\\no16\\no4\\no6}"];
+	88 [shape="record",style="filled",fillcolor="lightblue",label="{88 (I: 2, E: 6)|a13\\na8|o1\\no13\\no16\\no20\\no5\\no6}"];
+	89 [shape="record",style="filled",fillcolor="lightblue",label="{89 (I: 3, E: 4)|a13\\na20\\na8|o1\\no13\\no16\\no6}"];
+	90 [shape="record",style="filled",fillcolor="lightblue",label="{90 (I: 3, E: 5)|a13\\na16\\na8|o13\\no16\\no20\\no5\\no6}"];
+	91 [shape="record",style="filled",fillcolor="lightblue",label="{91 (I: 5, E: 3)|a13\\na14\\na15\\na16\\na8|o16\\no20\\no6}"];
+	92 [shape="record",style="filled",fillcolor="lightblue",label="{92 (I: 2, E: 5)|a10\\na8|o1\\no14\\no15\\no16\\no9}"];
+	93 [shape="record",style="filled",fillcolor="lightblue",label="{93 (I: 3, E: 3)|a10\\na17\\na8|o1\\no16\\no9}"];
+	94 [shape="record",style="filled",fillcolor="lightblue",label="{94 (I: 1, E: 12)|a5|o1\\no12\\no13\\no14\\no15\\no19\\no3\\no4\\no5\\no6\\no7\\no9}"];
+	95 [shape="record",style="filled",fillcolor="lightblue",label="{95 (I: 2, E: 8)|a19\\na5|o12\\no13\\no19\\no3\\no4\\no5\\no7\\no9}"];
+	96 [shape="record",style="filled",fillcolor="lightblue",label="{96 (I: 2, E: 7)|a17\\na5|o1\\no13\\no19\\no3\\no4\\no5\\no9}"];
+	97 [shape="record",style="filled",fillcolor="lightblue",label="{97 (I: 3, E: 6)|a17\\na19\\na5|o13\\no19\\no3\\no4\\no5\\no9}"];
+	98 [shape="record",style="filled",fillcolor="lightblue",label="{98 (I: 2, E: 6)|a14\\na5|o14\\no15\\no19\\no4\\no6\\no9}"];
+	99 [shape="record",style="filled",fillcolor="lightblue",label="{99 (I: 2, E: 6)|a13\\na5|o1\\no12\\no13\\no19\\no5\\no6}"];
+	100 [shape="record",style="filled",fillcolor="lightblue",label="{100 (I: 3, E: 4)|a13\\na19\\na5|o12\\no13\\no19\\no5}"];
+	101 [shape="record",style="filled",fillcolor="lightblue",label="{101 (I: 3, E: 4)|a13\\na17\\na5|o1\\no13\\no19\\no5}"];
+	102 [shape="record",style="filled",fillcolor="lightblue",label="{102 (I: 4, E: 3)|a13\\na17\\na19\\na5|o13\\no19\\no5}"];
+	103 [shape="record",style="filled",fillcolor="lightblue",label="{103 (I: 2, E: 7)|a12\\na5|o1\\no14\\no15\\no19\\no3\\no4\\no9}"];
+	104 [shape="record",style="filled",fillcolor="lightblue",label="{104 (I: 3, E: 5)|a12\\na17\\na5|o1\\no19\\no3\\no4\\no9}"];
+	105 [shape="record",style="filled",fillcolor="lightblue",label="{105 (I: 4, E: 4)|a12\\na17\\na19\\na5|o19\\no3\\no4\\no9}"];
+	106 [shape="record",style="filled",fillcolor="lightblue",label="{106 (I: 3, E: 5)|a12\\na14\\na5|o14\\no15\\no19\\no4\\no9}"];
+	107 [shape="record",style="filled",fillcolor="lightblue",label="{107 (I: 5, E: 3)|a12\\na14\\na17\\na19\\na5|o19\\no4\\no9}"];
+	108 [shape="record",style="filled",fillcolor="lightblue",label="{108 (I: 4, E: 2)|a12\\na13\\na17\\na5|o1\\no19}"];
+	109 [shape="record",style="filled",fillcolor="lightblue",label="{109 (I: 2, E: 5)|a11\\na5|o12\\no14\\no3\\no4\\no6}"];
+	110 [shape="record",style="filled",fillcolor="lightblue",label="{110 (I: 3, E: 3)|a11\\na19\\na5|o12\\no3\\no4}"];
+	111 [shape="record",style="filled",fillcolor="lightblue",label="{111 (I: 2, E: 5)|a5\\na9|o19\\no5\\no6\\no7\\no9}"];
+	112 [shape="record",style="filled",fillcolor="lightblue",label="{112 (I: 3, E: 4)|a19\\na5\\na9|o19\\no5\\no7\\no9}"];
+	113 [shape="record",style="filled",fillcolor="lightblue",label="{113 (I: 4, E: 3)|a17\\na19\\na5\\na9|o19\\no5\\no9}"];
+	114 [shape="record",style="filled",fillcolor="lightblue",label="{114 (I: 3, E: 3)|a14\\na5\\na9|o19\\no6\\no9}"];
+	115 [shape="record",style="filled",fillcolor="lightblue",label="{115 (I: 3, E: 3)|a13\\na5\\na9|o19\\no5\\no6}"];
+	116 [shape="record",style="filled",fillcolor="lightblue",label="{116 (I: 5, E: 2)|a13\\na17\\na19\\na5\\na9|o19\\no5}"];
+	117 [shape="record",style="filled",fillcolor="lightblue",label="{117 (I: 4, E: 2)|a13\\na14\\na5\\na9|o19\\no6}"];
+	118 [shape="record",style="filled",fillcolor="lightblue",label="{118 (I: 6, E: 2)|a12\\na14\\na17\\na19\\na5\\na9|o19\\no9}"];
+	119 [shape="record",style="filled",fillcolor="lightblue",label="{119 (I: 7, E: 1)|a12\\na13\\na14\\na17\\na19\\na5\\na9|o19}"];
+	120 [shape="record",style="filled",fillcolor="lightblue",label="{120 (I: 2, E: 9)|a5\\na8|o1\\no13\\no14\\no15\\no3\\no4\\no5\\no6\\no9}"];
+	121 [shape="record",style="filled",fillcolor="lightblue",label="{121 (I: 3, E: 5)|a20\\na5\\na8|o1\\no13\\no14\\no4\\no6}"];
+	122 [shape="record",style="filled",fillcolor="lightblue",label="{122 (I: 3, E: 6)|a17\\na5\\na8|o1\\no13\\no3\\no4\\no5\\no9}"];
+	123 [shape="record",style="filled",fillcolor="lightblue",label="{123 (I: 4, E: 5)|a17\\na19\\na5\\na8|o13\\no3\\no4\\no5\\no9}"];
+	124 [shape="record",style="filled",fillcolor="lightblue",label="{124 (I: 3, E: 5)|a14\\na5\\na8|o14\\no15\\no4\\no6\\no9}"];
+	125 [shape="record",style="filled",fillcolor="lightblue",label="{125 (I: 4, E: 4)|a14\\na15\\na5\\na8|o14\\no15\\no4\\no6}"];
+	126 [shape="record",style="filled",fillcolor="lightblue",label="{126 (I: 3, E: 4)|a13\\na5\\na8|o1\\no13\\no5\\no6}"];
+	127 [shape="record",style="filled",fillcolor="lightblue",label="{127 (I: 4, E: 3)|a13\\na20\\na5\\na8|o1\\no13\\no6}"];
+	128 [shape="record",style="filled",fillcolor="lightblue",label="{128 (I: 3, E: 6)|a12\\na5\\na8|o1\\no14\\no15\\no3\\no4\\no9}"];
+	129 [shape="record",style="filled",fillcolor="lightblue",label="{129 (I: 4, E: 3)|a12\\na20\\na5\\na8|o1\\no14\\no4}"];
+	130 [shape="record",style="filled",fillcolor="lightblue",label="{130 (I: 4, E: 4)|a12\\na17\\na5\\na8|o1\\no3\\no4\\no9}"];
+	131 [shape="record",style="filled",fillcolor="lightblue",label="{131 (I: 5, E: 3)|a12\\na17\\na19\\na5\\na8|o3\\no4\\no9}"];
+	132 [shape="record",style="filled",fillcolor="lightblue",label="{132 (I: 4, E: 4)|a12\\na14\\na5\\na8|o14\\no15\\no4\\no9}"];
+	133 [shape="record",style="filled",fillcolor="lightblue",label="{133 (I: 6, E: 2)|a12\\na14\\na17\\na19\\na5\\na8|o4\\no9}"];
+	134 [shape="record",style="filled",fillcolor="lightblue",label="{134 (I: 5, E: 3)|a12\\na14\\na15\\na5\\na8|o14\\no15\\no4}"];
+	135 [shape="record",style="filled",fillcolor="lightblue",label="{135 (I: 3, E: 4)|a11\\na5\\na8|o14\\no3\\no4\\no6}"];
+	136 [shape="record",style="filled",fillcolor="lightblue",label="{136 (I: 6, E: 3)|a11\\na14\\na15\\na20\\na5\\na8|o14\\no4\\no6}"];
+	137 [shape="record",style="filled",fillcolor="lightblue",label="{137 (I: 4, E: 3)|a11\\na12\\na5\\na8|o14\\no3\\no4}"];
+	138 [shape="record",style="filled",fillcolor="lightblue",label="{138 (I: 6, E: 2)|a11\\na12\\na17\\na19\\na5\\na8|o3\\no4}"];
+	139 [shape="record",style="filled",fillcolor="lightblue",label="{139 (I: 7, E: 2)|a11\\na12\\na14\\na15\\na20\\na5\\na8|o14\\no4}"];
+	140 [shape="record",style="filled",fillcolor="lightblue",label="{140 (I: 4, E: 4)|a10\\na12\\na5\\na8|o1\\no14\\no15\\no9}"];
+	141 [shape="record",style="filled",fillcolor="lightblue",label="{141 (I: 5, E: 2)|a10\\na12\\na17\\na5\\na8|o1\\no9}"];
+	142 [shape="record",style="filled",fillcolor="lightblue",label="{142 (I: 1, E: 14)|a4|o12\\no13\\no14\\no15\\no16\\no17\\no18\\no2\\no3\\no5\\no6\\no7\\no8\\no9}"];
+	143 [shape="record",style="filled",fillcolor="lightblue",label="{143 (I: 2, E: 6)|a20\\na4|o13\\no14\\no16\\no18\\no2\\no6}"];
+	144 [shape="record",style="filled",fillcolor="lightblue",label="{144 (I: 2, E: 7)|a19\\na4|o12\\no13\\no3\\no5\\no7\\no8\\no9}"];
+	145 [shape="record",style="filled",fillcolor="lightblue",label="{145 (I: 2, E: 6)|a17\\na4|o13\\no16\\no3\\no5\\no8\\no9}"];
+	146 [shape="record",style="filled",fillcolor="lightblue",label="{146 (I: 3, E: 5)|a17\\na19\\na4|o13\\no3\\no5\\no8\\no9}"];
+	147 [shape="record",style="filled",fillcolor="lightblue",label="{147 (I: 2, E: 9)|a16\\na4|o13\\no16\\no18\\no2\\no3\\no5\\no6\\no7\\no8}"];
+	148 [shape="record",style="filled",fillcolor="lightblue",label="{148 (I: 3, E: 5)|a16\\na19\\na4|o13\\no3\\no5\\no7\\no8}"];
+	149 [shape="record",style="filled",fillcolor="lightblue",label="{149 (I: 3, E: 5)|a16\\na17\\na4|o13\\no16\\no3\\no5\\no8}"];
+	150 [shape="record",style="filled",fillcolor="lightblue",label="{150 (I: 4, E: 4)|a16\\na17\\na19\\na4|o13\\no3\\no5\\no8}"];
+	151 [shape="record",style="filled",fillcolor="lightblue",label="{151 (I: 2, E: 7)|a15\\na4|o14\\no15\\no16\\no18\\no2\\no6\\no8}"];
+	152 [shape="record",style="filled",fillcolor="lightblue",label="{152 (I: 3, E: 5)|a15\\na20\\na4|o14\\no16\\no18\\no2\\no6}"];
+	153 [shape="record",style="filled",fillcolor="lightblue",label="{153 (I: 3, E: 5)|a15\\na16\\na4|o16\\no18\\no2\\no6\\no8}"];
+	154 [shape="record",style="filled",fillcolor="lightblue",label="{154 (I: 2, E: 6)|a14\\na4|o14\\no15\\no16\\no18\\no6\\no9}"];
+	155 [shape="record",style="filled",fillcolor="lightblue",label="{155 (I: 2, E: 8)|a13\\na4|o12\\no13\\no16\\no17\\no18\\no2\\no5\\no6}"];
+	156 [shape="record",style="filled",fillcolor="lightblue",label="{156 (I: 3, E: 6)|a13\\na16\\na4|o13\\no16\\no18\\no2\\no5\\no6}"];
+	157 [shape="record",style="filled",fillcolor="lightblue",label="{157 (I: 4, E: 5)|a13\\na16\\na20\\na4|o13\\no16\\no18\\no2\\no6}"];
+	158 [shape="record",style="filled",fillcolor="lightblue",label="{158 (I: 5, E: 4)|a13\\na15\\na16\\na20\\na4|o16\\no18\\no2\\no6}"];
+	159 [shape="record",style="filled",fillcolor="lightblue",label="{159 (I: 2, E: 6)|a12\\na4|o14\\no15\\no18\\no3\\no8\\no9}"];
+	160 [shape="record",style="filled",fillcolor="lightblue",label="{160 (I: 4, E: 3)|a12\\na17\\na19\\na4|o3\\no8\\no9}"];
+	161 [shape="record",style="filled",fillcolor="lightblue",label="{161 (I: 3, E: 4)|a12\\na14\\na4|o14\\no15\\no18\\no9}"];
+	162 [shape="record",style="filled",fillcolor="lightblue",label="{162 (I: 2, E: 5)|a11\\na4|o12\\no14\\no18\\no3\\no6}"];
+	163 [shape="record",style="filled",fillcolor="lightblue",label="{163 (I: 3, E: 3)|a11\\na16\\na4|o18\\no3\\no6}"];
+	164 [shape="record",style="filled",fillcolor="lightblue",label="{164 (I: 3, E: 3)|a11\\na13\\na4|o12\\no18\\no6}"];
+	165 [shape="record",style="filled",fillcolor="lightblue",label="{165 (I: 2, E: 6)|a10\\na4|o14\\no15\\no16\\no2\\no8\\no9}"];
+	166 [shape="record",style="filled",fillcolor="lightblue",label="{166 (I: 3, E: 4)|a10\\na12\\na4|o14\\no15\\no8\\no9}"];
+	167 [shape="record",style="filled",fillcolor="lightblue",label="{167 (I: 2, E: 8)|a4\\na9|o16\\no17\\no18\\no5\\no6\\no7\\no8\\no9}"];
+	168 [shape="record",style="filled",fillcolor="lightblue",label="{168 (I: 3, E: 4)|a19\\na4\\na9|o5\\no7\\no8\\no9}"];
+	169 [shape="record",style="filled",fillcolor="lightblue",label="{169 (I: 3, E: 4)|a17\\na4\\na9|o16\\no5\\no8\\no9}"];
+	170 [shape="record",style="filled",fillcolor="lightblue",label="{170 (I: 4, E: 3)|a17\\na19\\na4\\na9|o5\\no8\\no9}"];
+	171 [shape="record",style="filled",fillcolor="lightblue",label="{171 (I: 3, E: 6)|a16\\na4\\na9|o16\\no18\\no5\\no6\\no7\\no8}"];
+	172 [shape="record",style="filled",fillcolor="lightblue",label="{172 (I: 4, E: 4)|a15\\na16\\na4\\na9|o16\\no18\\no6\\no8}"];
+	173 [shape="record",style="filled",fillcolor="lightblue",label="{173 (I: 3, E: 4)|a14\\na4\\na9|o16\\no18\\no6\\no9}"];
+	174 [shape="record",style="filled",fillcolor="lightblue",label="{174 (I: 3, E: 5)|a13\\na4\\na9|o16\\no17\\no18\\no5\\no6}"];
+	175 [shape="record",style="filled",fillcolor="lightblue",label="{175 (I: 3, E: 3)|a12\\na4\\na9|o18\\no8\\no9}"];
+	176 [shape="record",style="filled",fillcolor="lightblue",label="{176 (I: 4, E: 2)|a12\\na14\\na4\\na9|o18\\no9}"];
+	177 [shape="record",style="filled",fillcolor="lightblue",label="{177 (I: 4, E: 3)|a10\\na17\\na4\\na9|o16\\no8\\no9}"];
+	178 [shape="record",style="filled",fillcolor="lightblue",label="{178 (I: 6, E: 2)|a10\\na12\\na17\\na19\\na4\\na9|o8\\no9}"];
+	179 [shape="record",style="filled",fillcolor="lightblue",label="{179 (I: 2, E: 8)|a4\\na8|o13\\no14\\no15\\no16\\no3\\no5\\no6\\no9}"];
+	180 [shape="record",style="filled",fillcolor="lightblue",label="{180 (I: 3, E: 5)|a17\\na4\\na8|o13\\no16\\no3\\no5\\no9}"];
+	181 [shape="record",style="filled",fillcolor="lightblue",label="{181 (I: 3, E: 5)|a16\\na4\\na8|o13\\no16\\no3\\no5\\no6}"];
+	182 [shape="record",style="filled",fillcolor="lightblue",label="{182 (I: 4, E: 4)|a16\\na17\\na4\\na8|o13\\no16\\no3\\no5}"];
+	183 [shape="record",style="filled",fillcolor="lightblue",label="{183 (I: 3, E: 5)|a14\\na4\\na8|o14\\no15\\no16\\no6\\no9}"];
+	184 [shape="record",style="filled",fillcolor="lightblue",label="{184 (I: 4, E: 4)|a10\\na14\\na4\\na8|o14\\no15\\no16\\no9}"];
+	185 [shape="record",style="filled",fillcolor="lightblue",label="{185 (I: 3, E: 4)|a4\\na8\\na9|o16\\no5\\no6\\no9}"];
+	186 [shape="record",style="filled",fillcolor="lightblue",label="{186 (I: 4, E: 3)|a17\\na4\\na8\\na9|o16\\no5\\no9}"];
+	187 [shape="record",style="filled",fillcolor="lightblue",label="{187 (I: 4, E: 3)|a14\\na4\\na8\\na9|o16\\no6\\no9}"];
+	188 [shape="record",style="filled",fillcolor="lightblue",label="{188 (I: 6, E: 2)|a10\\na14\\na17\\na4\\na8\\na9|o16\\no9}"];
+	189 [shape="record",style="filled",fillcolor="lightblue",label="{189 (I: 2, E: 8)|a4\\na6|o13\\no14\\no15\\no16\\no18\\no5\\no6\\no7}"];
+	190 [shape="record",style="filled",fillcolor="lightblue",label="{190 (I: 3, E: 5)|a20\\na4\\na6|o13\\no14\\no16\\no18\\no6}"];
+	191 [shape="record",style="filled",fillcolor="lightblue",label="{191 (I: 3, E: 6)|a16\\na4\\na6|o13\\no16\\no18\\no5\\no6\\no7}"];
+	192 [shape="record",style="filled",fillcolor="lightblue",label="{192 (I: 4, E: 5)|a14\\na15\\na4\\na6|o14\\no15\\no16\\no18\\no6}"];
+	193 [shape="record",style="filled",fillcolor="lightblue",label="{193 (I: 5, E: 4)|a14\\na15\\na20\\na4\\na6|o14\\no16\\no18\\no6}"];
+	194 [shape="record",style="filled",fillcolor="lightblue",label="{194 (I: 4, E: 5)|a13\\na16\\na4\\na6|o13\\no16\\no18\\no5\\no6}"];
+	195 [shape="record",style="filled",fillcolor="lightblue",label="{195 (I: 5, E: 4)|a13\\na16\\na20\\na4\\na6|o13\\no16\\no18\\no6}"];
+	196 [shape="record",style="filled",fillcolor="lightblue",label="{196 (I: 6, E: 3)|a11\\na14\\na15\\na20\\na4\\na6|o14\\no18\\no6}"];
+	197 [shape="record",style="filled",fillcolor="lightblue",label="{197 (I: 4, E: 5)|a16\\na4\\na6\\na9|o16\\no18\\no5\\no6\\no7}"];
+	198 [shape="record",style="filled",fillcolor="lightblue",label="{198 (I: 5, E: 4)|a13\\na16\\na4\\na6\\na9|o16\\no18\\no5\\no6}"];
+	199 [shape="record",style="filled",fillcolor="lightblue",label="{199 (I: 8, E: 3)|a13\\na14\\na15\\na16\\na20\\na4\\na6\\na9|o16\\no18\\no6}"];
+	200 [shape="record",style="filled",fillcolor="lightblue",label="{200 (I: 9, E: 2)|a11\\na13\\na14\\na15\\na16\\na20\\na4\\na6\\na9|o18\\no6}"];
+	201 [shape="record",style="filled",fillcolor="lightblue",label="{201 (I: 3, E: 6)|a4\\na6\\na8|o13\\no14\\no15\\no16\\no5\\no6}"];
+	202 [shape="record",style="filled",fillcolor="lightblue",label="{202 (I: 4, E: 4)|a20\\na4\\na6\\na8|o13\\no14\\no16\\no6}"];
+	203 [shape="record",style="filled",fillcolor="lightblue",label="{203 (I: 5, E: 4)|a14\\na15\\na4\\na6\\na8|o14\\no15\\no16\\no6}"];
+	204 [shape="record",style="filled",fillcolor="lightblue",label="{204 (I: 6, E: 3)|a14\\na15\\na20\\na4\\na6\\na8|o14\\no16\\no6}"];
+	205 [shape="record",style="filled",fillcolor="lightblue",label="{205 (I: 5, E: 4)|a13\\na16\\na4\\na6\\na8|o13\\no16\\no5\\no6}"];
+	206 [shape="record",style="filled",fillcolor="lightblue",label="{206 (I: 6, E: 3)|a13\\na16\\na20\\na4\\na6\\na8|o13\\no16\\no6}"];
+	207 [shape="record",style="filled",fillcolor="lightblue",label="{207 (I: 6, E: 3)|a13\\na16\\na4\\na6\\na8\\na9|o16\\no5\\no6}"];
+	208 [shape="record",style="filled",fillcolor="lightblue",label="{208 (I: 9, E: 2)|a13\\na14\\na15\\na16\\na20\\na4\\na6\\na8\\na9|o16\\no6}"];
+	209 [shape="record",style="filled",fillcolor="lightblue",label="{209 (I: 2, E: 9)|a4\\na5|o12\\no13\\no14\\no15\\no3\\no5\\no6\\no7\\no9}"];
+	210 [shape="record",style="filled",fillcolor="lightblue",label="{210 (I: 3, E: 6)|a19\\na4\\na5|o12\\no13\\no3\\no5\\no7\\no9}"];
+	211 [shape="record",style="filled",fillcolor="lightblue",label="{211 (I: 3, E: 5)|a16\\na4\\na5|o13\\no3\\no5\\no6\\no7}"];
+	212 [shape="record",style="filled",fillcolor="lightblue",label="{212 (I: 4, E: 4)|a16\\na19\\na4\\na5|o13\\no3\\no5\\no7}"];
+	213 [shape="record",style="filled",fillcolor="lightblue",label="{213 (I: 3, E: 4)|a13\\na4\\na5|o12\\no13\\no5\\no6}"];
+	214 [shape="record",style="filled",fillcolor="lightblue",label="{214 (I: 3, E: 4)|a11\\na4\\na5|o12\\no14\\no3\\no6}"];
+	215 [shape="record",style="filled",fillcolor="lightblue",label="{215 (I: 4, E: 2)|a11\\na13\\na4\\na5|o12\\no6}"];
+	216 [shape="record",style="filled",fillcolor="lightblue",label="{216 (I: 3, E: 4)|a4\\na5\\na9|o5\\no6\\no7\\no9}"];
+	217 [shape="record",style="filled",fillcolor="lightblue",label="{217 (I: 4, E: 3)|a19\\na4\\na5\\na9|o5\\no7\\no9}"];
+	218 [shape="record",style="filled",fillcolor="lightblue",label="{218 (I: 3, E: 7)|a4\\na5\\na8|o13\\no14\\no15\\no3\\no5\\no6\\no9}"];
+	219 [shape="record",style="filled",fillcolor="lightblue",label="{219 (I: 5, E: 4)|a17\\na19\\na4\\na5\\na8|o13\\no3\\no5\\no9}"];
+	220 [shape="record",style="filled",fillcolor="lightblue",label="{220 (I: 4, E: 4)|a16\\na4\\na5\\na8|o13\\no3\\no5\\no6}"];
+	221 [shape="record",style="filled",fillcolor="lightblue",label="{221 (I: 6, E: 3)|a16\\na17\\na19\\na4\\na5\\na8|o13\\no3\\no5}"];
+	222 [shape="record",style="filled",fillcolor="lightblue",label="{222 (I: 4, E: 4)|a14\\na4\\na5\\na8|o14\\no15\\no6\\no9}"];
+	223 [shape="record",style="filled",fillcolor="lightblue",label="{223 (I: 4, E: 4)|a12\\na4\\na5\\na8|o14\\no15\\no3\\no9}"];
+	224 [shape="record",style="filled",fillcolor="lightblue",label="{224 (I: 6, E: 2)|a12\\na17\\na19\\na4\\na5\\na8|o3\\no9}"];
+	225 [shape="record",style="filled",fillcolor="lightblue",label="{225 (I: 6, E: 3)|a10\\na12\\na14\\na4\\na5\\na8|o14\\no15\\no9}"];
+	226 [shape="record",style="filled",fillcolor="lightblue",label="{226 (I: 4, E: 3)|a4\\na5\\na8\\na9|o5\\no6\\no9}"];
+	227 [shape="record",style="filled",fillcolor="lightblue",label="{227 (I: 6, E: 2)|a17\\na19\\na4\\na5\\na8\\na9|o5\\no9}"];
+	228 [shape="record",style="filled",fillcolor="lightblue",label="{228 (I: 5, E: 2)|a14\\na4\\na5\\na8\\na9|o6\\no9}"];
+	229 [shape="record",style="filled",fillcolor="lightblue",label="{229 (I: 9, E: 1)|a10\\na12\\na14\\na17\\na19\\na4\\na5\\na8\\na9|o9}"];
+	230 [shape="record",style="filled",fillcolor="lightblue",label="{230 (I: 3, E: 6)|a4\\na5\\na6|o13\\no14\\no15\\no5\\no6\\no7}"];
+	231 [shape="record",style="filled",fillcolor="lightblue",label="{231 (I: 4, E: 4)|a16\\na4\\na5\\na6|o13\\no5\\no6\\no7}"];
+	232 [shape="record",style="filled",fillcolor="lightblue",label="{232 (I: 4, E: 5)|a4\\na5\\na6\\na8|o13\\no14\\no15\\no5\\no6}"];
+	233 [shape="record",style="filled",fillcolor="lightblue",label="{233 (I: 5, E: 3)|a20\\na4\\na5\\na6\\na8|o13\\no14\\no6}"];
+	234 [shape="record",style="filled",fillcolor="lightblue",label="{234 (I: 6, E: 3)|a14\\na15\\na4\\na5\\na6\\na8|o14\\no15\\no6}"];
+	235 [shape="record",style="filled",fillcolor="lightblue",label="{235 (I: 6, E: 3)|a13\\na16\\na4\\na5\\na6\\na8|o13\\no5\\no6}"];
+	236 [shape="record",style="filled",fillcolor="lightblue",label="{236 (I: 7, E: 2)|a13\\na16\\na20\\na4\\na5\\na6\\na8|o13\\no6}"];
+	237 [shape="record",style="filled",fillcolor="lightblue",label="{237 (I: 1, E: 9)|a3|o10\\no11\\no14\\no17\\no3\\no5\\no6\\no7\\no8}"];
+	238 [shape="record",style="filled",fillcolor="lightblue",label="{238 (I: 2, E: 5)|a18\\na3|o10\\no11\\no17\\no7\\no8}"];
+	239 [shape="record",style="filled",fillcolor="lightblue",label="{239 (I: 2, E: 7)|a16\\na3|o10\\no11\\no3\\no5\\no6\\no7\\no8}"];
+	240 [shape="record",style="filled",fillcolor="lightblue",label="{240 (I: 3, E: 5)|a16\\na19\\na3|o10\\no3\\no5\\no7\\no8}"];
+	241 [shape="record",style="filled",fillcolor="lightblue",label="{241 (I: 2, E: 5)|a15\\na3|o10\\no11\\no14\\no6\\no8}"];
+	242 [shape="record",style="filled",fillcolor="lightblue",label="{242 (I: 3, E: 4)|a15\\na16\\na3|o10\\no11\\no6\\no8}"];
+	243 [shape="record",style="filled",fillcolor="lightblue",label="{243 (I: 3, E: 4)|a14\\na15\\na3|o10\\no11\\no14\\no6}"];
+	244 [shape="record",style="filled",fillcolor="lightblue",label="{244 (I: 4, E: 3)|a14\\na15\\na16\\na3|o10\\no11\\no6}"];
+	245 [shape="record",style="filled",fillcolor="lightblue",label="{245 (I: 2, E: 4)|a13\\na3|o10\\no17\\no5\\no6}"];
+	246 [shape="record",style="filled",fillcolor="lightblue",label="{246 (I: 3, E: 2)|a13\\na18\\na3|o10\\no17}"];
+	247 [shape="record",style="filled",fillcolor="lightblue",label="{247 (I: 3, E: 3)|a13\\na16\\na3|o10\\no5\\no6}"];
+	248 [shape="record",style="filled",fillcolor="lightblue",label="{248 (I: 5, E: 2)|a13\\na14\\na15\\na16\\na3|o10\\no6}"];
+	249 [shape="record",style="filled",fillcolor="lightblue",label="{249 (I: 2, E: 5)|a12\\na3|o10\\no11\\no14\\no3\\no8}"];
+	250 [shape="record",style="filled",fillcolor="lightblue",label="{250 (I: 3, E: 4)|a12\\na16\\na3|o10\\no11\\no3\\no8}"];
+	251 [shape="record",style="filled",fillcolor="lightblue",label="{251 (I: 4, E: 3)|a12\\na16\\na19\\na3|o10\\no3\\no8}"];
+	252 [shape="record",style="filled",fillcolor="lightblue",label="{252 (I: 4, E: 4)|a10\\na12\\na15\\na3|o10\\no11\\no14\\no8}"];
+	253 [shape="record",style="filled",fillcolor="lightblue",label="{253 (I: 5, E: 3)|a10\\na12\\na14\\na15\\na3|o10\\no11\\no14}"];
+	254 [shape="record",style="filled",fillcolor="lightblue",label="{254 (I: 2, E: 7)|a3\\na4|o14\\no17\\no3\\no5\\no6\\no7\\no8}"];
+	255 [shape="record",style="filled",fillcolor="lightblue",label="{255 (I: 3, E: 5)|a16\\na3\\na4|o3\\no5\\no6\\no7\\no8}"];
+	256 [shape="record",style="filled",fillcolor="lightblue",label="{256 (I: 4, E: 4)|a16\\na19\\na3\\na4|o3\\no5\\no7\\no8}"];
+	257 [shape="record",style="filled",fillcolor="lightblue",label="{257 (I: 5, E: 3)|a16\\na17\\na19\\na3\\na4|o3\\no5\\no8}"];
+	258 [shape="record",style="filled",fillcolor="lightblue",label="{258 (I: 3, E: 3)|a15\\na3\\na4|o14\\no6\\no8}"];
+	259 [shape="record",style="filled",fillcolor="lightblue",label="{259 (I: 3, E: 5)|a3\\na4\\na9|o17\\no5\\no6\\no7\\no8}"];
+	260 [shape="record",style="filled",fillcolor="lightblue",label="{260 (I: 4, E: 4)|a16\\na3\\na4\\na9|o5\\no6\\no7\\no8}"];
+	261 [shape="record",style="filled",fillcolor="lightblue",label="{261 (I: 5, E: 2)|a15\\na16\\na3\\na4\\na9|o6\\no8}"];
+	262 [shape="record",style="filled",fillcolor="lightblue",label="{262 (I: 4, E: 3)|a13\\na3\\na4\\na9|o17\\no5\\no6}"];
+	263 [shape="record",style="filled",fillcolor="lightblue",label="{263 (I: 3, E: 5)|a3\\na4\\na5|o14\\no3\\no5\\no6\\no7}"];
+	264 [shape="record",style="filled",fillcolor="lightblue",label="{264 (I: 4, E: 4)|a16\\na3\\na4\\na5|o3\\no5\\no6\\no7}"];
+	265 [shape="record",style="filled",fillcolor="lightblue",label="{265 (I: 5, E: 3)|a16\\na19\\na3\\na4\\na5|o3\\no5\\no7}"];
+	266 [shape="record",style="filled",fillcolor="lightblue",label="{266 (I: 4, E: 4)|a3\\na4\\na5\\na8|o14\\no3\\no5\\no6}"];
+	267 [shape="record",style="filled",fillcolor="lightblue",label="{267 (I: 5, E: 3)|a16\\na3\\na4\\na5\\na8|o3\\no5\\no6}"];
+	268 [shape="record",style="filled",fillcolor="lightblue",label="{268 (I: 7, E: 2)|a16\\na17\\na19\\na3\\na4\\na5\\na8|o3\\no5}"];
+	269 [shape="record",style="filled",fillcolor="lightblue",label="{269 (I: 5, E: 3)|a11\\na3\\na4\\na5\\na8|o14\\no3\\no6}"];
+	270 [shape="record",style="filled",fillcolor="lightblue",label="{270 (I: 6, E: 2)|a11\\na16\\na3\\na4\\na5\\na8|o3\\no6}"];
+	271 [shape="record",style="filled",fillcolor="lightblue",label="{271 (I: 4, E: 4)|a3\\na4\\na5\\na6|o14\\no5\\no6\\no7}"];
+	272 [shape="record",style="filled",fillcolor="lightblue",label="{272 (I: 6, E: 3)|a16\\na3\\na4\\na5\\na6\\na9|o5\\no6\\no7}"];
+	273 [shape="record",style="filled",fillcolor="lightblue",label="{273 (I: 5, E: 3)|a3\\na4\\na5\\na6\\na8|o14\\no5\\no6}"];
+	274 [shape="record",style="filled",fillcolor="lightblue",label="{274 (I: 9, E: 2)|a11\\na14\\na15\\na20\\na3\\na4\\na5\\na6\\na8|o14\\no6}"];
+	275 [shape="record",style="filled",fillcolor="lightblue",label="{275 (I: 8, E: 2)|a13\\na16\\na3\\na4\\na5\\na6\\na8\\na9|o5\\no6}"];
+	276 [shape="record",style="filled",fillcolor="lightblue",label="{276 (I: 12, E: 1)|a11\\na13\\na14\\na15\\na16\\na20\\na3\\na4\\na5\\na6\\na8\\na9|o6}"];
+	277 [shape="record",style="filled",fillcolor="lightblue",label="{277 (I: 1, E: 12)|a2|o1\\no12\\no13\\no14\\no15\\no16\\no17\\no18\\no2\\no3\\no7\\no8}"];
+	278 [shape="record",style="filled",fillcolor="lightblue",label="{278 (I: 2, E: 6)|a2\\na20|o1\\no13\\no14\\no16\\no18\\no2}"];
+	279 [shape="record",style="filled",fillcolor="lightblue",label="{279 (I: 2, E: 7)|a18\\na2|o1\\no13\\no15\\no17\\no18\\no7\\no8}"];
+	280 [shape="record",style="filled",fillcolor="lightblue",label="{280 (I: 2, E: 5)|a17\\na2|o1\\no13\\no16\\no3\\no8}"];
+	281 [shape="record",style="filled",fillcolor="lightblue",label="{281 (I: 2, E: 7)|a13\\na2|o1\\no12\\no13\\no16\\no17\\no18\\no2}"];
+	282 [shape="record",style="filled",fillcolor="lightblue",label="{282 (I: 3, E: 5)|a13\\na2\\na20|o1\\no13\\no16\\no18\\no2}"];
+	283 [shape="record",style="filled",fillcolor="lightblue",label="{283 (I: 3, E: 4)|a13\\na18\\na2|o1\\no13\\no17\\no18}"];
+	284 [shape="record",style="filled",fillcolor="lightblue",label="{284 (I: 4, E: 3)|a13\\na18\\na2\\na20|o1\\no13\\no18}"];
+	285 [shape="record",style="filled",fillcolor="lightblue",label="{285 (I: 2, E: 6)|a12\\na2|o1\\no14\\no15\\no18\\no3\\no8}"];
+	286 [shape="record",style="filled",fillcolor="lightblue",label="{286 (I: 3, E: 3)|a12\\na2\\na20|o1\\no14\\no18}"];
+	287 [shape="record",style="filled",fillcolor="lightblue",label="{287 (I: 3, E: 4)|a12\\na18\\na2|o1\\no15\\no18\\no8}"];
+	288 [shape="record",style="filled",fillcolor="lightblue",label="{288 (I: 3, E: 3)|a12\\na17\\na2|o1\\no3\\no8}"];
+	289 [shape="record",style="filled",fillcolor="lightblue",label="{289 (I: 5, E: 2)|a12\\na13\\na18\\na2\\na20|o1\\no18}"];
+	290 [shape="record",style="filled",fillcolor="lightblue",label="{290 (I: 2, E: 6)|a10\\na2|o1\\no14\\no15\\no16\\no2\\no8}"];
+	291 [shape="record",style="filled",fillcolor="lightblue",label="{291 (I: 3, E: 4)|a10\\na2\\na20|o1\\no14\\no16\\no2}"];
+	292 [shape="record",style="filled",fillcolor="lightblue",label="{292 (I: 3, E: 4)|a10\\na12\\na2|o1\\no14\\no15\\no8}"];
+	293 [shape="record",style="filled",fillcolor="lightblue",label="{293 (I: 2, E: 6)|a2\\na8|o1\\no13\\no14\\no15\\no16\\no3}"];
+	294 [shape="record",style="filled",fillcolor="lightblue",label="{294 (I: 3, E: 4)|a2\\na20\\na8|o1\\no13\\no14\\no16}"];
+	295 [shape="record",style="filled",fillcolor="lightblue",label="{295 (I: 3, E: 4)|a17\\na2\\na8|o1\\no13\\no16\\no3}"];
+	296 [shape="record",style="filled",fillcolor="lightblue",label="{296 (I: 3, E: 4)|a10\\na2\\na8|o1\\no14\\no15\\no16}"];
+	297 [shape="record",style="filled",fillcolor="lightblue",label="{297 (I: 4, E: 3)|a10\\na2\\na20\\na8|o1\\no14\\no16}"];
+	298 [shape="record",style="filled",fillcolor="lightblue",label="{298 (I: 2, E: 7)|a2\\na5|o1\\no12\\no13\\no14\\no15\\no3\\no7}"];
+	299 [shape="record",style="filled",fillcolor="lightblue",label="{299 (I: 3, E: 5)|a2\\na5\\na8|o1\\no13\\no14\\no15\\no3}"];
+	300 [shape="record",style="filled",fillcolor="lightblue",label="{300 (I: 4, E: 3)|a2\\na20\\na5\\na8|o1\\no13\\no14}"];
+	301 [shape="record",style="filled",fillcolor="lightblue",label="{301 (I: 4, E: 3)|a17\\na2\\na5\\na8|o1\\no13\\no3}"];
+	302 [shape="record",style="filled",fillcolor="lightblue",label="{302 (I: 4, E: 4)|a12\\na2\\na5\\na8|o1\\no14\\no15\\no3}"];
+	303 [shape="record",style="filled",fillcolor="lightblue",label="{303 (I: 5, E: 2)|a12\\na17\\na2\\na5\\na8|o1\\no3}"];
+	304 [shape="record",style="filled",fillcolor="lightblue",label="{304 (I: 5, E: 3)|a10\\na12\\na2\\na5\\na8|o1\\no14\\no15}"];
+	305 [shape="record",style="filled",fillcolor="lightblue",label="{305 (I: 6, E: 2)|a10\\na12\\na2\\na20\\na5\\na8|o1\\no14}"];
+	306 [shape="record",style="filled",fillcolor="lightblue",label="{306 (I: 2, E: 11)|a2\\na4|o12\\no13\\no14\\no15\\no16\\no17\\no18\\no2\\no3\\no7\\no8}"];
+	307 [shape="record",style="filled",fillcolor="lightblue",label="{307 (I: 3, E: 5)|a2\\na20\\na4|o13\\no14\\no16\\no18\\no2}"];
+	308 [shape="record",style="filled",fillcolor="lightblue",label="{308 (I: 3, E: 5)|a19\\na2\\na4|o12\\no13\\no3\\no7\\no8}"];
+	309 [shape="record",style="filled",fillcolor="lightblue",label="{309 (I: 3, E: 6)|a18\\na2\\na4|o13\\no15\\no17\\no18\\no7\\no8}"];
+	310 [shape="record",style="filled",fillcolor="lightblue",label="{310 (I: 3, E: 7)|a16\\na2\\na4|o13\\no16\\no18\\no2\\no3\\no7\\no8}"];
+	311 [shape="record",style="filled",fillcolor="lightblue",label="{311 (I: 4, E: 4)|a16\\na19\\na2\\na4|o13\\no3\\no7\\no8}"];
+	312 [shape="record",style="filled",fillcolor="lightblue",label="{312 (I: 4, E: 4)|a16\\na18\\na2\\na4|o13\\no18\\no7\\no8}"];
+	313 [shape="record",style="filled",fillcolor="lightblue",label="{313 (I: 4, E: 4)|a16\\na17\\na2\\na4|o13\\no16\\no3\\no8}"];
+	314 [shape="record",style="filled",fillcolor="lightblue",label="{314 (I: 5, E: 3)|a16\\na17\\na19\\na2\\na4|o13\\no3\\no8}"];
+	315 [shape="record",style="filled",fillcolor="lightblue",label="{315 (I: 3, E: 6)|a15\\na2\\na4|o14\\no15\\no16\\no18\\no2\\no8}"];
+	316 [shape="record",style="filled",fillcolor="lightblue",label="{316 (I: 4, E: 4)|a15\\na2\\na20\\na4|o14\\no16\\no18\\no2}"];
+	317 [shape="record",style="filled",fillcolor="lightblue",label="{317 (I: 4, E: 4)|a15\\na16\\na2\\na4|o16\\no18\\no2\\no8}"];
+	318 [shape="record",style="filled",fillcolor="lightblue",label="{318 (I: 3, E: 6)|a13\\na2\\na4|o12\\no13\\no16\\no17\\no18\\no2}"];
+	319 [shape="record",style="filled",fillcolor="lightblue",label="{319 (I: 4, E: 3)|a13\\na18\\na2\\na4|o13\\no17\\no18}"];
+	320 [shape="record",style="filled",fillcolor="lightblue",label="{320 (I: 5, E: 4)|a13\\na16\\na2\\na20\\na4|o13\\no16\\no18\\no2}"];
+	321 [shape="record",style="filled",fillcolor="lightblue",label="{321 (I: 6, E: 3)|a13\\na15\\na16\\na2\\na20\\na4|o16\\no18\\no2}"];
+	322 [shape="record",style="filled",fillcolor="lightblue",label="{322 (I: 3, E: 5)|a12\\na2\\na4|o14\\no15\\no18\\no3\\no8}"];
+	323 [shape="record",style="filled",fillcolor="lightblue",label="{323 (I: 4, E: 3)|a12\\na16\\na2\\na4|o18\\no3\\no8}"];
+	324 [shape="record",style="filled",fillcolor="lightblue",label="{324 (I: 4, E: 4)|a12\\na15\\na2\\na4|o14\\no15\\no18\\no8}"];
+	325 [shape="record",style="filled",fillcolor="lightblue",label="{325 (I: 5, E: 3)|a12\\na15\\na18\\na2\\na4|o15\\no18\\no8}"];
+	326 [shape="record",style="filled",fillcolor="lightblue",label="{326 (I: 3, E: 4)|a11\\na2\\na4|o12\\no14\\no18\\no3}"];
+	327 [shape="record",style="filled",fillcolor="lightblue",label="{327 (I: 4, E: 2)|a11\\na13\\na2\\na4|o12\\no18}"];
+	328 [shape="record",style="filled",fillcolor="lightblue",label="{328 (I: 4, E: 3)|a11\\na12\\na2\\na4|o14\\no18\\no3}"];
+	329 [shape="record",style="filled",fillcolor="lightblue",label="{329 (I: 5, E: 2)|a11\\na12\\na16\\na2\\na4|o18\\no3}"];
+	330 [shape="record",style="filled",fillcolor="lightblue",label="{330 (I: 4, E: 5)|a10\\na15\\na2\\na4|o14\\no15\\no16\\no2\\no8}"];
+	331 [shape="record",style="filled",fillcolor="lightblue",label="{331 (I: 5, E: 3)|a10\\na15\\na2\\na20\\na4|o14\\no16\\no2}"];
+	332 [shape="record",style="filled",fillcolor="lightblue",label="{332 (I: 5, E: 3)|a10\\na12\\na15\\na2\\na4|o14\\no15\\no8}"];
+	333 [shape="record",style="filled",fillcolor="lightblue",label="{333 (I: 3, E: 5)|a2\\na4\\na9|o16\\no17\\no18\\no7\\no8}"];
+	334 [shape="record",style="filled",fillcolor="lightblue",label="{334 (I: 4, E: 4)|a18\\na2\\na4\\na9|o17\\no18\\no7\\no8}"];
+	335 [shape="record",style="filled",fillcolor="lightblue",label="{335 (I: 4, E: 4)|a16\\na2\\na4\\na9|o16\\no18\\no7\\no8}"];
+	336 [shape="record",style="filled",fillcolor="lightblue",label="{336 (I: 5, E: 3)|a16\\na18\\na2\\na4\\na9|o18\\no7\\no8}"];
+	337 [shape="record",style="filled",fillcolor="lightblue",label="{337 (I: 5, E: 3)|a15\\na16\\na2\\na4\\na9|o16\\no18\\no8}"];
+	338 [shape="record",style="filled",fillcolor="lightblue",label="{338 (I: 4, E: 3)|a13\\na2\\na4\\na9|o16\\no17\\no18}"];
+	339 [shape="record",style="filled",fillcolor="lightblue",label="{339 (I: 5, E: 2)|a13\\na18\\na2\\na4\\na9|o17\\no18}"];
+	340 [shape="record",style="filled",fillcolor="lightblue",label="{340 (I: 7, E: 2)|a12\\na15\\na16\\na18\\na2\\na4\\na9|o18\\no8}"];
+	341 [shape="record",style="filled",fillcolor="lightblue",label="{341 (I: 3, E: 5)|a2\\na4\\na8|o13\\no14\\no15\\no16\\no3}"];
+	342 [shape="record",style="filled",fillcolor="lightblue",label="{342 (I: 5, E: 3)|a16\\na17\\na2\\na4\\na8|o13\\no16\\no3}"];
+	343 [shape="record",style="filled",fillcolor="lightblue",label="{343 (I: 3, E: 6)|a2\\na4\\na6|o13\\no14\\no15\\no16\\no18\\no7}"];
+	344 [shape="record",style="filled",fillcolor="lightblue",label="{344 (I: 4, E: 4)|a2\\na20\\na4\\na6|o13\\no14\\no16\\no18}"];
+	345 [shape="record",style="filled",fillcolor="lightblue",label="{345 (I: 4, E: 4)|a18\\na2\\na4\\na6|o13\\no15\\no18\\no7}"];
+	346 [shape="record",style="filled",fillcolor="lightblue",label="{346 (I: 4, E: 4)|a16\\na2\\na4\\na6|o13\\no16\\no18\\no7}"];
+	347 [shape="record",style="filled",fillcolor="lightblue",label="{347 (I: 5, E: 3)|a16\\na18\\na2\\na4\\na6|o13\\no18\\no7}"];
+	348 [shape="record",style="filled",fillcolor="lightblue",label="{348 (I: 5, E: 4)|a14\\na15\\na2\\na4\\na6|o14\\no15\\no16\\no18}"];
+	349 [shape="record",style="filled",fillcolor="lightblue",label="{349 (I: 6, E: 3)|a14\\na15\\na2\\na20\\na4\\na6|o14\\no16\\no18}"];
+	350 [shape="record",style="filled",fillcolor="lightblue",label="{350 (I: 6, E: 3)|a13\\na16\\na2\\na20\\na4\\na6|o13\\no16\\no18}"];
+	351 [shape="record",style="filled",fillcolor="lightblue",label="{351 (I: 7, E: 2)|a13\\na16\\na18\\na2\\na20\\na4\\na6|o13\\no18}"];
+	352 [shape="record",style="filled",fillcolor="lightblue",label="{352 (I: 6, E: 3)|a12\\na14\\na15\\na2\\na4\\na6|o14\\no15\\no18}"];
+	353 [shape="record",style="filled",fillcolor="lightblue",label="{353 (I: 7, E: 2)|a12\\na14\\na15\\na18\\na2\\na4\\na6|o15\\no18}"];
+	354 [shape="record",style="filled",fillcolor="lightblue",label="{354 (I: 8, E: 2)|a11\\na12\\na14\\na15\\na2\\na20\\na4\\na6|o14\\no18}"];
+	355 [shape="record",style="filled",fillcolor="lightblue",label="{355 (I: 5, E: 3)|a16\\na2\\na4\\na6\\na9|o16\\no18\\no7}"];
+	356 [shape="record",style="filled",fillcolor="lightblue",label="{356 (I: 6, E: 2)|a16\\na18\\na2\\na4\\na6\\na9|o18\\no7}"];
+	357 [shape="record",style="filled",fillcolor="lightblue",label="{357 (I: 9, E: 2)|a13\\na14\\na15\\na16\\na2\\na20\\na4\\na6\\na9|o16\\no18}"];
+	358 [shape="record",style="filled",fillcolor="lightblue",label="{358 (I: 12, E: 1)|a11\\na12\\na13\\na14\\na15\\na16\\na18\\na2\\na20\\na4\\na6\\na9|o18}"];
+	359 [shape="record",style="filled",fillcolor="lightblue",label="{359 (I: 4, E: 4)|a2\\na4\\na6\\na8|o13\\no14\\no15\\no16}"];
+	360 [shape="record",style="filled",fillcolor="lightblue",label="{360 (I: 5, E: 3)|a2\\na20\\na4\\na6\\na8|o13\\no14\\no16}"];
+	361 [shape="record",style="filled",fillcolor="lightblue",label="{361 (I: 7, E: 3)|a10\\na14\\na15\\na2\\na4\\na6\\na8|o14\\no15\\no16}"];
+	362 [shape="record",style="filled",fillcolor="lightblue",label="{362 (I: 8, E: 2)|a10\\na14\\na15\\na2\\na20\\na4\\na6\\na8|o14\\no16}"];
+	363 [shape="record",style="filled",fillcolor="lightblue",label="{363 (I: 3, E: 6)|a2\\na4\\na5|o12\\no13\\no14\\no15\\no3\\no7}"];
+	364 [shape="record",style="filled",fillcolor="lightblue",label="{364 (I: 4, E: 4)|a19\\na2\\na4\\na5|o12\\no13\\no3\\no7}"];
+	365 [shape="record",style="filled",fillcolor="lightblue",label="{365 (I: 5, E: 3)|a16\\na19\\na2\\na4\\na5|o13\\no3\\no7}"];
+	366 [shape="record",style="filled",fillcolor="lightblue",label="{366 (I: 4, E: 3)|a11\\na2\\na4\\na5|o12\\no14\\no3}"];
+	367 [shape="record",style="filled",fillcolor="lightblue",label="{367 (I: 5, E: 2)|a11\\na19\\na2\\na4\\na5|o12\\no3}"];
+	368 [shape="record",style="filled",fillcolor="lightblue",label="{368 (I: 4, E: 4)|a2\\na4\\na5\\na8|o13\\no14\\no15\\no3}"];
+	369 [shape="record",style="filled",fillcolor="lightblue",label="{369 (I: 7, E: 2)|a16\\na17\\na19\\na2\\na4\\na5\\na8|o13\\no3}"];
+	370 [shape="record",style="filled",fillcolor="lightblue",label="{370 (I: 5, E: 3)|a12\\na2\\na4\\na5\\na8|o14\\no15\\no3}"];
+	371 [shape="record",style="filled",fillcolor="lightblue",label="{371 (I: 4, E: 4)|a2\\na4\\na5\\na6|o13\\no14\\no15\\no7}"];
+	372 [shape="record",style="filled",fillcolor="lightblue",label="{372 (I: 5, E: 3)|a2\\na4\\na5\\na6\\na8|o13\\no14\\no15}"];
+	373 [shape="record",style="filled",fillcolor="lightblue",label="{373 (I: 6, E: 2)|a2\\na20\\na4\\na5\\na6\\na8|o13\\no14}"];
+	374 [shape="record",style="filled",fillcolor="lightblue",label="{374 (I: 9, E: 2)|a10\\na12\\na14\\na15\\na2\\na4\\na5\\na6\\na8|o14\\no15}"];
+	375 [shape="record",style="filled",fillcolor="lightblue",label="{375 (I: 3, E: 5)|a2\\na3\\na4|o14\\no17\\no3\\no7\\no8}"];
+	376 [shape="record",style="filled",fillcolor="lightblue",label="{376 (I: 5, E: 3)|a16\\na19\\na2\\na3\\na4|o3\\no7\\no8}"];
+	377 [shape="record",style="filled",fillcolor="lightblue",label="{377 (I: 4, E: 3)|a12\\na2\\na3\\na4|o14\\no3\\no8}"];
+	378 [shape="record",style="filled",fillcolor="lightblue",label="{378 (I: 7, E: 2)|a12\\na16\\na17\\na19\\na2\\na3\\na4|o3\\no8}"];
+	379 [shape="record",style="filled",fillcolor="lightblue",label="{379 (I: 6, E: 2)|a10\\na12\\na15\\na2\\na3\\na4|o14\\no8}"];
+	380 [shape="record",style="filled",fillcolor="lightblue",label="{380 (I: 5, E: 3)|a18\\na2\\na3\\na4\\na9|o17\\no7\\no8}"];
+	381 [shape="record",style="filled",fillcolor="lightblue",label="{381 (I: 6, E: 1)|a13\\na18\\na2\\na3\\na4\\na9|o17}"];
+	382 [shape="record",style="filled",fillcolor="lightblue",label="{382 (I: 4, E: 3)|a2\\na3\\na4\\na5|o14\\no3\\no7}"];
+	383 [shape="record",style="filled",fillcolor="lightblue",label="{383 (I: 6, E: 2)|a16\\na19\\na2\\na3\\na4\\na5|o3\\no7}"];
+	384 [shape="record",style="filled",fillcolor="lightblue",label="{384 (I: 7, E: 2)|a11\\na12\\na2\\na3\\na4\\na5\\na8|o14\\no3}"];
+	385 [shape="record",style="filled",fillcolor="lightblue",label="{385 (I: 10, E: 1)|a11\\na12\\na16\\na17\\na19\\na2\\na3\\na4\\na5\\na8|o3}"];
+	386 [shape="record",style="filled",fillcolor="lightblue",label="{386 (I: 5, E: 2)|a2\\na3\\na4\\na5\\na6|o14\\no7}"];
+	387 [shape="record",style="filled",fillcolor="lightblue",label="{387 (I: 12, E: 1)|a10\\na11\\na12\\na14\\na15\\na2\\na20\\na3\\na4\\na5\\na6\\na8|o14}"];
+	388 [shape="record",style="filled",fillcolor="lightblue",label="{388 (I: 1, E: 13)|a1|o1\\no10\\no11\\no12\\no13\\no15\\no16\\no2\\no20\\no4\\no5\\no7\\no8}"];
+	389 [shape="record",style="filled",fillcolor="lightblue",label="{389 (I: 2, E: 5)|a1\\na20|o1\\no13\\no16\\no2\\no4}"];
+	390 [shape="record",style="filled",fillcolor="lightblue",label="{390 (I: 2, E: 7)|a1\\na19|o10\\no12\\no13\\no4\\no5\\no7\\no8}"];
+	391 [shape="record",style="filled",fillcolor="lightblue",label="{391 (I: 2, E: 8)|a1\\na18|o1\\no10\\no11\\no13\\no15\\no4\\no7\\no8}"];
+	392 [shape="record",style="filled",fillcolor="lightblue",label="{392 (I: 3, E: 5)|a1\\na18\\na19|o10\\no13\\no4\\no7\\no8}"];
+	393 [shape="record",style="filled",fillcolor="lightblue",label="{393 (I: 2, E: 6)|a1\\na17|o1\\no13\\no16\\no4\\no5\\no8}"];
+	394 [shape="record",style="filled",fillcolor="lightblue",label="{394 (I: 3, E: 4)|a1\\na17\\na19|o13\\no4\\no5\\no8}"];
+	395 [shape="record",style="filled",fillcolor="lightblue",label="{395 (I: 3, E: 4)|a1\\na17\\na18|o1\\no13\\no4\\no8}"];
+	396 [shape="record",style="filled",fillcolor="lightblue",label="{396 (I: 4, E: 3)|a1\\na17\\na18\\na19|o13\\no4\\no8}"];
+	397 [shape="record",style="filled",fillcolor="lightblue",label="{397 (I: 2, E: 9)|a1\\na16|o10\\no11\\no13\\no16\\no2\\no20\\no5\\no7\\no8}"];
+	398 [shape="record",style="filled",fillcolor="lightblue",label="{398 (I: 3, E: 5)|a1\\na16\\na19|o10\\no13\\no5\\no7\\no8}"];
+	399 [shape="record",style="filled",fillcolor="lightblue",label="{399 (I: 3, E: 5)|a1\\na16\\na18|o10\\no11\\no13\\no7\\no8}"];
+	400 [shape="record",style="filled",fillcolor="lightblue",label="{400 (I: 4, E: 4)|a1\\na16\\na18\\na19|o10\\no13\\no7\\no8}"];
+	401 [shape="record",style="filled",fillcolor="lightblue",label="{401 (I: 2, E: 8)|a1\\na15|o10\\no11\\no15\\no16\\no2\\no20\\no4\\no8}"];
+	402 [shape="record",style="filled",fillcolor="lightblue",label="{402 (I: 3, E: 3)|a1\\na15\\na20|o16\\no2\\no4}"];
+	403 [shape="record",style="filled",fillcolor="lightblue",label="{403 (I: 3, E: 3)|a1\\na15\\na17|o16\\no4\\no8}"];
+	404 [shape="record",style="filled",fillcolor="lightblue",label="{404 (I: 3, E: 6)|a1\\na15\\na16|o10\\no11\\no16\\no2\\no20\\no8}"];
+	405 [shape="record",style="filled",fillcolor="lightblue",label="{405 (I: 3, E: 6)|a1\\na14\\na15|o10\\no11\\no15\\no16\\no20\\no4}"];
+	406 [shape="record",style="filled",fillcolor="lightblue",label="{406 (I: 4, E: 4)|a1\\na14\\na15\\na16|o10\\no11\\no16\\no20}"];
+	407 [shape="record",style="filled",fillcolor="lightblue",label="{407 (I: 2, E: 8)|a1\\na13|o1\\no10\\no12\\no13\\no16\\no2\\no20\\no5}"];
+	408 [shape="record",style="filled",fillcolor="lightblue",label="{408 (I: 3, E: 4)|a1\\na13\\na19|o10\\no12\\no13\\no5}"];
+	409 [shape="record",style="filled",fillcolor="lightblue",label="{409 (I: 3, E: 3)|a1\\na13\\na18|o1\\no10\\no13}"];
+	410 [shape="record",style="filled",fillcolor="lightblue",label="{410 (I: 3, E: 6)|a1\\na13\\na16|o10\\no13\\no16\\no2\\no20\\no5}"];
+	411 [shape="record",style="filled",fillcolor="lightblue",label="{411 (I: 4, E: 3)|a1\\na13\\na16\\na19|o10\\no13\\no5}"];
+	412 [shape="record",style="filled",fillcolor="lightblue",label="{412 (I: 5, E: 2)|a1\\na13\\na16\\na18\\na19|o10\\no13}"];
+	413 [shape="record",style="filled",fillcolor="lightblue",label="{413 (I: 4, E: 4)|a1\\na13\\na15\\na16|o10\\no16\\no2\\no20}"];
+	414 [shape="record",style="filled",fillcolor="lightblue",label="{414 (I: 5, E: 3)|a1\\na13\\na14\\na15\\na16|o10\\no16\\no20}"];
+	415 [shape="record",style="filled",fillcolor="lightblue",label="{415 (I: 3, E: 6)|a1\\na12\\na18|o1\\no10\\no11\\no15\\no4\\no8}"];
+	416 [shape="record",style="filled",fillcolor="lightblue",label="{416 (I: 4, E: 3)|a1\\na12\\na17\\na18|o1\\no4\\no8}"];
+	417 [shape="record",style="filled",fillcolor="lightblue",label="{417 (I: 4, E: 5)|a1\\na12\\na15\\na18|o10\\no11\\no15\\no4\\no8}"];
+	418 [shape="record",style="filled",fillcolor="lightblue",label="{418 (I: 5, E: 3)|a1\\na12\\na15\\na18\\na19|o10\\no4\\no8}"];
+	419 [shape="record",style="filled",fillcolor="lightblue",label="{419 (I: 6, E: 2)|a1\\na12\\na15\\na17\\na18\\na19|o4\\no8}"];
+	420 [shape="record",style="filled",fillcolor="lightblue",label="{420 (I: 5, E: 4)|a1\\na12\\na14\\na15\\na18|o10\\no11\\no15\\no4}"];
+	421 [shape="record",style="filled",fillcolor="lightblue",label="{421 (I: 6, E: 2)|a1\\na12\\na14\\na15\\na18\\na19|o10\\no4}"];
+	422 [shape="record",style="filled",fillcolor="lightblue",label="{422 (I: 2, E: 7)|a1\\na10|o1\\no10\\no11\\no15\\no16\\no2\\no8}"];
+	423 [shape="record",style="filled",fillcolor="lightblue",label="{423 (I: 3, E: 6)|a1\\na10\\na15|o10\\no11\\no15\\no16\\no2\\no8}"];
+	424 [shape="record",style="filled",fillcolor="lightblue",label="{424 (I: 4, E: 5)|a1\\na10\\na15\\na16|o10\\no11\\no16\\no2\\no8}"];
+	425 [shape="record",style="filled",fillcolor="lightblue",label="{425 (I: 4, E: 4)|a1\\na10\\na14\\na15|o10\\no11\\no15\\no16}"];
+	426 [shape="record",style="filled",fillcolor="lightblue",label="{426 (I: 5, E: 3)|a1\\na10\\na14\\na15\\na16|o10\\no11\\no16}"];
+	427 [shape="record",style="filled",fillcolor="lightblue",label="{427 (I: 3, E: 4)|a1\\na10\\na13|o1\\no10\\no16\\no2}"];
+	428 [shape="record",style="filled",fillcolor="lightblue",label="{428 (I: 5, E: 3)|a1\\na10\\na13\\na15\\na16|o10\\no16\\no2}"];
+	429 [shape="record",style="filled",fillcolor="lightblue",label="{429 (I: 6, E: 2)|a1\\na10\\na13\\na14\\na15\\na16|o10\\no16}"];
+	430 [shape="record",style="filled",fillcolor="lightblue",label="{430 (I: 4, E: 5)|a1\\na10\\na12\\na18|o1\\no10\\no11\\no15\\no8}"];
+	431 [shape="record",style="filled",fillcolor="lightblue",label="{431 (I: 5, E: 4)|a1\\na10\\na12\\na15\\na18|o10\\no11\\no15\\no8}"];
+	432 [shape="record",style="filled",fillcolor="lightblue",label="{432 (I: 6, E: 3)|a1\\na10\\na12\\na14\\na15\\na18|o10\\no11\\no15}"];
+	433 [shape="record",style="filled",fillcolor="lightblue",label="{433 (I: 5, E: 2)|a1\\na10\\na12\\na13\\na18|o1\\no10}"];
+	434 [shape="record",style="filled",fillcolor="lightblue",label="{434 (I: 2, E: 7)|a1\\na8|o1\\no13\\no15\\no16\\no20\\no4\\no5}"];
+	435 [shape="record",style="filled",fillcolor="lightblue",label="{435 (I: 3, E: 5)|a1\\na17\\na8|o1\\no13\\no16\\no4\\no5}"];
+	436 [shape="record",style="filled",fillcolor="lightblue",label="{436 (I: 4, E: 4)|a1\\na17\\na20\\na8|o1\\no13\\no16\\no4}"];
+	437 [shape="record",style="filled",fillcolor="lightblue",label="{437 (I: 4, E: 4)|a1\\na14\\na15\\na8|o15\\no16\\no20\\no4}"];
+	438 [shape="record",style="filled",fillcolor="lightblue",label="{438 (I: 6, E: 2)|a1\\na14\\na15\\na17\\na20\\na8|o16\\no4}"];
+	439 [shape="record",style="filled",fillcolor="lightblue",label="{439 (I: 3, E: 5)|a1\\na13\\na8|o1\\no13\\no16\\no20\\no5}"];
+	440 [shape="record",style="filled",fillcolor="lightblue",label="{440 (I: 4, E: 4)|a1\\na13\\na17\\na8|o1\\no13\\no16\\no5}"];
+	441 [shape="record",style="filled",fillcolor="lightblue",label="{441 (I: 4, E: 4)|a1\\na13\\na16\\na8|o13\\no16\\no20\\no5}"];
+	442 [shape="record",style="filled",fillcolor="lightblue",label="{442 (I: 6, E: 2)|a1\\na13\\na14\\na15\\na16\\na8|o16\\no20}"];
+	443 [shape="record",style="filled",fillcolor="lightblue",label="{443 (I: 2, E: 5)|a1\\na7|o10\\no12\\no2\\no5\\no8}"];
+	444 [shape="record",style="filled",fillcolor="lightblue",label="{444 (I: 3, E: 4)|a1\\na19\\na7|o10\\no12\\no5\\no8}"];
+	445 [shape="record",style="filled",fillcolor="lightblue",label="{445 (I: 3, E: 4)|a1\\na16\\na7|o10\\no2\\no5\\no8}"];
+	446 [shape="record",style="filled",fillcolor="lightblue",label="{446 (I: 3, E: 4)|a1\\na13\\na7|o10\\no12\\no2\\no5}"];
+	447 [shape="record",style="filled",fillcolor="lightblue",label="{447 (I: 4, E: 3)|a1\\na13\\na19\\na7|o10\\no12\\no5}"];
+	448 [shape="record",style="filled",fillcolor="lightblue",label="{448 (I: 4, E: 3)|a1\\na13\\na16\\na7|o10\\no2\\no5}"];
+	449 [shape="record",style="filled",fillcolor="lightblue",label="{449 (I: 5, E: 3)|a1\\na10\\na15\\na16\\na7|o10\\no2\\no8}"];
+	450 [shape="record",style="filled",fillcolor="lightblue",label="{450 (I: 6, E: 2)|a1\\na10\\na13\\na15\\na16\\na7|o10\\no2}"];
+	451 [shape="record",style="filled",fillcolor="lightblue",label="{451 (I: 2, E: 7)|a1\\na5|o1\\no12\\no13\\no15\\no4\\no5\\no7}"];
+	452 [shape="record",style="filled",fillcolor="lightblue",label="{452 (I: 3, E: 5)|a1\\na19\\na5|o12\\no13\\no4\\no5\\no7}"];
+	453 [shape="record",style="filled",fillcolor="lightblue",label="{453 (I: 3, E: 5)|a1\\na18\\na5|o1\\no13\\no15\\no4\\no7}"];
+	454 [shape="record",style="filled",fillcolor="lightblue",label="{454 (I: 4, E: 3)|a1\\na18\\na19\\na5|o13\\no4\\no7}"];
+	455 [shape="record",style="filled",fillcolor="lightblue",label="{455 (I: 3, E: 4)|a1\\na13\\na5|o1\\no12\\no13\\no5}"];
+	456 [shape="record",style="filled",fillcolor="lightblue",label="{456 (I: 4, E: 2)|a1\\na11\\na19\\na5|o12\\no4}"];
+	457 [shape="record",style="filled",fillcolor="lightblue",label="{457 (I: 3, E: 5)|a1\\na5\\na8|o1\\no13\\no15\\no4\\no5}"];
+	458 [shape="record",style="filled",fillcolor="lightblue",label="{458 (I: 4, E: 4)|a1\\na18\\na5\\na8|o1\\no13\\no15\\no4}"];
+	459 [shape="record",style="filled",fillcolor="lightblue",label="{459 (I: 4, E: 4)|a1\\na17\\na5\\na8|o1\\no13\\no4\\no5}"];
+	460 [shape="record",style="filled",fillcolor="lightblue",label="{460 (I: 5, E: 3)|a1\\na17\\na19\\na5\\na8|o13\\no4\\no5}"];
+	461 [shape="record",style="filled",fillcolor="lightblue",label="{461 (I: 6, E: 3)|a1\\na17\\na18\\na20\\na5\\na8|o1\\no13\\no4}"];
+	462 [shape="record",style="filled",fillcolor="lightblue",label="{462 (I: 7, E: 2)|a1\\na17\\na18\\na19\\na20\\na5\\na8|o13\\no4}"];
+	463 [shape="record",style="filled",fillcolor="lightblue",label="{463 (I: 5, E: 3)|a1\\na13\\na17\\na5\\na8|o1\\no13\\no5}"];
+	464 [shape="record",style="filled",fillcolor="lightblue",label="{464 (I: 5, E: 3)|a1\\na12\\na18\\na5\\na8|o1\\no15\\no4}"];
+	465 [shape="record",style="filled",fillcolor="lightblue",label="{465 (I: 7, E: 2)|a1\\na12\\na17\\na18\\na20\\na5\\na8|o1\\no4}"];
+	466 [shape="record",style="filled",fillcolor="lightblue",label="{466 (I: 7, E: 2)|a1\\na12\\na14\\na15\\na18\\na5\\na8|o15\\no4}"];
+	467 [shape="record",style="filled",fillcolor="lightblue",label="{467 (I: 11, E: 1)|a1\\na11\\na12\\na14\\na15\\na17\\na18\\na19\\na20\\na5\\na8|o4}"];
+	468 [shape="record",style="filled",fillcolor="lightblue",label="{468 (I: 2, E: 8)|a1\\na4|o12\\no13\\no15\\no16\\no2\\no5\\no7\\no8}"];
+	469 [shape="record",style="filled",fillcolor="lightblue",label="{469 (I: 3, E: 5)|a1\\na19\\na4|o12\\no13\\no5\\no7\\no8}"];
+	470 [shape="record",style="filled",fillcolor="lightblue",label="{470 (I: 3, E: 6)|a1\\na16\\na4|o13\\no16\\no2\\no5\\no7\\no8}"];
+	471 [shape="record",style="filled",fillcolor="lightblue",label="{471 (I: 4, E: 4)|a1\\na16\\na19\\na4|o13\\no5\\no7\\no8}"];
+	472 [shape="record",style="filled",fillcolor="lightblue",label="{472 (I: 4, E: 4)|a1\\na16\\na17\\na4|o13\\no16\\no5\\no8}"];
+	473 [shape="record",style="filled",fillcolor="lightblue",label="{473 (I: 5, E: 3)|a1\\na16\\na17\\na19\\na4|o13\\no5\\no8}"];
+	474 [shape="record",style="filled",fillcolor="lightblue",label="{474 (I: 3, E: 5)|a1\\na13\\na4|o12\\no13\\no16\\no2\\no5}"];
+	475 [shape="record",style="filled",fillcolor="lightblue",label="{475 (I: 4, E: 4)|a1\\na13\\na16\\na4|o13\\no16\\no2\\no5}"];
+	476 [shape="record",style="filled",fillcolor="lightblue",label="{476 (I: 4, E: 4)|a1\\na16\\na4\\na9|o16\\no5\\no7\\no8}"];
+	477 [shape="record",style="filled",fillcolor="lightblue",label="{477 (I: 5, E: 3)|a1\\na16\\na17\\na4\\na9|o16\\no5\\no8}"];
+	478 [shape="record",style="filled",fillcolor="lightblue",label="{478 (I: 3, E: 4)|a1\\na4\\na7|o12\\no2\\no5\\no8}"];
+	479 [shape="record",style="filled",fillcolor="lightblue",label="{479 (I: 4, E: 3)|a1\\na19\\na4\\na7|o12\\no5\\no8}"];
+	480 [shape="record",style="filled",fillcolor="lightblue",label="{480 (I: 4, E: 3)|a1\\na16\\na4\\na7|o2\\no5\\no8}"];
+	481 [shape="record",style="filled",fillcolor="lightblue",label="{481 (I: 4, E: 3)|a1\\na13\\na4\\na7|o12\\no2\\no5}"];
+	482 [shape="record",style="filled",fillcolor="lightblue",label="{482 (I: 5, E: 2)|a1\\na13\\na16\\na4\\na7|o2\\no5}"];
+	483 [shape="record",style="filled",fillcolor="lightblue",label="{483 (I: 3, E: 5)|a1\\na4\\na6|o13\\no15\\no16\\no5\\no7}"];
+	484 [shape="record",style="filled",fillcolor="lightblue",label="{484 (I: 4, E: 4)|a1\\na16\\na4\\na6|o13\\no16\\no5\\no7}"];
+	485 [shape="record",style="filled",fillcolor="lightblue",label="{485 (I: 5, E: 3)|a1\\na16\\na4\\na6\\na9|o16\\no5\\no7}"];
+	486 [shape="record",style="filled",fillcolor="lightblue",label="{486 (I: 4, E: 4)|a1\\na4\\na6\\na8|o13\\no15\\no16\\no5}"];
+	487 [shape="record",style="filled",fillcolor="lightblue",label="{487 (I: 7, E: 3)|a1\\na13\\na16\\na17\\na4\\na6\\na8|o13\\no16\\no5}"];
+	488 [shape="record",style="filled",fillcolor="lightblue",label="{488 (I: 8, E: 2)|a1\\na13\\na16\\na17\\na4\\na6\\na8\\na9|o16\\no5}"];
+	489 [shape="record",style="filled",fillcolor="lightblue",label="{489 (I: 3, E: 5)|a1\\na4\\na5|o12\\no13\\no15\\no5\\no7}"];
+	490 [shape="record",style="filled",fillcolor="lightblue",label="{490 (I: 4, E: 4)|a1\\na19\\na4\\na5|o12\\no13\\no5\\no7}"];
+	491 [shape="record",style="filled",fillcolor="lightblue",label="{491 (I: 5, E: 3)|a1\\na13\\na19\\na4\\na5|o12\\no13\\no5}"];
+	492 [shape="record",style="filled",fillcolor="lightblue",label="{492 (I: 6, E: 2)|a1\\na13\\na19\\na4\\na5\\na7|o12\\no5}"];
+	493 [shape="record",style="filled",fillcolor="lightblue",label="{493 (I: 4, E: 4)|a1\\na4\\na5\\na6|o13\\no15\\no5\\no7}"];
+	494 [shape="record",style="filled",fillcolor="lightblue",label="{494 (I: 6, E: 3)|a1\\na16\\na19\\na4\\na5\\na6|o13\\no5\\no7}"];
+	495 [shape="record",style="filled",fillcolor="lightblue",label="{495 (I: 5, E: 3)|a1\\na4\\na5\\na6\\na8|o13\\no15\\no5}"];
+	496 [shape="record",style="filled",fillcolor="lightblue",label="{496 (I: 9, E: 2)|a1\\na13\\na16\\na17\\na19\\na4\\na5\\na6\\na8|o13\\no5}"];
+	497 [shape="record",style="filled",fillcolor="lightblue",label="{497 (I: 3, E: 5)|a1\\na16\\na3|o10\\no11\\no5\\no7\\no8}"];
+	498 [shape="record",style="filled",fillcolor="lightblue",label="{498 (I: 4, E: 4)|a1\\na16\\na19\\na3|o10\\no5\\no7\\no8}"];
+	499 [shape="record",style="filled",fillcolor="lightblue",label="{499 (I: 4, E: 4)|a1\\na16\\na18\\na3|o10\\no11\\no7\\no8}"];
+	500 [shape="record",style="filled",fillcolor="lightblue",label="{500 (I: 5, E: 3)|a1\\na16\\na18\\na19\\na3|o10\\no7\\no8}"];
+	501 [shape="record",style="filled",fillcolor="lightblue",label="{501 (I: 7, E: 3)|a1\\na10\\na12\\na15\\na16\\na18\\na3|o10\\no11\\no8}"];
+	502 [shape="record",style="filled",fillcolor="lightblue",label="{502 (I: 8, E: 2)|a1\\na10\\na12\\na14\\na15\\na16\\na18\\na3|o10\\no11}"];
+	503 [shape="record",style="filled",fillcolor="lightblue",label="{503 (I: 5, E: 3)|a1\\na16\\na19\\na3\\na7|o10\\no5\\no8}"];
+	504 [shape="record",style="filled",fillcolor="lightblue",label="{504 (I: 6, E: 2)|a1\\na13\\na16\\na19\\na3\\na7|o10\\no5}"];
+	505 [shape="record",style="filled",fillcolor="lightblue",label="{505 (I: 9, E: 2)|a1\\na10\\na12\\na15\\na16\\na18\\na19\\na3\\na7|o10\\no8}"];
+	506 [shape="record",style="filled",fillcolor="lightblue",label="{506 (I: 11, E: 1)|a1\\na10\\na12\\na13\\na14\\na15\\na16\\na18\\na19\\na3\\na7|o10}"];
+	507 [shape="record",style="filled",fillcolor="lightblue",label="{507 (I: 6, E: 3)|a1\\na16\\na19\\na3\\na4\\na9|o5\\no7\\no8}"];
+	508 [shape="record",style="filled",fillcolor="lightblue",label="{508 (I: 8, E: 2)|a1\\na16\\na17\\na19\\na3\\na4\\na7\\na9|o5\\no8}"];
+	509 [shape="record",style="filled",fillcolor="lightblue",label="{509 (I: 8, E: 2)|a1\\na16\\na19\\na3\\na4\\na5\\na6\\na9|o5\\no7}"];
+	510 [shape="record",style="filled",fillcolor="lightblue",label="{510 (I: 12, E: 1)|a1\\na13\\na16\\na17\\na19\\na3\\na4\\na5\\na6\\na7\\na8\\na9|o5}"];
+	511 [shape="record",style="filled",fillcolor="lightblue",label="{511 (I: 2, E: 8)|a1\\na2|o1\\no12\\no13\\no15\\no16\\no2\\no7\\no8}"];
+	512 [shape="record",style="filled",fillcolor="lightblue",label="{512 (I: 3, E: 5)|a1\\na18\\na2|o1\\no13\\no15\\no7\\no8}"];
+	513 [shape="record",style="filled",fillcolor="lightblue",label="{513 (I: 3, E: 4)|a1\\na17\\na2|o1\\no13\\no16\\no8}"];
+	514 [shape="record",style="filled",fillcolor="lightblue",label="{514 (I: 4, E: 3)|a1\\na17\\na18\\na2|o1\\no13\\no8}"];
+	515 [shape="record",style="filled",fillcolor="lightblue",label="{515 (I: 3, E: 5)|a1\\na13\\na2|o1\\no12\\no13\\no16\\no2}"];
+	516 [shape="record",style="filled",fillcolor="lightblue",label="{516 (I: 4, E: 4)|a1\\na13\\na2\\na20|o1\\no13\\no16\\no2}"];
+	517 [shape="record",style="filled",fillcolor="lightblue",label="{517 (I: 3, E: 5)|a1\\na10\\na2|o1\\no15\\no16\\no2\\no8}"];
+	518 [shape="record",style="filled",fillcolor="lightblue",label="{518 (I: 4, E: 3)|a1\\na10\\na17\\na2|o1\\no16\\no8}"];
+	519 [shape="record",style="filled",fillcolor="lightblue",label="{519 (I: 5, E: 3)|a1\\na10\\na13\\na2\\na20|o1\\no16\\no2}"];
+	520 [shape="record",style="filled",fillcolor="lightblue",label="{520 (I: 5, E: 3)|a1\\na10\\na12\\na18\\na2|o1\\no15\\no8}"];
+	521 [shape="record",style="filled",fillcolor="lightblue",label="{521 (I: 6, E: 2)|a1\\na10\\na12\\na17\\na18\\na2|o1\\no8}"];
+	522 [shape="record",style="filled",fillcolor="lightblue",label="{522 (I: 3, E: 4)|a1\\na2\\na8|o1\\no13\\no15\\no16}"];
+	523 [shape="record",style="filled",fillcolor="lightblue",label="{523 (I: 6, E: 3)|a1\\na13\\na17\\na2\\na20\\na8|o1\\no13\\no16}"];
+	524 [shape="record",style="filled",fillcolor="lightblue",label="{524 (I: 4, E: 3)|a1\\na10\\na2\\na8|o1\\no15\\no16}"];
+	525 [shape="record",style="filled",fillcolor="lightblue",label="{525 (I: 7, E: 2)|a1\\na10\\na13\\na17\\na2\\na20\\na8|o1\\no16}"];
+	526 [shape="record",style="filled",fillcolor="lightblue",label="{526 (I: 3, E: 5)|a1\\na2\\na5|o1\\no12\\no13\\no15\\no7}"];
+	527 [shape="record",style="filled",fillcolor="lightblue",label="{527 (I: 4, E: 4)|a1\\na18\\na2\\na5|o1\\no13\\no15\\no7}"];
+	528 [shape="record",style="filled",fillcolor="lightblue",label="{528 (I: 4, E: 3)|a1\\na13\\na2\\na5|o1\\no12\\no13}"];
+	529 [shape="record",style="filled",fillcolor="lightblue",label="{529 (I: 5, E: 3)|a1\\na18\\na2\\na5\\na8|o1\\no13\\no15}"];
+	530 [shape="record",style="filled",fillcolor="lightblue",label="{530 (I: 8, E: 2)|a1\\na13\\na17\\na18\\na2\\na20\\na5\\na8|o1\\no13}"];
+	531 [shape="record",style="filled",fillcolor="lightblue",label="{531 (I: 7, E: 2)|a1\\na10\\na12\\na18\\na2\\na5\\na8|o1\\no15}"];
+	532 [shape="record",style="filled",fillcolor="lightblue",label="{532 (I: 10, E: 1)|a1\\na10\\na12\\na13\\na17\\na18\\na2\\na20\\na5\\na8|o1}"];
+	533 [shape="record",style="filled",fillcolor="lightblue",label="{533 (I: 3, E: 7)|a1\\na2\\na4|o12\\no13\\no15\\no16\\no2\\no7\\no8}"];
+	534 [shape="record",style="filled",fillcolor="lightblue",label="{534 (I: 4, E: 4)|a1\\na19\\na2\\na4|o12\\no13\\no7\\no8}"];
+	535 [shape="record",style="filled",fillcolor="lightblue",label="{535 (I: 4, E: 4)|a1\\na18\\na2\\na4|o13\\no15\\no7\\no8}"];
+	536 [shape="record",style="filled",fillcolor="lightblue",label="{536 (I: 4, E: 5)|a1\\na16\\na2\\na4|o13\\no16\\no2\\no7\\no8}"];
+	537 [shape="record",style="filled",fillcolor="lightblue",label="{537 (I: 6, E: 3)|a1\\na16\\na18\\na19\\na2\\na4|o13\\no7\\no8}"];
+	538 [shape="record",style="filled",fillcolor="lightblue",label="{538 (I: 5, E: 3)|a1\\na16\\na17\\na2\\na4|o13\\no16\\no8}"];
+	539 [shape="record",style="filled",fillcolor="lightblue",label="{539 (I: 7, E: 2)|a1\\na16\\na17\\na18\\na19\\na2\\na4|o13\\no8}"];
+	540 [shape="record",style="filled",fillcolor="lightblue",label="{540 (I: 4, E: 4)|a1\\na13\\na2\\na4|o12\\no13\\no16\\no2}"];
+	541 [shape="record",style="filled",fillcolor="lightblue",label="{541 (I: 6, E: 3)|a1\\na13\\na16\\na2\\na20\\na4|o13\\no16\\no2}"];
+	542 [shape="record",style="filled",fillcolor="lightblue",label="{542 (I: 5, E: 4)|a1\\na10\\na15\\na2\\na4|o15\\no16\\no2\\no8}"];
+	543 [shape="record",style="filled",fillcolor="lightblue",label="{543 (I: 6, E: 3)|a1\\na10\\na15\\na16\\na2\\na4|o16\\no2\\no8}"];
+	544 [shape="record",style="filled",fillcolor="lightblue",label="{544 (I: 8, E: 2)|a1\\na10\\na13\\na15\\na16\\na2\\na20\\na4|o16\\no2}"];
+	545 [shape="record",style="filled",fillcolor="lightblue",label="{545 (I: 7, E: 2)|a1\\na10\\na12\\na15\\na18\\na2\\na4|o15\\no8}"];
+	546 [shape="record",style="filled",fillcolor="lightblue",label="{546 (I: 5, E: 3)|a1\\na16\\na2\\na4\\na9|o16\\no7\\no8}"];
+	547 [shape="record",style="filled",fillcolor="lightblue",label="{547 (I: 8, E: 2)|a1\\na10\\na15\\na16\\na17\\na2\\na4\\na9|o16\\no8}"];
+	548 [shape="record",style="filled",fillcolor="lightblue",label="{548 (I: 4, E: 3)|a1\\na2\\na4\\na7|o12\\no2\\no8}"];
+	549 [shape="record",style="filled",fillcolor="lightblue",label="{549 (I: 5, E: 2)|a1\\na19\\na2\\na4\\na7|o12\\no8}"];
+	550 [shape="record",style="filled",fillcolor="lightblue",label="{550 (I: 5, E: 2)|a1\\na13\\na2\\na4\\na7|o12\\no2}"];
+	551 [shape="record",style="filled",fillcolor="lightblue",label="{551 (I: 7, E: 2)|a1\\na10\\na15\\na16\\na2\\na4\\na7|o2\\no8}"];
+	552 [shape="record",style="filled",fillcolor="lightblue",label="{552 (I: 9, E: 1)|a1\\na10\\na13\\na15\\na16\\na2\\na20\\na4\\na7|o2}"];
+	553 [shape="record",style="filled",fillcolor="lightblue",label="{553 (I: 4, E: 4)|a1\\na2\\na4\\na6|o13\\no15\\no16\\no7}"];
+	554 [shape="record",style="filled",fillcolor="lightblue",label="{554 (I: 5, E: 3)|a1\\na16\\na2\\na4\\na6|o13\\no16\\no7}"];
+	555 [shape="record",style="filled",fillcolor="lightblue",label="{555 (I: 6, E: 2)|a1\\na16\\na2\\na4\\na6\\na9|o16\\no7}"];
+	556 [shape="record",style="filled",fillcolor="lightblue",label="{556 (I: 5, E: 3)|a1\\na2\\na4\\na6\\na8|o13\\no15\\no16}"];
+	557 [shape="record",style="filled",fillcolor="lightblue",label="{557 (I: 9, E: 2)|a1\\na13\\na16\\na17\\na2\\na20\\na4\\na6\\na8|o13\\no16}"];
+	558 [shape="record",style="filled",fillcolor="lightblue",label="{558 (I: 8, E: 2)|a1\\na10\\na14\\na15\\na2\\na4\\na6\\na8|o15\\no16}"];
+	559 [shape="record",style="filled",fillcolor="lightblue",label="{559 (I: 13, E: 1)|a1\\na10\\na13\\na14\\na15\\na16\\na17\\na2\\na20\\na4\\na6\\na8\\na9|o16}"];
+	560 [shape="record",style="filled",fillcolor="lightblue",label="{560 (I: 4, E: 4)|a1\\na2\\na4\\na5|o12\\no13\\no15\\no7}"];
+	561 [shape="record",style="filled",fillcolor="lightblue",label="{561 (I: 5, E: 3)|a1\\na19\\na2\\na4\\na5|o12\\no13\\no7}"];
+	562 [shape="record",style="filled",fillcolor="lightblue",label="{562 (I: 6, E: 2)|a1\\na13\\na19\\na2\\na4\\na5|o12\\no13}"];
+	563 [shape="record",style="filled",fillcolor="lightblue",label="{563 (I: 8, E: 1)|a1\\na11\\na13\\na19\\na2\\na4\\na5\\na7|o12}"];
+	564 [shape="record",style="filled",fillcolor="lightblue",label="{564 (I: 6, E: 3)|a1\\na18\\na2\\na4\\na5\\na6|o13\\no15\\no7}"];
+	565 [shape="record",style="filled",fillcolor="lightblue",label="{565 (I: 8, E: 2)|a1\\na16\\na18\\na19\\na2\\na4\\na5\\na6|o13\\no7}"];
+	566 [shape="record",style="filled",fillcolor="lightblue",label="{566 (I: 7, E: 2)|a1\\na18\\na2\\na4\\na5\\na6\\na8|o13\\no15}"];
+	567 [shape="record",style="filled",fillcolor="lightblue",label="{567 (I: 12, E: 1)|a1\\na13\\na16\\na17\\na18\\na19\\na2\\na20\\na4\\na5\\na6\\na8|o13}"];
+	568 [shape="record",style="filled",fillcolor="lightblue",label="{568 (I: 11, E: 1)|a1\\na10\\na12\\na14\\na15\\na18\\na2\\na4\\na5\\na6\\na8|o15}"];
+	569 [shape="record",style="filled",fillcolor="lightblue",label="{569 (I: 8, E: 2)|a1\\na16\\na18\\na19\\na2\\na3\\na4\\na9|o7\\no8}"];
+	570 [shape="record",style="filled",fillcolor="lightblue",label="{570 (I: 13, E: 1)|a1\\na10\\na12\\na15\\na16\\na17\\na18\\na19\\na2\\na3\\na4\\na7\\na9|o8}"];
+	571 [shape="record",style="filled",fillcolor="lightblue",label="{571 (I: 10, E: 1)|a1\\na16\\na18\\na19\\na2\\na3\\na4\\na5\\na6\\na9|o7}"];
+	572 [shape="record",style="filled",fillcolor="lightblue",label="{572 (I: 20, E: 0)|a1\\na10\\na11\\na12\\na13\\na14\\na15\\na16\\na17\\na18\\na19\\na2\\na20\\na3\\na4\\na5\\na6\\na7\\na8\\na9|}"];
+	1 -> 0
+	2 -> 0
+	3 -> 0
+	4 -> 1
+	4 -> 3
+	5 -> 0
+	6 -> 2
+	6 -> 5
+	7 -> 0
+	8 -> 2
+	8 -> 7
+	9 -> 3
+	9 -> 7
+	10 -> 0
+	11 -> 1
+	11 -> 10
+	12 -> 7
+	12 -> 10
+	13 -> 0
+	14 -> 5
+	14 -> 13
+	15 -> 10
+	15 -> 13
+	16 -> 11
+	16 -> 15
+	17 -> 12
+	17 -> 15
+	18 -> 0
+	19 -> 1
+	19 -> 18
+	20 -> 2
+	20 -> 18
+	21 -> 3
+	21 -> 18
+	22 -> 5
+	22 -> 18
+	23 -> 7
+	23 -> 18
+	24 -> 9
+	24 -> 21
+	24 -> 23
+	25 -> 12
+	25 -> 23
+	26 -> 13
+	26 -> 18
+	27 -> 17
+	27 -> 25
+	27 -> 26
+	28 -> 0
+	29 -> 1
+	29 -> 28
+	30 -> 2
+	30 -> 28
+	31 -> 3
+	31 -> 28
+	32 -> 4
+	32 -> 29
+	32 -> 31
+	33 -> 5
+	33 -> 28
+	34 -> 6
+	34 -> 30
+	34 -> 33
+	35 -> 7
+	35 -> 28
+	36 -> 10
+	36 -> 28
+	37 -> 31
+	37 -> 36
+	38 -> 9
+	38 -> 12
+	38 -> 35
+	38 -> 37
+	39 -> 13
+	39 -> 28
+	40 -> 30
+	40 -> 39
+	41 -> 15
+	41 -> 36
+	41 -> 39
+	42 -> 37
+	42 -> 41
+	43 -> 17
+	43 -> 38
+	43 -> 42
+	44 -> 18
+	44 -> 28
+	45 -> 21
+	45 -> 31
+	45 -> 44
+	46 -> 26
+	46 -> 39
+	46 -> 44
+	47 -> 20
+	47 -> 40
+	47 -> 46
+	48 -> 24
+	48 -> 27
+	48 -> 43
+	48 -> 45
+	48 -> 46
+	49 -> 0
+	50 -> 16
+	50 -> 49
+	51 -> 28
+	51 -> 49
+	52 -> 29
+	52 -> 41
+	52 -> 50
+	52 -> 51
+	53 -> 32
+	53 -> 42
+	53 -> 52
+	54 -> 0
+	55 -> 5
+	55 -> 54
+	56 -> 10
+	56 -> 54
+	57 -> 13
+	57 -> 54
+	58 -> 15
+	58 -> 56
+	58 -> 57
+	59 -> 28
+	59 -> 54
+	60 -> 30
+	60 -> 59
+	61 -> 33
+	61 -> 55
+	61 -> 59
+	62 -> 36
+	62 -> 56
+	62 -> 59
+	63 -> 39
+	63 -> 57
+	63 -> 59
+	64 -> 40
+	64 -> 60
+	64 -> 63
+	65 -> 41
+	65 -> 58
+	65 -> 62
+	65 -> 63
+	66 -> 0
+	67 -> 2
+	67 -> 66
+	68 -> 5
+	68 -> 66
+	69 -> 6
+	69 -> 67
+	69 -> 68
+	70 -> 13
+	70 -> 66
+	71 -> 14
+	71 -> 68
+	71 -> 70
+	72 -> 18
+	72 -> 66
+	73 -> 22
+	73 -> 68
+	73 -> 72
+	74 -> 26
+	74 -> 70
+	74 -> 72
+	75 -> 71
+	75 -> 73
+	75 -> 74
+	76 -> 28
+	76 -> 66
+	77 -> 34
+	77 -> 69
+	77 -> 76
+	78 -> 39
+	78 -> 70
+	78 -> 76
+	79 -> 46
+	79 -> 74
+	79 -> 78
+	80 -> 0
+	81 -> 1
+	81 -> 80
+	82 -> 5
+	82 -> 80
+	83 -> 7
+	83 -> 80
+	84 -> 13
+	84 -> 80
+	85 -> 14
+	85 -> 82
+	85 -> 84
+	86 -> 15
+	86 -> 84
+	87 -> 16
+	87 -> 81
+	87 -> 86
+	88 -> 18
+	88 -> 80
+	89 -> 19
+	89 -> 81
+	89 -> 88
+	90 -> 23
+	90 -> 83
+	90 -> 88
+	91 -> 27
+	91 -> 86
+	91 -> 90
+	92 -> 54
+	92 -> 80
+	93 -> 55
+	93 -> 82
+	93 -> 92
+	94 -> 0
+	95 -> 2
+	95 -> 94
+	96 -> 5
+	96 -> 94
+	97 -> 6
+	97 -> 95
+	97 -> 96
+	98 -> 13
+	98 -> 94
+	99 -> 18
+	99 -> 94
+	100 -> 20
+	100 -> 95
+	100 -> 99
+	101 -> 22
+	101 -> 96
+	101 -> 99
+	102 -> 97
+	102 -> 100
+	102 -> 101
+	103 -> 28
+	103 -> 94
+	104 -> 33
+	104 -> 96
+	104 -> 103
+	105 -> 34
+	105 -> 97
+	105 -> 104
+	106 -> 39
+	106 -> 98
+	106 -> 103
+	107 -> 14
+	107 -> 40
+	107 -> 105
+	107 -> 106
+	108 -> 44
+	108 -> 101
+	108 -> 104
+	109 -> 49
+	109 -> 94
+	110 -> 95
+	110 -> 109
+	111 -> 66
+	111 -> 94
+	112 -> 67
+	112 -> 95
+	112 -> 111
+	113 -> 69
+	113 -> 97
+	113 -> 112
+	114 -> 70
+	114 -> 98
+	114 -> 111
+	115 -> 72
+	115 -> 99
+	115 -> 111
+	116 -> 73
+	116 -> 102
+	116 -> 113
+	116 -> 115
+	117 -> 74
+	117 -> 114
+	117 -> 115
+	118 -> 71
+	118 -> 77
+	118 -> 78
+	118 -> 107
+	118 -> 113
+	118 -> 114
+	119 -> 47
+	119 -> 75
+	119 -> 79
+	119 -> 108
+	119 -> 116
+	119 -> 117
+	119 -> 118
+	120 -> 80
+	120 -> 94
+	121 -> 81
+	121 -> 120
+	122 -> 82
+	122 -> 96
+	122 -> 120
+	123 -> 97
+	123 -> 122
+	124 -> 84
+	124 -> 98
+	124 -> 120
+	125 -> 86
+	125 -> 124
+	126 -> 88
+	126 -> 99
+	126 -> 120
+	127 -> 89
+	127 -> 121
+	127 -> 126
+	128 -> 103
+	128 -> 120
+	129 -> 29
+	129 -> 121
+	129 -> 128
+	130 -> 104
+	130 -> 122
+	130 -> 128
+	131 -> 105
+	131 -> 123
+	131 -> 130
+	132 -> 106
+	132 -> 124
+	132 -> 128
+	133 -> 85
+	133 -> 107
+	133 -> 131
+	133 -> 132
+	134 -> 41
+	134 -> 125
+	134 -> 132
+	135 -> 109
+	135 -> 120
+	136 -> 50
+	136 -> 87
+	136 -> 121
+	136 -> 125
+	136 -> 135
+	137 -> 51
+	137 -> 128
+	137 -> 135
+	138 -> 110
+	138 -> 131
+	138 -> 137
+	139 -> 52
+	139 -> 129
+	139 -> 134
+	139 -> 136
+	139 -> 137
+	140 -> 59
+	140 -> 92
+	140 -> 128
+	141 -> 61
+	141 -> 93
+	141 -> 130
+	141 -> 140
+	142 -> 0
+	143 -> 1
+	143 -> 142
+	144 -> 2
+	144 -> 142
+	145 -> 5
+	145 -> 142
+	146 -> 6
+	146 -> 144
+	146 -> 145
+	147 -> 7
+	147 -> 142
+	148 -> 8
+	148 -> 144
+	148 -> 147
+	149 -> 145
+	149 -> 147
+	150 -> 146
+	150 -> 148
+	150 -> 149
+	151 -> 10
+	151 -> 142
+	152 -> 11
+	152 -> 143
+	152 -> 151
+	153 -> 12
+	153 -> 147
+	153 -> 151
+	154 -> 13
+	154 -> 142
+	155 -> 18
+	155 -> 142
+	156 -> 23
+	156 -> 147
+	156 -> 155
+	157 -> 19
+	157 -> 143
+	157 -> 156
+	158 -> 25
+	158 -> 152
+	158 -> 153
+	158 -> 157
+	159 -> 28
+	159 -> 142
+	160 -> 34
+	160 -> 146
+	160 -> 159
+	161 -> 39
+	161 -> 154
+	161 -> 159
+	162 -> 49
+	162 -> 142
+	163 -> 147
+	163 -> 162
+	164 -> 155
+	164 -> 162
+	165 -> 54
+	165 -> 142
+	166 -> 59
+	166 -> 159
+	166 -> 165
+	167 -> 66
+	167 -> 142
+	168 -> 67
+	168 -> 144
+	168 -> 167
+	169 -> 68
+	169 -> 145
+	169 -> 167
+	170 -> 69
+	170 -> 146
+	170 -> 168
+	170 -> 169
+	171 -> 147
+	171 -> 167
+	172 -> 153
+	172 -> 171
+	173 -> 70
+	173 -> 154
+	173 -> 167
+	174 -> 72
+	174 -> 155
+	174 -> 167
+	175 -> 76
+	175 -> 159
+	175 -> 167
+	176 -> 78
+	176 -> 161
+	176 -> 173
+	176 -> 175
+	177 -> 55
+	177 -> 165
+	177 -> 169
+	178 -> 60
+	178 -> 61
+	178 -> 77
+	178 -> 160
+	178 -> 166
+	178 -> 170
+	178 -> 175
+	178 -> 177
+	179 -> 80
+	179 -> 142
+	180 -> 82
+	180 -> 145
+	180 -> 179
+	181 -> 83
+	181 -> 147
+	181 -> 179
+	182 -> 149
+	182 -> 180
+	182 -> 181
+	183 -> 84
+	183 -> 154
+	183 -> 179
+	184 -> 57
+	184 -> 92
+	184 -> 165
+	184 -> 183
+	185 -> 167
+	185 -> 179
+	186 -> 169
+	186 -> 180
+	186 -> 185
+	187 -> 173
+	187 -> 183
+	187 -> 185
+	188 -> 71
+	188 -> 85
+	188 -> 93
+	188 -> 177
+	188 -> 184
+	188 -> 186
+	188 -> 187
+	189 -> 142
+	190 -> 143
+	190 -> 189
+	191 -> 147
+	191 -> 189
+	192 -> 15
+	192 -> 151
+	192 -> 154
+	192 -> 189
+	193 -> 16
+	193 -> 152
+	193 -> 190
+	193 -> 192
+	194 -> 156
+	194 -> 191
+	195 -> 157
+	195 -> 190
+	195 -> 194
+	196 -> 50
+	196 -> 162
+	196 -> 193
+	197 -> 171
+	197 -> 191
+	198 -> 174
+	198 -> 194
+	198 -> 197
+	199 -> 27
+	199 -> 74
+	199 -> 158
+	199 -> 172
+	199 -> 173
+	199 -> 193
+	199 -> 195
+	199 -> 198
+	200 -> 163
+	200 -> 164
+	200 -> 196
+	200 -> 199
+	201 -> 179
+	201 -> 189
+	202 -> 81
+	202 -> 190
+	202 -> 201
+	203 -> 86
+	203 -> 183
+	203 -> 192
+	203 -> 201
+	204 -> 87
+	204 -> 193
+	204 -> 202
+	204 -> 203
+	205 -> 90
+	205 -> 181
+	205 -> 194
+	205 -> 201
+	206 -> 89
+	206 -> 195
+	206 -> 202
+	206 -> 205
+	207 -> 185
+	207 -> 198
+	207 -> 205
+	208 -> 91
+	208 -> 187
+	208 -> 199
+	208 -> 204
+	208 -> 206
+	208 -> 207
+	209 -> 94
+	209 -> 142
+	210 -> 95
+	210 -> 144
+	210 -> 209
+	211 -> 147
+	211 -> 209
+	212 -> 148
+	212 -> 210
+	212 -> 211
+	213 -> 99
+	213 -> 155
+	213 -> 209
+	214 -> 109
+	214 -> 162
+	214 -> 209
+	215 -> 164
+	215 -> 213
+	215 -> 214
+	216 -> 111
+	216 -> 167
+	216 -> 209
+	217 -> 112
+	217 -> 168
+	217 -> 210
+	217 -> 216
+	218 -> 120
+	218 -> 179
+	218 -> 209
+	219 -> 123
+	219 -> 146
+	219 -> 180
+	219 -> 210
+	219 -> 218
+	220 -> 181
+	220 -> 211
+	220 -> 218
+	221 -> 150
+	221 -> 182
+	221 -> 212
+	221 -> 219
+	221 -> 220
+	222 -> 124
+	222 -> 183
+	222 -> 218
+	223 -> 128
+	223 -> 159
+	223 -> 218
+	224 -> 131
+	224 -> 160
+	224 -> 219
+	224 -> 223
+	225 -> 63
+	225 -> 132
+	225 -> 140
+	225 -> 161
+	225 -> 166
+	225 -> 184
+	225 -> 222
+	225 -> 223
+	226 -> 185
+	226 -> 216
+	226 -> 218
+	227 -> 113
+	227 -> 170
+	227 -> 186
+	227 -> 217
+	227 -> 219
+	227 -> 226
+	228 -> 114
+	228 -> 187
+	228 -> 222
+	228 -> 226
+	229 -> 64
+	229 -> 118
+	229 -> 133
+	229 -> 141
+	229 -> 176
+	229 -> 178
+	229 -> 188
+	229 -> 224
+	229 -> 225
+	229 -> 227
+	229 -> 228
+	230 -> 189
+	230 -> 209
+	231 -> 191
+	231 -> 211
+	231 -> 230
+	232 -> 201
+	232 -> 218
+	232 -> 230
+	233 -> 121
+	233 -> 202
+	233 -> 232
+	234 -> 125
+	234 -> 203
+	234 -> 222
+	234 -> 232
+	235 -> 126
+	235 -> 205
+	235 -> 213
+	235 -> 220
+	235 -> 231
+	235 -> 232
+	236 -> 127
+	236 -> 206
+	236 -> 233
+	236 -> 235
+	237 -> 0
+	238 -> 3
+	238 -> 237
+	239 -> 7
+	239 -> 237
+	240 -> 8
+	240 -> 239
+	241 -> 10
+	241 -> 237
+	242 -> 12
+	242 -> 239
+	242 -> 241
+	243 -> 15
+	243 -> 241
+	244 -> 17
+	244 -> 242
+	244 -> 243
+	245 -> 18
+	245 -> 237
+	246 -> 21
+	246 -> 238
+	246 -> 245
+	247 -> 23
+	247 -> 239
+	247 -> 245
+	248 -> 27
+	248 -> 244
+	248 -> 247
+	249 -> 28
+	249 -> 237
+	250 -> 35
+	250 -> 239
+	250 -> 249
+	251 -> 30
+	251 -> 240
+	251 -> 250
+	252 -> 62
+	252 -> 241
+	252 -> 249
+	253 -> 65
+	253 -> 243
+	253 -> 252
+	254 -> 142
+	254 -> 237
+	255 -> 147
+	255 -> 239
+	255 -> 254
+	256 -> 148
+	256 -> 240
+	256 -> 255
+	257 -> 150
+	257 -> 256
+	258 -> 151
+	258 -> 241
+	258 -> 254
+	259 -> 167
+	259 -> 254
+	260 -> 171
+	260 -> 255
+	260 -> 259
+	261 -> 172
+	261 -> 242
+	261 -> 258
+	261 -> 260
+	262 -> 174
+	262 -> 245
+	262 -> 259
+	263 -> 209
+	263 -> 254
+	264 -> 211
+	264 -> 255
+	264 -> 263
+	265 -> 212
+	265 -> 256
+	265 -> 264
+	266 -> 218
+	266 -> 263
+	267 -> 220
+	267 -> 264
+	267 -> 266
+	268 -> 221
+	268 -> 257
+	268 -> 265
+	268 -> 267
+	269 -> 135
+	269 -> 214
+	269 -> 266
+	270 -> 163
+	270 -> 267
+	270 -> 269
+	271 -> 230
+	271 -> 263
+	272 -> 197
+	272 -> 216
+	272 -> 231
+	272 -> 260
+	272 -> 264
+	272 -> 271
+	273 -> 232
+	273 -> 266
+	273 -> 271
+	274 -> 136
+	274 -> 196
+	274 -> 204
+	274 -> 233
+	274 -> 234
+	274 -> 243
+	274 -> 258
+	274 -> 269
+	274 -> 273
+	275 -> 115
+	275 -> 207
+	275 -> 226
+	275 -> 235
+	275 -> 247
+	275 -> 262
+	275 -> 267
+	275 -> 272
+	275 -> 273
+	276 -> 117
+	276 -> 200
+	276 -> 208
+	276 -> 215
+	276 -> 228
+	276 -> 236
+	276 -> 248
+	276 -> 261
+	276 -> 270
+	276 -> 274
+	276 -> 275
+	277 -> 0
+	278 -> 1
+	278 -> 277
+	279 -> 3
+	279 -> 277
+	280 -> 5
+	280 -> 277
+	281 -> 18
+	281 -> 277
+	282 -> 19
+	282 -> 278
+	282 -> 281
+	283 -> 21
+	283 -> 279
+	283 -> 281
+	284 -> 4
+	284 -> 282
+	284 -> 283
+	285 -> 28
+	285 -> 277
+	286 -> 29
+	286 -> 278
+	286 -> 285
+	287 -> 31
+	287 -> 279
+	287 -> 285
+	288 -> 33
+	288 -> 280
+	288 -> 285
+	289 -> 32
+	289 -> 45
+	289 -> 284
+	289 -> 286
+	289 -> 287
+	290 -> 54
+	290 -> 277
+	291 -> 278
+	291 -> 290
+	292 -> 59
+	292 -> 285
+	292 -> 290
+	293 -> 80
+	293 -> 277
+	294 -> 81
+	294 -> 278
+	294 -> 293
+	295 -> 82
+	295 -> 280
+	295 -> 293
+	296 -> 92
+	296 -> 290
+	296 -> 293
+	297 -> 291
+	297 -> 294
+	297 -> 296
+	298 -> 94
+	298 -> 277
+	299 -> 120
+	299 -> 293
+	299 -> 298
+	300 -> 121
+	300 -> 294
+	300 -> 299
+	301 -> 122
+	301 -> 295
+	301 -> 299
+	302 -> 128
+	302 -> 285
+	302 -> 299
+	303 -> 130
+	303 -> 288
+	303 -> 301
+	303 -> 302
+	304 -> 140
+	304 -> 292
+	304 -> 296
+	304 -> 302
+	305 -> 129
+	305 -> 286
+	305 -> 297
+	305 -> 300
+	305 -> 304
+	306 -> 142
+	306 -> 277
+	307 -> 143
+	307 -> 278
+	307 -> 306
+	308 -> 144
+	308 -> 306
+	309 -> 279
+	309 -> 306
+	310 -> 147
+	310 -> 306
+	311 -> 148
+	311 -> 308
+	311 -> 310
+	312 -> 9
+	312 -> 309
+	312 -> 310
+	313 -> 149
+	313 -> 280
+	313 -> 310
+	314 -> 150
+	314 -> 311
+	314 -> 313
+	315 -> 151
+	315 -> 306
+	316 -> 152
+	316 -> 307
+	316 -> 315
+	317 -> 153
+	317 -> 310
+	317 -> 315
+	318 -> 155
+	318 -> 281
+	318 -> 306
+	319 -> 283
+	319 -> 309
+	319 -> 318
+	320 -> 157
+	320 -> 282
+	320 -> 307
+	320 -> 310
+	320 -> 318
+	321 -> 158
+	321 -> 316
+	321 -> 317
+	321 -> 320
+	322 -> 159
+	322 -> 285
+	322 -> 306
+	323 -> 35
+	323 -> 310
+	323 -> 322
+	324 -> 36
+	324 -> 315
+	324 -> 322
+	325 -> 37
+	325 -> 287
+	325 -> 309
+	325 -> 324
+	326 -> 162
+	326 -> 306
+	327 -> 164
+	327 -> 318
+	327 -> 326
+	328 -> 51
+	328 -> 322
+	328 -> 326
+	329 -> 163
+	329 -> 323
+	329 -> 328
+	330 -> 56
+	330 -> 165
+	330 -> 290
+	330 -> 315
+	331 -> 291
+	331 -> 316
+	331 -> 330
+	332 -> 62
+	332 -> 166
+	332 -> 292
+	332 -> 324
+	332 -> 330
+	333 -> 167
+	333 -> 306
+	334 -> 309
+	334 -> 333
+	335 -> 171
+	335 -> 310
+	335 -> 333
+	336 -> 312
+	336 -> 334
+	336 -> 335
+	337 -> 172
+	337 -> 317
+	337 -> 335
+	338 -> 174
+	338 -> 318
+	338 -> 333
+	339 -> 319
+	339 -> 334
+	339 -> 338
+	340 -> 38
+	340 -> 175
+	340 -> 323
+	340 -> 325
+	340 -> 336
+	340 -> 337
+	341 -> 179
+	341 -> 293
+	341 -> 306
+	342 -> 182
+	342 -> 295
+	342 -> 313
+	342 -> 341
+	343 -> 189
+	343 -> 306
+	344 -> 190
+	344 -> 307
+	344 -> 343
+	345 -> 309
+	345 -> 343
+	346 -> 191
+	346 -> 310
+	346 -> 343
+	347 -> 312
+	347 -> 345
+	347 -> 346
+	348 -> 192
+	348 -> 315
+	348 -> 343
+	349 -> 193
+	349 -> 316
+	349 -> 344
+	349 -> 348
+	350 -> 195
+	350 -> 320
+	350 -> 344
+	350 -> 346
+	351 -> 24
+	351 -> 284
+	351 -> 319
+	351 -> 347
+	351 -> 350
+	352 -> 41
+	352 -> 161
+	352 -> 324
+	352 -> 348
+	353 -> 42
+	353 -> 325
+	353 -> 345
+	353 -> 352
+	354 -> 52
+	354 -> 196
+	354 -> 286
+	354 -> 328
+	354 -> 349
+	354 -> 352
+	355 -> 197
+	355 -> 335
+	355 -> 346
+	356 -> 336
+	356 -> 347
+	356 -> 355
+	357 -> 199
+	357 -> 321
+	357 -> 337
+	357 -> 338
+	357 -> 349
+	357 -> 350
+	357 -> 355
+	358 -> 48
+	358 -> 53
+	358 -> 79
+	358 -> 176
+	358 -> 200
+	358 -> 289
+	358 -> 327
+	358 -> 329
+	358 -> 339
+	358 -> 340
+	358 -> 351
+	358 -> 353
+	358 -> 354
+	358 -> 356
+	358 -> 357
+	359 -> 201
+	359 -> 341
+	359 -> 343
+	360 -> 202
+	360 -> 294
+	360 -> 344
+	360 -> 359
+	361 -> 58
+	361 -> 184
+	361 -> 203
+	361 -> 296
+	361 -> 330
+	361 -> 348
+	361 -> 359
+	362 -> 204
+	362 -> 297
+	362 -> 331
+	362 -> 349
+	362 -> 360
+	362 -> 361
+	363 -> 209
+	363 -> 298
+	363 -> 306
+	364 -> 210
+	364 -> 308
+	364 -> 363
+	365 -> 212
+	365 -> 311
+	365 -> 364
+	366 -> 214
+	366 -> 326
+	366 -> 363
+	367 -> 110
+	367 -> 364
+	367 -> 366
+	368 -> 218
+	368 -> 299
+	368 -> 341
+	368 -> 363
+	369 -> 221
+	369 -> 301
+	369 -> 314
+	369 -> 342
+	369 -> 365
+	369 -> 368
+	370 -> 223
+	370 -> 302
+	370 -> 322
+	370 -> 368
+	371 -> 230
+	371 -> 343
+	371 -> 363
+	372 -> 232
+	372 -> 359
+	372 -> 368
+	372 -> 371
+	373 -> 233
+	373 -> 300
+	373 -> 360
+	373 -> 372
+	374 -> 65
+	374 -> 134
+	374 -> 225
+	374 -> 234
+	374 -> 304
+	374 -> 332
+	374 -> 352
+	374 -> 361
+	374 -> 370
+	374 -> 372
+	375 -> 254
+	375 -> 306
+	376 -> 256
+	376 -> 311
+	376 -> 375
+	377 -> 249
+	377 -> 322
+	377 -> 375
+	378 -> 160
+	378 -> 251
+	378 -> 257
+	378 -> 288
+	378 -> 314
+	378 -> 323
+	378 -> 376
+	378 -> 377
+	379 -> 252
+	379 -> 258
+	379 -> 332
+	379 -> 377
+	380 -> 238
+	380 -> 259
+	380 -> 334
+	380 -> 375
+	381 -> 246
+	381 -> 262
+	381 -> 339
+	381 -> 380
+	382 -> 263
+	382 -> 363
+	382 -> 375
+	383 -> 265
+	383 -> 365
+	383 -> 376
+	383 -> 382
+	384 -> 137
+	384 -> 269
+	384 -> 328
+	384 -> 366
+	384 -> 370
+	384 -> 377
+	384 -> 382
+	385 -> 138
+	385 -> 224
+	385 -> 268
+	385 -> 270
+	385 -> 303
+	385 -> 329
+	385 -> 367
+	385 -> 369
+	385 -> 378
+	385 -> 383
+	385 -> 384
+	386 -> 271
+	386 -> 371
+	386 -> 382
+	387 -> 139
+	387 -> 253
+	387 -> 274
+	387 -> 305
+	387 -> 354
+	387 -> 362
+	387 -> 373
+	387 -> 374
+	387 -> 379
+	387 -> 384
+	387 -> 386
+	388 -> 0
+	389 -> 1
+	389 -> 388
+	390 -> 2
+	390 -> 388
+	391 -> 3
+	391 -> 388
+	392 -> 390
+	392 -> 391
+	393 -> 5
+	393 -> 388
+	394 -> 6
+	394 -> 390
+	394 -> 393
+	395 -> 391
+	395 -> 393
+	396 -> 392
+	396 -> 394
+	396 -> 395
+	397 -> 7
+	397 -> 388
+	398 -> 8
+	398 -> 390
+	398 -> 397
+	399 -> 9
+	399 -> 391
+	399 -> 397
+	400 -> 392
+	400 -> 398
+	400 -> 399
+	401 -> 10
+	401 -> 388
+	402 -> 11
+	402 -> 389
+	402 -> 401
+	403 -> 393
+	403 -> 401
+	404 -> 12
+	404 -> 397
+	404 -> 401
+	405 -> 15
+	405 -> 401
+	406 -> 17
+	406 -> 404
+	406 -> 405
+	407 -> 18
+	407 -> 388
+	408 -> 20
+	408 -> 390
+	408 -> 407
+	409 -> 21
+	409 -> 391
+	409 -> 407
+	410 -> 23
+	410 -> 397
+	410 -> 407
+	411 -> 398
+	411 -> 408
+	411 -> 410
+	412 -> 24
+	412 -> 400
+	412 -> 409
+	412 -> 411
+	413 -> 25
+	413 -> 404
+	413 -> 410
+	414 -> 27
+	414 -> 406
+	414 -> 413
+	415 -> 31
+	415 -> 391
+	416 -> 33
+	416 -> 395
+	416 -> 415
+	417 -> 37
+	417 -> 401
+	417 -> 415
+	418 -> 30
+	418 -> 392
+	418 -> 417
+	419 -> 34
+	419 -> 396
+	419 -> 403
+	419 -> 416
+	419 -> 418
+	420 -> 42
+	420 -> 405
+	420 -> 417
+	421 -> 40
+	421 -> 418
+	421 -> 420
+	422 -> 54
+	422 -> 388
+	423 -> 56
+	423 -> 401
+	423 -> 422
+	424 -> 404
+	424 -> 423
+	425 -> 58
+	425 -> 405
+	425 -> 423
+	426 -> 406
+	426 -> 424
+	426 -> 425
+	427 -> 407
+	427 -> 422
+	428 -> 413
+	428 -> 424
+	428 -> 427
+	429 -> 414
+	429 -> 426
+	429 -> 428
+	430 -> 59
+	430 -> 415
+	430 -> 422
+	431 -> 62
+	431 -> 417
+	431 -> 423
+	431 -> 430
+	432 -> 65
+	432 -> 420
+	432 -> 425
+	432 -> 431
+	433 -> 45
+	433 -> 409
+	433 -> 427
+	433 -> 430
+	434 -> 80
+	434 -> 388
+	435 -> 82
+	435 -> 393
+	435 -> 434
+	436 -> 81
+	436 -> 389
+	436 -> 435
+	437 -> 86
+	437 -> 405
+	437 -> 434
+	438 -> 85
+	438 -> 87
+	438 -> 402
+	438 -> 403
+	438 -> 436
+	438 -> 437
+	439 -> 88
+	439 -> 407
+	439 -> 434
+	440 -> 22
+	440 -> 435
+	440 -> 439
+	441 -> 90
+	441 -> 410
+	441 -> 439
+	442 -> 91
+	442 -> 414
+	442 -> 437
+	442 -> 441
+	443 -> 388
+	444 -> 390
+	444 -> 443
+	445 -> 397
+	445 -> 443
+	446 -> 407
+	446 -> 443
+	447 -> 408
+	447 -> 444
+	447 -> 446
+	448 -> 410
+	448 -> 445
+	448 -> 446
+	449 -> 424
+	449 -> 445
+	450 -> 428
+	450 -> 448
+	450 -> 449
+	451 -> 94
+	451 -> 388
+	452 -> 95
+	452 -> 390
+	452 -> 451
+	453 -> 391
+	453 -> 451
+	454 -> 392
+	454 -> 452
+	454 -> 453
+	455 -> 99
+	455 -> 407
+	455 -> 451
+	456 -> 110
+	456 -> 452
+	457 -> 120
+	457 -> 434
+	457 -> 451
+	458 -> 453
+	458 -> 457
+	459 -> 122
+	459 -> 435
+	459 -> 457
+	460 -> 123
+	460 -> 394
+	460 -> 452
+	460 -> 459
+	461 -> 4
+	461 -> 121
+	461 -> 395
+	461 -> 436
+	461 -> 458
+	461 -> 459
+	462 -> 396
+	462 -> 454
+	462 -> 460
+	462 -> 461
+	463 -> 101
+	463 -> 126
+	463 -> 440
+	463 -> 455
+	463 -> 459
+	464 -> 128
+	464 -> 415
+	464 -> 458
+	465 -> 32
+	465 -> 129
+	465 -> 130
+	465 -> 416
+	465 -> 461
+	465 -> 464
+	466 -> 134
+	466 -> 420
+	466 -> 437
+	466 -> 464
+	467 -> 53
+	467 -> 133
+	467 -> 138
+	467 -> 139
+	467 -> 419
+	467 -> 421
+	467 -> 438
+	467 -> 456
+	467 -> 462
+	467 -> 465
+	467 -> 466
+	468 -> 142
+	468 -> 388
+	469 -> 144
+	469 -> 390
+	469 -> 468
+	470 -> 147
+	470 -> 397
+	470 -> 468
+	471 -> 148
+	471 -> 398
+	471 -> 469
+	471 -> 470
+	472 -> 149
+	472 -> 393
+	472 -> 470
+	473 -> 150
+	473 -> 394
+	473 -> 471
+	473 -> 472
+	474 -> 155
+	474 -> 407
+	474 -> 468
+	475 -> 156
+	475 -> 410
+	475 -> 470
+	475 -> 474
+	476 -> 171
+	476 -> 470
+	477 -> 169
+	477 -> 472
+	477 -> 476
+	478 -> 443
+	478 -> 468
+	479 -> 444
+	479 -> 469
+	479 -> 478
+	480 -> 445
+	480 -> 470
+	480 -> 478
+	481 -> 446
+	481 -> 474
+	481 -> 478
+	482 -> 448
+	482 -> 475
+	482 -> 480
+	482 -> 481
+	483 -> 189
+	483 -> 468
+	484 -> 191
+	484 -> 470
+	484 -> 483
+	485 -> 197
+	485 -> 476
+	485 -> 484
+	486 -> 201
+	486 -> 434
+	486 -> 483
+	487 -> 182
+	487 -> 205
+	487 -> 440
+	487 -> 441
+	487 -> 472
+	487 -> 475
+	487 -> 484
+	487 -> 486
+	488 -> 73
+	488 -> 186
+	488 -> 207
+	488 -> 477
+	488 -> 485
+	488 -> 487
+	489 -> 209
+	489 -> 451
+	489 -> 468
+	490 -> 210
+	490 -> 452
+	490 -> 469
+	490 -> 489
+	491 -> 100
+	491 -> 213
+	491 -> 408
+	491 -> 455
+	491 -> 474
+	491 -> 490
+	492 -> 447
+	492 -> 479
+	492 -> 481
+	492 -> 491
+	493 -> 230
+	493 -> 483
+	493 -> 489
+	494 -> 212
+	494 -> 231
+	494 -> 471
+	494 -> 484
+	494 -> 490
+	494 -> 493
+	495 -> 232
+	495 -> 457
+	495 -> 486
+	495 -> 493
+	496 -> 102
+	496 -> 221
+	496 -> 235
+	496 -> 411
+	496 -> 460
+	496 -> 463
+	496 -> 473
+	496 -> 487
+	496 -> 491
+	496 -> 494
+	496 -> 495
+	497 -> 239
+	497 -> 397
+	498 -> 240
+	498 -> 398
+	498 -> 497
+	499 -> 238
+	499 -> 399
+	499 -> 497
+	500 -> 400
+	500 -> 498
+	500 -> 499
+	501 -> 38
+	501 -> 242
+	501 -> 250
+	501 -> 252
+	501 -> 424
+	501 -> 431
+	501 -> 499
+	502 -> 43
+	502 -> 244
+	502 -> 253
+	502 -> 426
+	502 -> 432
+	502 -> 501
+	503 -> 444
+	503 -> 445
+	503 -> 498
+	504 -> 247
+	504 -> 411
+	504 -> 447
+	504 -> 448
+	504 -> 503
+	505 -> 60
+	505 -> 251
+	505 -> 418
+	505 -> 449
+	505 -> 500
+	505 -> 501
+	505 -> 503
+	506 -> 47
+	506 -> 48
+	506 -> 64
+	506 -> 246
+	506 -> 248
+	506 -> 412
+	506 -> 421
+	506 -> 429
+	506 -> 433
+	506 -> 450
+	506 -> 502
+	506 -> 504
+	506 -> 505
+	507 -> 168
+	507 -> 256
+	507 -> 260
+	507 -> 471
+	507 -> 476
+	507 -> 498
+	508 -> 170
+	508 -> 257
+	508 -> 473
+	508 -> 477
+	508 -> 479
+	508 -> 480
+	508 -> 503
+	508 -> 507
+	509 -> 217
+	509 -> 265
+	509 -> 272
+	509 -> 485
+	509 -> 494
+	509 -> 507
+	510 -> 116
+	510 -> 227
+	510 -> 268
+	510 -> 275
+	510 -> 482
+	510 -> 488
+	510 -> 492
+	510 -> 496
+	510 -> 504
+	510 -> 508
+	510 -> 509
+	511 -> 277
+	511 -> 388
+	512 -> 279
+	512 -> 391
+	512 -> 511
+	513 -> 280
+	513 -> 393
+	513 -> 511
+	514 -> 395
+	514 -> 512
+	514 -> 513
+	515 -> 281
+	515 -> 407
+	515 -> 511
+	516 -> 282
+	516 -> 389
+	516 -> 515
+	517 -> 290
+	517 -> 422
+	517 -> 511
+	518 -> 55
+	518 -> 513
+	518 -> 517
+	519 -> 291
+	519 -> 427
+	519 -> 516
+	519 -> 517
+	520 -> 287
+	520 -> 292
+	520 -> 430
+	520 -> 512
+	520 -> 517
+	521 -> 61
+	521 -> 288
+	521 -> 416
+	521 -> 514
+	521 -> 518
+	521 -> 520
+	522 -> 293
+	522 -> 434
+	522 -> 511
+	523 -> 89
+	523 -> 294
+	523 -> 295
+	523 -> 436
+	523 -> 440
+	523 -> 513
+	523 -> 516
+	523 -> 522
+	524 -> 296
+	524 -> 517
+	524 -> 522
+	525 -> 93
+	525 -> 297
+	525 -> 518
+	525 -> 519
+	525 -> 523
+	525 -> 524
+	526 -> 298
+	526 -> 451
+	526 -> 511
+	527 -> 453
+	527 -> 512
+	527 -> 526
+	528 -> 455
+	528 -> 515
+	528 -> 526
+	529 -> 299
+	529 -> 458
+	529 -> 522
+	529 -> 527
+	530 -> 127
+	530 -> 284
+	530 -> 300
+	530 -> 301
+	530 -> 409
+	530 -> 461
+	530 -> 463
+	530 -> 514
+	530 -> 523
+	530 -> 528
+	530 -> 529
+	531 -> 304
+	531 -> 464
+	531 -> 520
+	531 -> 524
+	531 -> 529
+	532 -> 108
+	532 -> 141
+	532 -> 289
+	532 -> 303
+	532 -> 305
+	532 -> 433
+	532 -> 465
+	532 -> 521
+	532 -> 525
+	532 -> 530
+	532 -> 531
+	533 -> 306
+	533 -> 468
+	533 -> 511
+	534 -> 308
+	534 -> 469
+	534 -> 533
+	535 -> 309
+	535 -> 512
+	535 -> 533
+	536 -> 310
+	536 -> 470
+	536 -> 533
+	537 -> 311
+	537 -> 312
+	537 -> 400
+	537 -> 471
+	537 -> 534
+	537 -> 535
+	537 -> 536
+	538 -> 313
+	538 -> 472
+	538 -> 513
+	538 -> 536
+	539 -> 314
+	539 -> 396
+	539 -> 473
+	539 -> 514
+	539 -> 537
+	539 -> 538
+	540 -> 318
+	540 -> 474
+	540 -> 515
+	540 -> 533
+	541 -> 320
+	541 -> 475
+	541 -> 516
+	541 -> 536
+	541 -> 540
+	542 -> 330
+	542 -> 423
+	542 -> 517
+	542 -> 533
+	543 -> 317
+	543 -> 424
+	543 -> 536
+	543 -> 542
+	544 -> 321
+	544 -> 331
+	544 -> 402
+	544 -> 428
+	544 -> 519
+	544 -> 541
+	544 -> 543
+	545 -> 325
+	545 -> 332
+	545 -> 431
+	545 -> 520
+	545 -> 535
+	545 -> 542
+	546 -> 335
+	546 -> 476
+	546 -> 536
+	547 -> 177
+	547 -> 337
+	547 -> 403
+	547 -> 477
+	547 -> 518
+	547 -> 538
+	547 -> 543
+	547 -> 546
+	548 -> 478
+	548 -> 533
+	549 -> 479
+	549 -> 534
+	549 -> 548
+	550 -> 481
+	550 -> 540
+	550 -> 548
+	551 -> 449
+	551 -> 480
+	551 -> 543
+	551 -> 548
+	552 -> 450
+	552 -> 482
+	552 -> 544
+	552 -> 550
+	552 -> 551
+	553 -> 343
+	553 -> 483
+	553 -> 533
+	554 -> 346
+	554 -> 484
+	554 -> 536
+	554 -> 553
+	555 -> 355
+	555 -> 485
+	555 -> 546
+	555 -> 554
+	556 -> 359
+	556 -> 486
+	556 -> 522
+	556 -> 553
+	557 -> 206
+	557 -> 342
+	557 -> 350
+	557 -> 360
+	557 -> 487
+	557 -> 523
+	557 -> 538
+	557 -> 541
+	557 -> 554
+	557 -> 556
+	558 -> 361
+	558 -> 425
+	558 -> 437
+	558 -> 524
+	558 -> 542
+	558 -> 556
+	559 -> 75
+	559 -> 188
+	559 -> 208
+	559 -> 357
+	559 -> 362
+	559 -> 429
+	559 -> 438
+	559 -> 442
+	559 -> 488
+	559 -> 525
+	559 -> 544
+	559 -> 547
+	559 -> 555
+	559 -> 557
+	559 -> 558
+	560 -> 363
+	560 -> 489
+	560 -> 526
+	560 -> 533
+	561 -> 364
+	561 -> 490
+	561 -> 534
+	561 -> 560
+	562 -> 491
+	562 -> 528
+	562 -> 540
+	562 -> 561
+	563 -> 215
+	563 -> 327
+	563 -> 367
+	563 -> 456
+	563 -> 492
+	563 -> 549
+	563 -> 550
+	563 -> 562
+	564 -> 345
+	564 -> 371
+	564 -> 493
+	564 -> 527
+	564 -> 535
+	564 -> 553
+	564 -> 560
+	565 -> 347
+	565 -> 365
+	565 -> 454
+	565 -> 494
+	565 -> 537
+	565 -> 554
+	565 -> 561
+	565 -> 564
+	566 -> 372
+	566 -> 495
+	566 -> 529
+	566 -> 556
+	566 -> 564
+	567 -> 236
+	567 -> 351
+	567 -> 369
+	567 -> 373
+	567 -> 412
+	567 -> 462
+	567 -> 496
+	567 -> 530
+	567 -> 539
+	567 -> 557
+	567 -> 562
+	567 -> 565
+	567 -> 566
+	568 -> 353
+	568 -> 374
+	568 -> 432
+	568 -> 466
+	568 -> 531
+	568 -> 545
+	568 -> 558
+	568 -> 566
+	569 -> 336
+	569 -> 376
+	569 -> 380
+	569 -> 500
+	569 -> 507
+	569 -> 537
+	569 -> 546
+	570 -> 178
+	570 -> 261
+	570 -> 340
+	570 -> 378
+	570 -> 379
+	570 -> 419
+	570 -> 505
+	570 -> 508
+	570 -> 521
+	570 -> 539
+	570 -> 545
+	570 -> 547
+	570 -> 549
+	570 -> 551
+	570 -> 569
+	571 -> 356
+	571 -> 383
+	571 -> 386
+	571 -> 509
+	571 -> 555
+	571 -> 565
+	571 -> 569
+	572 -> 119
+	572 -> 229
+	572 -> 276
+	572 -> 358
+	572 -> 381
+	572 -> 385
+	572 -> 387
+	572 -> 467
+	572 -> 506
+	572 -> 510
+	572 -> 532
+	572 -> 552
+	572 -> 559
+	572 -> 563
+	572 -> 567
+	572 -> 568
+	572 -> 570
+	572 -> 571
+}
