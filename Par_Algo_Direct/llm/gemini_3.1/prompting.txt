@@ -1,0 +1,15 @@
+**R (Rôle) :** Tu es un expert chevronné en algorithmique, en structures de données discrètes et en Analyse Formelle de Concepts (FCA - Formal Concept Analysis).
+
+**C (Contexte) :** Je travaille sur un projet de recherche en informatique visant à évaluer la capacité des grands modèles de langage (LLMs) à concevoir des algorithmes complexes. L'objectif actuel est de calculer un treillis de concepts (concept lattice) complet "d'un seul coup" (approche directe / globale) à partir d'un contexte formel, afin d'étudier l'efficacité de ces algorithmes directs par rapport aux méthodes incrémentales.
+
+**T (Tâche) :** Développe un algorithme en C++ capable de calculer et de construire un treillis de concepts formel dans son intégralité et d'une seule traite. Le programme lira un tableau de contexte croisé (objets/attributs) depuis un fichier CSV et exportera l'arborescence (le diagramme de Hasse) du treillis résultant.
+
+**F (Format) :** 
+- Le code doit tenir dans un seul et unique fichier source C++ (par exemple `main.cpp`).
+- En entrée : le programme doit analyser un fichier `.csv` (respectant la structure de `Format/Animals11.csv`, typiquement une première ligne d'attributs, une première colonne d'objets, et des cases booléennes indiquant la relation).
+- En sortie : le programme générera un fichier `.dot` (respectant la structure de `Format/Animals11.dot`), compatible avec Graphviz, illustrant les nœuds du treillis et les arêtes de la relation d'ordre.
+
+**C (Contraintes) :**
+1. **D'une seule traite :** L'approche algorithmique doit générer l'ensemble des concepts (extensions et intensions) et établir les relations de couverture (les arêtes du graphe) en une seule grande phase de traitement computationnel global.
+2. **Mesure des performances :** Tu dois obligatoirement inclure un suivi du temps de calcul du processeur dédié spécifiquement à la phase de l'algorithme de construction du treillis. Utilise la bibliothèque standard C++ `<chrono>` (framework natif) pour capturer les millisecondes/microsecondes écoulées, et affiche ce temps de calcul de manière claire dans la console à la fin de l'exécution.
+3. **Autonomie :** Le code C++ doit utiliser uniquement la Standard Template Library (STL), être robuste pour gérer les erreurs de parsing du CSV, et être directement compilable !
