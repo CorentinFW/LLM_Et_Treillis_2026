@@ -13,3 +13,11 @@ bank_binarized.csv
 
 # Ignore oversized generated full lattice dot files
 **/bank_binarized_full.dot
+
+# Ignore generated large comparison artifacts from pipeline outputs
+Par_recomposition/Outils/outputs/**/metadata/compare_index.json
+Par_recomposition/Outils/outputs/**/compare/pairs/**/*.json
+
+# Python cache artifacts
+**/__pycache__/
+**/*.pyc

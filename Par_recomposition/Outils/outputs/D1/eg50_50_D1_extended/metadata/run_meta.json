@@ -1,0 +1,17 @@
+{
+  "run_id": "eg50_50_D1_extended",
+  "created_at": "2026-04-11T10:59:14+02:00",
+  "repo_root": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition",
+  "config_dir": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/config",
+  "selected_algorithms": [
+    "fca4j",
+    "claude_lattice2",
+    "gpt53_lattice"
+  ],
+  "selected_datasets": [
+    "eg50_50"
+  ],
+  "timeout_seconds": null,
+  "timeout_mode": "disabled",
+  "continue_on_error": true
+}

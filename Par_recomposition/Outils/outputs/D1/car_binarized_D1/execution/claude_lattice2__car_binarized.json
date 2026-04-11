@@ -1,0 +1,27 @@
+{
+  "algorithm_id": "claude_lattice2",
+  "dataset_id": "car_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/car_binarized/car_binarized.csv"
+  ],
+  "timeout_seconds": null,
+  "timeout_enabled": false,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/car_binarized/car_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.074,
+  "started_at": "2026-04-11T12:56:32+02:00",
+  "finished_at": "2026-04-11T12:56:33+02:00",
+  "peak_rss_bytes": 8593408,
+  "peak_disk_bytes": 244220,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 0,
+  "monitor_sample_count": 2,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/car_binarized/Lattice/car_binarized_LLM_2.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/car_binarized_D1/execution/dots/claude_lattice2__car_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/car_binarized_D1/execution/logs/claude_lattice2__car_binarized.log"
+}

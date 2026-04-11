@@ -1,0 +1,16 @@
+{
+  "run_id": "connect-4_binarized_D1",
+  "finished_at": "2026-04-11T12:57:50+02:00",
+  "stages_requested": [
+    "execution",
+    "normalize",
+    "compare",
+    "report"
+  ],
+  "stage_status": {
+    "execution": "OK",
+    "normalize": "OK",
+    "compare": "OK",
+    "report": "OK"
+  }
+}

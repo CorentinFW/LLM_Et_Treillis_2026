@@ -1,0 +1,31 @@
+{
+  "stage": "normalize",
+  "generated_at": "2026-04-11T12:59:08+02:00",
+  "total_cases": 3,
+  "results": [
+    {
+      "algorithm_id": "fca4j",
+      "dataset_id": "monks-1_binarized",
+      "status": "OK",
+      "message": "converted to full",
+      "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/monks-1_binarized_D1/execution/dots/fca4j__monks-1_binarized.dot",
+      "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/monks-1_binarized_D1/normalize/dots/fca4j__monks-1_binarized_full.dot"
+    },
+    {
+      "algorithm_id": "claude_lattice2",
+      "dataset_id": "monks-1_binarized",
+      "status": "OK",
+      "message": "converted to full",
+      "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/monks-1_binarized_D1/execution/dots/claude_lattice2__monks-1_binarized.dot",
+      "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/monks-1_binarized_D1/normalize/dots/claude_lattice2__monks-1_binarized_full.dot"
+    },
+    {
+      "algorithm_id": "gpt53_lattice",
+      "dataset_id": "monks-1_binarized",
+      "status": "MISSING_RAW_DOT",
+      "message": "raw DOT not available from execution stage",
+      "raw_dot": null,
+      "normalized_dot": null
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "claude_lattice2",
+  "dataset_id": "eg20_20",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg20_20_D1/execution/dots/claude_lattice2__eg20_20.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg20_20_D1/normalize/dots/claude_lattice2__eg20_20_full.dot"
+}

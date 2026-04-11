@@ -1,0 +1,26 @@
+{
+  "algorithm_id": "claude_lattice2",
+  "dataset_id": "eg30_30",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/eg30_30/eg30_30.csv"
+  ],
+  "timeout_seconds": 900,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/eg30_30/eg30_30.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.595,
+  "started_at": "2026-04-11T10:26:23+02:00",
+  "finished_at": "2026-04-11T10:26:23+02:00",
+  "peak_rss_bytes": 17113088,
+  "peak_disk_bytes": 3679643,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 425984,
+  "monitor_sample_count": 11,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/eg30_30/Lattice/eg30_30_LLM_2.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg30_30_D1/execution/dots/claude_lattice2__eg30_30.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg30_30_D1/execution/logs/claude_lattice2__eg30_30.log"
+}

@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "fca4j",
+  "dataset_id": "eg50_50",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg50_50_D1_extended/execution/dots/fca4j__eg50_50.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg50_50_D1_extended/normalize/dots/fca4j__eg50_50_full.dot"
+}

@@ -1,0 +1,26 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "eg40_40",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/eg40_40/eg40_40.csv"
+  ],
+  "timeout_seconds": 900,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/eg40_40/eg40_40.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 187.736,
+  "started_at": "2026-04-11T10:27:40+02:00",
+  "finished_at": "2026-04-11T10:30:48+02:00",
+  "peak_rss_bytes": 26517504,
+  "peak_disk_bytes": 23788921,
+  "peak_io_read_bytes": 16384,
+  "peak_io_write_bytes": 60678144,
+  "monitor_sample_count": 3257,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/eg40_40/Lattice/eg40_40_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg40_40_D1/execution/dots/gpt53_lattice__eg40_40.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg40_40_D1/execution/logs/gpt53_lattice__eg40_40.log"
+}

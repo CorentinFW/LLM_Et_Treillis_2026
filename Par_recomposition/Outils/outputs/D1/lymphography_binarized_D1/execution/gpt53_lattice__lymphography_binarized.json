@@ -1,0 +1,27 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "lymphography_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lymphography_binarized/lymphography_binarized.csv"
+  ],
+  "timeout_seconds": null,
+  "timeout_enabled": false,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lymphography_binarized/lymphography_binarized.csv",
+  "status": "FAILED",
+  "returncode": 1,
+  "timed_out": false,
+  "elapsed_seconds": 0.076,
+  "started_at": "2026-04-11T12:58:41+02:00",
+  "finished_at": "2026-04-11T12:58:41+02:00",
+  "peak_rss_bytes": 8945664,
+  "peak_disk_bytes": 19676,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 0,
+  "monitor_sample_count": 2,
+  "raw_dot_source": null,
+  "raw_dot_copy": null,
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/lymphography_binarized_D1/execution/logs/gpt53_lattice__lymphography_binarized.log"
+}

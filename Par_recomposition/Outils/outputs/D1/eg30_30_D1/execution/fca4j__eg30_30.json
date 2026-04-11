@@ -1,0 +1,33 @@
+{
+  "algorithm_id": "fca4j",
+  "dataset_id": "eg30_30",
+  "command": [
+    "java",
+    "-jar",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar",
+    "LATTICE",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg30_30/eg30_30.csv",
+    "-i",
+    "CSV",
+    "-s",
+    "SEMICOLON",
+    "-g",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg30_30/Lattice/eg30_30.dot"
+  ],
+  "timeout_seconds": 900,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg30_30/eg30_30.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.321,
+  "started_at": "2026-04-11T10:26:22+02:00",
+  "finished_at": "2026-04-11T10:26:23+02:00",
+  "peak_rss_bytes": 150880256,
+  "peak_disk_bytes": 1344660,
+  "peak_io_read_bytes": 57344,
+  "peak_io_write_bytes": 614400,
+  "monitor_sample_count": 6,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg30_30/Lattice/eg30_30.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg30_30_D1/execution/dots/fca4j__eg30_30.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/eg30_30_D1/execution/logs/fca4j__eg30_30.log"
+}

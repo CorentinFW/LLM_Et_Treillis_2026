@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "Animals11",
+  "status": "CONVERSION_FAILED",
+  "message": "Erreur: Cardinalité d'extension incohérente pour le nœud '1': entête=10, reconstruit=9",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/Animals11/execution/dots/gpt53_lattice__Animals11.dot",
+  "normalized_dot": null
+}

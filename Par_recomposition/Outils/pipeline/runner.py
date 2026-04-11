@@ -1,49 +1,138 @@
 from __future__ import annotations
 
 import subprocess
+import threading
 import time
 from pathlib import Path
 from typing import Any
 
 from .common import ensure_dir, now_iso, render_command, select_latest_file, write_json
 from .config import Algorithm, Dataset
+from .resource_monitor import disk_roots_written_since_size_bytes, sample_resources
 
 
-def _run_command(command: list[str], timeout_seconds: int, cwd: Path) -> dict[str, Any]:
-    started_at = now_iso()
-    started = time.monotonic()
+def _drain_stream(stream) -> str:
+    if stream is None:
+        return ""
     try:
-        result = subprocess.run(
-            command,
-            cwd=str(cwd),
-            capture_output=True,
-            text=True,
-            timeout=timeout_seconds,
-            check=False,
+        return stream.read()
+    except Exception:
+        return ""
+
+
+def _run_command(
+    command: list[str],
+    timeout_seconds: int | None,
+    cwd: Path,
+    monitored_roots: list[Path],
+) -> dict[str, Any]:
+    started_at = now_iso()
+    started_time_ns = time.time_ns()
+    started = time.monotonic()
+    proc = subprocess.Popen(
+        command,
+        cwd=str(cwd),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+    )
+
+    stdout_holder: dict[str, str] = {"value": ""}
+    stderr_holder: dict[str, str] = {"value": ""}
+
+    stdout_thread = threading.Thread(
+        target=lambda: stdout_holder.__setitem__("value", _drain_stream(proc.stdout)),
+        daemon=True,
+    )
+    stderr_thread = threading.Thread(
+        target=lambda: stderr_holder.__setitem__("value", _drain_stream(proc.stderr)),
+        daemon=True,
+    )
+    stdout_thread.start()
+    stderr_thread.start()
+
+    peak_rss_bytes = 0
+    peak_disk_bytes = 0
+    peak_written_live_bytes = 0
+    peak_io_read_bytes = 0
+    peak_io_write_bytes = 0
+    peak_io_rchar_bytes = 0
+    peak_io_wchar_bytes = 0
+    sample_count = 0
+    timed_out = False
+
+    while True:
+        sample = sample_resources(root_pid=proc.pid, disk_roots=monitored_roots)
+        sample_count += 1
+        peak_rss_bytes = max(peak_rss_bytes, sample.rss_bytes)
+        peak_disk_bytes = max(peak_disk_bytes, sample.disk_bytes)
+        peak_written_live_bytes = max(
+            peak_written_live_bytes,
+            disk_roots_written_since_size_bytes(monitored_roots, started_time_ns),
         )
-        elapsed = time.monotonic() - started
-        return {
-            "status": "OK" if result.returncode == 0 else "FAILED",
-            "returncode": result.returncode,
-            "timed_out": False,
-            "stdout": result.stdout,
-            "stderr": result.stderr,
-            "started_at": started_at,
-            "finished_at": now_iso(),
-            "elapsed_seconds": round(elapsed, 3),
-        }
-    except subprocess.TimeoutExpired as exc:
-        elapsed = time.monotonic() - started
-        return {
-            "status": "TIMEOUT",
-            "returncode": 124,
-            "timed_out": True,
-            "stdout": exc.stdout or "",
-            "stderr": (exc.stderr or "") + "\nCommand killed after timeout.",
-            "started_at": started_at,
-            "finished_at": now_iso(),
-            "elapsed_seconds": round(elapsed, 3),
-        }
+        peak_io_read_bytes = max(peak_io_read_bytes, sample.io_read_bytes)
+        peak_io_write_bytes = max(peak_io_write_bytes, sample.io_write_bytes)
+        peak_io_rchar_bytes = max(peak_io_rchar_bytes, sample.io_rchar_bytes)
+        peak_io_wchar_bytes = max(peak_io_wchar_bytes, sample.io_wchar_bytes)
+
+        if proc.poll() is not None:
+            break
+
+        if timeout_seconds is not None and (time.monotonic() - started) >= timeout_seconds:
+            timed_out = True
+            proc.terminate()
+            try:
+                proc.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                proc.kill()
+                proc.wait()
+            break
+
+        time.sleep(0.001)
+
+    returncode = proc.wait()
+
+    # Final sample to catch outputs committed right before process exit.
+    final_sample = sample_resources(root_pid=proc.pid, disk_roots=monitored_roots)
+    sample_count += 1
+    peak_rss_bytes = max(peak_rss_bytes, final_sample.rss_bytes)
+    peak_disk_bytes = max(peak_disk_bytes, final_sample.disk_bytes)
+    peak_written_live_bytes = max(
+        peak_written_live_bytes,
+        disk_roots_written_since_size_bytes(monitored_roots, started_time_ns),
+    )
+    peak_io_read_bytes = max(peak_io_read_bytes, final_sample.io_read_bytes)
+    peak_io_write_bytes = max(peak_io_write_bytes, final_sample.io_write_bytes)
+    peak_io_rchar_bytes = max(peak_io_rchar_bytes, final_sample.io_rchar_bytes)
+    peak_io_wchar_bytes = max(peak_io_wchar_bytes, final_sample.io_wchar_bytes)
+
+    stdout_thread.join(timeout=1)
+    stderr_thread.join(timeout=1)
+    elapsed = time.monotonic() - started
+
+    stdout = stdout_holder["value"]
+    stderr = stderr_holder["value"]
+    if timed_out:
+        stderr = stderr + ("\n" if stderr else "") + "Command killed after timeout."
+
+    return {
+        "status": "TIMEOUT" if timed_out else ("OK" if returncode == 0 else "FAILED"),
+        "returncode": 124 if timed_out else returncode,
+        "timed_out": timed_out,
+        "stdout": stdout,
+        "stderr": stderr,
+        "started_at": started_at,
+        "finished_at": now_iso(),
+        "elapsed_seconds": round(elapsed, 3),
+        "peak_rss_bytes": peak_rss_bytes,
+        "peak_disk_bytes": peak_disk_bytes,
+        "peak_written_live_bytes": peak_written_live_bytes,
+        "peak_io_read_bytes": peak_io_read_bytes,
+        "peak_io_write_bytes": peak_io_write_bytes,
+        "peak_io_rchar_bytes": peak_io_rchar_bytes,
+        "peak_io_wchar_bytes": peak_io_wchar_bytes,
+        "monitor_sample_count": sample_count,
+    }
 
 
 def _resolve_csv_path(repo_root: Path, algorithm: Algorithm, dataset: Dataset) -> Path:
@@ -61,7 +150,7 @@ def run_execution_stage(
     algorithms: list[Algorithm],
     datasets: list[Dataset],
     run_dir: Path,
-    global_timeout_seconds: int,
+    global_timeout_seconds: int | None,
 ) -> dict[str, Any]:
     execution_dir = ensure_dir(run_dir / "execution")
     logs_dir = ensure_dir(execution_dir / "logs")
@@ -101,8 +190,13 @@ def run_execution_stage(
                     "csv_path": csv_path,
                 },
             )
-            timeout_seconds = min(global_timeout_seconds, algorithm.timeout_seconds)
-            run_payload = _run_command(command, timeout_seconds=timeout_seconds, cwd=repo_root)
+            timeout_seconds = None if global_timeout_seconds is None else min(global_timeout_seconds, algorithm.timeout_seconds)
+            run_payload = _run_command(
+                command,
+                timeout_seconds=timeout_seconds,
+                cwd=repo_root,
+                monitored_roots=[csv_path.parent],
+            )
 
             dot_pattern = algorithm.dot_glob_template.format(
                 repo_root=repo_root,
@@ -121,6 +215,7 @@ def run_execution_stage(
                         "algorithm_id": algorithm.id,
                         "dataset_id": dataset.id,
                         "timeout_seconds": timeout_seconds,
+                        "timeout_enabled": timeout_seconds is not None,
                         "at": run_payload["finished_at"],
                     }
                 )
@@ -130,6 +225,7 @@ def run_execution_stage(
                 "dataset_id": dataset.id,
                 "command": command,
                 "timeout_seconds": timeout_seconds,
+                "timeout_enabled": timeout_seconds is not None,
                 "csv_path": str(csv_path),
                 "status": run_payload["status"],
                 "returncode": run_payload["returncode"],
@@ -137,6 +233,15 @@ def run_execution_stage(
                 "elapsed_seconds": run_payload["elapsed_seconds"],
                 "started_at": run_payload["started_at"],
                 "finished_at": run_payload["finished_at"],
+                "peak_rss_bytes": run_payload["peak_rss_bytes"],
+                "peak_disk_bytes": run_payload["peak_disk_bytes"],
+                "peak_written_live_bytes": run_payload["peak_written_live_bytes"],
+                "peak_io_read_bytes": run_payload["peak_io_read_bytes"],
+                "peak_io_write_bytes": run_payload["peak_io_write_bytes"],
+                "peak_io_rchar_bytes": run_payload["peak_io_rchar_bytes"],
+                "peak_io_wchar_bytes": run_payload["peak_io_wchar_bytes"],
+                "total_written_bytes": run_payload["peak_io_wchar_bytes"],
+                "monitor_sample_count": run_payload["monitor_sample_count"],
                 "raw_dot_source": str(source_dot) if source_dot else None,
                 "raw_dot_copy": str(copied_dot) if copied_dot else None,
                 "stdout_log": str(log_path),

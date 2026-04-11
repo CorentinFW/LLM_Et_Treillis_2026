@@ -1,0 +1,10 @@
+{
+  "run_id": "smoke-disk-written-20260411",
+  "finished_at": "2026-04-11T14:11:58+02:00",
+  "stages_requested": [
+    "execution"
+  ],
+  "stage_status": {
+    "execution": "OK"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "eg50_50": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt53_lattice": true,
+    "fca4j__vs__gpt53_lattice": true
+  }
+}

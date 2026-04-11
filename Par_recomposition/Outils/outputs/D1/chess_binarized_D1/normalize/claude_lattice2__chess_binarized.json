@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "claude_lattice2",
+  "dataset_id": "chess_binarized",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/chess_binarized_D1/execution/dots/claude_lattice2__chess_binarized.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/chess_binarized_D1/normalize/dots/claude_lattice2__chess_binarized_full.dot"
+}

@@ -1,0 +1,9 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/connect-4_binarized/connect-4_binarized.csv
+Status: FAILED
+Elapsed: 0.075
+--- STDOUT ---
+Démarrage: 2026-04-11 12:57:39
+
+--- STDERR ---
+Erreur: Le CSV doit contenir une colonne objet et au moins un attribut
+CPU time (self): 0.008922 s

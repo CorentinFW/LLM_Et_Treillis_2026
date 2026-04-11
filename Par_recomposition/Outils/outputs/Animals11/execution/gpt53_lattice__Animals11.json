@@ -1,0 +1,27 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "Animals11",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/Animals11/Animals11.csv"
+  ],
+  "timeout_seconds": null,
+  "timeout_enabled": false,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/Animals11/Animals11.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.07,
+  "started_at": "2026-04-11T12:54:05+02:00",
+  "finished_at": "2026-04-11T12:54:05+02:00",
+  "peak_rss_bytes": 8957952,
+  "peak_disk_bytes": 72530,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 0,
+  "monitor_sample_count": 2,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/Animals11/Lattice/Animals11_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/Animals11/execution/dots/gpt53_lattice__Animals11.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/Animals11/execution/logs/gpt53_lattice__Animals11.log"
+}

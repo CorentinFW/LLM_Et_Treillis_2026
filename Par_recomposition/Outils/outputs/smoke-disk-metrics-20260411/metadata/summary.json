@@ -1,0 +1,10 @@
+{
+  "run_id": "smoke-disk-metrics-20260411",
+  "finished_at": "2026-04-11T14:25:41+02:00",
+  "stages_requested": [
+    "execution"
+  ],
+  "stage_status": {
+    "execution": "OK"
+  }
+}

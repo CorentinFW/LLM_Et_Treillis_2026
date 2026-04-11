@@ -1,0 +1,17 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/eg9_9/eg9_9.csv
+Status: OK
+Elapsed: 0.065
+--- STDOUT ---
+Démarrage: 2026-04-11 14:10:38
+Contexte: |G|=9, |M|=9 | RAM dispo estimée=7.71 GiB
+Partitions=4, chunk_size=8192
+Concepts énumérés (brut): 34
+Fusion partitions par groupes de 4
+Concepts distincts après fusion: 34
+[Temps: 0m 00s] [Avancement: 100.0%] Calcul des relations de couverture terminé.
+Arêtes de couverture: 72
+Terminé en 0m 00s
+/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/eg9_9/Lattice/eg9_9_LLM.dot
+
+--- STDERR ---
+CPU time (self): 0.013919 s

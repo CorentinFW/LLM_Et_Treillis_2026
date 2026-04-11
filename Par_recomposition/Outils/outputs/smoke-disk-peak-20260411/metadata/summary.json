@@ -1,0 +1,16 @@
+{
+  "run_id": "smoke-disk-peak-20260411",
+  "finished_at": "2026-04-11T14:10:38+02:00",
+  "stages_requested": [
+    "execution",
+    "normalize",
+    "compare",
+    "report"
+  ],
+  "stage_status": {
+    "execution": "OK",
+    "normalize": "OK",
+    "compare": "OK",
+    "report": "OK"
+  }
+}

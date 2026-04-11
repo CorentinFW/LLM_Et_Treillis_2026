@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "fca4j",
+  "dataset_id": "balance-scale_binarized",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/balance-scale_binarized_D1/execution/dots/fca4j__balance-scale_binarized.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/balance-scale_binarized_D1/normalize/dots/fca4j__balance-scale_binarized_full.dot"
+}
