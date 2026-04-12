@@ -1,0 +1,8 @@
+Command: java -jar /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar LATTICE /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/Animals11/Animals11.csv -i CSV -s SEMICOLON -g /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/Animals11/Lattice/Animals11.dot
+Status: OK
+Elapsed: 0.132
+--- STDOUT ---
+running ADD_EXTENT (BITSET) data: Animals11.csv ( 10 x 11 )
+duration: 13 ms
+
+--- STDERR ---

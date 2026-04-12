@@ -1,0 +1,8 @@
+Command: java -jar /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar LATTICE /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/balance-scale_binarized/balance-scale_binarized.csv -i CSV -s SEMICOLON -g /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/balance-scale_binarized/Lattice/balance-scale_binarized.dot
+Status: OK
+Elapsed: 0.128
+--- STDOUT ---
+running ADD_EXTENT (BITSET) data: balance-scale_binarized.csv ( 625 x 0 )
+duration: 11 ms
+
+--- STDERR ---

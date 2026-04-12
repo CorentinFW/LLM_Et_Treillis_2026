@@ -1,0 +1,8 @@
+Command: java -jar /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar LATTICE /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg40_40/eg40_40.csv -i CSV -s SEMICOLON -g /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/eg40_40/Lattice/eg40_40.dot
+Status: OK
+Elapsed: 0.658
+--- STDOUT ---
+running ADD_EXTENT (BITSET) data: eg40_40.csv ( 40 x 40 )
+duration: 454 ms
+
+--- STDERR ---

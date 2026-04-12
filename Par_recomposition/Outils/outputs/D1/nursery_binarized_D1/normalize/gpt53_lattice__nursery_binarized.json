@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "nursery_binarized",
+  "status": "MISSING_RAW_DOT",
+  "message": "raw DOT not available from execution stage",
+  "raw_dot": null,
+  "normalized_dot": null
+}

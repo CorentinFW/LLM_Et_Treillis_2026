@@ -1,0 +1,10 @@
+Crée un fichier qui détaille le context (input/output) attendue par les algo à générée.
+Faire crée un algo de FCA à qwen (3.6?) et glm5.1.
+effectué les test sur ces algo.
+
+tester grok et mistral
+tester modèle, FR, US, Chine, open source et propriétaire
+essayer en lui donnant un papier scientfique ( après benchmark )
+voir ce qui ( pourquoi ) certains ne marchent pas.
+
+préparer le banchmark ( tableau ) pour la semaine pro

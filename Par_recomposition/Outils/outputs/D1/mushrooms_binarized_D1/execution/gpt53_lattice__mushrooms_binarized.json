@@ -1,0 +1,27 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "mushrooms_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/mushrooms_binarized/mushrooms_binarized.csv"
+  ],
+  "timeout_seconds": null,
+  "timeout_enabled": false,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/mushrooms_binarized/mushrooms_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 26.411,
+  "started_at": "2026-04-11T12:59:46+02:00",
+  "finished_at": "2026-04-11T13:00:12+02:00",
+  "peak_rss_bytes": 26755072,
+  "peak_disk_bytes": 19745636,
+  "peak_io_read_bytes": 1392640,
+  "peak_io_write_bytes": 21327872,
+  "monitor_sample_count": 457,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/mushrooms_binarized/Lattice/mushrooms_binarized_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/execution/dots/gpt53_lattice__mushrooms_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/execution/logs/gpt53_lattice__mushrooms_binarized.log"
+}

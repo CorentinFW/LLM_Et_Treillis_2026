@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "fca4j",
+  "dataset_id": "connect-4_binarized",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/connect-4_binarized_D1/execution/dots/fca4j__connect-4_binarized.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/connect-4_binarized_D1/normalize/dots/fca4j__connect-4_binarized_full.dot"
+}

@@ -46,6 +46,18 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Continuer même si une étape échoue",
     )
+    timeout_group = parser.add_mutually_exclusive_group()
+    timeout_group.add_argument(
+        "--timeout-seconds",
+        type=int,
+        default=None,
+        help="Remplacer le timeout d'exécution global par une nouvelle limite en secondes",
+    )
+    timeout_group.add_argument(
+        "--no-timeout",
+        action="store_true",
+        help="Désactiver le timeout d'exécution global pour les algorithmes",
+    )
     return parser.parse_args()
 
 
@@ -95,6 +107,18 @@ def main() -> int:
     if args.continue_on_error:
         continue_on_error = True
 
+    if args.no_timeout:
+        execution_timeout_seconds = None
+        timeout_mode = "disabled"
+    elif args.timeout_seconds is not None:
+        if args.timeout_seconds <= 0:
+            raise ValueError("--timeout-seconds must be a positive integer")
+        execution_timeout_seconds = args.timeout_seconds
+        timeout_mode = "custom"
+    else:
+        execution_timeout_seconds = config.run.timeout_seconds
+        timeout_mode = "config"
+
     run_meta = {
         "run_id": run_id,
         "created_at": now_iso(),
@@ -102,7 +126,8 @@ def main() -> int:
         "config_dir": str(config_dir),
         "selected_algorithms": [algo.id for algo in algorithms],
         "selected_datasets": [ds.id for ds in datasets],
-        "timeout_seconds": config.run.timeout_seconds,
+        "timeout_seconds": execution_timeout_seconds,
+        "timeout_mode": timeout_mode,
         "continue_on_error": continue_on_error,
     }
     write_json(metadata_dir / "run_meta.json", run_meta)
@@ -122,7 +147,7 @@ def main() -> int:
                     algorithms=algorithms,
                     datasets=datasets,
                     run_dir=run_dir,
-                    global_timeout_seconds=config.run.timeout_seconds,
+                    global_timeout_seconds=execution_timeout_seconds,
                 )
             elif stage == "normalize":
                 run_normalize_stage(repo_root=repo_root, run_dir=run_dir)

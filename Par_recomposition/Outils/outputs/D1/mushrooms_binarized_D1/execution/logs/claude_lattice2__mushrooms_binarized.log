@@ -1,0 +1,22 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/mushrooms_binarized/mushrooms_binarized.csv
+Status: OK
+Elapsed: 13.742
+--- STDOUT ---
+Chargement du contexte depuis /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/mushrooms_binarized/mushrooms_binarized.csv ...
+  |G| = 8124 objets, |M| = 41 attributs
+  Taille de batch adaptative : 50000
+  RAM disponible : 8152 Mo
+Énumération des concepts (NextClosure avec partitionnement) ...
+    ... 1000 concepts énumérés
+    ... 2000 concepts énumérés
+    ... 3000 concepts énumérés
+  3646 concepts énumérés.
+Rechargement des partitions ...
+  3646 concepts uniques après fusion.
+Calcul de la relation de couverture ...
+  13810 arêtes.
+Écriture du fichier DOT : /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/mushrooms_binarized/Lattice/mushrooms_binarized_LLM_2.dot ...
+Terminé.
+
+--- STDERR ---
+CPU time (self): 13.709617 s

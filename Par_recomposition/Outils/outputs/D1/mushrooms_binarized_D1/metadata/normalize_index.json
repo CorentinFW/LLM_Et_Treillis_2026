@@ -1,0 +1,31 @@
+{
+  "stage": "normalize",
+  "generated_at": "2026-04-11T13:00:14+02:00",
+  "total_cases": 3,
+  "results": [
+    {
+      "algorithm_id": "fca4j",
+      "dataset_id": "mushrooms_binarized",
+      "status": "OK",
+      "message": "converted to full",
+      "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/execution/dots/fca4j__mushrooms_binarized.dot",
+      "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/normalize/dots/fca4j__mushrooms_binarized_full.dot"
+    },
+    {
+      "algorithm_id": "claude_lattice2",
+      "dataset_id": "mushrooms_binarized",
+      "status": "OK",
+      "message": "converted to full",
+      "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/execution/dots/claude_lattice2__mushrooms_binarized.dot",
+      "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/normalize/dots/claude_lattice2__mushrooms_binarized_full.dot"
+    },
+    {
+      "algorithm_id": "gpt53_lattice",
+      "dataset_id": "mushrooms_binarized",
+      "status": "CONVERSION_FAILED",
+      "message": "Erreur: Cardinalité d'extension incohérente pour le nœud '1': entête=8124, reconstruit=508",
+      "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/mushrooms_binarized_D1/execution/dots/gpt53_lattice__mushrooms_binarized.dot",
+      "normalized_dot": null
+    }
+  ]
+}

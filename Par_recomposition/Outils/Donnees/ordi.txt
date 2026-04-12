@@ -1,0 +1,715 @@
+dptinfo-pret                
+    description: Ordinateur Bloc-notes
+    produit: Precision 3581 (0C07)
+    fabricant: Dell Inc.
+    numéro de série: 2KZJMX3
+    bits: 64 bits
+    fonctionnalités: smbios-3.6.0 dmi-3.6.0 smp vsyscall32
+    configuration : boot=normal chassis=notebook family=Precision sku=0C07 uuid=4c4c4544-004b-5a10-804a-b2c04f4d5833
+  *-core
+       description: Carte mère
+       produit: 0V8YXF
+       fabricant: Dell Inc.
+       identifiant matériel: 0
+       version: A00
+       numéro de série: /2KZJMX3/CNWSC003B100KD/
+     *-firmware
+          description: BIOS
+          fabricant: Dell Inc.
+          identifiant matériel: 0
+          version: 1.27.1
+          date: 12/12/2025
+          taille: 1MiB
+          capacité: 32MiB
+          fonctionnalités: pci pnp upgrade shadowing cdboot bootselect edd int5printscreen int9keyboard int14serial int17printer acpi usb smartbattery biosbootspecification netboot uefi
+     *-cpu
+          description: CPU
+          produit: 13th Gen Intel(R) Core(TM) i5-13600H
+          fabricant: Intel Corp.
+          identifiant matériel: 400
+          information bus: cpu@0
+          version: 6.186.2
+          emplacement: U3E1
+          taille: 400MHz
+          capacité: 4800MHz
+          bits: 64 bits
+          horloge: 100MHz
+          fonctionnalités: lm fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq tme rdpid movdiri movdir64b fsrm md_clear serialize pconfig arch_lbr ibt flush_l1d arch_capabilities ibpb_exit_to_user cpufreq
+          configuration : cores=12 enabledcores=12 microcode=24884 threads=16
+        *-cache:0
+             description: L1 cache
+             identifiant matériel: 705
+             emplacement: L1 Cache
+             taille: 512KiB
+             capacité: 512KiB
+             fonctionnalités: synchronous internal write-back instruction
+             configuration : level=1
+        *-cache:1
+             description: L2 cache
+             identifiant matériel: 706
+             emplacement: L2 Cache
+             taille: 4MiB
+             capacité: 4MiB
+             fonctionnalités: synchronous internal write-back unified
+             configuration : level=2
+        *-cache:2
+             description: L3 cache
+             identifiant matériel: 707
+             emplacement: L3 Cache
+             taille: 18MiB
+             capacité: 18MiB
+             fonctionnalités: synchronous internal write-back unified
+             configuration : level=3
+     *-cache:0
+          description: L1 cache
+          identifiant matériel: 700
+          emplacement: L1 Cache
+          taille: 192KiB
+          capacité: 192KiB
+          fonctionnalités: synchronous internal write-back data
+          configuration : level=1
+     *-cache:1
+          description: L1 cache
+          identifiant matériel: 701
+          emplacement: L1 Cache
+          taille: 128KiB
+          capacité: 128KiB
+          fonctionnalités: synchronous internal write-back instruction
+          configuration : level=1
+     *-cache:2
+          description: L2 cache
+          identifiant matériel: 702
+          emplacement: L2 Cache
+          taille: 5MiB
+          capacité: 5MiB
+          fonctionnalités: synchronous internal write-back unified
+          configuration : level=2
+     *-cache:3
+          description: L3 cache
+          identifiant matériel: 703
+          emplacement: L3 Cache
+          taille: 18MiB
+          capacité: 18MiB
+          fonctionnalités: synchronous internal write-back unified
+          configuration : level=3
+     *-cache:4
+          description: L1 cache
+          identifiant matériel: 704
+          emplacement: L1 Cache
+          taille: 256KiB
+          capacité: 256KiB
+          fonctionnalités: synchronous internal write-back data
+          configuration : level=1
+     *-memory
+          description: Mémoire Système
+          identifiant matériel: 1000
+          emplacement: Carte mère
+          taille: 16GiB
+        *-bank:0
+             description: SODIMM Synchrone 5600 MHz (0,2 ns)
+             produit: HMCG78AGBSA092N
+             fabricant: Hynix Semiconductor (Hyundai Electronics)
+             identifiant matériel: 0
+             numéro de série: 2975A10C
+             emplacement: DIMM 1
+             taille: 16GiB
+             bits: 64 bits
+             horloge: 1305MHz (0.8ns)
+        *-bank:1
+             description: Project-Id-Version: @(#) $Id$Report-Msgid-Bugs-To: PO-Revision-Date: 2022-04-01 21:15+0000Last-Translator: Lyonel Vincent <Unknown>Language-Team: MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2024-09-02 19:29+0000X-Generator: Launchpad (build 1b1ed1ad2dbfc71ee62b5c5491c975135a771bf0)Project-Id-Version: @(#) $Id$Report-Msgid-Bugs-To: PO-Revision-Date: 2022-04-01 21:15+0000Last-Translator: Lyonel Vincent <Unknown>Language-Team: MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2024-09-02 19:29+0000X-Generator: Launchpad (build 1b1ed1ad2dbfc71ee62b5c5491c975135a771bf0) [vide]
+             identifiant matériel: 1
+             emplacement: DIMM 2
+     *-pci
+          description: Host bridge
+          produit: Intel Corporation
+          fabricant: Intel Corporation
+          identifiant matériel: 100
+          information bus: pci@0000:00:00.0
+          version: 00
+          bits: 32 bits
+          horloge: 33MHz
+          configuration : driver=igen6_edac
+          ressources : irq:0
+        *-pci:0
+             description: PCI bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 1
+             information bus: pci@0000:00:01.0
+             version: 00
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration : driver=pcieport
+             ressources : irq:122 portE/S:3000(taille=4096) mémoire:9e000000-9effffff portE/S:6000000000(taille=4328521728)
+           *-display
+                description: 3D controller
+                produit: NVIDIA Corporation
+                fabricant: NVIDIA Corporation
+                identifiant matériel: 0
+                information bus: pci@0000:01:00.0
+                version: a1
+                bits: 64 bits
+                horloge: 33MHz
+                fonctionnalités: pm msi pciexpress bus_master cap_list rom
+                configuration : driver=nvidia latency=0
+                ressources : mémoireE/S:600-5ff mémoireE/S:610-60f irq:197 mémoire:9e000000-9effffff mémoire:6000000000-60ffffffff mémoire:6100000000-6101ffffff portE/S:3000(taille=128)
+        *-display
+             description: VGA compatible controller
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 2
+             information bus: pci@0000:00:02.0
+             nom logique: /dev/fb0
+             version: 04
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pciexpress msi pm vga_controller bus_master cap_list rom fb
+             configuration : depth=32 driver=i915 latency=0 mode=1920x1080 resolution=1920,1080 visual=truecolor xres=1920 yres=1080
+             ressources : mémoireE/S:610-60f mémoireE/S:400-3ff irq:198 mémoire:6162000000-6162ffffff mémoire:4000000000-400fffffff portE/S:4000(taille=64) mémoire:c0000-dffff mémoire:4010000000-4016ffffff mémoire:4020000000-40ffffffff
+        *-generic:0
+             description: Signal processing controller
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 4
+             information bus: pci@0000:00:04.0
+             version: 00
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: msi pm bus_master cap_list
+             configuration : driver=proc_thermal_pci latency=0
+             ressources : mémoireE/S:610-60f irq:16 mémoire:6163140000-616315ffff
+        *-pci:1
+             description: PCI bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 6
+             information bus: pci@0000:00:06.0
+             version: 00
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration : driver=pcieport
+             ressources : irq:123
+        *-pci:2
+             description: PCI bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 6.2
+             information bus: pci@0000:00:06.2
+             version: 00
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration : driver=pcieport
+             ressources : irq:124 mémoire:9f100000-9f1fffff
+           *-nvme
+                description: NVMe device
+                produit: PM9B1 NVMe Samsung 512GB
+                fabricant: Samsung Electronics Co Ltd
+                identifiant matériel: 0
+                information bus: pci@0000:03:00.0
+                nom logique: /dev/nvme0
+                version: 46305039
+                numéro de série: S6MZNF0W898545
+                bits: 64 bits
+                horloge: 33MHz
+                fonctionnalités: nvme pm pciexpress msix nvm_express bus_master cap_list
+                configuration : driver=nvme latency=0 nqn=nqn.1994-11.com.samsung:nvme:PM9B1:M.2:      S6MZNF0W898545 state=live
+                ressources : irq:16 mémoire:9f100000-9f103fff
+              *-namespace:0
+                   description: NVMe disk
+                   identifiant matériel: 0
+                   nom logique: hwmon2
+              *-namespace:1
+                   description: NVMe disk
+                   identifiant matériel: 2
+                   nom logique: /dev/ng0n1
+              *-namespace:2
+                   description: NVMe disk
+                   identifiant matériel: 1
+                   information bus: nvme@0:1
+                   nom logique: /dev/nvme0n1
+                   taille: 476GiB (512GB)
+                   fonctionnalités: gpt-1.00 partitioned partitioned:gpt
+                   configuration : guid=c2d6e37d-a98b-431a-85c0-1a3beb618d01 logicalsectorsize=512 sectorsize=512 wwid=nvme.144d-20202020202053364d5a4e463057383938353435-504d394231204e564d652053616d73756e67203531324742-00000001
+                 *-volume:0 NON-RÉCLAMÉ
+                      description: Windows FAT volume
+                      fabricant: mkfs.fat
+                      identifiant matériel: 1
+                      information bus: nvme@0:1,1
+                      version: FAT32
+                      numéro de série: a48f-3b06
+                      taille: 510MiB
+                      capacité: 511MiB
+                      fonctionnalités: boot fat initialized
+                      configuration : FATs=2 filesystem=fat name=EFI System Partition
+                 *-volume:1
+                      description: Volume EXT4
+                      fabricant: Linux
+                      identifiant matériel: 2
+                      information bus: nvme@0:1,2
+                      nom logique: /dev/nvme0n1p2
+                      nom logique: /
+                      version: 1.0
+                      numéro de série: adbe9efa-aa70-44d9-b433-fe207f213708
+                      taille: 476GiB
+                      fonctionnalités: journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                      configuration : created=2025-07-09 17:07:26 filesystem=ext4 lastmountpoint=/ modified=2026-04-11 15:33:53 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro mounted=2026-04-11 15:33:53 state=mounted
+        *-pci:3
+             description: PCI bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 7
+             information bus: pci@0000:00:07.0
+             version: 00
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration : driver=pcieport
+             ressources : irq:125 portE/S:5000(taille=4096) mémoire:88000000-9ddfffff portE/S:6110000000(taille=570425344)
+        *-pci:4
+             description: PCI bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 7.1
+             information bus: pci@0000:00:07.1
+             version: 00
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration : driver=pcieport
+             ressources : irq:126 portE/S:6000(taille=4096) mémoire:72000000-87dfffff portE/S:6140000000(taille=570425344)
+        *-generic:1 NON-RÉCLAMÉ
+             description: System peripheral
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 8
+             information bus: pci@0000:00:08.0
+             version: 00
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: msi pm cap_list
+             configuration : latency=0
+             ressources : mémoireE/S:610-60f mémoire:61631a2000-61631a2fff
+        *-usb:0
+             description: USB controller
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: d
+             information bus: pci@0000:00:0d.0
+             version: 00
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi xhci bus_master cap_list
+             configuration : driver=xhci_hcd latency=0
+             ressources : mémoireE/S:610-60f irq:128 mémoire:6163180000-616318ffff
+           *-usbhost:0
+                produit: xHCI Host Controller
+                fabricant: Linux 6.8.0-107-generic xhci-hcd
+                identifiant matériel: 0
+                information bus: usb@1
+                nom logique: usb1
+                version: 6.08
+                fonctionnalités: usb-2.00
+                configuration : driver=hub slots=1 speed=480Mbit/s
+           *-usbhost:1
+                produit: xHCI Host Controller
+                fabricant: Linux 6.8.0-107-generic xhci-hcd
+                identifiant matériel: 1
+                information bus: usb@2
+                nom logique: usb2
+                version: 6.08
+                fonctionnalités: usb-3.10
+                configuration : driver=hub slots=2 speed=10000Mbit/s
+        *-usb:1
+             description: USB controller
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: d.2
+             information bus: pci@0000:00:0d.2
+             version: 00
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi msix usb4_host_interface bus_master cap_list
+             configuration : driver=thunderbolt latency=0
+             ressources : mémoireE/S:610-60f mémoireE/S:610-60f irq:16 mémoire:6163100000-616313ffff mémoire:61631a1000-61631a1fff
+        *-communication:0
+             description: Serial controller
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 12
+             information bus: pci@0000:00:12.0
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm 8250 bus_master cap_list
+             configuration : driver=intel_ish_ipc latency=0
+             ressources : mémoireE/S:610-60f irq:26 mémoire:6163170000-616317ffff
+        *-usb:2
+             description: USB controller
+             produit: Alder Lake PCH USB 3.2 xHCI Host Controller
+             fabricant: Intel Corporation
+             identifiant matériel: 14
+             information bus: pci@0000:00:14.0
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi xhci cap_list
+             configuration : driver=xhci_hcd latency=0
+             ressources : mémoireE/S:610-60f irq:153 mémoire:6163160000-616316ffff
+           *-usbhost:0
+                produit: xHCI Host Controller
+                fabricant: Linux 6.8.0-107-generic xhci-hcd
+                identifiant matériel: 0
+                information bus: usb@3
+                nom logique: usb3
+                version: 6.08
+                fonctionnalités: usb-2.00
+                configuration : driver=hub slots=12 speed=480Mbit/s
+              *-usb:0
+                   description: Vidéo
+                   produit: Integrated_Webcam_FHD
+                   fabricant: C7FMF30T361400095A80
+                   identifiant matériel: 6
+                   information bus: usb@3:6
+                   version: 31.31
+                   numéro de série: 200901010001
+                   fonctionnalités: usb-2.01
+                   configuration : driver=uvcvideo maxpower=500mA speed=480Mbit/s
+              *-usb:1
+                   description: Interface sans fil Bluetooth
+                   fabricant: Intel Corp.
+                   identifiant matériel: a
+                   information bus: usb@3:a
+                   version: 0.00
+                   fonctionnalités: bluetooth usb-2.01
+                   configuration : driver=btusb maxpower=100mA speed=12Mbit/s
+           *-usbhost:1
+                produit: xHCI Host Controller
+                fabricant: Linux 6.8.0-107-generic xhci-hcd
+                identifiant matériel: 1
+                information bus: usb@4
+                nom logique: usb4
+                version: 6.08
+                fonctionnalités: usb-3.10
+                configuration : driver=hub slots=4 speed=10000Mbit/s
+        *-memory NON-RÉCLAMÉ
+             description: RAM memory
+             produit: Alder Lake PCH Shared SRAM
+             fabricant: Intel Corporation
+             identifiant matériel: 14.2
+             information bus: pci@0000:00:14.2
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz (30.3ns)
+             fonctionnalités: pm cap_list
+             configuration : latency=0
+             ressources : mémoireE/S:610-60f mémoireE/S:610-60f mémoire:6163198000-616319bfff mémoire:61631a0000-61631a0fff
+        *-network:0
+             description: Interface réseau sans fil
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 14.3
+             information bus: pci@0000:00:14.3
+             nom logique: wlp0s20f3
+             version: 01
+             numéro de série: 90:09:df:94:36:7b
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi pciexpress msix bus_master cap_list ethernet physical wireless
+             configuration : broadcast=yes driver=iwlwifi driverversion=6.8.0-107-generic firmware=86.fb5c9aeb.0 so-a0-gf-a0-86.uc ip=192.168.1.26 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+             ressources : mémoireE/S:610-60f irq:16 mémoire:6163194000-6163197fff
+        *-serial:0
+             description: Serial bus controller
+             produit: Alder Lake PCH Serial IO I2C Controller #0
+             fabricant: Intel Corporation
+             identifiant matériel: 15
+             information bus: pci@0000:00:15.0
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm bus_master cap_list
+             configuration : driver=intel-lpss latency=0
+             ressources : irq:27 mémoire:4017000000-4017000fff
+        *-serial:1
+             description: Serial bus controller
+             produit: Alder Lake PCH Serial IO I2C Controller #1
+             fabricant: Intel Corporation
+             identifiant matériel: 15.1
+             information bus: pci@0000:00:15.1
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm bus_master cap_list
+             configuration : driver=intel-lpss latency=0
+             ressources : irq:40 mémoire:4017001000-4017001fff
+        *-communication:1
+             description: Communication controller
+             produit: Alder Lake PCH HECI Controller
+             fabricant: Intel Corporation
+             identifiant matériel: 16
+             information bus: pci@0000:00:16.0
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi bus_master cap_list
+             configuration : driver=mei_me latency=0
+             ressources : mémoireE/S:610-60f irq:180 mémoire:616319d000-616319dfff
+        *-pci:5
+             description: PCI bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 1d
+             information bus: pci@0000:00:1d.0
+             version: 01
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration : driver=pcieport
+             ressources : irq:127 mémoire:9f000000-9f0fffff
+           *-generic
+                description: MMC Host
+                produit: RTS525A PCI Express Card Reader
+                fabricant: Realtek Semiconductor Co., Ltd.
+                identifiant matériel: 0
+                information bus: pci@0000:74:00.0
+                nom logique: mmc0
+                version: 01
+                bits: 32 bits
+                horloge: 33MHz
+                fonctionnalités: pm msi pciexpress bus_master cap_list
+                configuration : driver=rtsx_pci latency=0
+                ressources : irq:136 mémoire:9f000000-9f000fff
+        *-isa
+             description: ISA bridge
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 1f
+             information bus: pci@0000:00:1f.0
+             version: 01
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: isa bus_master
+             configuration : latency=0
+           *-pnp00:00
+                produit: PnP device PNP0c02
+                identifiant matériel: 0
+                fonctionnalités: pnp
+                configuration : driver=system
+           *-pnp00:01
+                produit: PnP device PNP0b00
+                identifiant matériel: 1
+                fonctionnalités: pnp
+                configuration : driver=rtc_cmos
+           *-pnp00:02
+                produit: PnP device PNP0c02
+                identifiant matériel: 2
+                fonctionnalités: pnp
+                configuration : driver=system
+           *-pnp00:03
+                produit: PnP device PNP0303
+                identifiant matériel: 3
+                fonctionnalités: pnp
+                configuration : driver=i8042 kbd
+           *-pnp00:04
+                produit: PnP device DLL0c07
+                fabricant: Dell Inc
+                identifiant matériel: 4
+                fonctionnalités: pnp
+                configuration : driver=i8042 aux
+           *-pnp00:05
+                produit: PnP device PNP0c02
+                identifiant matériel: 5
+                fonctionnalités: pnp
+                configuration : driver=system
+           *-pnp00:06
+                produit: PnP device PNP0c02
+                identifiant matériel: 6
+                fonctionnalités: pnp
+                configuration : driver=system
+           *-pnp00:07
+                produit: PnP device PNP0c02
+                identifiant matériel: 7
+                fonctionnalités: pnp
+                configuration : driver=system
+        *-multimedia
+             description: Audio device
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 1f.3
+             information bus: pci@0000:00:1f.3
+             nom logique: card0
+             nom logique: /dev/snd/controlC0
+             nom logique: /dev/snd/hwC0D0
+             nom logique: /dev/snd/hwC0D2
+             nom logique: /dev/snd/pcmC0D0c
+             nom logique: /dev/snd/pcmC0D0p
+             nom logique: /dev/snd/pcmC0D3p
+             nom logique: /dev/snd/pcmC0D7p
+             nom logique: /dev/snd/pcmC0D8p
+             nom logique: /dev/snd/pcmC0D9p
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi bus_master cap_list
+             configuration : driver=snd_hda_intel latency=64
+             ressources : mémoireE/S:610-60f mémoireE/S:610-60f irq:199 mémoire:6163190000-6163193fff mémoire:6163000000-61630fffff
+           *-input:0
+                produit: HDA Intel PCH Headphone Mic
+                identifiant matériel: 0
+                nom logique: input18
+                nom logique: /dev/input/event13
+           *-input:1
+                produit: HDA Intel PCH HDMI/DP,pcm=3
+                identifiant matériel: 1
+                nom logique: input19
+                nom logique: /dev/input/event14
+           *-input:2
+                produit: HDA Intel PCH HDMI/DP,pcm=7
+                identifiant matériel: 2
+                nom logique: input20
+                nom logique: /dev/input/event15
+           *-input:3
+                produit: HDA Intel PCH HDMI/DP,pcm=8
+                identifiant matériel: 3
+                nom logique: input21
+                nom logique: /dev/input/event16
+           *-input:4
+                produit: HDA Intel PCH HDMI/DP,pcm=9
+                identifiant matériel: 4
+                nom logique: input22
+                nom logique: /dev/input/event17
+        *-serial:2
+             description: SMBus
+             produit: Alder Lake PCH-P SMBus Host Controller
+             fabricant: Intel Corporation
+             identifiant matériel: 1f.4
+             information bus: pci@0000:00:1f.4
+             version: 01
+             bits: 64 bits
+             horloge: 33MHz
+             configuration : driver=i801_smbus latency=0
+             ressources : mémoireE/S:610-60f irq:16 mémoire:616319c000-616319c0ff portE/S:efa0(taille=32)
+        *-serial:3
+             description: Serial bus controller
+             produit: Alder Lake-P PCH SPI Controller
+             fabricant: Intel Corporation
+             identifiant matériel: 1f.5
+             information bus: pci@0000:00:1f.5
+             version: 01
+             bits: 32 bits
+             horloge: 33MHz
+             configuration : driver=intel-spi latency=0
+             ressources : irq:0 mémoire:70800000-70800fff
+        *-network:1
+             description: Ethernet interface
+             produit: Intel Corporation
+             fabricant: Intel Corporation
+             identifiant matériel: 1f.6
+             information bus: pci@0000:00:1f.6
+             nom logique: enp0s31f6
+             version: 01
+             numéro de série: 4c:d7:17:03:8c:86
+             capacité: 1Gbit/s
+             bits: 32 bits
+             horloge: 33MHz
+             fonctionnalités: pm msi bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+             configuration : autonegotiation=on broadcast=yes driver=e1000e driverversion=6.8.0-107-generic firmware=0.2-4 latency=0 link=no multicast=yes port=twisted pair
+             ressources : irq:161 mémoire:9f280000-9f29ffff
+  *-battery
+       produit: DELL 53XP73A
+       fabricant: BYD
+       identifiant matériel: 1
+       version: 10/06/2023
+       numéro de série: 237E
+       emplacement: Sys. Battery Bay
+       capacité: 97000mWh
+       configuration : voltage=11,4V
+  *-power NON-RÉCLAMÉ
+       identifiant matériel: 2
+       capacité: 32768mWh
+  *-input:0
+       produit: Lid Switch
+       identifiant matériel: 3
+       nom logique: input0
+       nom logique: /dev/input/event0
+       fonctionnalités: platform
+  *-input:1
+       produit: Power Button
+       identifiant matériel: 4
+       nom logique: input1
+       nom logique: /dev/input/event1
+       fonctionnalités: platform
+  *-input:2
+       produit: Intel HID 5 button array
+       identifiant matériel: 5
+       nom logique: input10
+       nom logique: /dev/input/event8
+       fonctionnalités: platform
+  *-input:3
+       produit: VEN_06CB:00 06CB:CEEC Mouse
+       identifiant matériel: 6
+       nom logique: input11
+       nom logique: /dev/input/event4
+       nom logique: /dev/input/mouse0
+       fonctionnalités: i2c
+  *-input:4
+       produit: VEN_06CB:00 06CB:CEEC Touchpad
+       identifiant matériel: 7
+       nom logique: input12
+       nom logique: /dev/input/event5
+       nom logique: /dev/input/mouse1
+       fonctionnalités: i2c
+  *-input:5
+       produit: Dell Privacy Driver
+       identifiant matériel: 8
+       nom logique: input14
+       nom logique: /dev/input/event9
+       fonctionnalités: platform
+  *-input:6
+       produit: Dell WMI hotkeys
+       identifiant matériel: 9
+       nom logique: input15
+       nom logique: /dev/input/event10
+       fonctionnalités: platform
+  *-input:7
+       produit: Video Bus
+       identifiant matériel: a
+       nom logique: input16
+       nom logique: /dev/input/event11
+       fonctionnalités: platform
+  *-input:8
+       produit: Video Bus
+       identifiant matériel: b
+       nom logique: input17
+       nom logique: /dev/input/event12
+       fonctionnalités: platform
+  *-input:9
+       produit: Sleep Button
+       identifiant matériel: c
+       nom logique: input2
+       nom logique: /dev/input/event2
+       fonctionnalités: platform
+  *-input:10
+       produit: AT Translated Set 2 keyboard
+       identifiant matériel: d
+       nom logique: input3
+       nom logique: /dev/input/event3
+       nom logique: input3::capslock
+       nom logique: input3::numlock
+       nom logique: input3::scrolllock
+       fonctionnalités: i8042
+  *-input:11
+       produit: PS/2 Generic Mouse
+       identifiant matériel: e
+       nom logique: input5
+       nom logique: /dev/input/event6
+       nom logique: /dev/input/mouse2
+       fonctionnalités: i8042
+  *-input:12
+       produit: Intel HID events
+       identifiant matériel: f
+       nom logique: input9
+       nom logique: /dev/input/event7
+       fonctionnalités: platform

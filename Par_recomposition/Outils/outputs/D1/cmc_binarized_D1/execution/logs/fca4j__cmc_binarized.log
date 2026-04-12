@@ -1,0 +1,8 @@
+Command: java -jar /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/fca4j-cli-0.4.4.jar LATTICE /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/cmc_binarized/cmc_binarized.csv -i CSV -s SEMICOLON -g /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/FCA4J/cmc_binarized/Lattice/cmc_binarized.dot
+Status: OK
+Elapsed: 0.127
+--- STDOUT ---
+running ADD_EXTENT (BITSET) data: cmc_binarized.csv ( 1473 x 0 )
+duration: 11 ms
+
+--- STDERR ---

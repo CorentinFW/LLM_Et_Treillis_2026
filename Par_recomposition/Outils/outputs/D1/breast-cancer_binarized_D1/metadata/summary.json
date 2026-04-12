@@ -1,0 +1,16 @@
+{
+  "run_id": "breast-cancer_binarized_D1",
+  "finished_at": "2026-04-11T12:56:02+02:00",
+  "stages_requested": [
+    "execution",
+    "normalize",
+    "compare",
+    "report"
+  ],
+  "stage_status": {
+    "execution": "OK",
+    "normalize": "OK",
+    "compare": "OK",
+    "report": "OK"
+  }
+}
