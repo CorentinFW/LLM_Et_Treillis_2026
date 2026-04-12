@@ -1,0 +1,109 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 0, E: 9)||o1\\no2\\no3\\no4\\no5\\no6\\no7\\no8\\no9}"];
+	1 [shape="record",style="filled",fillcolor="lightblue",label="{1 (I: 1, E: 3)|a1|o4\\no5\\no7}"];
+	2 [shape="record",style="filled",fillcolor="lightblue",label="{2 (I: 1, E: 6)|a2|o1\\no2\\no5\\no6\\no7\\no9}"];
+	3 [shape="record",style="filled",fillcolor="lightblue",label="{3 (I: 1, E: 6)|a5|o1\\no3\\no4\\no7\\no8\\no9}"];
+	4 [shape="record",style="filled",fillcolor="lightblue",label="{4 (I: 1, E: 7)|a8|o1\\no2\\no3\\no4\\no6\\no8\\no9}"];
+	5 [shape="record",style="filled",fillcolor="lightblue",label="{5 (I: 1, E: 5)|a9|o2\\no5\\no6\\no8\\no9}"];
+	6 [shape="record",style="filled",fillcolor="lightblue",label="{6 (I: 2, E: 2)|a1\\na2|o5\\no7}"];
+	7 [shape="record",style="filled",fillcolor="lightblue",label="{7 (I: 2, E: 2)|a1\\na5|o4\\no7}"];
+	8 [shape="record",style="filled",fillcolor="lightblue",label="{8 (I: 2, E: 4)|a2\\na4|o1\\no6\\no7\\no9}"];
+	9 [shape="record",style="filled",fillcolor="lightblue",label="{9 (I: 2, E: 4)|a2\\na8|o1\\no2\\no6\\no9}"];
+	10 [shape="record",style="filled",fillcolor="lightblue",label="{10 (I: 2, E: 4)|a2\\na9|o2\\no5\\no6\\no9}"];
+	11 [shape="record",style="filled",fillcolor="lightblue",label="{11 (I: 2, E: 4)|a3\\na8|o1\\no2\\no4\\no8}"];
+	12 [shape="record",style="filled",fillcolor="lightblue",label="{12 (I: 2, E: 5)|a5\\na8|o1\\no3\\no4\\no8\\no9}"];
+	13 [shape="record",style="filled",fillcolor="lightblue",label="{13 (I: 2, E: 4)|a8\\na9|o2\\no6\\no8\\no9}"];
+	14 [shape="record",style="filled",label="{14 (I: 3, E: 1)|a1\\na2\\na9|o5}"];
+	15 [shape="record",style="filled",fillcolor="lightblue",label="{15 (I: 3, E: 2)|a2\\na3\\na8|o1\\no2}"];
+	16 [shape="record",style="filled",fillcolor="lightblue",label="{16 (I: 3, E: 3)|a2\\na4\\na5|o1\\no7\\no9}"];
+	17 [shape="record",style="filled",fillcolor="lightblue",label="{17 (I: 3, E: 3)|a2\\na4\\na8|o1\\no6\\no9}"];
+	18 [shape="record",style="filled",fillcolor="lightblue",label="{18 (I: 3, E: 3)|a2\\na8\\na9|o2\\no6\\no9}"];
+	19 [shape="record",style="filled",fillcolor="lightblue",label="{19 (I: 3, E: 3)|a3\\na5\\na8|o1\\no4\\no8}"];
+	20 [shape="record",style="filled",fillcolor="lightblue",label="{20 (I: 3, E: 2)|a3\\na8\\na9|o2\\no8}"];
+	21 [shape="record",style="filled",fillcolor="lightblue",label="{21 (I: 3, E: 2)|a5\\na6\\na8|o1\\no3}"];
+	22 [shape="record",style="filled",fillcolor="lightblue",label="{22 (I: 3, E: 2)|a5\\na7\\na8|o3\\no4}"];
+	23 [shape="record",style="filled",fillcolor="lightblue",label="{23 (I: 3, E: 2)|a5\\na8\\na9|o8\\no9}"];
+	24 [shape="record",style="filled",label="{24 (I: 4, E: 1)|a1\\na2\\na4\\na5|o7}"];
+	25 [shape="record",style="filled",label="{25 (I: 4, E: 1)|a2\\na3\\na8\\na9|o2}"];
+	26 [shape="record",style="filled",fillcolor="lightblue",label="{26 (I: 4, E: 2)|a2\\na4\\na5\\na8|o1\\no9}"];
+	27 [shape="record",style="filled",label="{27 (I: 4, E: 2)|a2\\na4\\na8\\na9|o6\\no9}"];
+	28 [shape="record",style="filled",label="{28 (I: 4, E: 1)|a3\\na5\\na8\\na9|o8}"];
+	29 [shape="record",style="filled",label="{29 (I: 4, E: 1)|a5\\na6\\na7\\na8|o3}"];
+	30 [shape="record",style="filled",label="{30 (I: 5, E: 1)|a1\\na3\\na5\\na7\\na8|o4}"];
+	31 [shape="record",style="filled",label="{31 (I: 5, E: 1)|a2\\na4\\na5\\na8\\na9|o9}"];
+	32 [shape="record",style="filled",label="{32 (I: 6, E: 1)|a2\\na3\\na4\\na5\\na6\\na8|o1}"];
+	33 [shape="record",style="filled",fillcolor="lightblue",label="{33 (I: 9, E: 0)|a1\\na2\\na3\\na4\\na5\\na6\\na7\\na8\\na9|}"];
+	1 -> 0
+	2 -> 0
+	3 -> 0
+	4 -> 0
+	5 -> 0
+	6 -> 1
+	6 -> 2
+	7 -> 1
+	7 -> 3
+	8 -> 2
+	9 -> 2
+	9 -> 4
+	10 -> 2
+	10 -> 5
+	11 -> 4
+	12 -> 3
+	12 -> 4
+	13 -> 4
+	13 -> 5
+	14 -> 6
+	14 -> 10
+	15 -> 9
+	15 -> 11
+	16 -> 3
+	16 -> 8
+	17 -> 8
+	17 -> 9
+	18 -> 9
+	18 -> 10
+	18 -> 13
+	19 -> 11
+	19 -> 12
+	20 -> 11
+	20 -> 13
+	21 -> 12
+	22 -> 12
+	23 -> 12
+	23 -> 13
+	24 -> 6
+	24 -> 7
+	24 -> 16
+	25 -> 15
+	25 -> 18
+	25 -> 20
+	26 -> 12
+	26 -> 16
+	26 -> 17
+	27 -> 17
+	27 -> 18
+	28 -> 19
+	28 -> 20
+	28 -> 23
+	29 -> 21
+	29 -> 22
+	30 -> 7
+	30 -> 19
+	30 -> 22
+	31 -> 23
+	31 -> 26
+	31 -> 27
+	32 -> 15
+	32 -> 19
+	32 -> 21
+	32 -> 26
+	33 -> 14
+	33 -> 24
+	33 -> 25
+	33 -> 28
+	33 -> 29
+	33 -> 30
+	33 -> 31
+	33 -> 32
+}

@@ -25,6 +25,7 @@
 #include <string>
 #include <algorithm>
 #include <numeric>
+#include <chrono>
 
 // ============================================================
 // Data structures
@@ -373,6 +374,8 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+    const auto startTime = std::chrono::steady_clock::now();
+
     const std::string inputFile = argv[1];
 
     // Derive output filename: replace extension with .dot
@@ -393,6 +396,10 @@ int main(int argc, char* argv[]) {
     // Step 3 – Sort, Hasse, new attrs/objs, write DOT
     exportDOT(ctx, concepts, outputFile);
     std::cerr << "DOT file written to: " << outputFile << "\n";
+
+    const auto endTime = std::chrono::steady_clock::now();
+    const auto elapsedMs = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+    std::cerr << "Execution time: " << elapsedMs << " ms\n";
 
     return 0;
 }
