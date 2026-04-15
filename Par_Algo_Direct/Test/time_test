@@ -1,0 +1,19 @@
+Synthetic data :
+9*9 = 83 max - 57 min (en ms)
+20*20 = 168 max - 148 min (en ms)
+30*30 = 487 max - 411 min (en ms)
+40*40 = 1303 max - 1223 min (en ms)
+50*50 = 6389 max - 5399 min (en ms)
+
+Real data : 
+balance-scale_binarized = 47 max 28 min (en ms)
+breast-cancer_binarized = 41 max 31 min (en ms)
+car_binarized = 38 max 31 min (en ms)
+chess_binarized = 40 max 30 min (en ms)
+cmc_binarized = 48 max 33 min (en ms)
+connect-4_binarized = 33 max 25 min (en ms)
+lymphography_binarized = 42 max 28 min (en ms)
+monks-1_binarized = 54 max 28 min (en ms)
+mushroom_binarized = 597 max 505 min (en ms)
+nursery_binarized = 33 max 29 min (en ms)
+plant-binarized = 31 max 26 min (en ms)
