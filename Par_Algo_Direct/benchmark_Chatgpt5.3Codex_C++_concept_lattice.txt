@@ -1,0 +1,30 @@
+================================================================================
+RAPPORT DE BENCHMARK
+================================================================================
+Format: nom_csv | temps(s) | RAM_max(MB) | disque_sortie(MB) | statut | timestamp
+
+balance-scale_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:15
+breast-cancer_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:15
+breast-cancer_binarized_norm.csv | 0:31.06 | 7 | 1 | SUCCESS | 2026-05-08 21:25:15
+car_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:46
+chess_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:46
+cmc_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:47
+connect-4_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:47
+lymphography_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:47
+monks-1_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:47
+mushrooms_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:47
+nursery_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:47
+plants_binarized.csv | ERROR | N/A | 0 | ERROR | 2026-05-08 21:25:48
+eg20_20.csv | 0:00.03 | 4 | 0 | SUCCESS | 2026-05-08 21:25:48
+eg30_30.csv | 0:01.16 | 5 | 1 | SUCCESS | 2026-05-08 21:25:48
+eg40_40.csv | 0:48.02 | 12 | 3 | SUCCESS | 2026-05-08 21:25:49
+eg9_9.csv | 0:00.00 | 3 | 0 | SUCCESS | 2026-05-08 21:26:37
+
+================================================================================
+RÉSUMÉ FINAL
+================================================================================
+Date de fin: 2026-05-08 21:26:38
+Total de tests: 16
+Réussis: 5
+Timeouts: 0
+Erreurs: 11
