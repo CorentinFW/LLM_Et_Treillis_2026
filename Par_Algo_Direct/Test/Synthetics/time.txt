@@ -1,5 +1,0 @@
-9*9 = 83 max - 57 min (en ms)
-20*20 = 168 max - 148 min (en ms)
-30*30 = 487 max - 411 min (en ms)
-40*40 = 1303 max - 1223 min (en ms)
-50*50 = 6389 max - 5399 min (en ms)
