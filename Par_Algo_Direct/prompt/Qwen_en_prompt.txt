@@ -1,0 +1,32 @@
+# R (Role)
+Act as a senior C++ software engineer and an expert researcher in Formal Concept Analysis (FCA), lattice theory, and incremental algorithm design.
+
+# C (Context)
+I am conducting research on the capability of modern LLMs to generate highly efficient, single-pass algorithms for computing formal concept lattices. Traditional lattice generation methods typically require loading the entire formal context into memory and performing multiple passes or expensive global closure computations. I need to verify if an LLM can produce a robust, incremental implementation that dynamically constructs the Hasse diagram (concept lattice) as each data row is streamed, without storing the full context matrix beforehand.
+
+# T (Task)
+Write a complete, standalone C++ program that:
+1. Reads a semicolon-separated CSV file representing a binary formal context.
+2. Computes the concept lattice incrementally in exactly one pass over the input data (updating concepts, intents, extents, and cover relations on-the-fly as each object is parsed).
+3. Outputs the resulting Hasse diagram as a valid Graphviz `.dot` file.
+4. Measures and prints the exact CPU computation time (in milliseconds) of the lattice generation phase to `stderr`.
+
+# F (Format)
+- Language: C++17 or later, delivered as a single `.cpp` file with all necessary includes and no external dependencies.
+- Input Format: Command-line argument or stdin pointing to a CSV file. First line: attribute names separated by semicolons. Subsequent lines: `object_name;val;val;...` where values are `1` or `0`. Example:
+  flies;nocturnal;feathered
+  bat;1;1;0
+- Output Format: A `.dot` file. The graph must start with `digraph G { rankdir=BT;`. Each concept node must strictly follow this label syntax:
+  `<ID> [shape=record,style=filled,fillcolor=<color>,label="{<ID> (I: <intent_count>, E: <extent_count>)|<attr1>\n<attr2>\n|<obj1>\n<obj2>\n}"];`
+  - Use `lightblue` for the bottom concept (all objects, empty intent) and top concept (empty extent, all attributes).
+  - Use `white` for all intermediate concepts.
+  - Edges must represent strict cover relations: `<superconcept_ID> -> <subconcept_ID>`.
+  - If an intent or extent list is empty, leave that section blank but preserve the `|` separators exactly as shown.
+- Timing: Wrap the lattice construction logic with `std::chrono::high_resolution_clock`. Print the duration to `std::cerr` in the format: `CPU Time: X.XX ms`.
+
+# C (Constraint)
+- STRICT SINGLE-PASS: The algorithm MUST process the CSV row-by-row. Do NOT load the entire dataset into a matrix or list before starting lattice generation. Implement an incremental closure algorithm (e.g., a streamlined In-Close or row-by-row NextClosure variant) that updates the lattice structure dynamically as each object arrives.
+- Correctly handle concept equivalence, subsumption, and closure operations during the single pass to guarantee a minimal, non-redundant lattice.
+- Ensure the output `.dot` structure, node IDs, label formatting, and edge directions exactly match the provided example format.
+- The code must compile cleanly with `g++ -std=c++17 -O2 lattice.cpp -o lattice`.
+- Return ONLY the C++ source code in your response, ready to be saved and executed.
