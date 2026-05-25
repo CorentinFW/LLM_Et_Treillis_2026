@@ -1,1 +1,2 @@
 Source des jeux de test : https://gite.lirmm.fr/gutierre/fca4j-benchmark Par Alain Gutierrez
+Source des Datasets synthétique : https://github.com/OskrJF/TER-M1---Code-and-Test-sets/tree/main/Synthetics par Valentino Cocks, Arame Diop, Oscar Jimenez Flores, Yazmín Mendoza
