@@ -1,0 +1,4 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{ 0 (I: 45, E: 0)| Class_no-recurrence-events\nClass_recurrence-events\nage_20-29\nage_30-39\nage_40-49\nage_50-59\nage_60-69\nage_70-79\nbreast-quad_?\nbreast-quad_central\nbreast-quad_left_low\nbreast-quad_left_up\nbreast-quad_right_low\nbreast-quad_right_up\nbreast_left\nbreast_right\ndeg-malig_1\ndeg-malig_2\ndeg-malig_3\ninv-nodes_0-2\ninv-nodes_12-14\ninv-nodes_15-17\ninv-nodes_24-26\ninv-nodes_3-5\ninv-nodes_6-8\ninv-nodes_9-11\nirradiat_no\nirradiat_yes\nmenopause_ge40\nmenopause_lt40\nmenopause_premeno\nnode-caps_?\nnode-caps_no\nnode-caps_yes\ntumor-size_0-4\ntumor-size_10-14\ntumor-size_15-19\ntumor-size_20-24\ntumor-size_25-29\ntumor-size_30-34\ntumor-size_35-39\ntumor-size_40-44\ntumor-size_45-49\ntumor-size_5-9\ntumor-size_50-54 |  }"];
+}

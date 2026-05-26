@@ -1,0 +1,8 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/eg9_9.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/Lattice/full/eg9_9_LLM.dot
+Status: OK
+Elapsed: 0.065
+--- STDOUT ---
+Generated /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/Lattice/full/eg9_9_LLM.dot successfully.
+
+--- STDERR ---
+CPU time (self): 0.007102 s

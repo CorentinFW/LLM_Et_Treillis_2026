@@ -1,0 +1,4 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 63, E: 0)|attr10_1\\nattr10_2\\nattr10_3\\nattr11_1\\nattr11_2\\nattr11_3\\nattr11_4\\nattr12_1\\nattr12_2\\nattr12_3\\nattr13_1\\nattr13_2\\nattr13_3\\nattr13_4\\nattr14_1\\nattr14_2\\nattr14_3\\nattr14_4\\nattr15_1\\nattr15_2\\nattr15_3\\nattr15_4\\nattr15_5\\nattr15_6\\nattr15_7\\nattr15_8\\nattr16_1\\nattr16_2\\nattr16_3\\nattr17_1\\nattr17_2\\nattr18_1\\nattr18_2\\nattr19_1\\nattr19_2\\nattr19_3\\nattr19_4\\nattr19_5\\nattr19_6\\nattr19_7\\nattr19_8\\nattr1_1\\nattr1_2\\nattr1_3\\nattr1_4\\nattr2_1\\nattr2_2\\nattr2_3\\nattr2_4\\nattr3_1\\nattr3_2\\nattr4_1\\nattr4_2\\nattr5_1\\nattr5_2\\nattr6_1\\nattr6_2\\nattr7_1\\nattr7_2\\nattr8_1\\nattr8_2\\nattr9_1\\nattr9_2|}"];
+}

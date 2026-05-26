@@ -1,0 +1,37 @@
+[
+  {
+    "algorithm_id": "gemini31_fca",
+    "dataset_id": "chess_binarized",
+    "timeout_seconds": 900,
+    "timeout_enabled": true,
+    "at": "2026-05-10T20:33:20+02:00"
+  },
+  {
+    "algorithm_id": "gemini31_fca",
+    "dataset_id": "connect-4_binarized",
+    "timeout_seconds": 900,
+    "timeout_enabled": true,
+    "at": "2026-05-10T20:50:18+02:00"
+  },
+  {
+    "algorithm_id": "gemini31_fca",
+    "dataset_id": "nursery_binarized",
+    "timeout_seconds": 900,
+    "timeout_enabled": true,
+    "at": "2026-05-10T21:06:19+02:00"
+  },
+  {
+    "algorithm_id": "gemini31_fca",
+    "dataset_id": "plants_binarized",
+    "timeout_seconds": 900,
+    "timeout_enabled": true,
+    "at": "2026-05-10T21:21:20+02:00"
+  },
+  {
+    "algorithm_id": "gpt53_lattice",
+    "dataset_id": "eg50_50",
+    "timeout_seconds": 900,
+    "timeout_enabled": true,
+    "at": "2026-05-10T21:39:38+02:00"
+  }
+]

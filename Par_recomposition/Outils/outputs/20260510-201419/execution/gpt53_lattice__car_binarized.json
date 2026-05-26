@@ -1,0 +1,31 @@
+{
+  "algorithm_id": "gpt53_lattice",
+  "dataset_id": "car_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/car_binarized/car_binarized.csv"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.3-Codex/Python/car_binarized/car_binarized.csv",
+  "status": "FAILED",
+  "returncode": 1,
+  "timed_out": false,
+  "elapsed_seconds": 0.059,
+  "started_at": "2026-05-10T21:21:20+02:00",
+  "finished_at": "2026-05-10T21:21:20+02:00",
+  "peak_rss_bytes": 16740352,
+  "peak_disk_bytes": 162280,
+  "peak_written_live_bytes": 0,
+  "peak_io_read_bytes": 16384,
+  "peak_io_write_bytes": 0,
+  "peak_io_rchar_bytes": 1341028,
+  "peak_io_wchar_bytes": 131,
+  "total_written_bytes": 131,
+  "monitor_sample_count": 8,
+  "raw_dot_source": null,
+  "raw_dot_copy": null,
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/gpt53_lattice__car_binarized.log"
+}

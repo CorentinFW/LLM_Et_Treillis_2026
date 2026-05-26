@@ -1,0 +1,4 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 41, E: 0)|bruises?\\ncap-color-brown\\ncap-color-buff\\ncap-color-cinnamon\\ncap-color-gray\\ncap-color-green\\ncap-color-pink\\ncap-color-purple\\ncap-color-red\\ncap-color-white\\ncap-color-yellow\\ncap-shape-bell\\ncap-shape-conical\\ncap-shape-convex\\ncap-shape-flat\\ncap-shape-knobbed\\ncap-shape-sunken\\ncap-surface-fibrous\\ncap-surface-grooves\\ncap-surface-scaly\\ncap-surface-smooth\\nclass-edible\\nclass-poisonous\\ngill-attachment-attached\\ngill-attachment-free\\ngill-color-black\\ngill-color-brown\\ngill-color-chocolate\\ngill-color-gray\\ngill-color-green\\ngill-color-orange\\ngill-size-broad\\ngill-size-narrow\\ngill-spacing-close\\ngill-spacing-crowded\\nodor-almond\\nodor-anise\\nodor-fishy\\nodor-foul\\nodor-none\\nodor-spicy|}"];
+}

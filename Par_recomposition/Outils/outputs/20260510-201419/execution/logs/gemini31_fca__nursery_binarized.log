@@ -1,0 +1,7 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/nursery_binarized/nursery_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/nursery_binarized/Lattice/full/nursery_binarized_LLM.dot
+Status: TIMEOUT
+Elapsed: 900.027
+--- STDOUT ---
+
+--- STDERR ---
+Command killed after timeout.

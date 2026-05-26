@@ -1,0 +1,22 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/mushrooms_binarized/mushrooms_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/mushrooms_binarized/Lattice/full/mushrooms_binarized_LLM.dot
+Status: OK
+Elapsed: 0.271
+--- STDOUT ---
+[FCA] Starting lattice computation
+[FCA] Input: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/mushrooms_binarized/mushrooms_binarized.csv
+[FCA] Output: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/mushrooms_binarized/Lattice/full/mushrooms_binarized_LLM.dot
+[FCA] Work directory: /tmp/fca_8bn4yvn5
+[FCA] Stage 0: Parsing CSV and partitioning...
+[FCA]   Objects: 8124, Attributes: 41
+[FCA]   Partitioned into 1 blocks
+[FCA] Stage 1: Local concept enumeration...
+[FCA]   Processing block 0 (8124 objects)...
+[FCA] Stage 2: Merging and deduplicating...
+[FCA]   Found 4 global concepts
+[FCA] Stage 3: Computing cover relations...
+[FCA]   Found 4 cover edges
+[FCA] Stage 4: Generating DOT...
+[FCA] Done. Output written to /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/mushrooms_binarized/Lattice/full/mushrooms_binarized_LLM.dot
+
+--- STDERR ---
+CPU time (self): 0.231295 s

@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "qwen36_fca",
+  "dataset_id": "Animals11",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/qwen36_fca__Animals11.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/normalize/dots/qwen36_fca__Animals11_full.dot"
+}

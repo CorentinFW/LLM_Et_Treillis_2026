@@ -1,0 +1,18 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 9, E: 0)|a1\na2\na3\na4\na5\na6\na7\na8\na9|}"];
+    1 [shape=record,label="{1 (I: 6, E: 1)|a2\na3\na4\na5\na6\na8|o1}"];
+    2 [shape=record,label="{2 (I: 5, E: 1)|a2\na4\na5\na8\na9|o9}"];
+    3 [shape=record,label="{3 (I: 5, E: 1)|a1\na3\na5\na7\na8|o4}"];
+    4 [shape=record,label="{4 (I: 4, E: 1)|a2\na3\na8\na9|o2}"];
+    5 [shape=record,style=filled,fillcolor=orange,label="{5 (I: 4, E: 2)|a2\na4\na8\na9|o6\no9}"];
+    6 [shape=record,label="{6 (I: 4, E: 1)|a3\na5\na8\na9|o8}"];
+    7 [shape=record,label="{7 (I: 4, E: 1)|a1\na2\na4\na5|o7}"];
+    8 [shape=record,label="{8 (I: 4, E: 1)|a5\na6\na7\na8|o3}"];
+    9 [shape=record,label="{9 (I: 3, E: 1)|a1\na2\na9|o5}"];
+    10 [shape=record,style=filled,fillcolor=orange,label="{10 (I: 0, E: 9)||o1\no2\no3\no4\no5\no6\no7\no8\no9}"];
+    0 -> 1;
+    0 -> 2;
+    0 -> 3;
+    2 -> 5;
+}

@@ -1,0 +1,18 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{<0> (I: 20, E: 0)|a1\na10\na11\na12\na13\na14\na15\na16\na17\na18\na19\na2\na20\na3\na4\na5\na6\na7\na8\na9|}"];
+    1 [shape=record,label="{<1> (I: 12, E: 1)|a1\na13\na16\na17\na18\na19\na2\na20\na4\na5\na6\na8|o13}"];
+    2 [shape=record,style=filled,fillcolor=orange,label="{<2> (I: 9, E: 2)|a1\na13\na16\na17\na19\na4\na5\na6\na8|o13\no5}"];
+    3 [shape=record,style=filled,fillcolor=orange,label="{<3> (I: 7, E: 2)|a1\na17\na18\na19\na20\na5\na8|o13\no4}"];
+    4 [shape=record,style=filled,fillcolor=orange,label="{<4> (I: 1, E: 10)|a19|o10\no12\no13\no19\no3\no4\no5\no7\no8\no9}"];
+    5 [shape=record,style=filled,fillcolor=orange,label="{<5> (I: 1, E: 8)|a20|o1\no13\no14\no16\no18\no2\no4\no6}"];
+    6 [shape=record,style=filled,fillcolor=orange,label="{<6> (I: 0, E: 20)||o1\no10\no11\no12\no13\no14\no15\no16\no17\no18\no19\no2\no20\no3\no4\no5\no6\no7\no8\no9}"];
+    1 -> 0;
+    2 -> 1;
+    3 -> 1;
+    4 -> 2;
+    4 -> 3;
+    5 -> 3;
+    6 -> 4;
+    6 -> 5;
+}

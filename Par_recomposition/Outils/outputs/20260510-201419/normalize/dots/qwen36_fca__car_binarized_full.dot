@@ -1,0 +1,4 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 21, E: 0)|buying_high\\nbuying_low\\nbuying_med\\nbuying_vhigh\\ndoors_2\\ndoors_3\\ndoors_4\\ndoors_5more\\nlug_boot_big\\nlug_boot_med\\nlug_boot_small\\nmaint_high\\nmaint_low\\nmaint_med\\nmaint_vhigh\\npersons_2\\npersons_4\\npersons_more\\nsafety_high\\nsafety_low\\nsafety_med|}"];
+}

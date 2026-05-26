@@ -1,0 +1,4 @@
+digraph G {
+	rankdir=BT;
+	0 [shape="record",style="filled",fillcolor="lightblue",label="{0 (I: 11, E: 0)|eats-fish\\nelytra\\nfeathered\\nflies\\nmigratory\\nnocturnal\\nred-bill\\nsea-habitat\\nsix-legged\\nwater-habitat\\nwood-habitat|}"];
+}

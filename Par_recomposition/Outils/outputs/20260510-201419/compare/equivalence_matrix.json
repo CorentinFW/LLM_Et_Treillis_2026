@@ -1,0 +1,117 @@
+{
+  "Animals11": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt54_fca_memory_aware": false,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__gpt54_fca_memory_aware": false,
+    "fca4j__vs__qwen36_fca": false,
+    "gpt54_fca_memory_aware__vs__qwen36_fca": false
+  },
+  "balance-scale_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "breast-cancer_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "car_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "chess_binarized": {
+    "claude_lattice2__vs__fca4j": true
+  },
+  "cmc_binarized": {
+    "claude_lattice2__vs__fca4j": true
+  },
+  "connect-4_binarized": {
+    "claude_lattice2__vs__fca4j": true
+  },
+  "eg20_20": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt53_lattice": true,
+    "claude_lattice2__vs__gpt54_fca_memory_aware": false,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__gpt53_lattice": true,
+    "fca4j__vs__gpt54_fca_memory_aware": false,
+    "fca4j__vs__qwen36_fca": false,
+    "gpt53_lattice__vs__gpt54_fca_memory_aware": false,
+    "gpt53_lattice__vs__qwen36_fca": false,
+    "gpt54_fca_memory_aware__vs__qwen36_fca": false
+  },
+  "eg30_30": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt53_lattice": true,
+    "claude_lattice2__vs__gpt54_fca_memory_aware": false,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__gpt53_lattice": true,
+    "fca4j__vs__gpt54_fca_memory_aware": false,
+    "fca4j__vs__qwen36_fca": false,
+    "gpt53_lattice__vs__gpt54_fca_memory_aware": false,
+    "gpt53_lattice__vs__qwen36_fca": false,
+    "gpt54_fca_memory_aware__vs__qwen36_fca": false
+  },
+  "eg40_40": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt53_lattice": true,
+    "claude_lattice2__vs__gpt54_fca_memory_aware": false,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__gpt53_lattice": true,
+    "fca4j__vs__gpt54_fca_memory_aware": false,
+    "fca4j__vs__qwen36_fca": false,
+    "gpt53_lattice__vs__gpt54_fca_memory_aware": false,
+    "gpt53_lattice__vs__qwen36_fca": false,
+    "gpt54_fca_memory_aware__vs__qwen36_fca": false
+  },
+  "eg50_50": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt53_lattice": true,
+    "claude_lattice2__vs__gpt54_fca_memory_aware": false,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__gpt53_lattice": true,
+    "fca4j__vs__gpt54_fca_memory_aware": false,
+    "fca4j__vs__qwen36_fca": false,
+    "gpt53_lattice__vs__gpt54_fca_memory_aware": false,
+    "gpt53_lattice__vs__qwen36_fca": false,
+    "gpt54_fca_memory_aware__vs__qwen36_fca": false
+  },
+  "eg9_9": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__gpt53_lattice": true,
+    "claude_lattice2__vs__gpt54_fca_memory_aware": false,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__gpt53_lattice": true,
+    "fca4j__vs__gpt54_fca_memory_aware": false,
+    "fca4j__vs__qwen36_fca": false,
+    "gpt53_lattice__vs__gpt54_fca_memory_aware": false,
+    "gpt53_lattice__vs__qwen36_fca": false,
+    "gpt54_fca_memory_aware__vs__qwen36_fca": false
+  },
+  "lymphography_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "monks-1_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "mushrooms_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "nursery_binarized": {
+    "claude_lattice2__vs__fca4j": true,
+    "claude_lattice2__vs__qwen36_fca": false,
+    "fca4j__vs__qwen36_fca": false
+  },
+  "plants_binarized": {
+    "claude_lattice2__vs__fca4j": true
+  }
+}

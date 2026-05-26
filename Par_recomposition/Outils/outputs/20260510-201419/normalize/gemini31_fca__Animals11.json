@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "gemini31_fca",
+  "dataset_id": "Animals11",
+  "status": "CONVERSION_FAILED",
+  "message": "Erreur: Le graphe reconstruit n'a pas un unique sommet et un unique fond: sommets=['0', '10'], fonds=['5', '7', '8', '9', '10']",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/gemini31_fca__Animals11.dot",
+  "normalized_dot": null
+}

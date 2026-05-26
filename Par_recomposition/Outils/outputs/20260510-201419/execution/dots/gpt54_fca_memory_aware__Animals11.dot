@@ -1,0 +1,14 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=orange,label="{0 (I: 0, E: 10)||ladybird\nbat\nostrich\ngreater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\nwood-pecker\ngiant-otter\narctic-tern}"];
+    1 [shape=record,style=filled,fillcolor=orange,label="{1 (I: 2, E: 6)|eats-fish\nwater-habitat|greater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\ngiant-otter\narctic-tern}"];
+    2 [shape=record,style=filled,fillcolor=orange,label="{2 (I: 5, E: 5)|flies\nfeathered\nsea-habitat\neats-fish\nwater-habitat|greater-flamingo\nsilver-gull\nlittle-tern\ngreat-auk\narctic-tern}"];
+    3 [shape=record,style=filled,fillcolor=orange,label="{3 (I: 6, E: 2)|flies\nfeathered\nred-bill\nsea-habitat\neats-fish\nwater-habitat|silver-gull\narctic-tern}"];
+    4 [shape=record,style=filled,label="{4 (I: 7, E: 1)|flies\nfeathered\nmigratory\nred-bill\nsea-habitat\neats-fish\nwater-habitat|arctic-tern}"];
+    5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 11, E: 0)|flies\nnocturnal\nfeathered\nmigratory\nred-bill\nelytra\nsea-habitat\nwood-habitat\nsix-legged\neats-fish\nwater-habitat|}"];
+    0 -> 1;
+    1 -> 2;
+    2 -> 3;
+    3 -> 4;
+    4 -> 5;
+}

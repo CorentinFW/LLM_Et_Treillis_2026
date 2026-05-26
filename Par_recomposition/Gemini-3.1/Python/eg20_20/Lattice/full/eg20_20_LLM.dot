@@ -1,0 +1,31 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 20, E: 0)|a1\na2\na3\na4\na5\na6\na7\na8\na9\na10\na11\na12\na13\na14\na15\na16\na17\na18\na19\na20|}"];
+    1 [shape=record,label="{1 (I: 13, E: 1)|a1\na2\na3\na4\na7\na9\na10\na12\na15\na16\na17\na18\na19|o8}"];
+    2 [shape=record,label="{2 (I: 13, E: 1)|a1\na2\na4\na6\na8\na9\na10\na13\na14\na15\na16\na17\na20|o16}"];
+    3 [shape=record,label="{3 (I: 12, E: 1)|a1\na3\na4\na5\na6\na7\na8\na9\na13\na16\na17\na19|o5}"];
+    4 [shape=record,label="{4 (I: 12, E: 1)|a2\na3\na4\na5\na6\na8\na10\na11\na12\na14\na15\na20|o14}"];
+    5 [shape=record,label="{5 (I: 12, E: 1)|a3\na4\na5\na6\na8\na9\na11\na13\na14\na15\na16\na20|o6}"];
+    6 [shape=record,label="{6 (I: 12, E: 1)|a2\na4\na6\na9\na11\na12\na13\na14\na15\na16\na18\na20|o18}"];
+    7 [shape=record,label="{7 (I: 12, E: 1)|a1\na2\na4\na5\na6\na8\na13\na16\na17\na18\na19\na20|o13}"];
+    8 [shape=record,label="{8 (I: 11, E: 1)|a1\na2\na4\na5\na6\na8\na10\na12\na14\na15\na18|o15}"];
+    9 [shape=record,label="{9 (I: 11, E: 1)|a1\na3\na7\na10\na12\na13\na14\na15\na16\na18\na19|o10}"];
+    10 [shape=record,label="{10 (I: 11, E: 1)|a1\na5\na8\na11\na12\na14\na15\na17\na18\na19\na20|o4}"];
+    11 [shape=record,label="{11 (I: 10, E: 1)|a2\na3\na4\na5\na8\na11\na12\na16\na17\na19|o3}"];
+    12 [shape=record,label="{12 (I: 10, E: 1)|a1\na2\na3\na4\na5\na6\na9\na16\na18\na19|o7}"];
+    13 [shape=record,label="{13 (I: 10, E: 1)|a1\na2\na5\na8\na10\na12\na13\na17\na18\na20|o1}"];
+    14 [shape=record,label="{14 (I: 9, E: 1)|a4\na5\na8\na9\na10\na12\na14\na17\na19|o9}"];
+    15 [shape=record,label="{15 (I: 9, E: 1)|a1\na2\na4\na7\na10\na13\na15\na16\na20|o2}"];
+    16 [shape=record,style=filled,fillcolor=orange,label="{16 (I: 8, E: 2)|a1\na3\na10\na12\na14\na15\na16\na18|o10\no11}"];
+    17 [shape=record,label="{17 (I: 8, E: 1)|a1\na2\na4\na5\na7\na11\na13\na19|o12}"];
+    18 [shape=record,label="{18 (I: 7, E: 1)|a5\na9\na12\na13\na14\na17\na19|o19}"];
+    19 [shape=record,label="{19 (I: 6, E: 1)|a2\na3\na4\na9\na13\na18|o17}"];
+    20 [shape=record,style=filled,fillcolor=orange,label="{20 (I: 6, E: 2)|a1\na8\na13\na14\na15\na16|o16\no20}"];
+    21 [shape=record,style=filled,fillcolor=orange,label="{21 (I: 0, E: 20)||o1\no2\no3\no4\no5\no6\no7\no8\no9\no10\no11\no12\no13\no14\no15\no16\no17\no18\no19\no20}"];
+    0 -> 1;
+    0 -> 2;
+    0 -> 3;
+    0 -> 4;
+    2 -> 20;
+    9 -> 16;
+}

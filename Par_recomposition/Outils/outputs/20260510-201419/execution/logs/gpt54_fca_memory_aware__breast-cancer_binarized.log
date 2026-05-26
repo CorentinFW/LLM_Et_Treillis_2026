@@ -1,0 +1,27 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/fca_lattice_memory_aware_python_implementation.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/breast-cancer_binarized/breast-cancer_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/breast-cancer_binarized/Lattice/full/breast-cancer_binarized_LLM.dot --workdir /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/breast-cancer_binarized/Lattice/full/workdir
+Status: FAILED
+Elapsed: 0.118
+--- STDOUT ---
+
+--- STDERR ---
+CPU time (self): 0.018093 s
+Traceback (most recent call last):
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 300, in <module>
+    raise SystemExit(main())
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 288, in main
+    return _run_as_script(target, algo_args)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 153, in _run_as_script
+    runpy.run_path(script_path, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/fca_lattice_memory_aware_python_implementation.py", line 659, in <module>
+    system.run(args.dot)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/fca_lattice_memory_aware_python_implementation.py", line 615, in run
+    validator.validate_concepts(streamed_concepts)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/fca_lattice_memory_aware_python_implementation.py", line 576, in validate_concepts
+    raise FCAError("Extent mismatch")
+__main__.FCAError: Extent mismatch

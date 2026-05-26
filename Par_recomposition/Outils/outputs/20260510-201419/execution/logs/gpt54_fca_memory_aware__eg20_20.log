@@ -1,0 +1,8 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/fca_lattice_memory_aware_python_implementation.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/eg20_20/eg20_20.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/eg20_20/Lattice/full/eg20_20_LLM.dot --workdir /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/eg20_20/Lattice/full/workdir
+Status: OK
+Elapsed: 0.073
+--- STDOUT ---
+DOT lattice generated at: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/GPT-5.4/Python/eg20_20/Lattice/full/eg20_20_LLM.dot
+
+--- STDERR ---
+CPU time (self): 0.013878 s

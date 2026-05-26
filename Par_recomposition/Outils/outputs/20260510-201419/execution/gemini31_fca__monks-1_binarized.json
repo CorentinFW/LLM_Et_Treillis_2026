@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "gemini31_fca",
+  "dataset_id": "monks-1_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/monks-1_binarized/monks-1_binarized.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/monks-1_binarized/Lattice/full/monks-1_binarized_LLM.dot"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/monks-1_binarized/monks-1_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 6.291,
+  "started_at": "2026-05-10T20:50:27+02:00",
+  "finished_at": "2026-05-10T20:50:34+02:00",
+  "peak_rss_bytes": 18194432,
+  "peak_disk_bytes": 849089,
+  "peak_written_live_bytes": 828791,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 108290048,
+  "peak_io_rchar_bytes": 1278094,
+  "peak_io_wchar_bytes": 83986015,
+  "total_written_bytes": 83986015,
+  "monitor_sample_count": 855,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/monks-1_binarized/Lattice/full/monks-1_binarized_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/gemini31_fca__monks-1_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/gemini31_fca__monks-1_binarized.log"
+}

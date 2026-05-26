@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "kimi_k2_fca",
+  "dataset_id": "balance-scale_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/balance-scale_binarized/balance-scale_binarized.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/balance-scale_binarized/Lattice/full/balance-scale_binarized_LLM.dot"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/balance-scale_binarized/balance-scale_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.058,
+  "started_at": "2026-05-10T21:40:11+02:00",
+  "finished_at": "2026-05-10T21:40:11+02:00",
+  "peak_rss_bytes": 16580608,
+  "peak_disk_bytes": 36557,
+  "peak_written_live_bytes": 5067,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 65536,
+  "peak_io_rchar_bytes": 1442287,
+  "peak_io_wchar_bytes": 40807,
+  "total_written_bytes": 40807,
+  "monitor_sample_count": 8,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/balance-scale_binarized/Lattice/full/balance-scale_binarized_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/kimi_k2_fca__balance-scale_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/kimi_k2_fca__balance-scale_binarized.log"
+}

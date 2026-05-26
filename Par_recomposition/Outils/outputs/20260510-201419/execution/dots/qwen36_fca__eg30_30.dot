@@ -1,0 +1,4 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{ 0 (I: 30, E: 0)| a1\na10\na11\na12\na13\na14\na15\na16\na17\na18\na19\na2\na20\na21\na22\na23\na24\na25\na26\na27\na28\na29\na3\na30\na4\na5\na6\na7\na8\na9 |  }"];
+}

@@ -1,0 +1,7 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/connect-4_binarized/connect-4_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/connect-4_binarized/Lattice/full/connect-4_binarized_LLM.dot
+Status: TIMEOUT
+Elapsed: 900.02
+--- STDOUT ---
+
+--- STDERR ---
+Command killed after timeout.

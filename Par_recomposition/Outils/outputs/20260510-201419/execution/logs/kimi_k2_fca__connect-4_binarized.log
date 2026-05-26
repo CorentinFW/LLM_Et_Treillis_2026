@@ -1,0 +1,36 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/connect-4_binarized/connect-4_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/connect-4_binarized/Lattice/full/connect-4_binarized_LLM.dot
+Status: FAILED
+Elapsed: 7.366
+--- STDOUT ---
+[FCA] Starting lattice computation
+[FCA] Input: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/connect-4_binarized/connect-4_binarized.csv
+[FCA] Output: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/connect-4_binarized/Lattice/full/connect-4_binarized_LLM.dot
+[FCA] Work directory: /tmp/fca_sbih11oy
+[FCA] Stage 0: Parsing CSV and partitioning...
+[FCA]   Objects: 67557, Attributes: 129
+[FCA]   Partitioned into 1 blocks
+[FCA] Stage 1: Local concept enumeration...
+[FCA]   Processing block 0 (67557 objects)...
+
+--- STDERR ---
+CPU time (self): 7.283741 s
+Traceback (most recent call last):
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 300, in <module>
+    raise SystemExit(main())
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 288, in main
+    return _run_as_script(target, algo_args)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py", line 153, in _run_as_script
+    runpy.run_path(script_path, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py", line 918, in <module>
+    main()
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py", line 914, in main
+    builder.build(args.input, args.output)
+  File "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py", line 846, in build
+    f.write(f"{intent_bits},{extent_mask}\n")
+ValueError: Exceeds the limit (4300) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit

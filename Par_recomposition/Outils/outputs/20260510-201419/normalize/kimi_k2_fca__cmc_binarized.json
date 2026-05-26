@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "kimi_k2_fca",
+  "dataset_id": "cmc_binarized",
+  "status": "CONVERSION_FAILED",
+  "message": "Erreur: Identifiant incohérent pour le nœud '0': label='<0>'",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/kimi_k2_fca__cmc_binarized.dot",
+  "normalized_dot": null
+}

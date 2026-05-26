@@ -1,0 +1,28 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{<0> (I: 30, E: 0)|a1\na10\na11\na12\na13\na14\na15\na16\na17\na18\na19\na2\na20\na21\na22\na23\na24\na25\na26\na27\na28\na29\na3\na30\na4\na5\na6\na7\na8\na9|}"];
+    1 [shape=record,label="{<1> (I: 18, E: 1)|a1\na12\na13\na14\na17\na18\na19\na2\na24\na25\na26\na27\na28\na29\na30\na5\na6\na8|o19}"];
+    2 [shape=record,style=filled,fillcolor=orange,label="{<2> (I: 13, E: 2)|a1\na12\na13\na17\na18\na19\na2\na24\na25\na28\na5\na6\na8|o12\no19}"];
+    3 [shape=record,style=filled,fillcolor=orange,label="{<3> (I: 13, E: 2)|a12\na13\na17\na18\na19\na25\na26\na27\na28\na29\na30\na5\na8|o1\no19}"];
+    4 [shape=record,style=filled,fillcolor=orange,label="{<4> (I: 6, E: 4)|a17\na18\na26\na28\na29\na30|o1\no19\no23\no4}"];
+    5 [shape=record,style=filled,fillcolor=orange,label="{<5> (I: 4, E: 6)|a18\na26\na28\na30|o1\no10\no15\no19\no23\no4}"];
+    6 [shape=record,style=filled,fillcolor=orange,label="{<6> (I: 2, E: 10)|a29\na30|o1\no13\no19\no22\no23\no25\no27\no3\no4\no6}"];
+    7 [shape=record,style=filled,fillcolor=orange,label="{<7> (I: 1, E: 17)|a28|o1\no10\no11\no12\no14\no15\no17\no19\no20\no21\no23\no24\no26\no30\no4\no5\no8}"];
+    8 [shape=record,style=filled,fillcolor=orange,label="{<8> (I: 1, E: 17)|a29|o1\no13\no19\no2\no20\no21\no22\no23\no24\no25\no27\no3\no30\no4\no5\no6\no7}"];
+    9 [shape=record,style=filled,fillcolor=orange,label="{<9> (I: 1, E: 14)|a30|o1\no10\no13\no15\no16\no19\no22\no23\no25\no27\no29\no3\no4\no6}"];
+    10 [shape=record,style=filled,fillcolor=orange,label="{<10> (I: 0, E: 30)||o1\no10\no11\no12\no13\no14\no15\no16\no17\no18\no19\no2\no20\no21\no22\no23\no24\no25\no26\no27\no28\no29\no3\no30\no4\no5\no6\no7\no8\no9}"];
+    1 -> 0;
+    2 -> 1;
+    3 -> 1;
+    4 -> 3;
+    5 -> 4;
+    6 -> 4;
+    7 -> 2;
+    7 -> 5;
+    8 -> 6;
+    9 -> 5;
+    9 -> 6;
+    10 -> 7;
+    10 -> 8;
+    10 -> 9;
+}

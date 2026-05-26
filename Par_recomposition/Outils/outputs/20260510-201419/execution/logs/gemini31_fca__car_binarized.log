@@ -1,0 +1,8 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/car_binarized/car_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/car_binarized/Lattice/full/car_binarized_LLM.dot
+Status: OK
+Elapsed: 13.975
+--- STDOUT ---
+Generated /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/car_binarized/Lattice/full/car_binarized_LLM.dot successfully.
+
+--- STDERR ---
+CPU time (self): 4.200672 s

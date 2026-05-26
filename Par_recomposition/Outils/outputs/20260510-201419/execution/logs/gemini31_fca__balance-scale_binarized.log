@@ -1,0 +1,8 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/balance-scale_binarized/balance-scale_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/balance-scale_binarized/Lattice/full/balance-scale_binarized_LLM.dot
+Status: OK
+Elapsed: 2.993
+--- STDOUT ---
+Generated /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/balance-scale_binarized/Lattice/full/balance-scale_binarized_LLM.dot successfully.
+
+--- STDERR ---
+CPU time (self): 0.489073 s

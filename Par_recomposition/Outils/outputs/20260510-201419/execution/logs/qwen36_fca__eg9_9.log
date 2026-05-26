@@ -1,0 +1,16 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/Qwen_python_20260509_lqlrlkgdq.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/eg9_9/eg9_9.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/eg9_9/Lattice/full
+Status: OK
+Elapsed: 0.058
+--- STDOUT ---
+[FCA] Starting pipeline for /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/eg9_9/eg9_9.csv
+[FCA] Parsing and validating CSV...
+[FCA] Enumerating concepts (NextClosure) with incremental spill...
+[FCA] Generated 2 concepts. Persisted to /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/eg9_9/Lattice/full/fca_concepts.db
+[FCA] Loading sorted concepts for global ID assignment...
+[FCA] Computing cover relations...
+[FCA] Resolved 0 cover edges.
+[FCA] Generating DOT output...
+[FCA] Pipeline complete. Output: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/eg9_9/Lattice/full/eg9_9.dot
+
+--- STDERR ---
+CPU time (self): 0.007306 s

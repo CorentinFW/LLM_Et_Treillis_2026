@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "kimi_k2_fca",
+  "dataset_id": "Animals11",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/Animals11/Animals11.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/Animals11/Lattice/full/Animals11_LLM.dot"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/Animals11/Animals11.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.052,
+  "started_at": "2026-05-10T21:40:11+02:00",
+  "finished_at": "2026-05-10T21:40:11+02:00",
+  "peak_rss_bytes": 16179200,
+  "peak_disk_bytes": 1200,
+  "peak_written_live_bytes": 750,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 32768,
+  "peak_io_rchar_bytes": 1360900,
+  "peak_io_wchar_bytes": 2611,
+  "total_written_bytes": 2611,
+  "monitor_sample_count": 7,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/Animals11/Lattice/full/Animals11_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/kimi_k2_fca__Animals11.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/kimi_k2_fca__Animals11.log"
+}

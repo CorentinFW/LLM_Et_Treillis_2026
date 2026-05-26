@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "qwen36_fca",
+  "dataset_id": "breast-cancer_binarized",
+  "status": "OK",
+  "message": "converted to full",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/qwen36_fca__breast-cancer_binarized.dot",
+  "normalized_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/normalize/dots/qwen36_fca__breast-cancer_binarized_full.dot"
+}

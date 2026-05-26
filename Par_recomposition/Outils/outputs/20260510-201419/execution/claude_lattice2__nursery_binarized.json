@@ -1,0 +1,31 @@
+{
+  "algorithm_id": "claude_lattice2",
+  "dataset_id": "nursery_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/lattice2.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/nursery_binarized/nursery_binarized.csv"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/nursery_binarized/nursery_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.081,
+  "started_at": "2026-05-10T20:17:44+02:00",
+  "finished_at": "2026-05-10T20:17:44+02:00",
+  "peak_rss_bytes": 20054016,
+  "peak_disk_bytes": 2351890,
+  "peak_written_live_bytes": 805398,
+  "peak_io_read_bytes": 770048,
+  "peak_io_write_bytes": 806912,
+  "peak_io_rchar_bytes": 2723665,
+  "peak_io_wchar_bytes": 805398,
+  "total_written_bytes": 805398,
+  "monitor_sample_count": 11,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Claude_Opus-4.6/Python/nursery_binarized/Lattice/nursery_binarized_LLM_2.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/claude_lattice2__nursery_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/claude_lattice2__nursery_binarized.log"
+}

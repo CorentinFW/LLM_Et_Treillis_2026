@@ -1,0 +1,4 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{ 0 (I: 27, E: 0)| children_1\nchildren_2\nchildren_3\nchildren_more\nfinance_convenient\nfinance_inconv\nform_complete\nform_completed\nform_foster\nform_incomplete\nhas_nurs_critical\nhas_nurs_improper\nhas_nurs_less_proper\nhas_nurs_proper\nhas_nurs_very_crit\nhealth_not_recom\nhealth_priority\nhealth_recommended\nhousing_convenient\nhousing_critical\nhousing_less_conv\nparents_great_pret\nparents_pretentious\nparents_usual\nsocial_nonprob\nsocial_problematic\nsocial_slightly_prob |  }"];
+}

@@ -1,0 +1,22 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/eg9_9/eg9_9.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/eg9_9/Lattice/full/eg9_9_LLM.dot
+Status: OK
+Elapsed: 0.058
+--- STDOUT ---
+[FCA] Starting lattice computation
+[FCA] Input: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/eg9_9/eg9_9.csv
+[FCA] Output: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/eg9_9/Lattice/full/eg9_9_LLM.dot
+[FCA] Work directory: /tmp/fca_x3t4a_jp
+[FCA] Stage 0: Parsing CSV and partitioning...
+[FCA]   Objects: 9, Attributes: 9
+[FCA]   Partitioned into 1 blocks
+[FCA] Stage 1: Local concept enumeration...
+[FCA]   Processing block 0 (9 objects)...
+[FCA] Stage 2: Merging and deduplicating...
+[FCA]   Found 6 global concepts
+[FCA] Stage 3: Computing cover relations...
+[FCA]   Found 7 cover edges
+[FCA] Stage 4: Generating DOT...
+[FCA] Done. Output written to /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/eg9_9/Lattice/full/eg9_9_LLM.dot
+
+--- STDERR ---
+CPU time (self): 0.010069 s

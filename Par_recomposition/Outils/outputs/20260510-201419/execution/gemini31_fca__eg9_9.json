@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "gemini31_fca",
+  "dataset_id": "eg9_9",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/eg9_9.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/Lattice/full/eg9_9_LLM.dot"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/eg9_9.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.065,
+  "started_at": "2026-05-10T20:50:18+02:00",
+  "finished_at": "2026-05-10T20:50:18+02:00",
+  "peak_rss_bytes": 16216064,
+  "peak_disk_bytes": 1157,
+  "peak_written_live_bytes": 940,
+  "peak_io_read_bytes": 0,
+  "peak_io_write_bytes": 348160,
+  "peak_io_rchar_bytes": 1171638,
+  "peak_io_wchar_bytes": 255864,
+  "total_written_bytes": 255864,
+  "monitor_sample_count": 9,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/eg9_9/Lattice/full/eg9_9_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/gemini31_fca__eg9_9.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/gemini31_fca__eg9_9.log"
+}

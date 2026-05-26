@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "qwen36_fca",
+  "dataset_id": "cmc_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/Qwen_python_20260509_lqlrlkgdq.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/cmc_binarized/cmc_binarized.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/cmc_binarized/Lattice/full"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/cmc_binarized/cmc_binarized.csv",
+  "status": "FAILED",
+  "returncode": 1,
+  "timed_out": false,
+  "elapsed_seconds": 0.065,
+  "started_at": "2026-05-10T21:40:22+02:00",
+  "finished_at": "2026-05-10T21:40:22+02:00",
+  "peak_rss_bytes": 17272832,
+  "peak_disk_bytes": 270904,
+  "peak_written_live_bytes": 45136,
+  "peak_io_read_bytes": 229376,
+  "peak_io_write_bytes": 61440,
+  "peak_io_rchar_bytes": 1532490,
+  "peak_io_wchar_bytes": 12900,
+  "total_written_bytes": 12900,
+  "monitor_sample_count": 9,
+  "raw_dot_source": null,
+  "raw_dot_copy": null,
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/qwen36_fca__cmc_binarized.log"
+}

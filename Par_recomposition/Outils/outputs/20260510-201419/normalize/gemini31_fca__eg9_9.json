@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "gemini31_fca",
+  "dataset_id": "eg9_9",
+  "status": "CONVERSION_FAILED",
+  "message": "Erreur: Le graphe reconstruit n'a pas un unique sommet et un unique fond: sommets=['0', '4', '6', '7', '8', '9', '10'], fonds=['1', '3', '4', '5', '6', '7', '8', '9', '10']",
+  "raw_dot": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/gemini31_fca__eg9_9.dot",
+  "normalized_dot": null
+}

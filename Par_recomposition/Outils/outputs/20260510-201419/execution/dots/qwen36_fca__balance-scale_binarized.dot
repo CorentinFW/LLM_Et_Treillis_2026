@@ -1,0 +1,4 @@
+digraph G {
+    rankdir=BT;
+    0 [shape=record,style=filled,fillcolor=lightblue,label="{ 0 (I: 23, E: 0)| Class-Name_B\nClass-Name_L\nClass-Name_R\nLeft-Distance_1\nLeft-Distance_2\nLeft-Distance_3\nLeft-Distance_4\nLeft-Distance_5\nLeft-Weight_1\nLeft-Weight_2\nLeft-Weight_3\nLeft-Weight_4\nLeft-Weight_5\nRight-Distance_1\nRight-Distance_2\nRight-Distance_3\nRight-Distance_4\nRight-Distance_5\nRight-Weight_1\nRight-Weight_2\nRight-Weight_3\nRight-Weight_4\nRight-Weight_5 |  }"];
+}

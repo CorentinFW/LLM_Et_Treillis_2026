@@ -1,0 +1,22 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/fca_lattice.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/lymphography_binarized/lymphography_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/lymphography_binarized/Lattice/full/lymphography_binarized_LLM.dot
+Status: OK
+Elapsed: 0.051
+--- STDOUT ---
+[FCA] Starting lattice computation
+[FCA] Input: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/lymphography_binarized/lymphography_binarized.csv
+[FCA] Output: /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/lymphography_binarized/Lattice/full/lymphography_binarized_LLM.dot
+[FCA] Work directory: /tmp/fca_dft3xeqb
+[FCA] Stage 0: Parsing CSV and partitioning...
+[FCA]   Objects: 148, Attributes: 63
+[FCA]   Partitioned into 1 blocks
+[FCA] Stage 1: Local concept enumeration...
+[FCA]   Processing block 0 (148 objects)...
+[FCA] Stage 2: Merging and deduplicating...
+[FCA]   Found 4 global concepts
+[FCA] Stage 3: Computing cover relations...
+[FCA]   Found 3 cover edges
+[FCA] Stage 4: Generating DOT...
+[FCA] Done. Output written to /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Kimi-K2/Python/lymphography_binarized/Lattice/full/lymphography_binarized_LLM.dot
+
+--- STDERR ---
+CPU time (self): 0.015529 s

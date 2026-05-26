@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "qwen36_fca",
+  "dataset_id": "breast-cancer_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/Qwen_python_20260509_lqlrlkgdq.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/breast-cancer_binarized/breast-cancer_binarized.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/breast-cancer_binarized/Lattice/full"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/breast-cancer_binarized/breast-cancer_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.059,
+  "started_at": "2026-05-10T21:40:21+02:00",
+  "finished_at": "2026-05-10T21:40:21+02:00",
+  "peak_rss_bytes": 16965632,
+  "peak_disk_bytes": 64361,
+  "peak_written_live_bytes": 36896,
+  "peak_io_read_bytes": 28672,
+  "peak_io_write_bytes": 77824,
+  "peak_io_rchar_bytes": 1342379,
+  "peak_io_wchar_bytes": 26863,
+  "total_written_bytes": 26863,
+  "monitor_sample_count": 8,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/breast-cancer_binarized/Lattice/full/breast-cancer_binarized.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/qwen36_fca__breast-cancer_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/qwen36_fca__breast-cancer_binarized.log"
+}

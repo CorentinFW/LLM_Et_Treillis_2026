@@ -1,0 +1,11 @@
+Command: python3 /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/Qwen_python_20260509_lqlrlkgdq.py /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/plants_binarized/plants_binarized.csv /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/plants_binarized/Lattice/full
+Status: FAILED
+Elapsed: 0.38
+--- STDOUT ---
+[FCA] Starting pipeline for /home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Qwen-3.6/Python/plants_binarized/plants_binarized.csv
+[FCA] Parsing and validating CSV...
+[FCA] Enumerating concepts (NextClosure) with incremental spill...
+[FCA FATAL] Python int too large to convert to SQLite INTEGER
+
+--- STDERR ---
+CPU time (self): 0.325720 s

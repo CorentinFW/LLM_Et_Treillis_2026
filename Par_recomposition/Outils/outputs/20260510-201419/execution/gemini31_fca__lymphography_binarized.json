@@ -1,0 +1,32 @@
+{
+  "algorithm_id": "gemini31_fca",
+  "dataset_id": "lymphography_binarized",
+  "command": [
+    "python3",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/run_with_cpu_time.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/fca.py",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/lymphography_binarized/lymphography_binarized.csv",
+    "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/lymphography_binarized/Lattice/full/lymphography_binarized_LLM.dot"
+  ],
+  "timeout_seconds": 900,
+  "timeout_enabled": true,
+  "csv_path": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/lymphography_binarized/lymphography_binarized.csv",
+  "status": "OK",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 8.982,
+  "started_at": "2026-05-10T20:50:18+02:00",
+  "finished_at": "2026-05-10T20:50:27+02:00",
+  "peak_rss_bytes": 18948096,
+  "peak_disk_bytes": 1187927,
+  "peak_written_live_bytes": 1168251,
+  "peak_io_read_bytes": 4096,
+  "peak_io_write_bytes": 157122560,
+  "peak_io_rchar_bytes": 1271936,
+  "peak_io_wchar_bytes": 122257149,
+  "total_written_bytes": 122257149,
+  "monitor_sample_count": 1222,
+  "raw_dot_source": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Gemini-3.1/Python/lymphography_binarized/Lattice/full/lymphography_binarized_LLM.dot",
+  "raw_dot_copy": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/dots/gemini31_fca__lymphography_binarized.dot",
+  "stdout_log": "/home/etudiant/Bureau/TER/LLM_Et_Treillis_2026/Par_recomposition/Outils/outputs/20260510-201419/execution/logs/gemini31_fca__lymphography_binarized.log"
+}
